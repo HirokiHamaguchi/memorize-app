@@ -1,5 +1,13 @@
-// src/components/AppHeader.tsx
-import { Button, Text, Flex } from '@chakra-ui/react'
+import { Flex } from '@chakra-ui/react'
+import { Button } from "@chakra-ui/react"
+import { AppInfoDialog } from './dialog'
+
+// 定数定義
+const BUTTON_STYLES = {
+    size: "md" as const,
+    transition: "all 0.2s",
+    _hover: { transform: "scale(1.05)" }
+}
 
 interface AppHeaderProps {
     isFlipped: boolean
@@ -20,27 +28,18 @@ export const AppHeader = ({ isFlipped, onToggleFlip, onNextPage }: AppHeaderProp
         >
             <Button
                 backgroundColor="green.600"
-                size="md"
                 onClick={onToggleFlip}
-                transition="all 0.2s"
-                _hover={{ transform: "scale(1.05)" }}
+                {...BUTTON_STYLES}
             >
                 反転
             </Button>
 
-            <Text
-                fontSize="xl"
-                fontWeight="bold"
-            >
-                英単語暗記アプリ
-            </Text>
+            <AppInfoDialog />
 
             <Button
                 backgroundColor="blue.600"
-                size="md"
                 onClick={onNextPage}
-                transition="all 0.2s"
-                _hover={{ transform: "scale(1.05)" }}
+                {...BUTTON_STYLES}
             >
                 次へ
             </Button>
