@@ -13,12 +13,13 @@ interface AppHeaderProps {
     isFlipped: boolean
     onToggleFlip: () => void
     onNextPage: () => void
+    onBack: () => void
 }
 
 /**
  * アプリケーションのヘッダーコンポーネント
  */
-export const AppHeader = ({ isFlipped, onToggleFlip, onNextPage }: AppHeaderProps) => {
+export const AppHeader = ({ isFlipped, onToggleFlip, onNextPage, onBack }: AppHeaderProps) => {
     return (
         <Flex
             width="100%"
@@ -34,7 +35,7 @@ export const AppHeader = ({ isFlipped, onToggleFlip, onNextPage }: AppHeaderProp
                 反転
             </Button>
 
-            <AppInfoDialog />
+            <AppInfoDialog onBack={onBack} />
 
             <Button
                 backgroundColor="blue.600"

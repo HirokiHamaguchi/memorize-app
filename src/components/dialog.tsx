@@ -36,8 +36,12 @@ const APP_LINKS: LinkData[] = [
 ]
 
 
+interface AppInfoDialogProps {
+    onBack: () => void
+}
+
 // アプリ情報ダイアログコンポーネント
-export const AppInfoDialog = () => (
+export const AppInfoDialog = ({ onBack }: AppInfoDialogProps) => (
     <Dialog.Root size="md" placement="center" motionPreset="slide-in-bottom">
         <Dialog.Trigger asChild>
             <Button backgroundColor="white" color="black" size="sm">
@@ -122,6 +126,19 @@ export const AppInfoDialog = () => (
                                     </Flex>
                                 ))}
                             </VStack>
+                            {onBack && (
+                                <Button
+                                    onClick={onBack}
+                                    backgroundColor="gray.600"
+                                    color="white"
+                                    size="sm"
+                                    w="full"
+                                    mt={4}
+                                    _hover={{ backgroundColor: "gray.700" }}
+                                >
+                                    ← データセット選択に戻る
+                                </Button>
+                            )}
                         </VStack>
                     </Dialog.Body>
                 </Dialog.Content>
