@@ -16,20 +16,19 @@ export const StudyPage = () => {
             case 'vocabulary_jun1':
                 return vocabularyData_jun1 as Vocabulary[]
             default:
-                // 無効なデータセットIDの場合はホームページにリダイレクト
                 navigate('/')
                 return []
         }
     }
 
-    const handleBackToHome = () => {
-        navigate('/')
+    const handleBackToSelect = () => {
+        navigate('/select')
     }
 
     return (
         <VocabularyApp
             vocabularyData={getVocabularyData()}
-            onBack={handleBackToHome}
+            onBack={handleBackToSelect}
         />
     )
 }

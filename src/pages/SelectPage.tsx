@@ -4,7 +4,7 @@ import type { DatasetOption } from '../components/DatasetSelector'
 import vocabularyData_1 from '../../data/vocabulary_1.json'
 import vocabularyData_jun1 from '../../data/vocabulary_jun1.json'
 
-export const HomePage = () => {
+export const SelectPage = () => {
     const navigate = useNavigate()
 
     // データセットの定義

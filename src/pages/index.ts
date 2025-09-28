@@ -1,2 +1,2 @@
-export { HomePage } from './HomePage'
+export { SelectPage } from './SelectPage'
 export { StudyPage } from './StudyPage'

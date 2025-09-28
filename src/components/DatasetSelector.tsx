@@ -1,4 +1,4 @@
-import { Box, Button, Text, Flex } from '@chakra-ui/react'
+import { Box, Text, Flex } from '@chakra-ui/react'
 
 export interface DatasetOption {
     id: string
@@ -25,7 +25,7 @@ export const DatasetSelector = ({ datasets, onSelect }: DatasetSelectorProps) =>
             <Box maxW="600px" w="full">
                 <Box mb={8} textAlign="center">
                     <Text fontSize="3xl" fontWeight="bold" color="gray.800" mb={4}>
-                        語彙学習アプリ
+                        英単語暗記アプリ
                     </Text>
                     <Text fontSize="lg" color="gray.600">
                         学習したい語彙データセットを選択してください
@@ -44,9 +44,10 @@ export const DatasetSelector = ({ datasets, onSelect }: DatasetSelectorProps) =>
                             boxShadow="md"
                             cursor="pointer"
                             _hover={{ transform: 'scale(1.02)', transition: 'transform 0.2s' }}
+                            onClick={() => onSelect(dataset.id)}
                         >
                             <Flex justifyContent="space-between" alignItems="center">
-                                <Box>
+                                <Box flex="1">
                                     <Text fontSize="xl" fontWeight="semibold" mb={1}>
                                         {dataset.name}
                                     </Text>
@@ -57,13 +58,6 @@ export const DatasetSelector = ({ datasets, onSelect }: DatasetSelectorProps) =>
                                         {dataset.count.toLocaleString()}語収録
                                     </Text>
                                 </Box>
-                                <Button
-                                    colorScheme="blue"
-                                    size="lg"
-                                    onClick={() => onSelect(dataset.id)}
-                                >
-                                    選択
-                                </Button>
                             </Flex>
                         </Box>
                     ))}
