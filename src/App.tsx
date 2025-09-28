@@ -24,7 +24,6 @@ const shuffleArray = (array: Vocabulary[]): Vocabulary[] => {
 
 
 function App() {
-  const [currentPage, setCurrentPage] = useState(0)
   const [revealedWords, setRevealedWords] = useState<Set<number>>(new Set())
   const [shuffledVocabulary, setShuffledVocabulary] = useState<Vocabulary[]>([])
   const [isFlipped, setIsFlipped] = useState(false)
@@ -49,29 +48,67 @@ function App() {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  const getCurrentWords = () => {
-    if (shuffledVocabulary.length === 0) return [] // シャッフル中は空配列を返す
-    const startIndex = currentPage * wordsPerPage
-    const endIndex = Math.min(startIndex + wordsPerPage, shuffledVocabulary.length)
-    return shuffledVocabulary.slice(startIndex, endIndex)
+  // スクロールハンドラ
+  const [wheelAmount, setWheelAmount] = useState(0)
+  const [touchStart, setTouchStart] = useState<number | null>(null)
+
+  const handleScroll = (e: React.WheelEvent) => {
+    setWheelAmount(prev => Math.max(0, prev + e.deltaY * 0.9))
   }
 
-  const currentWords = getCurrentWords()
+  // タッチイベントハンドラ
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setTouchStart(e.touches[0].clientY)
+  }
 
-  const revealJapaneseWord = (index: number) => {
+  const handleTouchMove = (e: React.TouchEvent) => {
+    if (touchStart === null) return
+
+    const currentTouch = e.touches[0].clientY
+    const diff = touchStart - currentTouch
+    const scrollDelta = diff * 0.9
+
+    if (Math.abs(scrollDelta) > 5) { // 最小スクロール量を設定
+      setWheelAmount(prev => Math.max(0, prev + scrollDelta))
+      setTouchStart(currentTouch)
+    }
+  }
+
+  const handleTouchEnd = () => {
+    setTouchStart(null)
+  }
+
+  const getCurrentWordsInfo = () => {
+    if (shuffledVocabulary.length === 0) return { words: [], startIndex: 0 } // シャッフル中は空配列を返す
+
+    const rowHeight = 38
+    const startIndex = Math.max(0, Math.floor(wheelAmount / rowHeight))
+
+    // 適切なクリッピング：配列の範囲内に収める
+    const clampedStartIndex = Math.min(startIndex, Math.max(0, shuffledVocabulary.length - wordsPerPage))
+    const endIndex = Math.min(clampedStartIndex + wordsPerPage, shuffledVocabulary.length)
+
+    return {
+      words: shuffledVocabulary.slice(clampedStartIndex, endIndex),
+      startIndex: clampedStartIndex
+    }
+  }
+
+  const { words: currentWords, startIndex: currentStartIndex } = getCurrentWordsInfo()
+
+  const revealJapaneseWord = (relativeIndex: number) => {
+    const absoluteIndex = currentStartIndex + relativeIndex
     setRevealedWords(prev => {
       const next = new Set(prev)
-      next.add(index)
+      next.add(absoluteIndex)
       return next
     })
   }
 
-  const allRevealed = currentWords.every((_, index) => revealedWords.has(index))
-
   const nextPage = () => {
-    if (shuffledVocabulary.length === 0) return
-    setCurrentPage((prev) => (prev + 1) % Math.ceil(shuffledVocabulary.length / wordsPerPage))
-    setRevealedWords(new Set())
+    const rowHeight = 38
+    const scrollIncrement = rowHeight * wordsPerPage
+    setWheelAmount(prev => prev + scrollIncrement)
   }
 
   const toggleFlip = () => {
@@ -109,15 +146,20 @@ function App() {
             backgroundColor="blue.600"
             size="md"
             onClick={nextPage}
-            opacity={allRevealed ? 1 : 0.5}
             transition="all 0.2s"
-            _hover={allRevealed ? { transform: "scale(1.05)" } : {}}
+            _hover={{ transform: "scale(1.05)" }}
           >
             次へ
           </Button>
         </Flex>
 
-        <Box className="table-container">
+        <Box
+          className="table-container"
+          onWheel={handleScroll}
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+          onTouchEnd={handleTouchEnd}
+        >
           <Box className="vocabulary-box vocabulary-table">
             {/* ヘッダー */}
             <Flex className="table-header" flexDirection={isFlipped ? "row-reverse" : "row"}>
@@ -131,9 +173,10 @@ function App() {
 
             {/* データ行 */}
             {currentWords.map((word, index) => {
-              const revealed = revealedWords.has(index)
+              const absoluteIndex = currentStartIndex + index
+              const revealed = revealedWords.has(absoluteIndex)
               return (
-                <Flex key={`${currentPage}-${index}`}
+                <Flex key={`${word.id}-${absoluteIndex}`}
                   className="table-row"
                   flexDirection={isFlipped ? "row-reverse" : "row"}
                 >
