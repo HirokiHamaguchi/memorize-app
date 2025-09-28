@@ -143,7 +143,12 @@ function App() {
                     className="english-cell"
                     fontSize={word.en.length > 20 ? "md" : "xl"}
                   >
-                    {word.en}
+                    <span
+                      style={{ cursor: "pointer" }}
+                      onClick={() => { window.open(`https://ejje.weblio.jp/content/${word.en}`, '_blank') }}
+                    >
+                      {word.en}
+                    </span>
                   </Box>
                   <Box
                     className={`japanese-cell ${revealed ? 'revealed' : 'hidden'}`}
