@@ -1,4 +1,5 @@
 export interface Vocabulary {
-    english: string;
-    japanese: string;
+    id: number;
+    en: string;
+    ja: string;
 }
