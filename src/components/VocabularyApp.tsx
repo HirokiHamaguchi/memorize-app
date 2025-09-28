@@ -26,15 +26,17 @@ export const VocabularyApp = ({ vocabularyData, onBack }: VocabularyAppProps) =>
     } = useScrolling(wordsPerPage, 2 * vocabularyData.length) // repeatedVocabularyを考慮して2倍
 
     const {
+        shuffledVocabulary,
         currentWords,
         currentStartIndex,
         revealedWords,
         revealJapaneseWord
     } = useVocabulary(vocabularyData, wheelAmount, wordsPerPage)
+    console.assert(shuffledVocabulary.length === 2 * vocabularyData.length)
 
     // イベントハンドラ
     const nextPage = () => {
-        const maxWheelAmount = vocabularyData.length * ROW_HEIGHT
+        const maxWheelAmount = shuffledVocabulary.length * ROW_HEIGHT
         const scrollIncrement = ROW_HEIGHT * wordsPerPage
         setWheelAmount(prev => Math.min(maxWheelAmount, prev + scrollIncrement))
     }
