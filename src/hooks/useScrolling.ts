@@ -14,13 +14,16 @@ export interface ScrollingHook {
 /**
  * スクロール操作（ホイール、タッチ、キーボード）を管理するカスタムフック
  */
-export const useScrolling = (wordsPerPage: number): ScrollingHook => {
+export const useScrolling = (wordsPerPage: number, vocabularyLength: number): ScrollingHook => {
     const [wheelAmount, setWheelAmount] = useState(0)
     const [touchStart, setTouchStart] = useState<number | null>(null)
 
+    // 最大スクロール量を計算
+    const maxWheelAmount = (vocabularyLength - wordsPerPage) * ROW_HEIGHT
+
     // マウスホイールイベントハンドラ
     const handleScroll = (e: React.WheelEvent) => {
-        setWheelAmount(prev => Math.max(0, prev + e.deltaY * SCROLL_SENSITIVITY))
+        setWheelAmount(prev => Math.min(maxWheelAmount, Math.max(0, prev + e.deltaY * SCROLL_SENSITIVITY)))
     }
 
     // タッチイベントハンドラ
@@ -36,7 +39,7 @@ export const useScrolling = (wordsPerPage: number): ScrollingHook => {
         const scrollDelta = diff * TOUCH_SCROLL_SENSITIVITY
 
         if (Math.abs(scrollDelta) > MINIMUM_TOUCH_SCROLL) {
-            setWheelAmount(prev => Math.max(0, prev + scrollDelta))
+            setWheelAmount(prev => Math.min(maxWheelAmount, Math.max(0, prev + scrollDelta)))
             setTouchStart(currentTouch)
         }
     }
@@ -53,7 +56,7 @@ export const useScrolling = (wordsPerPage: number): ScrollingHook => {
                 e.preventDefault()
                 break
             case 'ArrowDown':
-                setWheelAmount(prev => prev + ROW_HEIGHT)
+                setWheelAmount(prev => Math.min(maxWheelAmount, prev + ROW_HEIGHT))
                 e.preventDefault()
                 break
             case 'ArrowLeft':
@@ -61,11 +64,11 @@ export const useScrolling = (wordsPerPage: number): ScrollingHook => {
                 e.preventDefault()
                 break
             case 'ArrowRight':
-                setWheelAmount(prev => prev + ROW_HEIGHT * wordsPerPage)
+                setWheelAmount(prev => Math.min(maxWheelAmount, prev + ROW_HEIGHT * wordsPerPage))
                 e.preventDefault()
                 break
         }
-    }, [wordsPerPage])
+    }, [wordsPerPage, maxWheelAmount])
 
     // キーボードイベントリスナーを登録
     useEffect(() => {

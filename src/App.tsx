@@ -19,7 +19,7 @@ function App() {
     handleTouchStart,
     handleTouchMove,
     handleTouchEnd
-  } = useScrolling(wordsPerPage)
+  } = useScrolling(wordsPerPage, vocabularyData.length)
 
   const {
     currentWords,
@@ -30,8 +30,9 @@ function App() {
 
   // イベントハンドラ
   const nextPage = () => {
+    const maxWheelAmount = vocabularyData.length * ROW_HEIGHT
     const scrollIncrement = ROW_HEIGHT * wordsPerPage
-    setWheelAmount(prev => prev + scrollIncrement)
+    setWheelAmount(prev => Math.min(maxWheelAmount, prev + scrollIncrement))
   }
 
   const toggleFlip = () => {
