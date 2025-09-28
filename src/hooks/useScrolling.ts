@@ -23,7 +23,6 @@ export const useScrolling = (wordsPerPage: number, vocabularyLength: number): Sc
 
     // マウスホイールイベントハンドラ
     const handleScroll = (e: React.WheelEvent) => {
-        e.preventDefault()
         setWheelAmount(prev => Math.min(maxWheelAmount, Math.max(0, prev + e.deltaY * SCROLL_SENSITIVITY)))
     }
 
