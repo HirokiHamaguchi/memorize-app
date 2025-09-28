@@ -1,4 +1,5 @@
 import { Box, Text, Flex } from '@chakra-ui/react'
+import { AppInfoDialog } from './dialog'
 
 export interface DatasetOption {
     id: string
@@ -10,9 +11,10 @@ export interface DatasetOption {
 interface DatasetSelectorProps {
     datasets: DatasetOption[]
     onSelect: (datasetId: string) => void
+    onBack: () => void
 }
 
-export const DatasetSelector = ({ datasets, onSelect }: DatasetSelectorProps) => {
+export const DatasetSelector = ({ datasets, onSelect, onBack }: DatasetSelectorProps) => {
     return (
         <Box
             height="100vh"
@@ -24,9 +26,7 @@ export const DatasetSelector = ({ datasets, onSelect }: DatasetSelectorProps) =>
         >
             <Box maxW="600px" w="full">
                 <Box mb={8} textAlign="center">
-                    <Text fontSize="3xl" fontWeight="bold" color="gray.800" mb={4}>
-                        英単語暗記アプリ
-                    </Text>
+                    <AppInfoDialog textArgs={{ fontSize: "3xl", fontWeight: "bold", color: "gray.800", mb: 4 }} onBack={onBack} />
                     <Text fontSize="lg" color="gray.600">
                         学習したい語彙データセットを選択してください
                     </Text>

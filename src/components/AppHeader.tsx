@@ -35,7 +35,7 @@ export const AppHeader = ({ isFlipped, onToggleFlip, onNextPage, onBack }: AppHe
                 反転
             </Button>
 
-            <AppInfoDialog onBack={onBack} />
+            <AppInfoDialog textArgs={{ fontSize: "xl", fontWeight: "bold" }} onBack={onBack} />
 
             <Button
                 backgroundColor="blue.600"

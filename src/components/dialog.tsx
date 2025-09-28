@@ -37,17 +37,17 @@ const APP_LINKS: LinkData[] = [
 
 
 interface AppInfoDialogProps {
+    textArgs: Record<string, string | number>
     onBack: () => void
 }
 
 // アプリ情報ダイアログコンポーネント
-export const AppInfoDialog = ({ onBack }: AppInfoDialogProps) => (
+export const AppInfoDialog = ({ textArgs, onBack }: AppInfoDialogProps) => (
     <Dialog.Root size="md" placement="center" motionPreset="slide-in-bottom">
         <Dialog.Trigger asChild>
             <Button backgroundColor="white" color="black" size="sm">
                 <Text
-                    fontSize="xl"
-                    fontWeight="bold"
+                    {...textArgs}
                     cursor="pointer"
                     _hover={{ color: "blue.500" }}
                     transition="all 0.2s"
@@ -144,5 +144,5 @@ export const AppInfoDialog = ({ onBack }: AppInfoDialogProps) => (
                 </Dialog.Content>
             </Dialog.Positioner>
         </Portal>
-    </Dialog.Root>
+    </Dialog.Root >
 )

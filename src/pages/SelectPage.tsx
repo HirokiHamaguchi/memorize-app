@@ -23,14 +23,11 @@ export const SelectPage = () => {
         }
     ]
 
-    const handleDatasetSelect = (datasetId: string) => {
-        navigate(`/study/${datasetId}`)
-    }
-
     return (
         <DatasetSelector
             datasets={datasets}
-            onSelect={handleDatasetSelect}
+            onSelect={(datasetId: string) => navigate(`/study/${datasetId}`)}
+            onBack={() => navigate(0)}
         />
     )
 }
