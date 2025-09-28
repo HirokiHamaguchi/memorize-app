@@ -1,4 +1,3 @@
-// src/hooks/useVocabulary.ts
 import { useState, useEffect } from 'react'
 import type { Vocabulary } from '../types/vocabulary'
 import { shuffleArray } from '../utils/vocabulary'
@@ -23,9 +22,20 @@ export const useVocabulary = (
     const [shuffledVocabulary, setShuffledVocabulary] = useState<Vocabulary[]>([])
     const [revealedWords, setRevealedWords] = useState<Set<number>>(new Set())
 
-    // 初回レンダリング時に単語をシャッフル
+    // 初回レンダリング時に単語をシャッフルし、30個ずつ繰り返す
     useEffect(() => {
-        setShuffledVocabulary(shuffleArray(vocabularyData))
+        const shuffledArray = shuffleArray(vocabularyData);
+        const repeatedVocabulary = [];
+        for (let i = 0; i < Math.ceil(shuffledArray.length / 30); i++) {
+            for (let _ = 0; _ < 2; _++) {
+                for (let j = 0; j < 30; j++) {
+                    const index = i * 30 + j;
+                    if (index >= shuffledArray.length) break;
+                    repeatedVocabulary.push(shuffledArray[index]);
+                }
+            }
+        }
+        setShuffledVocabulary(repeatedVocabulary);
     }, [vocabularyData])
 
     // 現在表示する単語の情報を取得
