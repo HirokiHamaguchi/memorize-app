@@ -89,7 +89,7 @@ function App() {
           flexDirection={isFlipped ? "row-reverse" : "row"}
         >
           <Button
-            colorScheme="green"
+            backgroundColor="green.600"
             size="md"
             onClick={toggleFlip}
             transition="all 0.2s"
@@ -101,14 +101,12 @@ function App() {
           <Text
             fontSize="xl"
             fontWeight="bold"
-            color="blue.600"
           >
             英単語暗記アプリ
           </Text>
 
-
           <Button
-            colorScheme="blue"
+            backgroundColor="blue.600"
             size="md"
             onClick={nextPage}
             opacity={allRevealed ? 1 : 0.5}

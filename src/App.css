@@ -34,11 +34,10 @@
   flex: 1;
   padding: 4px;
   text-align: center;
+  border-top: 1px solid #e2e8f0;
+  border-left: 1px solid #e2e8f0;
   border-right: 1px solid #e2e8f0;
-}
-
-.header-cell:last-child {
-  border-right: none;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 .table-row {
@@ -50,6 +49,7 @@
   flex: 1;
   padding: 4px;
   font-weight: 600;
+  border-left: 1px solid #e2e8f0;
   border-right: 1px solid #e2e8f0;
   border-bottom: 1px solid #e2e8f0;
   text-overflow: ellipsis;
@@ -63,6 +63,8 @@
   font-weight: normal;
   text-overflow: ellipsis;
   border-bottom: 1px solid #e2e8f0;
+  border-left: 1px solid #e2e8f0;
+  border-right: 1px solid #e2e8f0;
   white-space: nowrap;
   overflow: hidden;
   transition: background-color 0.2s;
