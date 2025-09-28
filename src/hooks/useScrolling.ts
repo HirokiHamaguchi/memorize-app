@@ -23,6 +23,7 @@ export const useScrolling = (wordsPerPage: number, vocabularyLength: number): Sc
 
     // マウスホイールイベントハンドラ
     const handleScroll = (e: React.WheelEvent) => {
+        e.preventDefault()
         setWheelAmount(prev => Math.min(maxWheelAmount, Math.max(0, prev + e.deltaY * SCROLL_SENSITIVITY)))
     }
 
@@ -34,6 +35,7 @@ export const useScrolling = (wordsPerPage: number, vocabularyLength: number): Sc
     const handleTouchMove = (e: React.TouchEvent) => {
         if (touchStart === null) return
 
+        e.preventDefault()
         const currentTouch = e.touches[0].clientY
         const diff = touchStart - currentTouch
         const scrollDelta = diff * TOUCH_SCROLL_SENSITIVITY
@@ -70,13 +72,23 @@ export const useScrolling = (wordsPerPage: number, vocabularyLength: number): Sc
         }
     }, [wordsPerPage, maxWheelAmount])
 
-    // キーボードイベントリスナーを登録
+    // グローバルスクロール防止ハンドラ
+    const preventGlobalScroll = useCallback((e: Event) => {
+        e.preventDefault()
+    }, [])
+
     useEffect(() => {
         window.addEventListener('keydown', handleKeyDown)
+
+        window.addEventListener('wheel', preventGlobalScroll, { passive: false })
+        window.addEventListener('touchmove', preventGlobalScroll, { passive: false })
+
         return () => {
             window.removeEventListener('keydown', handleKeyDown)
+            window.removeEventListener('wheel', preventGlobalScroll)
+            window.removeEventListener('touchmove', preventGlobalScroll)
         }
-    }, [handleKeyDown])
+    }, [handleKeyDown, preventGlobalScroll])
 
     return {
         wheelAmount,

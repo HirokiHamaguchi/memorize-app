@@ -6,8 +6,11 @@
 
 /* Boxコンポーネント用のスタイル */
 .app-container {
-  min-height: 100vh;
+  height: 100vh;
+  /* min-heightではなくheightを使用 */
   padding: 8px;
+  overflow: hidden;
+  /* コンテナ内でのスクロールも防止 */
 }
 
 .table-container {
