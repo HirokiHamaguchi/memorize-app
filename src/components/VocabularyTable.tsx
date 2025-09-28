@@ -59,7 +59,7 @@ export const VocabularyTable = ({
                             onClick={() => onRevealWord(index)}
                             cursor={revealed ? 'default' : 'pointer'}
                         >
-                            {revealed ? word.ja : "答え"}
+                            {revealed ? word.ja : (word.id.endsWith('-2') ? '復習' : '答え')}
                         </Box>
                     </Flex>
                 )

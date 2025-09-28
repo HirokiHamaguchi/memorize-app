@@ -27,11 +27,11 @@ export const useVocabulary = (
         const shuffledArray = shuffleArray(vocabularyData);
         const repeatedVocabulary = [];
         for (let i = 0; i < Math.ceil(shuffledArray.length / 30); i++) {
-            for (let _ = 0; _ < 2; _++) {
+            for (let repeat_count = 1; repeat_count <= 2; repeat_count++) {
                 for (let j = 0; j < 30; j++) {
                     const index = i * 30 + j;
                     if (index >= shuffledArray.length) break;
-                    repeatedVocabulary.push(shuffledArray[index]);
+                    repeatedVocabulary.push({ ...shuffledArray[index], id: `${shuffledArray[index].id}-${repeat_count}` });
                 }
             }
         }
@@ -43,12 +43,11 @@ export const useVocabulary = (
         if (shuffledVocabulary.length === 0) return { words: [], startIndex: 0 }
 
         const startIndex = Math.max(0, Math.floor(wheelAmount / ROW_HEIGHT))
-        const clampedStartIndex = Math.min(startIndex, Math.max(0, shuffledVocabulary.length - wordsPerPage))
-        const endIndex = Math.min(clampedStartIndex + wordsPerPage, shuffledVocabulary.length)
+        const endIndex = Math.min(startIndex + wordsPerPage, shuffledVocabulary.length)
 
         return {
-            words: shuffledVocabulary.slice(clampedStartIndex, endIndex),
-            startIndex: clampedStartIndex
+            words: shuffledVocabulary.slice(startIndex, endIndex),
+            startIndex: startIndex
         }
     }
 

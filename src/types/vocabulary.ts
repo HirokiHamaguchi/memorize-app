@@ -1,5 +1,5 @@
 export interface Vocabulary {
-    id: number;
+    id: string;
     en: string;
     ja: string;
 }

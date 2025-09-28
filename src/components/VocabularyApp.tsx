@@ -23,7 +23,7 @@ export const VocabularyApp = ({ vocabularyData, onBack }: VocabularyAppProps) =>
         handleTouchStart,
         handleTouchMove,
         handleTouchEnd
-    } = useScrolling(wordsPerPage, vocabularyData.length)
+    } = useScrolling(wordsPerPage, 2 * vocabularyData.length) // repeatedVocabularyを考慮して2倍
 
     const {
         currentWords,

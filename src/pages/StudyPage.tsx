@@ -12,9 +12,9 @@ export const StudyPage = () => {
     const getVocabularyData = (): Vocabulary[] => {
         switch (datasetId) {
             case 'vocabulary_1':
-                return vocabularyData_1 as Vocabulary[]
+                return vocabularyData_1.map(item => ({ ...item, id: String(item.id) })) as Vocabulary[]
             case 'vocabulary_jun1':
-                return vocabularyData_jun1 as Vocabulary[]
+                return vocabularyData_jun1.map(item => ({ ...item, id: String(item.id) })) as Vocabulary[]
             default:
                 navigate('/')
                 return []
