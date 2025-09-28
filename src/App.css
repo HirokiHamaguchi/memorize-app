@@ -1,42 +1,97 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Boxコンポーネント用のスタイル */
+.app-container {
+  min-height: 100vh;
+  padding: 8px;
+  background-color: #f7fafc;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table-container {
+  width: 100%;
+  flex: 1;
+  overflow-x: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.vocabulary-box {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
-.card {
-  padding: 2em;
+.table-header {
+  background-color: #f7fafc;
+  font-weight: bold;
+  font-size: 16px;
 }
 
-.read-the-docs {
-  color: #888;
+.header-cell {
+  flex: 1;
+  padding: 4px;
+  text-align: center;
+  border-right: 1px solid #e2e8f0;
+}
+
+.header-cell:last-child {
+  border-right: none;
+}
+
+.table-row {
+  min-height: 38px;
+  text-align: center;
+}
+
+.english-cell {
+  flex: 1;
+  padding: 4px;
+  font-weight: 600;
+  border-right: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.japanese-cell {
+  flex: 1;
+  padding: 4px;
+  font-weight: normal;
+  text-overflow: ellipsis;
+  border-bottom: 1px solid #e2e8f0;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: background-color 0.2s;
+}
+
+.japanese-cell.revealed {
+  background-color: #ebf8ff;
+}
+
+
+.japanese-cell.hidden {
+  background-color: #f7fafc;
+}
+
+.japanese-cell.hidden:hover {
+  background-color: #edf2f7;
+}
+
+/* テーブル内のテキストを選択不可にする */
+.vocabulary-table {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.vocabulary-table * {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

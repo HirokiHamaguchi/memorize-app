@@ -8,6 +8,7 @@ import {
   Flex,
 } from '@chakra-ui/react'
 import type { Vocabulary } from './types/vocabulary'
+import './App.css'
 
 import vocabularyData from '../data/vocabulary.json'
 
@@ -26,6 +27,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(0)
   const [revealedWords, setRevealedWords] = useState<Set<number>>(new Set())
   const [shuffledVocabulary, setShuffledVocabulary] = useState<Vocabulary[]>([])
+  const [isFlipped, setIsFlipped] = useState(false)
 
   // 初回レンダリング時に単語をシャッフル
   useEffect(() => {
@@ -33,11 +35,9 @@ function App() {
   }, [])
 
   const getWordsPerPage = () => {
-    const headerRows = 3 // ヘッダー部分+tableの最初の行+余白が3行分
-    const rowHeight = 56 // 1行の高さ(px)（例: Chakraのp={4} + fontSize）
-    const windowHeight = window.innerHeight
-    const availableHeight = windowHeight
-    return Math.max(3, Math.floor(availableHeight / rowHeight) - headerRows)
+    const rowHeight = 38 // 1行の高さ(px)
+    const availableHeight = window.innerHeight - 70
+    return Math.max(3, Math.floor(availableHeight / rowHeight) - 1)
   }
 
   const [wordsPerPage, setWordsPerPage] = useState(getWordsPerPage())
@@ -58,11 +58,10 @@ function App() {
 
   const currentWords = getCurrentWords()
 
-  const toggleJapanese = (index: number) => {
+  const revealJapaneseWord = (index: number) => {
     setRevealedWords(prev => {
       const next = new Set(prev)
-      if (next.has(index)) next.delete(index)
-      else next.add(index)
+      next.add(index)
       return next
     })
   }
@@ -75,16 +74,30 @@ function App() {
     setRevealedWords(new Set())
   }
 
+  const toggleFlip = () => {
+    setIsFlipped(!isFlipped)
+  }
+
   return (
-    <Box minHeight="100vh" p={4} bg="gray.50">
+    <Box className="app-container">
       <VStack height="100%">
-        {/* ヘッダー部分：タイトルと次へボタン */}
+        {/* ヘッダー部分 */}
         <Flex
           width="100%"
           justifyContent="space-between"
           alignItems="center"
-          mb={4}
+          flexDirection={isFlipped ? "row-reverse" : "row"}
         >
+          <Button
+            colorScheme="green"
+            size="md"
+            onClick={toggleFlip}
+            transition="all 0.2s"
+            _hover={{ transform: "scale(1.05)" }}
+          >
+            反転
+          </Button>
+
           <Text
             fontSize="xl"
             fontWeight="bold"
@@ -94,28 +107,26 @@ function App() {
           </Text>
 
 
-          {/* 次へボタン - 常に表示、allRevealed時に有効 */}
           <Button
             colorScheme="blue"
             size="md"
             onClick={nextPage}
-            disabled={!allRevealed}
             opacity={allRevealed ? 1 : 0.5}
             transition="all 0.2s"
             _hover={allRevealed ? { transform: "scale(1.05)" } : {}}
           >
-            次へ →
+            次へ
           </Button>
         </Flex>
 
-        <Box width="100%" flex="1" overflowX="auto">
-          <Box bg="white" borderRadius="md" shadow="sm" overflow="hidden">
+        <Box className="table-container">
+          <Box className="vocabulary-box vocabulary-table">
             {/* ヘッダー */}
-            <Flex bg="gray.100" fontWeight="bold" fontSize="lg">
-              <Box flex="1" p={4} textAlign="center" borderRight="1px solid" borderColor="gray.200">
+            <Flex className="table-header" flexDirection={isFlipped ? "row-reverse" : "row"}>
+              <Box className="header-cell">
                 英語
               </Box>
-              <Box flex="1" p={4} textAlign="center">
+              <Box className="header-cell">
                 日本語
               </Box>
             </Flex>
@@ -124,41 +135,30 @@ function App() {
             {currentWords.map((word, index) => {
               const revealed = revealedWords.has(index)
               return (
-                <Flex key={`${currentPage}-${index}`} borderBottom="1px solid" borderColor="gray.200">
+                <Flex key={`${currentPage}-${index}`}
+                  className="table-row"
+                  flexDirection={isFlipped ? "row-reverse" : "row"}
+                >
                   <Box
-                    flex="1"
-                    p={4}
-                    textAlign="center"
-                    fontWeight="semibold"
-                    fontSize="lg"
-                    borderRight="1px solid"
-                    borderColor="gray.200"
+                    className="english-cell"
+                    fontSize={word.en.length > 20 ? "md" : "xl"}
                   >
-                    {word.english}
+                    {word.en}
                   </Box>
                   <Box
-                    flex="1"
-                    p={4}
-                    textAlign="center"
-                    cursor="pointer"
-                    onClick={() => toggleJapanese(index)}
-                    bg={revealed ? "blue.50" : "gray.100"}
-                    _hover={{ bg: revealed ? "blue.100" : "gray.200" }}
-                    transition="all 0.2s"
-                    fontSize="lg"
+                    className={`japanese-cell ${revealed ? 'revealed' : 'hidden'}`}
+                    fontSize={revealed ? (word.ja.length > 10 ? "md" : "xl") : "md"}
+                    onClick={() => revealJapaneseWord(index)}
+                    cursor={revealed ? 'default' : 'pointer'}
                   >
-                    {revealed ? word.japanese : "答え"}
+                    {revealed ? word.ja : "答え"}
                   </Box>
                 </Flex>
               )
             })}
           </Box>
         </Box>
-
-
       </VStack>
-
-
     </Box>
   )
 }
