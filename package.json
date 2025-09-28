@@ -1,13 +1,14 @@
 {
   "name": "vocabulary-app",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/HirokiHamaguchi/vocabulary-app",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.27.0",
