@@ -1,5 +1,3 @@
-// src/constants/index.ts
-
 export const ROW_HEIGHT = 38 // 1行の高さ(px)
 export const HEADER_HEIGHT = 70 // ヘッダーの高さ(px)
 export const MINIMUM_WORDS_PER_PAGE = 3 // 最小表示行数

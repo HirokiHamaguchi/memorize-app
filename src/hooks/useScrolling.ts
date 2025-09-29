@@ -1,4 +1,3 @@
-// src/hooks/useScrolling.ts
 import { useState, useEffect, useCallback } from 'react'
 import { ROW_HEIGHT, SCROLL_SENSITIVITY, TOUCH_SCROLL_SENSITIVITY, MINIMUM_TOUCH_SCROLL } from '../constants'
 

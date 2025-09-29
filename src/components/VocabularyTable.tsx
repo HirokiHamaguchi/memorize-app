@@ -1,4 +1,3 @@
-// src/components/VocabularyTable.tsx
 import { Box, Flex } from '@chakra-ui/react'
 import type { Vocabulary } from '../types/vocabulary'
 

@@ -22,14 +22,16 @@ export const useVocabulary = (
     const [shuffledVocabulary, setShuffledVocabulary] = useState<Vocabulary[]>([])
     const [revealedWords, setRevealedWords] = useState<Set<number>>(new Set())
 
-    // 初回レンダリング時に単語をシャッフルし、30個ずつ繰り返す
+    // 初回20個ずつ繰り返す
+    const REPEAT_INTERVAL = 20 // 1セットあたりの単語数
     useEffect(() => {
         const shuffledArray = shuffleArray(vocabularyData);
         const repeatedVocabulary = [];
-        for (let i = 0; i < Math.ceil(shuffledArray.length / 30); i++) {
+        const set_num = Math.ceil(shuffledArray.length / REPEAT_INTERVAL);
+        for (let i = 0; i < set_num; i++) {
             for (let repeat_count = 1; repeat_count <= 2; repeat_count++) {
-                for (let j = 0; j < 30; j++) {
-                    const index = i * 30 + j;
+                for (let j = 0; j < REPEAT_INTERVAL; j++) {
+                    const index = i * REPEAT_INTERVAL + j;
                     if (index >= shuffledArray.length) break;
                     repeatedVocabulary.push({ ...shuffledArray[index], id: `${shuffledArray[index].id}-${repeat_count}` });
                 }
