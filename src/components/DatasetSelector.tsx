@@ -1,5 +1,6 @@
 import { Box, Text, Flex } from '@chakra-ui/react'
 import { AppInfoDialog } from './dialog'
+import { LoginSection } from './LoginSection'
 
 export interface DatasetOption {
     id: string
@@ -17,12 +18,12 @@ interface DatasetSelectorProps {
 export const DatasetSelector = ({ datasets, onSelect, onBack }: DatasetSelectorProps) => {
     return (
         <Box
-            height="100vh"
             display="flex"
             alignItems="center"
             justifyContent="center"
             bg="gray.50"
-            p={4}
+            px={4}
+            py={8}
         >
             <Box maxW="600px" w="full">
                 <Box mb={8} textAlign="center">
@@ -61,6 +62,10 @@ export const DatasetSelector = ({ datasets, onSelect, onBack }: DatasetSelectorP
                             </Flex>
                         </Box>
                     ))}
+                </Box>
+
+                <Box mb={8} textAlign="center">
+                    <LoginSection />
                 </Box>
             </Box>
         </Box>
