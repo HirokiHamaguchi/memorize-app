@@ -6,7 +6,6 @@ export interface DatasetOption {
     id: string
     name: string
     description: string
-    count: number
 }
 
 interface DatasetSelectorProps {
@@ -54,9 +53,6 @@ export const DatasetSelector = ({ datasets, onSelect, onBack }: DatasetSelectorP
                                     </Text>
                                     <Text color="gray.600" fontSize="md" mb={1}>
                                         {dataset.description}
-                                    </Text>
-                                    <Text color="blue.500" fontSize="sm">
-                                        {dataset.count.toLocaleString()}語収録
                                     </Text>
                                 </Box>
                             </Flex>
