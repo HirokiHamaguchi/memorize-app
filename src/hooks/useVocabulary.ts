@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo, useCallback } from 'react'
 import type { Vocabulary } from '../types/vocabulary'
 import { shuffleArray } from '../utils/vocabulary'
 import { ROW_HEIGHT } from '../constants'
@@ -39,7 +39,7 @@ export const useVocabulary = (
     }, [vocabularyData])
 
     // 現在表示する単語の情報を取得
-    const getCurrentWordsInfo = () => {
+    const currentWordsInfo = useMemo(() => {
         if (shuffledVocabulary.length === 0) return { words: [], startIndex: 0 }
 
         const startIndex = Math.max(0, Math.floor(wheelAmount / ROW_HEIGHT))
@@ -49,19 +49,19 @@ export const useVocabulary = (
             words: shuffledVocabulary.slice(startIndex, endIndex),
             startIndex: startIndex
         }
-    }
+    }, [shuffledVocabulary, wheelAmount, wordsPerPage])
 
-    const { words: currentWords, startIndex: currentStartIndex } = getCurrentWordsInfo()
+    const { words: currentWords, startIndex: currentStartIndex } = currentWordsInfo
 
     // 日本語の答えを表示する
-    const revealJapaneseWord = (relativeIndex: number) => {
+    const revealJapaneseWord = useCallback((relativeIndex: number) => {
         const absoluteIndex = currentStartIndex + relativeIndex
         setRevealedWords(prev => {
             const next = new Set(prev)
             next.add(absoluteIndex)
             return next
         })
-    }
+    }, [currentStartIndex])
 
     return {
         shuffledVocabulary,

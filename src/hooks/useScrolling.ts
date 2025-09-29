@@ -21,17 +21,17 @@ export const useScrolling = (wordsPerPage: number, vocabularyLength: number): Sc
     // 最大スクロール量を計算
     const maxWheelAmount = (vocabularyLength - wordsPerPage) * ROW_HEIGHT
 
-    // マウスホイールイベントハンドラ
-    const handleScroll = (e: React.WheelEvent) => {
+    // マウスホイールイベントハンドラ - useCallbackでメモ化
+    const handleScroll = useCallback((e: React.WheelEvent) => {
         setWheelAmount(prev => Math.min(maxWheelAmount, Math.max(0, prev + e.deltaY * SCROLL_SENSITIVITY)))
-    }
+    }, [maxWheelAmount])
 
-    // タッチイベントハンドラ
-    const handleTouchStart = (e: React.TouchEvent) => {
+    // タッチイベントハンドラ - useCallbackでメモ化
+    const handleTouchStart = useCallback((e: React.TouchEvent) => {
         setTouchStart(e.touches[0].clientY)
-    }
+    }, [])
 
-    const handleTouchMove = (e: React.TouchEvent) => {
+    const handleTouchMove = useCallback((e: React.TouchEvent) => {
         if (touchStart === null) return
 
         e.preventDefault()
@@ -43,11 +43,11 @@ export const useScrolling = (wordsPerPage: number, vocabularyLength: number): Sc
             setWheelAmount(prev => Math.min(maxWheelAmount, Math.max(0, prev + scrollDelta)))
             setTouchStart(currentTouch)
         }
-    }
+    }, [touchStart, maxWheelAmount])
 
-    const handleTouchEnd = () => {
+    const handleTouchEnd = useCallback(() => {
         setTouchStart(null)
-    }
+    }, [])
 
     // キーボードイベントハンドラ
     const handleKeyDown = useCallback((e: KeyboardEvent) => {

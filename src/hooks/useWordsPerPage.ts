@@ -1,4 +1,3 @@
-// src/hooks/useWordsPerPage.ts
 import { useState, useEffect } from 'react'
 import { calculateWordsPerPage } from '../utils/vocabulary'
 import { ROW_HEIGHT, HEADER_HEIGHT, MINIMUM_WORDS_PER_PAGE } from '../constants'
