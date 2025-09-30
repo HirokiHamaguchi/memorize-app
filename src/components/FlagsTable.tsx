@@ -65,6 +65,8 @@ export const FlagsTable = ({
                         <Box
                             className={`japanese-cell ${revealed ? 'revealed' : 'hidden'}`}
                             flex="7"
+                            display="flex"
+                            alignItems="center"
                             justifyContent="center"
                             fontSize={revealed ? "xl" : "md"}
                             onClick={() => onRevealFlag(index)}
