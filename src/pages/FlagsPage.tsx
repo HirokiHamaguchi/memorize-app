@@ -23,16 +23,28 @@ export const FlagsPage = () => {
                 }
 
                 // _iso2ja.jsonを読み込み
-                const module = await import('../../data/flags/_iso2ja.json')
+                const module = await import('../data/flags/_iso2ja.json')
                 const iso2jaData = module.default
 
-                // フラグデータを作成
-                const flagsArray: Flag[] = Object.entries(iso2jaData).map(([code, jaName], index) => ({
-                    id: String(index + 1),
-                    code: code,
-                    ja: jaName as string,
-                    svg: `/memorize-app/data/flags/${code}.svg`
-                }))
+                // フラグデータを作成（SVGも動的importで取得）
+                const flagsArray: Flag[] = await Promise.all(
+                    Object.entries(iso2jaData).map(async ([code, jaName], index) => {
+                        let svgUrl = '';
+                        try {
+                            // SVGファイルを動的import
+                            const svgModule = await import(`../data/flags/${code}.svg`);
+                            svgUrl = svgModule.default;
+                        } catch {
+                            console.warn(`SVG not found for code: ${code}`);
+                        }
+                        return {
+                            id: String(index + 1),
+                            code: code,
+                            ja: jaName as string,
+                            svg: svgUrl
+                        };
+                    })
+                );
 
                 setFlagsData(flagsArray)
             } catch (error) {

@@ -26,7 +26,6 @@ export const Selector = ({
             display="flex"
             alignItems="center"
             justifyContent="center"
-            bg="gray.50"
             px={4}
             py={8}
         >

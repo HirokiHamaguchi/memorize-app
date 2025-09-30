@@ -18,12 +18,12 @@ export const VocabularyPage = () => {
 
                 switch (datasetId) {
                     case '1': {
-                        const module1 = await import('../../data/vocabulary/vocabulary_1.json')
+                        const module1 = await import('../data/vocabulary/vocabulary_1.json')
                         data = module1.default
                         break
                     }
                     case 'jun1': {
-                        const module2 = await import('../../data/vocabulary/vocabulary_jun1.json')
+                        const module2 = await import('../data/vocabulary/vocabulary_jun1.json')
                         data = module2.default
                         break
                     }
