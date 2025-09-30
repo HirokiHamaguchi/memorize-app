@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import { ROW_HEIGHT, SCROLL_SENSITIVITY, TOUCH_SCROLL_SENSITIVITY, MINIMUM_TOUCH_SCROLL } from '../constants'
+import { SCROLL_SENSITIVITY, TOUCH_SCROLL_SENSITIVITY, MINIMUM_TOUCH_SCROLL } from '../constants'
 
 export interface ScrollingHook {
     wheelAmount: number
@@ -13,12 +13,12 @@ export interface ScrollingHook {
 /**
  * スクロール操作（ホイール、タッチ、キーボード）を管理するカスタムフック
  */
-export const useScrolling = (wordsPerPage: number, vocabularyLength: number): ScrollingHook => {
+export const useScrolling = (wordsPerPage: number, vocabularyLength: number, rowHeight: number): ScrollingHook => {
     const [wheelAmount, setWheelAmount] = useState(0)
     const [touchStart, setTouchStart] = useState<number | null>(null)
 
     // 最大スクロール量を計算
-    const maxWheelAmount = (vocabularyLength - wordsPerPage) * ROW_HEIGHT
+    const maxWheelAmount = (vocabularyLength - wordsPerPage) * rowHeight
 
     // マウスホイールイベントハンドラ - useCallbackでメモ化
     const handleScroll = useCallback((e: React.WheelEvent) => {
@@ -52,23 +52,23 @@ export const useScrolling = (wordsPerPage: number, vocabularyLength: number): Sc
     const handleKeyDown = useCallback((e: KeyboardEvent) => {
         switch (e.key) {
             case 'ArrowUp':
-                setWheelAmount(prev => Math.max(0, prev - ROW_HEIGHT))
+                setWheelAmount(prev => Math.max(0, prev - rowHeight))
                 e.preventDefault()
                 break
             case 'ArrowDown':
-                setWheelAmount(prev => Math.min(maxWheelAmount, prev + ROW_HEIGHT))
+                setWheelAmount(prev => Math.min(maxWheelAmount, prev + rowHeight))
                 e.preventDefault()
                 break
             case 'ArrowLeft':
-                setWheelAmount(prev => Math.max(0, prev - ROW_HEIGHT * wordsPerPage))
+                setWheelAmount(prev => Math.max(0, prev - rowHeight * wordsPerPage))
                 e.preventDefault()
                 break
             case 'ArrowRight':
-                setWheelAmount(prev => Math.min(maxWheelAmount, prev + ROW_HEIGHT * wordsPerPage))
+                setWheelAmount(prev => Math.min(maxWheelAmount, prev + rowHeight * wordsPerPage))
                 e.preventDefault()
                 break
         }
-    }, [wordsPerPage, maxWheelAmount])
+    }, [wordsPerPage, rowHeight, maxWheelAmount])
 
     // グローバルスクロール防止ハンドラ
     const preventGlobalScroll = useCallback((e: Event) => {

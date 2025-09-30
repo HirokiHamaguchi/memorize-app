@@ -46,10 +46,6 @@ export const VocabularyPage = () => {
         loadVocabularyData()
     }, [datasetId, navigate])
 
-    const handleBackToSelect = () => {
-        navigate('/select/vocabulary')
-    }
-
     // ローディング中の表示
     if (isLoading) {
         return (
@@ -62,7 +58,6 @@ export const VocabularyPage = () => {
     return (
         <VocabularyApp
             vocabularyData={vocabularyData}
-            onBack={handleBackToSelect}
         />
     )
 }

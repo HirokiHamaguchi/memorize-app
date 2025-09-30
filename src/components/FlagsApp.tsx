@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Box, VStack } from '@chakra-ui/react'
 import { AppHeader, FlagsTable } from './index'
 import { useScrolling, useFlags, useWordsPerPage } from '../hooks'
-import { ROW_HEIGHT } from '../constants'
+import { FLAGS_ROW_HEIGHT } from '../constants'
 import type { Flag } from '../types/flags'
 import '../App.css'
 
@@ -14,7 +14,7 @@ export const FlagsApp = ({ flagsData }: FlagsAppProps) => {
     const [isFlipped, setIsFlipped] = useState(false)
 
     // カスタムフックを使用
-    const wordsPerPage = useWordsPerPage()
+    const wordsPerPage = useWordsPerPage(FLAGS_ROW_HEIGHT)
     const {
         wheelAmount,
         setWheelAmount,
@@ -22,7 +22,7 @@ export const FlagsApp = ({ flagsData }: FlagsAppProps) => {
         handleTouchStart,
         handleTouchMove,
         handleTouchEnd
-    } = useScrolling(wordsPerPage, 2 * flagsData.length) // repeatedFlagsを考慮して2倍
+    } = useScrolling(wordsPerPage, 2 * flagsData.length, FLAGS_ROW_HEIGHT) // repeatedFlagsを考慮して2倍
 
     const {
         shuffledFlags,
@@ -35,8 +35,8 @@ export const FlagsApp = ({ flagsData }: FlagsAppProps) => {
 
     // イベントハンドラ
     const nextPage = () => {
-        const maxWheelAmount = shuffledFlags.length * ROW_HEIGHT
-        const scrollIncrement = ROW_HEIGHT * wordsPerPage
+        const maxWheelAmount = shuffledFlags.length * FLAGS_ROW_HEIGHT
+        const scrollIncrement = FLAGS_ROW_HEIGHT * wordsPerPage
         setWheelAmount(prev => Math.min(maxWheelAmount, prev + scrollIncrement))
     }
 

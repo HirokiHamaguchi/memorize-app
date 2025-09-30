@@ -2,20 +2,19 @@ import { useState } from 'react'
 import { Box, VStack } from '@chakra-ui/react'
 import { AppHeader, VocabularyTable } from './index'
 import { useScrolling, useVocabulary, useWordsPerPage } from '../hooks'
-import { ROW_HEIGHT } from '../constants'
+import { VOCABULARY_ROW_HEIGHT } from '../constants'
 import type { Vocabulary } from '../types/vocabulary'
 import '../App.css'
 
 interface VocabularyAppProps {
     vocabularyData: Vocabulary[]
-    onBack: () => void
 }
 
-export const VocabularyApp = ({ vocabularyData, onBack }: VocabularyAppProps) => {
+export const VocabularyApp = ({ vocabularyData }: VocabularyAppProps) => {
     const [isFlipped, setIsFlipped] = useState(false)
 
     // カスタムフックを使用
-    const wordsPerPage = useWordsPerPage()
+    const wordsPerPage = useWordsPerPage(VOCABULARY_ROW_HEIGHT)
     const {
         wheelAmount,
         setWheelAmount,
@@ -23,7 +22,7 @@ export const VocabularyApp = ({ vocabularyData, onBack }: VocabularyAppProps) =>
         handleTouchStart,
         handleTouchMove,
         handleTouchEnd
-    } = useScrolling(wordsPerPage, 2 * vocabularyData.length) // repeatedVocabularyを考慮して2倍
+    } = useScrolling(wordsPerPage, 2 * vocabularyData.length, VOCABULARY_ROW_HEIGHT) // repeatedVocabularyを考慮して2倍
 
     const {
         shuffledVocabulary,
@@ -36,8 +35,8 @@ export const VocabularyApp = ({ vocabularyData, onBack }: VocabularyAppProps) =>
 
     // イベントハンドラ
     const nextPage = () => {
-        const maxWheelAmount = shuffledVocabulary.length * ROW_HEIGHT
-        const scrollIncrement = ROW_HEIGHT * wordsPerPage
+        const maxWheelAmount = shuffledVocabulary.length * VOCABULARY_ROW_HEIGHT
+        const scrollIncrement = VOCABULARY_ROW_HEIGHT * wordsPerPage
         setWheelAmount(prev => Math.min(maxWheelAmount, prev + scrollIncrement))
     }
 
@@ -53,7 +52,6 @@ export const VocabularyApp = ({ vocabularyData, onBack }: VocabularyAppProps) =>
                     isFlipped={isFlipped}
                     onToggleFlip={toggleFlip}
                     onNextPage={nextPage}
-                    onBack={onBack}
                 />
 
                 {/* テーブル部分 */}

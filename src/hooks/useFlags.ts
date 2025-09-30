@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
 import type { Flag } from '../types/flags'
 import { shuffleArray } from '../utils/vocabulary'
-import { ROW_HEIGHT } from '../constants'
+import { FLAGS_ROW_HEIGHT } from '../constants'
 
 export interface FlagsHook {
     shuffledFlags: Flag[]
@@ -44,7 +44,7 @@ export const useFlags = (
     const currentFlagsInfo = useMemo(() => {
         if (shuffledFlags.length === 0) return { flags: [], startIndex: 0 }
 
-        const startIndex = Math.max(0, Math.floor(wheelAmount / ROW_HEIGHT))
+        const startIndex = Math.max(0, Math.floor(wheelAmount / FLAGS_ROW_HEIGHT))
         const endIndex = Math.min(startIndex + wordsPerPage, shuffledFlags.length)
 
         return {

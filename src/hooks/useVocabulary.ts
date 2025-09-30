@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
 import type { Vocabulary } from '../types/vocabulary'
 import { shuffleArray } from '../utils/vocabulary'
-import { ROW_HEIGHT } from '../constants'
+import { VOCABULARY_ROW_HEIGHT } from '../constants'
 
 export interface VocabularyHook {
     shuffledVocabulary: Vocabulary[]
@@ -44,7 +44,7 @@ export const useVocabulary = (
     const currentWordsInfo = useMemo(() => {
         if (shuffledVocabulary.length === 0) return { words: [], startIndex: 0 }
 
-        const startIndex = Math.max(0, Math.floor(wheelAmount / ROW_HEIGHT))
+        const startIndex = Math.max(0, Math.floor(wheelAmount / VOCABULARY_ROW_HEIGHT))
         const endIndex = Math.min(startIndex + wordsPerPage, shuffledVocabulary.length)
 
         return {
