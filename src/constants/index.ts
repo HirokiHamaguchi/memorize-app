@@ -1,5 +1,5 @@
 export const VOCABULARY_ROW_HEIGHT = 38 // 語彙学習用の行の高さ(px)
-export const FLAGS_ROW_HEIGHT = 55 // フラグ学習用の行の高さ(px)
+export const FLAGS_ROW_HEIGHT = 89 // フラグ学習用の行の高さ(px)
 export const HEADER_HEIGHT = 70 // ヘッダーの高さ(px)
 export const MINIMUM_WORDS_PER_PAGE = 3 // 最小表示行数
 export const SCROLL_SENSITIVITY = 0.9 // スクロール感度

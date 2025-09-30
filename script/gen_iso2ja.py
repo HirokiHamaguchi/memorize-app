@@ -21,19 +21,20 @@ for svg_file in svg_files:
     )
     if match:
         result[alpha2] = match.get("name_ja")
+        result[alpha2] += " (" + match.get("region_ja") + ")"
     else:
         if alpha2 == "eu":
             result[alpha2] = "欧州連合"
         elif alpha2 == "gb-eng":
-            result[alpha2] = "イングランド"
+            result[alpha2] = "イングランド (イギリス)"
         elif alpha2 == "gb-nir":
-            result[alpha2] = "北アイルランド"
+            result[alpha2] = "北アイルランド (イギリス)"
         elif alpha2 == "gb-sct":
-            result[alpha2] = "スコットランド"
+            result[alpha2] = "スコットランド (イギリス)"
         elif alpha2 == "gb-wls":
-            result[alpha2] = "ウェールズ"
+            result[alpha2] = "ウェールズ (イギリス)"
         elif alpha2 == "xk":
-            result[alpha2] = "コソボ"
+            result[alpha2] = "コソボ (ヨーロッパ)"
         else:
             raise ValueError(f"No matching entry found for {alpha2}")
 

@@ -23,10 +23,10 @@ export const FlagsTable = ({
         <Box className="vocabulary-box vocabulary-table">
             {/* ヘッダー */}
             <Flex className="table-header" flexDirection={isFlipped ? "row-reverse" : "row"}>
-                <Box className="header-cell">
+                <Box className="header-cell" flex="3">
                     国旗
                 </Box>
-                <Box className="header-cell">
+                <Box className="header-cell" flex="7">
                     日本語
                 </Box>
             </Flex>
@@ -35,6 +35,7 @@ export const FlagsTable = ({
             {currentFlags.map((flag, index) => {
                 const absoluteIndex = currentStartIndex + index
                 const revealed = revealedFlags.has(absoluteIndex)
+                const nameJa = flag.ja.replace(/\s*\(.*?\)/g, '')
                 return (
                     <Flex
                         key={`${flag.id}-${absoluteIndex}`}
@@ -43,6 +44,7 @@ export const FlagsTable = ({
                     >
                         <Box
                             className="english-cell"
+                            flex="3"
                             display="flex"
                             alignItems="center"
                             justifyContent="center"
@@ -51,16 +53,20 @@ export const FlagsTable = ({
                             <Image
                                 src={flag.svg}
                                 alt={`${flag.code} flag`}
-                                width="60px"
-                                height="45px"
+                                height="80px"
                                 objectFit="contain"
-                                borderRadius="4px"
-                                border="1px solid #e2e8f0"
+                                onClick={
+                                    () => { window.open(`https://ja.wikipedia.org/wiki/${nameJa}`, '_blank') }
+                                }
+                                cursor="pointer"
+                                border="1px solid #ccc"
                             />
                         </Box>
                         <Box
                             className={`japanese-cell ${revealed ? 'revealed' : 'hidden'}`}
-                            fontSize={revealed ? (flag.ja.length > 10 ? "md" : "xl") : "md"}
+                            flex="7"
+                            justifyContent="center"
+                            fontSize={revealed ? "xl" : "md"}
                             onClick={() => onRevealFlag(index)}
                             cursor={revealed ? 'default' : 'pointer'}
                         >
