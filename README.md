@@ -1,3 +1,3 @@
 # Memorize App
 
-React + TypeScript + Viteで作られた学習アプリケーションです。
+暗記用アプリケーションです。
