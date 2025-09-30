@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import type { User } from 'firebase/auth'
 import { onAuthStateChanged, signInWithPopup, signOut } from 'firebase/auth'
-import { doc, setDoc, getDoc } from 'firebase/firestore'
+import { doc, setDoc } from 'firebase/firestore'
 import { auth, provider, db } from '../config/firebase'
 
 export const useAuth = () => {
@@ -10,12 +10,8 @@ export const useAuth = () => {
 
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, async (user) => {
-            console.log(user)
             if (user) {
-                console.log("ログイン中:", user.uid)
                 const userDocRef = doc(db, "users", user.uid)
-                console.log(userDocRef)
-                console.log(user);
                 // Firestoreに保存
                 await setDoc(userDocRef, {
                     lastLogin: new Date().toISOString(),
@@ -23,16 +19,6 @@ export const useAuth = () => {
                     email: user.email,
                     photoURL: user.photoURL
                 }, { merge: true })
-                console.log("ユーザーデータを保存しました")
-
-                // Firestoreから読み込み
-                const snap = await getDoc(userDocRef)
-                console.log(snap)
-                if (snap.exists()) {
-                    console.log("ユーザーデータ:", snap.data())
-                }
-            } else {
-                console.log("ログアウト中")
             }
             setUser(user)
             setLoading(false)

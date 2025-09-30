@@ -2,19 +2,25 @@ import { Box, Text, Flex } from '@chakra-ui/react'
 import { AppInfoDialog } from './dialog'
 import { LoginSection } from './LoginSection'
 
-export interface DatasetOption {
+export interface SelectorOption {
     id: string
     name: string
     description: string
 }
 
-interface DatasetSelectorProps {
-    datasets: DatasetOption[]
-    onSelect: (datasetId: string) => void
-    onBack: () => void
+interface SelectorProps {
+    subtitle: string
+    options: SelectorOption[]
+    onSelect: (optionId: string) => void
+    showLoginSection: boolean
 }
 
-export const DatasetSelector = ({ datasets, onSelect, onBack }: DatasetSelectorProps) => {
+export const Selector = ({
+    subtitle,
+    options,
+    onSelect,
+    showLoginSection
+}: SelectorProps) => {
     return (
         <Box
             display="flex"
@@ -26,16 +32,18 @@ export const DatasetSelector = ({ datasets, onSelect, onBack }: DatasetSelectorP
         >
             <Box maxW="600px" w="full">
                 <Box mb={8} textAlign="center">
-                    <AppInfoDialog textArgs={{ fontSize: "3xl", fontWeight: "bold", color: "gray.800", mb: 4 }} onBack={onBack} />
+                    <AppInfoDialog
+                        textArgs={{ fontSize: "3xl", fontWeight: "bold", color: "gray.800", mb: 4 }}
+                    />
                     <Text fontSize="lg" color="gray.600">
-                        学習したい語彙データセットを選択してください
+                        {subtitle}
                     </Text>
                 </Box>
 
                 <Box>
-                    {datasets.map((dataset) => (
+                    {options.map((option) => (
                         <Box
-                            key={dataset.id}
+                            key={option.id}
                             w="full"
                             mb={4}
                             p={6}
@@ -44,15 +52,15 @@ export const DatasetSelector = ({ datasets, onSelect, onBack }: DatasetSelectorP
                             boxShadow="md"
                             cursor="pointer"
                             _hover={{ transform: 'scale(1.02)', transition: 'transform 0.2s' }}
-                            onClick={() => onSelect(dataset.id)}
+                            onClick={() => onSelect(option.id)}
                         >
                             <Flex justifyContent="space-between" alignItems="center">
                                 <Box flex="1">
                                     <Text fontSize="xl" fontWeight="semibold" mb={1}>
-                                        {dataset.name}
+                                        {option.name}
                                     </Text>
                                     <Text color="gray.600" fontSize="md" mb={1}>
-                                        {dataset.description}
+                                        {option.description}
                                     </Text>
                                 </Box>
                             </Flex>
@@ -60,9 +68,11 @@ export const DatasetSelector = ({ datasets, onSelect, onBack }: DatasetSelectorP
                     ))}
                 </Box>
 
-                <Box mb={8} textAlign="center">
-                    <LoginSection />
-                </Box>
+                {showLoginSection && (
+                    <Box mb={8} textAlign="center">
+                        <LoginSection />
+                    </Box>
+                )}
             </Box>
         </Box>
     )

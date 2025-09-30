@@ -1,6 +1,8 @@
 export { useScrolling } from './useScrolling'
 export { useVocabulary } from './useVocabulary'
+export { useFlags } from './useFlags'
 export { useWordsPerPage } from './useWordsPerPage'
 export { useAuth } from './useAuth'
 export type { ScrollingHook } from './useScrolling'
 export type { VocabularyHook } from './useVocabulary'
+export type { FlagsHook } from './useFlags'

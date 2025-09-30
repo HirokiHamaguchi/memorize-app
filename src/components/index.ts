@@ -1,5 +1,7 @@
 export { AppHeader } from './AppHeader'
 export { VocabularyTable } from './VocabularyTable'
-export { DatasetSelector } from './DatasetSelector'
+export { FlagsTable } from './FlagsTable'
+export { Selector } from './Selector'
 export { VocabularyApp } from './VocabularyApp'
+export { FlagsApp } from './FlagsApp'
 export { LoginSection } from './LoginSection'

@@ -15,7 +15,6 @@ export const LoginSection = () => {
     }
 
     if (user) {
-        console.log(user.photoURL)
         return (
             <Box
                 bg="white"

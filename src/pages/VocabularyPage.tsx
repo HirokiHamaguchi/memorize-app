@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { VocabularyApp } from '../components/VocabularyApp'
 import type { Vocabulary } from '../types/vocabulary'
 
-export const StudyPage = () => {
+export const VocabularyPage = () => {
     const { datasetId } = useParams<{ datasetId: string }>()
     const navigate = useNavigate()
     const [vocabularyData, setVocabularyData] = useState<Vocabulary[]>([])
@@ -17,12 +17,12 @@ export const StudyPage = () => {
                 let data: { id: number; en: string; ja: string }[]
 
                 switch (datasetId) {
-                    case 'vocabulary_1': {
+                    case '1': {
                         const module1 = await import('../../data/vocabulary/vocabulary_1.json')
                         data = module1.default
                         break
                     }
-                    case 'vocabulary_jun1': {
+                    case 'jun1': {
                         const module2 = await import('../../data/vocabulary/vocabulary_jun1.json')
                         data = module2.default
                         break
@@ -47,7 +47,7 @@ export const StudyPage = () => {
     }, [datasetId, navigate])
 
     const handleBackToSelect = () => {
-        navigate('/select')
+        navigate('/select/vocabulary')
     }
 
     // ローディング中の表示
