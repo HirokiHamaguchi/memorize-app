@@ -1,8 +1,8 @@
 {
-  "name": "vocabulary-app",
+  "name": "memorize-app",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/HirokiHamaguchi/vocabulary-app",
+  "homepage": "https://github.com/HirokiHamaguchi/memorize-app",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

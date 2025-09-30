@@ -24,7 +24,7 @@ function BodyClassManager() {
 
 function App() {
   return (
-    <Router basename="/vocabulary-app">
+    <Router basename="/memorize-app">
       <BodyClassManager />
       <Routes>
         <Route index element={<SelectPage />} />

@@ -29,7 +29,7 @@ const APP_LINKS: LinkData[] = [
         description: "英単語を押すと、{link}の該当ページに飛びます。"
     },
     {
-        href: "https://github.com/HirokiHamaguchi/vocabulary-app",
+        href: "https://github.com/HirokiHamaguchi/memorize-app",
         text: "GitHub",
         description: "バグや改善要望などは{link}にお願いします。"
     }

@@ -1,7 +1,7 @@
 [project]
-name = "vocabulary-app"
+name = "memorize-app"
 version = "0.1.0"
-description = "Add your description here"
+description = "A simple app to help you memorize things."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
