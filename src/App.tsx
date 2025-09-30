@@ -39,7 +39,6 @@ function App() {
         <Route path="/select/flags" element={<FlagsSelectPage />} />
         <Route path="/study/vocabulary/:datasetId" element={<VocabularyPage />} />
         <Route path="/study/flags/:datasetId" element={<FlagsPage />} />
-        <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>
     </Router>
   )
