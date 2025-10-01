@@ -40,8 +40,7 @@ const DATA_TYPE_CONFIGS: Record<string, DataTypeConfig> = {
                         height="80px"
                         objectFit="contain"
                         onClick={() => {
-                            const nameJa = flag.ja.replace(/\s*\(.*?\)/g, '')
-                            window.open(`https://ja.wikipedia.org/wiki/${nameJa}`, '_blank')
+                            window.open(`https://ja.wikipedia.org/wiki/${flag.ja}`, '_blank')
                         }}
                         cursor="pointer"
                         border="1px solid #ccc"
