@@ -1,14 +1,19 @@
 import { QuizLayout } from './QuizApp'
 import { DataTable } from './DataTable'
 import { useStudyData, useQuizApp } from '../hooks'
-import { VOCABULARY_ROW_HEIGHT } from '../config/constant'
-import type { Vocabulary } from '../types/type'
+import type { Flag, Vocabulary } from '../types/type'
 
-interface VocabularyAppProps {
-    vocabularyData: Vocabulary[]
+type StudyDataItem = Flag | Vocabulary
+
+interface StudyAppProps {
+    data: StudyDataItem[]
+    rowHeight: number
 }
 
-export const VocabularyApp = ({ vocabularyData }: VocabularyAppProps) => {
+export const StudyApp = ({
+    data,
+    rowHeight
+}: StudyAppProps) => {
     const {
         isFlipped,
         wheelAmount,
@@ -17,16 +22,16 @@ export const VocabularyApp = ({ vocabularyData }: VocabularyAppProps) => {
         toggleFlip,
         scrollHandlers
     } = useQuizApp({
-        dataLength: vocabularyData.length,
-        rowHeight: VOCABULARY_ROW_HEIGHT
+        dataLength: data.length,
+        rowHeight
     })
 
     const {
-        currentItems: currentWords,
+        currentItems,
         currentStartIndex,
-        revealedItems: revealedWords,
-        revealAnswer: revealJapaneseWord
-    } = useStudyData(vocabularyData, wheelAmount, wordsPerPage, VOCABULARY_ROW_HEIGHT)
+        revealedItems,
+        revealAnswer
+    } = useStudyData(data, wheelAmount, wordsPerPage, rowHeight)
 
     return (
         <QuizLayout
@@ -36,11 +41,11 @@ export const VocabularyApp = ({ vocabularyData }: VocabularyAppProps) => {
             scrollHandlers={scrollHandlers}
         >
             <DataTable
-                currentData={currentWords}
+                currentData={currentItems}
                 currentStartIndex={currentStartIndex}
-                revealedItems={revealedWords}
+                revealedItems={revealedItems}
                 isFlipped={isFlipped}
-                onRevealItem={revealJapaneseWord}
+                onRevealItem={revealAnswer}
             />
         </QuizLayout>
     )

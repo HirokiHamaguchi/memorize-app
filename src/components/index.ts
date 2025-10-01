@@ -1,7 +1,6 @@
 export { AppHeader } from './AppHeader'
 export { DataTable } from './DataTable'
 export { Selector } from './Selector'
-export { VocabularyApp } from './VocabularyApp'
-export { FlagsApp } from './FlagsApp'
+export { StudyApp } from './StudyApp'
 export { LoginSection } from './LoginSection'
 export { QuizLayout } from './QuizApp'

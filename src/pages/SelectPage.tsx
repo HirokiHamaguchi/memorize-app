@@ -7,7 +7,6 @@ export const SelectPage = () => {
     const { type } = useParams<{ type?: string }>()
 
     if (type === 'vocabulary') { // 語彙セレクターページの設定
-
         return (
             <Selector
                 subtitle="学習したい語彙データセットを選択してください"
