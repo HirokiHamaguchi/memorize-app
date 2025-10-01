@@ -1,6 +1,6 @@
 import { QuizLayout } from './QuizApp'
 import { DataTable } from './DataTable'
-import { useVocabulary, useQuizApp } from '../hooks'
+import { useStudyData, useQuizApp } from '../hooks'
 import { VOCABULARY_ROW_HEIGHT } from '../config/constant'
 import type { Vocabulary } from '../types/type'
 
@@ -22,11 +22,11 @@ export const VocabularyApp = ({ vocabularyData }: VocabularyAppProps) => {
     })
 
     const {
-        currentWords,
+        currentItems: currentWords,
         currentStartIndex,
-        revealedWords,
-        revealJapaneseWord
-    } = useVocabulary(vocabularyData, wheelAmount, wordsPerPage)
+        revealedItems: revealedWords,
+        revealAnswer: revealJapaneseWord
+    } = useStudyData(vocabularyData, wheelAmount, wordsPerPage, VOCABULARY_ROW_HEIGHT)
 
     return (
         <QuizLayout

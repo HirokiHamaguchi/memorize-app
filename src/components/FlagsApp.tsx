@@ -1,6 +1,6 @@
 import { QuizLayout } from './QuizApp'
 import { DataTable } from './DataTable'
-import { useFlags, useQuizApp } from '../hooks'
+import { useStudyData, useQuizApp } from '../hooks'
 import { FLAGS_ROW_HEIGHT } from '../config/constant'
 import type { Flag } from '../types/type'
 
@@ -22,11 +22,11 @@ export const FlagsApp = ({ flagsData }: FlagsAppProps) => {
     })
 
     const {
-        currentFlags,
+        currentItems: currentFlags,
         currentStartIndex,
-        revealedFlags,
-        revealJapaneseFlag
-    } = useFlags(flagsData, wheelAmount, wordsPerPage)
+        revealedItems: revealedFlags,
+        revealAnswer: revealJapaneseFlag
+    } = useStudyData(flagsData, wheelAmount, wordsPerPage, FLAGS_ROW_HEIGHT)
 
     return (
         <QuizLayout
