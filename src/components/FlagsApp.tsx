@@ -1,5 +1,5 @@
 import { QuizLayout } from './QuizApp'
-import { FlagsTable } from './index'
+import { DataTable } from './DataTable'
 import { useFlags, useQuizApp } from '../hooks'
 import { FLAGS_ROW_HEIGHT } from '../config/constant'
 import type { Flag } from '../types/type'
@@ -35,12 +35,12 @@ export const FlagsApp = ({ flagsData }: FlagsAppProps) => {
             onNextPage={nextPage}
             scrollHandlers={scrollHandlers}
         >
-            <FlagsTable
-                currentFlags={currentFlags}
+            <DataTable
+                currentData={currentFlags}
                 currentStartIndex={currentStartIndex}
-                revealedFlags={revealedFlags}
+                revealedItems={revealedFlags}
                 isFlipped={isFlipped}
-                onRevealFlag={revealJapaneseFlag}
+                onRevealItem={revealJapaneseFlag}
             />
         </QuizLayout>
     )

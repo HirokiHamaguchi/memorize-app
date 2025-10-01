@@ -1,5 +1,5 @@
 import { QuizLayout } from './QuizApp'
-import { VocabularyTable } from './index'
+import { DataTable } from './DataTable'
 import { useVocabulary, useQuizApp } from '../hooks'
 import { VOCABULARY_ROW_HEIGHT } from '../config/constant'
 import type { Vocabulary } from '../types/type'
@@ -35,12 +35,12 @@ export const VocabularyApp = ({ vocabularyData }: VocabularyAppProps) => {
             onNextPage={nextPage}
             scrollHandlers={scrollHandlers}
         >
-            <VocabularyTable
-                currentWords={currentWords}
+            <DataTable
+                currentData={currentWords}
                 currentStartIndex={currentStartIndex}
-                revealedWords={revealedWords}
+                revealedItems={revealedWords}
                 isFlipped={isFlipped}
-                onRevealWord={revealJapaneseWord}
+                onRevealItem={revealJapaneseWord}
             />
         </QuizLayout>
     )

@@ -1,6 +1,5 @@
 export { AppHeader } from './AppHeader'
-export { VocabularyTable } from './VocabularyTable'
-export { FlagsTable } from './FlagsTable'
+export { DataTable } from './DataTable'
 export { Selector } from './Selector'
 export { VocabularyApp } from './VocabularyApp'
 export { FlagsApp } from './FlagsApp'
