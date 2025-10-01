@@ -51,7 +51,7 @@ def process_html_file(html_path):
 
 
 # data/以下のraw_table_*.htmlファイルを検索
-html_files = glob.glob("data/vocabulary/raw_table_*.html")
+html_files = glob.glob("src/data/raw/table_*.html")
 
 if not html_files:
     print("data/以下にraw_table_*.htmlファイルが見つかりませんでした。")
@@ -60,8 +60,8 @@ else:
 
     for html_path in html_files:
         basename = os.path.basename(html_path)
-        suffix = basename.replace("raw_table_", "").replace(".html", "")
-        json_filename = f"data/vocabulary/vocabulary_{suffix}.json"
+        suffix = basename.replace("table_", "").replace(".html", "")
+        json_filename = f"src/data/vocabulary/vocabulary_{suffix}.json"
         data = process_html_file(html_path)
         with open(json_filename, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
