@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { FlagsApp } from '../components/FlagsApp'
-import type { Flag } from '../types/flags'
+import type { Flag } from '../types/type'
 
 export const FlagsPage = () => {
     const { datasetId } = useParams<{ datasetId: string }>()

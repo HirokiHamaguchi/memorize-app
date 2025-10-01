@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
-import type { Flag } from '../types/flags'
+import type { Flag } from '../types/type'
 import { shuffleArray } from '../utils/shuffle'
 import { FLAGS_ROW_HEIGHT } from '../config/constant'
 

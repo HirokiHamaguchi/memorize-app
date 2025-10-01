@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
-import type { Vocabulary } from '../types/vocabulary'
+import type { Vocabulary } from '../types/type'
 import { shuffleArray } from '../utils/shuffle'
 import { VOCABULARY_ROW_HEIGHT } from '../config/constant'
 

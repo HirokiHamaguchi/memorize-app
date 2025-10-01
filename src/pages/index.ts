@@ -1,6 +1,3 @@
-export { SelectPage } from './SelectPage'
 export { FlagsPage } from './FlagsPage'
-export { MainSelectPage } from './MainSelectPage'
-export { VocabularySelectPage } from './VocabularySelectPage'
-export { FlagsSelectPage } from './FlagsSelectPage'
+export { SelectPage } from './SelectPage'
 export { VocabularyPage } from './VocabularyPage'

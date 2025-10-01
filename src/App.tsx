@@ -2,8 +2,6 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { useEffect } from 'react'
 import {
   SelectPage,
-  VocabularySelectPage,
-  FlagsSelectPage,
   VocabularyPage,
   FlagsPage
 } from './pages'
@@ -35,8 +33,7 @@ function App() {
       <Routes>
         <Route index element={<SelectPage />} />
         <Route path="/select" element={<SelectPage />} />
-        <Route path="/select/vocabulary" element={<VocabularySelectPage />} />
-        <Route path="/select/flags" element={<FlagsSelectPage />} />
+        <Route path="/select/:type" element={<SelectPage />} />
         <Route path="/study/vocabulary/:datasetId" element={<VocabularyPage />} />
         <Route path="/study/flags/:datasetId" element={<FlagsPage />} />
       </Routes>

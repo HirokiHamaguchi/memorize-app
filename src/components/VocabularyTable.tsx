@@ -1,5 +1,5 @@
 import { Box, Flex } from '@chakra-ui/react'
-import type { Vocabulary } from '../types/vocabulary'
+import type { Vocabulary } from '../types/type'
 
 interface VocabularyTableProps {
     currentWords: Vocabulary[]

@@ -2,7 +2,7 @@ import { QuizLayout } from './QuizApp'
 import { VocabularyTable } from './index'
 import { useVocabulary, useQuizApp } from '../hooks'
 import { VOCABULARY_ROW_HEIGHT } from '../config/constant'
-import type { Vocabulary } from '../types/vocabulary'
+import type { Vocabulary } from '../types/type'
 
 interface VocabularyAppProps {
     vocabularyData: Vocabulary[]

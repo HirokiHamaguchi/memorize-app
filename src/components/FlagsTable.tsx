@@ -1,5 +1,5 @@
 import { Box, Flex, Image } from '@chakra-ui/react'
-import type { Flag } from '../types/flags'
+import type { Flag } from '../types/type'
 
 interface FlagsTableProps {
     currentFlags: Flag[]

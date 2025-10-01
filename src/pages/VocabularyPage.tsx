@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { VocabularyApp } from '../components/VocabularyApp'
-import type { Vocabulary } from '../types/vocabulary'
+import type { Vocabulary } from '../types/type'
 
 export const VocabularyPage = () => {
     const { datasetId } = useParams<{ datasetId: string }>()
