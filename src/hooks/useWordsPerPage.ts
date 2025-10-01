@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { HEADER_HEIGHT, MINIMUM_WORDS_PER_PAGE } from '../constants'
+import { HEADER_HEIGHT, MINIMUM_WORDS_PER_PAGE } from '../config/constant'
 
 const calculateWordsPerPage = (rowHeight: number, headerHeight: number, minWords: number): number => {
     const availableHeight = window.innerHeight - headerHeight

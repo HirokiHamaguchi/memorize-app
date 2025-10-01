@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import { SCROLL_SENSITIVITY, TOUCH_SCROLL_SENSITIVITY, MINIMUM_TOUCH_SCROLL } from '../constants'
+import { SCROLL_SENSITIVITY, TOUCH_SCROLL_SENSITIVITY, MINIMUM_TOUCH_SCROLL } from '../config/constant'
 
 export interface ScrollingHook {
     wheelAmount: number

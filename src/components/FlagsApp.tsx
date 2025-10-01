@@ -1,7 +1,7 @@
 import { QuizLayout } from './QuizApp'
 import { FlagsTable } from './index'
 import { useFlags, useQuizApp } from '../hooks'
-import { FLAGS_ROW_HEIGHT } from '../constants'
+import { FLAGS_ROW_HEIGHT } from '../config/constant'
 import type { Flag } from '../types/flags'
 
 interface FlagsAppProps {

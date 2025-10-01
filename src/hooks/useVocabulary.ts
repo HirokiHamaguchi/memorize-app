@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
 import type { Vocabulary } from '../types/vocabulary'
 import { shuffleArray } from '../utils/shuffle'
-import { VOCABULARY_ROW_HEIGHT } from '../constants'
+import { VOCABULARY_ROW_HEIGHT } from '../config/constant'
 
 export interface VocabularyHook {
     shuffledVocabulary: Vocabulary[]

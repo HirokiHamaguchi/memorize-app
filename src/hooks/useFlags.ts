@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
 import type { Flag } from '../types/flags'
 import { shuffleArray } from '../utils/shuffle'
-import { FLAGS_ROW_HEIGHT } from '../constants'
+import { FLAGS_ROW_HEIGHT } from '../config/constant'
 
 export interface FlagsHook {
     shuffledFlags: Flag[]
