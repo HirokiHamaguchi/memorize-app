@@ -35,7 +35,7 @@ const DATA_TYPE_CONFIGS: Record<string, DataTypeConfig> = {
                 const flag = item as Flag
                 return (
                     <Image
-                        src={flag.svg}
+                        src={flag.pos}
                         alt={`${flag.code} flag`}
                         height="80px"
                         objectFit="contain"

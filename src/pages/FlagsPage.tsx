@@ -33,7 +33,8 @@ export const FlagsPage = () => {
                             id: String(index + 1),
                             code: item.iso,
                             ja: decodeURIComponent(item.url),
-                            svg: item.flag
+                            svg: item.flag,
+                            pos: item.pos
                         };
                     })
                 );
