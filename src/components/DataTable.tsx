@@ -105,7 +105,10 @@ export const DataTable = ({
     onRevealItem
 }: DataTableProps) => {
     const getDataType = (): DataTypeConfig => {
-        console.assert(currentData.length !== 0)
+        if (currentData.length === 0) {
+            console.warn('currentData is empty, defaulting to vocabulary config.')
+            return DATA_TYPE_CONFIGS.vocabulary
+        }
         for (const config of Object.values(DATA_TYPE_CONFIGS)) {
             if (config.typeGuard(currentData[0])) {
                 return config
