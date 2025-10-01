@@ -2,7 +2,7 @@ export interface Flag {
     id: string;
     code: string;  // ISO country code (e.g., "ad", "ae")
     ja: string;
-    svg: string;
+    flag: string;
     pos: string;
 }
 

@@ -15,25 +15,22 @@ export const FlagsPage = () => {
             try {
                 setIsLoading(true)
 
-                // データセットIDのバリデーション
                 if (datasetId !== 'world') {
                     console.error('Invalid dataset ID for flags')
                     navigate('/select/flags')
                     return
                 }
 
-                // _iso2ja.jsonを読み込み
                 const module = await import('../data/geography/wiki.json')
                 const iso2jaData = module.default
 
-                // フラグデータを作成（SVGも動的importで取得）
                 const flagsArray: Flag[] = await Promise.all(
                     iso2jaData.map(async (item, index) => {
                         return {
                             id: String(index + 1),
                             code: item.iso,
-                            ja: decodeURIComponent(item.url),
-                            svg: item.flag,
+                            ja: item.ja,
+                            flag: item.flag,
                             pos: item.pos
                         };
                     })

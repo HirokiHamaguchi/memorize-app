@@ -12,7 +12,7 @@ headers = {
 }
 
 
-def fetch_page_images(iso: str, url: str):
+def fetch_page_images(ja: str, iso: str, url: str):
     response = requests.get(url, headers=headers, timeout=10)
     response.raise_for_status()
 
@@ -55,6 +55,7 @@ def fetch_page_images(iso: str, url: str):
     assert flag is not None, f"国旗が見つかりません: {iso} - {url}"
 
     return {
+        "ja": ja,
         "iso": iso,
         "url": url.replace("https://ja.wikipedia.org/wiki/", ""),
         "flag": flag,
@@ -84,6 +85,9 @@ def process_html_file(html_path, json_path):
         last_a = first_td.find_all("a")[-1]  # 最後のaタグを取得
         href = last_a.get("href") if last_a else None
 
+        # 1つ目のtdの文字部分を取得
+        ja = first_td.get_text().strip()
+
         # 6つ目のtdから2文字のISOコードを取得
         sixth_td = td_tags[5]
         code_tag = sixth_td.find("code")
@@ -97,7 +101,7 @@ def process_html_file(html_path, json_path):
         print(f"処理中: {iso_code} - {full_url}")
 
         # 実際にURLを訪問してimgタグを取得
-        data.append(fetch_page_images(iso_code, full_url))
+        data.append(fetch_page_images(ja, iso_code, full_url))
 
         # リクエスト間隔を空ける（サーバーに負荷をかけないため）
         time.sleep(0.1)
