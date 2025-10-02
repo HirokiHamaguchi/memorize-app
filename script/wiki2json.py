@@ -12,7 +12,7 @@ headers = {
 }
 
 
-def fetch_page_images(ja: str, iso: str, url: str):
+def fetch_page_images(id: int, ja: str, iso: str, url: str):
     response = requests.get(url, headers=headers, timeout=10)
     response.raise_for_status()
 
@@ -55,6 +55,7 @@ def fetch_page_images(ja: str, iso: str, url: str):
     assert flag is not None, f"国旗が見つかりません: {iso} - {url}"
 
     return {
+        "id": id,
         "ja": ja,
         "iso": iso,
         "url": url.replace("https://ja.wikipedia.org/wiki/", ""),
@@ -75,7 +76,7 @@ def process_html_file(html_path, json_path):
 
     data = []
 
-    for tr in tr_tags:
+    for id, tr in enumerate(tr_tags):
         td_tags = tr.find_all("td")
 
         assert len(td_tags) >= 6, "tdタグが6つ未満です。"
@@ -101,7 +102,7 @@ def process_html_file(html_path, json_path):
         print(f"処理中: {iso_code} - {full_url}")
 
         # 実際にURLを訪問してimgタグを取得
-        data.append(fetch_page_images(ja, iso_code, full_url))
+        data.append(fetch_page_images(id, ja, iso_code, full_url))
 
         # リクエスト間隔を空ける（サーバーに負荷をかけないため）
         time.sleep(0.1)

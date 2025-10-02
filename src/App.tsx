@@ -2,9 +2,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { useEffect } from 'react'
 import {
   SelectPage,
-  StudyPage,
-  VocabularyPage,
-  FlagsPage
+  StudyPage
 } from './pages'
 import './App.css'
 
@@ -36,9 +34,6 @@ function App() {
         <Route path="/select" element={<SelectPage />} />
         <Route path="/select/:type" element={<SelectPage />} />
         <Route path="/study/:studyType/:datasetId" element={<StudyPage />} />
-        {/* 後方互換性のためのルート */}
-        <Route path="/study/vocabulary/:datasetId" element={<VocabularyPage />} />
-        <Route path="/study/flags/:datasetId" element={<FlagsPage />} />
       </Routes>
     </Router>
   )

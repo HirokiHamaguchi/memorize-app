@@ -9,7 +9,7 @@ export interface StudyDataHook<T> {
     revealAnswer: (relativeIndex: number) => void
 }
 
-export const useStudyData = <T extends { id: string }>(
+export const useStudyData = <T extends { id: number }>(
     data: T[],
     wheelAmount: number,
     itemsPerPage: number,
@@ -21,14 +21,14 @@ export const useStudyData = <T extends { id: string }>(
     const REPEAT_INTERVAL = 20 // 1セットあたりのアイテム数
     useEffect(() => {
         const shuffledArray = shuffleArray(data);
-        const repeatedData = [];
+        const repeatedData: T[] = [];
         const set_num = Math.ceil(shuffledArray.length / REPEAT_INTERVAL);
         for (let i = 0; i < set_num; i++) {
-            for (let repeat_count = 1; repeat_count <= 2; repeat_count++) {
+            for (let repeat_count = 0; repeat_count < 2; repeat_count++) {
                 for (let j = 0; j < REPEAT_INTERVAL; j++) {
                     const index = i * REPEAT_INTERVAL + j;
                     if (index >= shuffledArray.length) break;
-                    repeatedData.push({ ...shuffledArray[index], id: `${shuffledArray[index].id}-${repeat_count}` });
+                    repeatedData.push({ ...shuffledArray[index], id: 2 * shuffledArray[index].id + repeat_count });
                 }
             }
         }

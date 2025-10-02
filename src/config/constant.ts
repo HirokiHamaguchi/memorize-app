@@ -31,10 +31,12 @@ interface VocabularyRawData {
 }
 
 interface FlagsRawData {
+    id: number
     iso: string
     ja: string
     flag: string
     pos: string
+    url: string
 }
 
 interface DatasetConfig<T> {
@@ -51,14 +53,14 @@ export const VOCABULARY_DATASETS: DatasetConfig<VocabularyRawData>[] = [
         name: '英検1級',
         description: '英検1級レベルの英単語集',
         dataLoader: () => import('../data/vocabulary/vocabulary_1.json'),
-        processor: (data: VocabularyRawData[]): Vocabulary[] => data.map(item => ({ ...item, id: String(item.id) })),
+        processor: (data: VocabularyRawData[]): Vocabulary[] => data,
     },
     {
         id: 'jun1',
         name: '英検準1級',
         description: '英検準1級レベルの英単語集',
         dataLoader: () => import('../data/vocabulary/vocabulary_jun1.json'),
-        processor: (data: VocabularyRawData[]): Vocabulary[] => data.map(item => ({ ...item, id: String(item.id) })),
+        processor: (data: VocabularyRawData[]): Vocabulary[] => data,
     }
 ]
 
@@ -68,13 +70,7 @@ export const FLAGS_DATASETS: DatasetConfig<FlagsRawData>[] = [
         name: '世界の国旗',
         description: '世界各国の国旗と国名を学習します',
         dataLoader: () => import('../data/geography/wiki.json'),
-        processor: (data: FlagsRawData[]): Flag[] => data.map((item, index) => ({
-            id: String(index + 1),
-            code: item.iso,
-            ja: item.ja,
-            flag: item.flag,
-            pos: item.pos
-        })),
+        processor: (data: FlagsRawData[]): Flag[] => data,
     }
 ]
 

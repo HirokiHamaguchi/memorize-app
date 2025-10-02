@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "ja": "アイスランド",
     "iso": "IS",
     "url": "%E3%82%A2%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%B3%E3%83%89",
@@ -7,6 +8,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Europe-Iceland.svg/250px-Europe-Iceland.svg.png"
   },
   {
+    "id": 1,
     "ja": "アイルランド",
     "iso": "IE",
     "url": "%E3%82%A2%E3%82%A4%E3%83%AB%E3%83%A9%E3%83%B3%E3%83%89",
@@ -14,6 +16,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/EU-Ireland.svg/250px-EU-Ireland.svg.png"
   },
   {
+    "id": 2,
     "ja": "アゼルバイジャン",
     "iso": "AZ",
     "url": "%E3%82%A2%E3%82%BC%E3%83%AB%E3%83%90%E3%82%A4%E3%82%B8%E3%83%A3%E3%83%B3",
@@ -21,6 +24,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Azerbaijan_%28orthographic_projection%29.svg/250px-Azerbaijan_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 3,
     "ja": "アフガニスタン",
     "iso": "AF",
     "url": "%E3%82%A2%E3%83%95%E3%82%AC%E3%83%8B%E3%82%B9%E3%82%BF%E3%83%B3",
@@ -28,6 +32,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Afghanistan_%28orthographic_projection%29.svg/250px-Afghanistan_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 4,
     "ja": "アメリカ合衆国",
     "iso": "US",
     "url": "%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E5%90%88%E8%A1%86%E5%9B%BD",
@@ -35,6 +40,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/United_States_in_the_World.svg/250px-United_States_in_the_World.svg.png"
   },
   {
+    "id": 5,
     "ja": "アメリカ領ヴァージン諸島",
     "iso": "VI",
     "url": "%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E9%A0%98%E3%83%B4%E3%82%A1%E3%83%BC%E3%82%B8%E3%83%B3%E8%AB%B8%E5%B3%B6",
@@ -42,6 +48,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/United_States_on_the_globe_%28United_States_Virgin_Islands_special%29_%28Americas_centered%29.svg/250px-United_States_on_the_globe_%28United_States_Virgin_Islands_special%29_%28Americas_centered%29.svg.png"
   },
   {
+    "id": 6,
     "ja": "アメリカ領サモア",
     "iso": "AS",
     "url": "%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E9%A0%98%E3%82%B5%E3%83%A2%E3%82%A2",
@@ -49,6 +56,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/99/American_Samoa_on_the_globe_%28Polynesia_centered%29.svg/250px-American_Samoa_on_the_globe_%28Polynesia_centered%29.svg.png"
   },
   {
+    "id": 7,
     "ja": "アラブ首長国連邦",
     "iso": "AE",
     "url": "%E3%82%A2%E3%83%A9%E3%83%96%E9%A6%96%E9%95%B7%E5%9B%BD%E9%80%A3%E9%82%A6",
@@ -56,6 +64,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/United_Arab_Emirates_%28orthographic_projection%29.svg/250px-United_Arab_Emirates_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 8,
     "ja": "アルジェリア",
     "iso": "DZ",
     "url": "%E3%82%A2%E3%83%AB%E3%82%B8%E3%82%A7%E3%83%AA%E3%82%A2",
@@ -63,6 +72,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/25/Algeria_%28orthographic_projection%29.svg/250px-Algeria_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 9,
     "ja": "アルゼンチン",
     "iso": "AR",
     "url": "%E3%82%A2%E3%83%AB%E3%82%BC%E3%83%B3%E3%83%81%E3%83%B3",
@@ -70,6 +80,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Argentina_orthographic.svg/250px-Argentina_orthographic.svg.png"
   },
   {
+    "id": 10,
     "ja": "アルバ",
     "iso": "AW",
     "url": "%E3%82%A2%E3%83%AB%E3%83%90",
@@ -77,6 +88,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Aruba_in_Caribbean.svg/250px-Aruba_in_Caribbean.svg.png"
   },
   {
+    "id": 11,
     "ja": "アルバニア",
     "iso": "AL",
     "url": "%E3%82%A2%E3%83%AB%E3%83%90%E3%83%8B%E3%82%A2",
@@ -84,6 +96,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Europe-Albania.svg/250px-Europe-Albania.svg.png"
   },
   {
+    "id": 12,
     "ja": "アルメニア",
     "iso": "AM",
     "url": "%E3%82%A2%E3%83%AB%E3%83%A1%E3%83%8B%E3%82%A2",
@@ -91,6 +104,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Armenia_%28orthographic_projection%29.svg/250px-Armenia_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 13,
     "ja": "アンギラ",
     "iso": "AI",
     "url": "%E3%82%A2%E3%83%B3%E3%82%AE%E3%83%A9",
@@ -98,6 +112,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Anguilla_in_its_region_%28zoom%29.svg/250px-Anguilla_in_its_region_%28zoom%29.svg.png"
   },
   {
+    "id": 14,
     "ja": "アンゴラ",
     "iso": "AO",
     "url": "%E3%82%A2%E3%83%B3%E3%82%B4%E3%83%A9",
@@ -105,6 +120,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Angola_%28orthographic_projection%29.svg/250px-Angola_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 15,
     "ja": "アンティグア・バーブーダ",
     "iso": "AG",
     "url": "%E3%82%A2%E3%83%B3%E3%83%86%E3%82%A3%E3%82%B0%E3%82%A2%E3%83%BB%E3%83%90%E3%83%BC%E3%83%96%E3%83%BC%E3%83%80",
@@ -112,6 +128,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/21/ATG_orthographic.svg/250px-ATG_orthographic.svg.png"
   },
   {
+    "id": 16,
     "ja": "アンドラ",
     "iso": "AD",
     "url": "%E3%82%A2%E3%83%B3%E3%83%89%E3%83%A9",
@@ -119,6 +136,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Andorra_in_Europe_%28zoomed%29.svg/250px-Andorra_in_Europe_%28zoomed%29.svg.png"
   },
   {
+    "id": 17,
     "ja": "イエメン",
     "iso": "YE",
     "url": "%E3%82%A4%E3%82%A8%E3%83%A1%E3%83%B3",
@@ -126,6 +144,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Yemen_%28orthographic_projection%29.svg/250px-Yemen_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 18,
     "ja": "イギリス",
     "iso": "GB",
     "url": "%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9",
@@ -133,6 +152,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/49/United_Kingdom_%28%2Boverseas_territories%29_in_the_World_%28%2BAntarctica_claims%29.svg/250px-United_Kingdom_%28%2Boverseas_territories%29_in_the_World_%28%2BAntarctica_claims%29.svg.png"
   },
   {
+    "id": 19,
     "ja": "イギリス領インド洋地域",
     "iso": "IO",
     "url": "%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E9%A0%98%E3%82%A4%E3%83%B3%E3%83%89%E6%B4%8B%E5%9C%B0%E5%9F%9F",
@@ -140,6 +160,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/British_Indian_Ocean_Territory_in_United_Kingdom.svg/250px-British_Indian_Ocean_Territory_in_United_Kingdom.svg.png"
   },
   {
+    "id": 20,
     "ja": "イギリス領ヴァージン諸島",
     "iso": "VG",
     "url": "%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E9%A0%98%E3%83%B4%E3%82%A1%E3%83%BC%E3%82%B8%E3%83%B3%E8%AB%B8%E5%B3%B6",
@@ -147,6 +168,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/British_Virgin_Islands_in_its_region.svg/250px-British_Virgin_Islands_in_its_region.svg.png"
   },
   {
+    "id": 21,
     "ja": "イスラエル",
     "iso": "IL",
     "url": "%E3%82%A4%E3%82%B9%E3%83%A9%E3%82%A8%E3%83%AB",
@@ -154,6 +176,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/47/ISR_orthographic.svg/250px-ISR_orthographic.svg.png"
   },
   {
+    "id": 22,
     "ja": "イタリア",
     "iso": "IT",
     "url": "%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2",
@@ -161,6 +184,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/EU-Italy.svg/250px-EU-Italy.svg.png"
   },
   {
+    "id": 23,
     "ja": "イラク",
     "iso": "IQ",
     "url": "%E3%82%A4%E3%83%A9%E3%82%AF",
@@ -168,6 +192,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Iraq_%28orthographic_projection%29.svg/250px-Iraq_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 24,
     "ja": "イラン・イスラム共和国",
     "iso": "IR",
     "url": "%E3%82%A4%E3%83%A9%E3%83%B3",
@@ -175,6 +200,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Iran_%28orthographic_projection%29.svg/250px-Iran_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 25,
     "ja": "インド",
     "iso": "IN",
     "url": "%E3%82%A4%E3%83%B3%E3%83%89",
@@ -182,6 +208,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bb/India_%28orthographic_projection%29.svg/250px-India_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 26,
     "ja": "インドネシア",
     "iso": "ID",
     "url": "%E3%82%A4%E3%83%B3%E3%83%89%E3%83%8D%E3%82%B7%E3%82%A2",
@@ -189,6 +216,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Indonesia_%28orthographic_projection%29.svg/250px-Indonesia_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 27,
     "ja": "ウォリス・フツナ",
     "iso": "WF",
     "url": "%E3%82%A6%E3%82%A9%E3%83%AA%E3%82%B9%E3%83%BB%E3%83%95%E3%83%84%E3%83%8A",
@@ -196,6 +224,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Wallis_and_Futuna_on_the_globe_%28Polynesia_centered%29.svg/250px-Wallis_and_Futuna_on_the_globe_%28Polynesia_centered%29.svg.png"
   },
   {
+    "id": 28,
     "ja": "ウガンダ",
     "iso": "UG",
     "url": "%E3%82%A6%E3%82%AC%E3%83%B3%E3%83%80",
@@ -203,6 +232,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Uganda_%28orthographic_projection%29.svg/250px-Uganda_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 29,
     "ja": "ウクライナ",
     "iso": "UA",
     "url": "%E3%82%A6%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%8A",
@@ -210,6 +240,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/46/Europe-Ukraine_%28disputed_territory%29.svg/250px-Europe-Ukraine_%28disputed_territory%29.svg.png"
   },
   {
+    "id": 30,
     "ja": "ウズベキスタン",
     "iso": "UZ",
     "url": "%E3%82%A6%E3%82%BA%E3%83%99%E3%82%AD%E3%82%B9%E3%82%BF%E3%83%B3",
@@ -217,6 +248,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/76/%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD_%D0%BD%D0%B0_%D0%B3%D0%BB%D0%BE%D0%B1%D1%83%D1%81%D0%B5.svg/250px-%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD_%D0%BD%D0%B0_%D0%B3%D0%BB%D0%BE%D0%B1%D1%83%D1%81%D0%B5.svg.png"
   },
   {
+    "id": 31,
     "ja": "ウルグアイ",
     "iso": "UY",
     "url": "%E3%82%A6%E3%83%AB%E3%82%B0%E3%82%A2%E3%82%A4",
@@ -224,6 +256,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Uruguay_%28orthographic_projection%29.svg/250px-Uruguay_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 32,
     "ja": "エクアドル",
     "iso": "EC",
     "url": "%E3%82%A8%E3%82%AF%E3%82%A2%E3%83%89%E3%83%AB",
@@ -231,6 +264,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Ecuador_%28orthographic_projection%29.svg/250px-Ecuador_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 33,
     "ja": "エジプト",
     "iso": "EG",
     "url": "%E3%82%A8%E3%82%B8%E3%83%97%E3%83%88",
@@ -238,6 +272,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Egypt_%28orthographic_projection%29.svg/250px-Egypt_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 34,
     "ja": "エストニア",
     "iso": "EE",
     "url": "%E3%82%A8%E3%82%B9%E3%83%88%E3%83%8B%E3%82%A2",
@@ -245,6 +280,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/EU-Estonia.svg/250px-EU-Estonia.svg.png"
   },
   {
+    "id": 35,
     "ja": "エスワティニ",
     "iso": "SZ",
     "url": "%E3%82%A8%E3%82%B9%E3%83%AF%E3%83%86%E3%82%A3%E3%83%8B",
@@ -252,6 +288,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Location_Eswatini_AU_Africa.svg/250px-Location_Eswatini_AU_Africa.svg.png"
   },
   {
+    "id": 36,
     "ja": "エチオピア",
     "iso": "ET",
     "url": "%E3%82%A8%E3%83%81%E3%82%AA%E3%83%94%E3%82%A2",
@@ -259,6 +296,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Ethiopia_%28Africa_orthographic_projection%29.svg/250px-Ethiopia_%28Africa_orthographic_projection%29.svg.png"
   },
   {
+    "id": 37,
     "ja": "エリトリア",
     "iso": "ER",
     "url": "%E3%82%A8%E3%83%AA%E3%83%88%E3%83%AA%E3%82%A2",
@@ -266,6 +304,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Eritrea_%28Africa_orthographic_projection%29.svg/250px-Eritrea_%28Africa_orthographic_projection%29.svg.png"
   },
   {
+    "id": 38,
     "ja": "エルサルバドル",
     "iso": "SV",
     "url": "%E3%82%A8%E3%83%AB%E3%82%B5%E3%83%AB%E3%83%90%E3%83%89%E3%83%AB",
@@ -273,6 +312,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Orthographic_Map_of_El_Salvador.svg/250px-Orthographic_Map_of_El_Salvador.svg.png"
   },
   {
+    "id": 39,
     "ja": "オーストラリア",
     "iso": "AU",
     "url": "%E3%82%AA%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%AA%E3%82%A2",
@@ -280,6 +320,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Australia_with_AAT_%28orthographic_projection%29.svg/250px-Australia_with_AAT_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 40,
     "ja": "オーストリア",
     "iso": "AT",
     "url": "%E3%82%AA%E3%83%BC%E3%82%B9%E3%83%88%E3%83%AA%E3%82%A2",
@@ -287,6 +328,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Location_Austria_EU_Europe.png/250px-Location_Austria_EU_Europe.png"
   },
   {
+    "id": 41,
     "ja": "オーランド諸島",
     "iso": "AX",
     "url": "%E3%82%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89%E8%AB%B8%E5%B3%B6",
@@ -294,6 +336,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Aland_in_its_region.svg/250px-Aland_in_its_region.svg.png"
   },
   {
+    "id": 42,
     "ja": "オマーン",
     "iso": "OM",
     "url": "%E3%82%AA%E3%83%9E%E3%83%BC%E3%83%B3",
@@ -301,6 +344,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Oman_%28better%29_%28orthographic_projection%29.svg/250px-Oman_%28better%29_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 43,
     "ja": "オランダ",
     "iso": "NL",
     "url": "%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80",
@@ -308,6 +352,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/27/EU-Netherlands.svg/250px-EU-Netherlands.svg.png"
   },
   {
+    "id": 44,
     "ja": "ガーナ",
     "iso": "GH",
     "url": "%E3%82%AC%E3%83%BC%E3%83%8A",
@@ -315,6 +360,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ghana_%28orthographic_projection%29.svg/250px-Ghana_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 45,
     "ja": "カーボベルデ",
     "iso": "CV",
     "url": "%E3%82%AB%E3%83%BC%E3%83%9C%E3%83%99%E3%83%AB%E3%83%87",
@@ -322,6 +368,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Cape_Verde_%28orthographic_projection%29.svg/250px-Cape_Verde_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 46,
     "ja": "ガーンジー",
     "iso": "GG",
     "url": "%E3%82%AC%E3%83%BC%E3%83%B3%E3%82%B8%E3%83%BC",
@@ -329,6 +376,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/United_Kingdom_in_its_region_%28Guernsey_special%29.svg/250px-United_Kingdom_in_its_region_%28Guernsey_special%29.svg.png"
   },
   {
+    "id": 47,
     "ja": "ガイアナ",
     "iso": "GY",
     "url": "%E3%82%AC%E3%82%A4%E3%82%A2%E3%83%8A",
@@ -336,6 +384,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Guyana_%28orthographic_projection%29.svg/250px-Guyana_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 48,
     "ja": "カザフスタン",
     "iso": "KZ",
     "url": "%E3%82%AB%E3%82%B6%E3%83%95%E3%82%B9%E3%82%BF%E3%83%B3",
@@ -343,6 +392,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kazakhstan_%28orthographic_projection%29.svg/250px-Kazakhstan_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 49,
     "ja": "カタール",
     "iso": "QA",
     "url": "%E3%82%AB%E3%82%BF%E3%83%BC%E3%83%AB",
@@ -350,6 +400,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/QAT_orthographic.svg/250px-QAT_orthographic.svg.png"
   },
   {
+    "id": 50,
     "ja": "合衆国領有小離島",
     "iso": "UM",
     "url": "%E5%90%88%E8%A1%86%E5%9B%BD%E9%A0%98%E6%9C%89%E5%B0%8F%E9%9B%A2%E5%B3%B6",
@@ -357,6 +408,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8e/United_States_in_Oceania_%28United_States_Minor_Outlying_Island_special%29_%28small_islands_magnified%29.svg/330px-United_States_in_Oceania_%28United_States_Minor_Outlying_Island_special%29_%28small_islands_magnified%29.svg.png"
   },
   {
+    "id": 51,
     "ja": "カナダ",
     "iso": "CA",
     "url": "%E3%82%AB%E3%83%8A%E3%83%80",
@@ -364,6 +416,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Canada_%28orthographic_projection%29.svg/250px-Canada_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 52,
     "ja": "ガボン",
     "iso": "GA",
     "url": "%E3%82%AC%E3%83%9C%E3%83%B3",
@@ -371,6 +424,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Gabon_%28orthographic_projection%29.svg/250px-Gabon_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 53,
     "ja": "カメルーン",
     "iso": "CM",
     "url": "%E3%82%AB%E3%83%A1%E3%83%AB%E3%83%BC%E3%83%B3",
@@ -378,6 +432,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Cameroon_%28orthographic_projection%29.svg/250px-Cameroon_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 54,
     "ja": "ガンビア",
     "iso": "GM",
     "url": "%E3%82%AC%E3%83%B3%E3%83%93%E3%82%A2",
@@ -385,6 +440,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Gambia_%28orthographic_projection_with_inset%29.svg/250px-Gambia_%28orthographic_projection_with_inset%29.svg.png"
   },
   {
+    "id": 55,
     "ja": "カンボジア",
     "iso": "KH",
     "url": "%E3%82%AB%E3%83%B3%E3%83%9C%E3%82%B8%E3%82%A2",
@@ -392,6 +448,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Cambodia_on_the_globe_%28Southeast_Asia_centered%29.svg/250px-Cambodia_on_the_globe_%28Southeast_Asia_centered%29.svg.png"
   },
   {
+    "id": 56,
     "ja": "北マケドニア",
     "iso": "MK",
     "url": "%E5%8C%97%E3%83%9E%E3%82%B1%E3%83%89%E3%83%8B%E3%82%A2",
@@ -399,6 +456,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Locator_map_of_the_Republic_of_Macedonia.svg/250px-Locator_map_of_the_Republic_of_Macedonia.svg.png"
   },
   {
+    "id": 57,
     "ja": "北マリアナ諸島",
     "iso": "MP",
     "url": "%E5%8C%97%E3%83%9E%E3%83%AA%E3%82%A2%E3%83%8A%E8%AB%B8%E5%B3%B6",
@@ -406,6 +464,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Northern_Mariana_Islands_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg/250px-Northern_Mariana_Islands_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg.png"
   },
   {
+    "id": 58,
     "ja": "ギニア",
     "iso": "GN",
     "url": "%E3%82%AE%E3%83%8B%E3%82%A2",
@@ -413,6 +472,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Guinea_%28orthographic_projection%29.svg/250px-Guinea_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 59,
     "ja": "ギニアビサウ",
     "iso": "GW",
     "url": "%E3%82%AE%E3%83%8B%E3%82%A2%E3%83%93%E3%82%B5%E3%82%A6",
@@ -420,6 +480,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Guinea-Bissau_on_the_globe_%28Cape_Verde_centered%29.svg/250px-Guinea-Bissau_on_the_globe_%28Cape_Verde_centered%29.svg.png"
   },
   {
+    "id": 60,
     "ja": "キプロス",
     "iso": "CY",
     "url": "%E3%82%AD%E3%83%97%E3%83%AD%E3%82%B9",
@@ -427,6 +488,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/EU-Cyprus.svg/250px-EU-Cyprus.svg.png"
   },
   {
+    "id": 61,
     "ja": "キューバ",
     "iso": "CU",
     "url": "%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%90",
@@ -434,6 +496,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Cuba_%28orthographic_projection%29.svg/250px-Cuba_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 62,
     "ja": "キュラソー",
     "iso": "CW",
     "url": "%E3%82%AD%E3%83%A5%E3%83%A9%E3%82%BD%E3%83%BC%E5%B3%B6",
@@ -441,6 +504,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Curacao_in_its_region.svg/250px-Curacao_in_its_region.svg.png"
   },
   {
+    "id": 63,
     "ja": "ギリシャ",
     "iso": "GR",
     "url": "%E3%82%AE%E3%83%AA%E3%82%B7%E3%83%A3",
@@ -448,6 +512,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/21/EU-Greece.svg/250px-EU-Greece.svg.png"
   },
   {
+    "id": 64,
     "ja": "キリバス",
     "iso": "KI",
     "url": "%E3%82%AD%E3%83%AA%E3%83%90%E3%82%B9",
@@ -455,6 +520,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kiribati_on_the_globe_%28Polynesia_centered%29.svg/250px-Kiribati_on_the_globe_%28Polynesia_centered%29.svg.png"
   },
   {
+    "id": 65,
     "ja": "キルギス",
     "iso": "KG",
     "url": "%E3%82%AD%E3%83%AB%E3%82%AE%E3%82%B9",
@@ -462,6 +528,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kyrgyzstan_%28orthographic_projection%29.svg/250px-Kyrgyzstan_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 66,
     "ja": "グアテマラ",
     "iso": "GT",
     "url": "%E3%82%B0%E3%82%A2%E3%83%86%E3%83%9E%E3%83%A9",
@@ -469,6 +536,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Guatemala_%28orthographic_projection%29.svg/250px-Guatemala_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 67,
     "ja": "グアドループ",
     "iso": "GP",
     "url": "%E3%82%B0%E3%82%A2%E3%83%89%E3%83%AB%E3%83%BC%E3%83%97",
@@ -476,6 +544,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/France_in_the_European_Union_and_in_its_region_%28Guadeloupe_special%29.svg/250px-France_in_the_European_Union_and_in_its_region_%28Guadeloupe_special%29.svg.png"
   },
   {
+    "id": 68,
     "ja": "グアム",
     "iso": "GU",
     "url": "%E3%82%B0%E3%82%A2%E3%83%A0",
@@ -483,6 +552,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Guam_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg/250px-Guam_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg.png"
   },
   {
+    "id": 69,
     "ja": "クウェート",
     "iso": "KW",
     "url": "%E3%82%AF%E3%82%A6%E3%82%A7%E3%83%BC%E3%83%88",
@@ -490,6 +560,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/41/KWT_orthographic.svg/250px-KWT_orthographic.svg.png"
   },
   {
+    "id": 70,
     "ja": "クック諸島",
     "iso": "CK",
     "url": "%E3%82%AF%E3%83%83%E3%82%AF%E8%AB%B8%E5%B3%B6",
@@ -497,6 +568,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Cook_Islands_on_the_globe_%28Polynesia_centered%29.svg/250px-Cook_Islands_on_the_globe_%28Polynesia_centered%29.svg.png"
   },
   {
+    "id": 71,
     "ja": "グリーンランド",
     "iso": "GL",
     "url": "%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89",
@@ -504,6 +576,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Greenland_%28orthographic_projection%29.svg/250px-Greenland_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 72,
     "ja": "クリスマス島",
     "iso": "CX",
     "url": "%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E5%B3%B6_(%E3%82%AA%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%AA%E3%82%A2)",
@@ -511,6 +584,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Christmas_Island_in_Australia.svg/250px-Christmas_Island_in_Australia.svg.png"
   },
   {
+    "id": 73,
     "ja": "グレナダ",
     "iso": "GD",
     "url": "%E3%82%B0%E3%83%AC%E3%83%8A%E3%83%80",
@@ -518,6 +592,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Grenada_on_the_globe_%28Americas_centered%29.svg/250px-Grenada_on_the_globe_%28Americas_centered%29.svg.png"
   },
   {
+    "id": 74,
     "ja": "クロアチア",
     "iso": "HR",
     "url": "%E3%82%AF%E3%83%AD%E3%82%A2%E3%83%81%E3%82%A2",
@@ -525,6 +600,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/15/EU-Croatia.svg/250px-EU-Croatia.svg.png"
   },
   {
+    "id": 75,
     "ja": "ケイマン諸島",
     "iso": "KY",
     "url": "%E3%82%B1%E3%82%A4%E3%83%9E%E3%83%B3%E8%AB%B8%E5%B3%B6",
@@ -532,6 +608,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Cayman_Islands_in_Caribbean.svg/250px-Cayman_Islands_in_Caribbean.svg.png"
   },
   {
+    "id": 76,
     "ja": "ケニア",
     "iso": "KE",
     "url": "%E3%82%B1%E3%83%8B%E3%82%A2",
@@ -539,6 +616,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Kenya_%28orthographic_projection%29.svg/250px-Kenya_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 77,
     "ja": "コートジボワール",
     "iso": "CI",
     "url": "%E3%82%B3%E3%83%BC%E3%83%88%E3%82%B8%E3%83%9C%E3%83%AF%E3%83%BC%E3%83%AB",
@@ -546,6 +624,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/C%C3%B4te_d%27Ivoire_%28orthographic_projection%29.svg/250px-C%C3%B4te_d%27Ivoire_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 78,
     "ja": "ココス諸島の旗\nココス（キーリング）諸島",
     "iso": "CC",
     "url": "%E3%82%B3%E3%82%B3%E3%82%B9%E8%AB%B8%E5%B3%B6",
@@ -553,6 +632,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/62/Cocos_%28Keeling%29_Islands_in_Australia.svg/250px-Cocos_%28Keeling%29_Islands_in_Australia.svg.png"
   },
   {
+    "id": 79,
     "ja": "コスタリカ",
     "iso": "CR",
     "url": "%E3%82%B3%E3%82%B9%E3%82%BF%E3%83%AA%E3%82%AB",
@@ -560,6 +640,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Costa_Rica_%28orthographic_projection%29.svg/250px-Costa_Rica_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 80,
     "ja": "コモロ",
     "iso": "KM",
     "url": "%E3%82%B3%E3%83%A2%E3%83%AD",
@@ -567,6 +648,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Comoros_%28orthographic_projection%29.svg/250px-Comoros_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 81,
     "ja": "コロンビア",
     "iso": "CO",
     "url": "%E3%82%B3%E3%83%AD%E3%83%B3%E3%83%93%E3%82%A2",
@@ -574,6 +656,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/COL_orthographic_%28San_Andr%C3%A9s_and_Providencia_special%29.svg/250px-COL_orthographic_%28San_Andr%C3%A9s_and_Providencia_special%29.svg.png"
   },
   {
+    "id": 82,
     "ja": "コンゴ共和国",
     "iso": "CG",
     "url": "%E3%82%B3%E3%83%B3%E3%82%B4%E5%85%B1%E5%92%8C%E5%9B%BD",
@@ -581,6 +664,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Republic_of_the_Congo_%28orthographic_projection%29.svg/250px-Republic_of_the_Congo_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 83,
     "ja": "コンゴ民主共和国",
     "iso": "CD",
     "url": "%E3%82%B3%E3%83%B3%E3%82%B4%E6%B0%91%E4%B8%BB%E5%85%B1%E5%92%8C%E5%9B%BD",
@@ -588,6 +672,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Democratic_Republic_of_the_Congo_%28orthographic_projection%29.svg/250px-Democratic_Republic_of_the_Congo_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 84,
     "ja": "サウジアラビア",
     "iso": "SA",
     "url": "%E3%82%B5%E3%82%A6%E3%82%B8%E3%82%A2%E3%83%A9%E3%83%93%E3%82%A2",
@@ -595,6 +680,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Saudi_Arabia_%28orthographic_projection%29.svg/250px-Saudi_Arabia_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 85,
     "ja": "サウスジョージア・サウスサンドウィッチ諸島",
     "iso": "GS",
     "url": "%E3%82%B5%E3%82%A6%E3%82%B9%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%BB%E3%82%B5%E3%82%A6%E3%82%B9%E3%82%B5%E3%83%B3%E3%83%89%E3%82%A6%E3%82%A3%E3%83%83%E3%83%81%E8%AB%B8%E5%B3%B6",
@@ -602,6 +688,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_Georgia_and_the_South_Sandwich_Islands_on_the_globe_%28Chile_centered%29.svg/250px-South_Georgia_and_the_South_Sandwich_Islands_on_the_globe_%28Chile_centered%29.svg.png"
   },
   {
+    "id": 86,
     "ja": "サモア",
     "iso": "WS",
     "url": "%E3%82%B5%E3%83%A2%E3%82%A2",
@@ -609,6 +696,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Samoa_on_the_globe_%28Polynesia_centered%29.svg/250px-Samoa_on_the_globe_%28Polynesia_centered%29.svg.png"
   },
   {
+    "id": 87,
     "ja": "サントメ・プリンシペ",
     "iso": "ST",
     "url": "%E3%82%B5%E3%83%B3%E3%83%88%E3%83%A1%E3%83%BB%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B7%E3%83%9A",
@@ -616,6 +704,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Sao_Tome_and_Principe_on_the_globe_%28Africa_centered%29.svg/250px-Sao_Tome_and_Principe_on_the_globe_%28Africa_centered%29.svg.png"
   },
   {
+    "id": 88,
     "ja": "サン・バルテルミー",
     "iso": "BL",
     "url": "%E3%82%B5%E3%83%B3%E3%83%BB%E3%83%90%E3%83%AB%E3%83%86%E3%83%AB%E3%83%9F%E3%83%BC%E5%B3%B6",
@@ -623,6 +712,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Saint_Barthelemy_in_its_region.svg/250px-Saint_Barthelemy_in_its_region.svg.png"
   },
   {
+    "id": 89,
     "ja": "ザンビア",
     "iso": "ZM",
     "url": "%E3%82%B6%E3%83%B3%E3%83%93%E3%82%A2",
@@ -630,6 +720,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Zambia_%28orthographic_projection%29.svg/250px-Zambia_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 90,
     "ja": "サンピエール島・ミクロン島",
     "iso": "PM",
     "url": "%E3%82%B5%E3%83%B3%E3%83%94%E3%82%A8%E3%83%BC%E3%83%AB%E5%B3%B6%E3%83%BB%E3%83%9F%E3%82%AF%E3%83%AD%E3%83%B3%E5%B3%B6",
@@ -637,6 +728,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Saint_Pierre_and_Miquelon_in_France.svg/250px-Saint_Pierre_and_Miquelon_in_France.svg.png"
   },
   {
+    "id": 91,
     "ja": "サンマリノ",
     "iso": "SM",
     "url": "%E3%82%B5%E3%83%B3%E3%83%9E%E3%83%AA%E3%83%8E",
@@ -644,6 +736,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/49/San_Marino_on_the_globe_%28Europe_centered%29.svg/250px-San_Marino_on_the_globe_%28Europe_centered%29.svg.png"
   },
   {
+    "id": 92,
     "ja": "サン・マルタン（フランス領）",
     "iso": "MF",
     "url": "%E3%82%B5%E3%83%B3%E3%83%BB%E3%83%9E%E3%83%AB%E3%82%BF%E3%83%B3_(%E8%A5%BF%E3%82%A4%E3%83%B3%E3%83%89%E8%AB%B8%E5%B3%B6)",
@@ -651,6 +744,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Saint_Martin_in_its_region.svg/250px-Saint_Martin_in_its_region.svg.png"
   },
   {
+    "id": 93,
     "ja": "シエラレオネ",
     "iso": "SL",
     "url": "%E3%82%B7%E3%82%A8%E3%83%A9%E3%83%AC%E3%82%AA%E3%83%8D",
@@ -658,6 +752,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Sierra_Leone_%28orthographic_projection%29.svg/250px-Sierra_Leone_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 94,
     "ja": "ジブチ",
     "iso": "DJ",
     "url": "%E3%82%B8%E3%83%96%E3%83%81",
@@ -665,6 +760,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Djibouti_%28orthographic_projection%29.svg/250px-Djibouti_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 95,
     "ja": "ジブラルタル",
     "iso": "GI",
     "url": "%E3%82%B8%E3%83%96%E3%83%A9%E3%83%AB%E3%82%BF%E3%83%AB",
@@ -672,6 +768,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Gibraltar_in_United_Kingdom.svg/250px-Gibraltar_in_United_Kingdom.svg.png"
   },
   {
+    "id": 96,
     "ja": "ジャージー",
     "iso": "JE",
     "url": "%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%B8%E3%83%BC",
@@ -679,6 +776,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Jersey_in_its_region.svg/250px-Jersey_in_its_region.svg.png"
   },
   {
+    "id": 97,
     "ja": "ジャマイカ",
     "iso": "JM",
     "url": "%E3%82%B8%E3%83%A3%E3%83%9E%E3%82%A4%E3%82%AB",
@@ -686,6 +784,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Jamaica_%28orthographic_projection%29.svg/250px-Jamaica_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 98,
     "ja": "ジョージア",
     "iso": "GE",
     "url": "%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%B8%E3%82%A2_(%E5%9B%BD)",
@@ -693,6 +792,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Georgia_%28orthographic_projection_with_inset%29.svg/250px-Georgia_%28orthographic_projection_with_inset%29.svg.png"
   },
   {
+    "id": 99,
     "ja": "シリア・アラブ共和国",
     "iso": "SY",
     "url": "%E3%82%B7%E3%83%AA%E3%82%A2",
@@ -700,6 +800,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Syria_%28orthographic_projection%29.svg/250px-Syria_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 100,
     "ja": "シンガポール",
     "iso": "SG",
     "url": "%E3%82%B7%E3%83%B3%E3%82%AC%E3%83%9D%E3%83%BC%E3%83%AB",
@@ -707,6 +808,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/51/Singapore_in_its_region_%28zoom%29.svg/250px-Singapore_in_its_region_%28zoom%29.svg.png"
   },
   {
+    "id": 101,
     "ja": "シント・マールテン（オランダ領）",
     "iso": "SX",
     "url": "%E3%82%B7%E3%83%B3%E3%83%88%E3%83%BB%E3%83%9E%E3%83%BC%E3%83%AB%E3%83%86%E3%83%B3",
@@ -714,6 +816,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Sint_Maarten_in_its_region.svg/250px-Sint_Maarten_in_its_region.svg.png"
   },
   {
+    "id": 102,
     "ja": "ジンバブエ",
     "iso": "ZW",
     "url": "%E3%82%B8%E3%83%B3%E3%83%90%E3%83%96%E3%82%A8",
@@ -721,6 +824,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Zimbabwe_%28orthographic_projection%29.svg/250px-Zimbabwe_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 103,
     "ja": "スイス",
     "iso": "CH",
     "url": "%E3%82%B9%E3%82%A4%E3%82%B9",
@@ -728,6 +832,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Europe-Switzerland.svg/250px-Europe-Switzerland.svg.png"
   },
   {
+    "id": 104,
     "ja": "スウェーデン",
     "iso": "SE",
     "url": "%E3%82%B9%E3%82%A6%E3%82%A7%E3%83%BC%E3%83%87%E3%83%B3",
@@ -735,6 +840,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Sweden_%28orthographic_projection%29.svg/250px-Sweden_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 105,
     "ja": "スーダン",
     "iso": "SD",
     "url": "%E3%82%B9%E3%83%BC%E3%83%80%E3%83%B3",
@@ -742,6 +848,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sudan_%28orthographic_projection%29_highlighted.svg/250px-Sudan_%28orthographic_projection%29_highlighted.svg.png"
   },
   {
+    "id": 106,
     "ja": "スヴァールバル諸島およびヤンマイエン島",
     "iso": "SJ",
     "url": "%E3%82%B9%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%AB%E3%83%90%E3%83%AB%E8%AB%B8%E5%B3%B6%E3%81%8A%E3%82%88%E3%81%B3%E3%83%A4%E3%83%B3%E3%83%9E%E3%82%A4%E3%82%A8%E3%83%B3%E5%B3%B6",
@@ -749,6 +856,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Svalbard_and_Jan_Mayen_in_the_world_%28W3%29.svg/250px-Svalbard_and_Jan_Mayen_in_the_world_%28W3%29.svg.png"
   },
   {
+    "id": 107,
     "ja": "スペイン",
     "iso": "ES",
     "url": "%E3%82%B9%E3%83%9A%E3%82%A4%E3%83%B3",
@@ -756,6 +864,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/21/EU-Spain.svg/250px-EU-Spain.svg.png"
   },
   {
+    "id": 108,
     "ja": "スリナム",
     "iso": "SR",
     "url": "%E3%82%B9%E3%83%AA%E3%83%8A%E3%83%A0",
@@ -763,6 +872,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/63/SURINAME_orthographic.svg/250px-SURINAME_orthographic.svg.png"
   },
   {
+    "id": 109,
     "ja": "スリランカ",
     "iso": "LK",
     "url": "%E3%82%B9%E3%83%AA%E3%83%A9%E3%83%B3%E3%82%AB",
@@ -770,6 +880,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sri_Lanka_%28orthographic_projection%29.svg/250px-Sri_Lanka_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 110,
     "ja": "スロバキア",
     "iso": "SK",
     "url": "%E3%82%B9%E3%83%AD%E3%83%90%E3%82%AD%E3%82%A2",
@@ -777,6 +888,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/EU-Slovakia.svg/250px-EU-Slovakia.svg.png"
   },
   {
+    "id": 111,
     "ja": "スロベニア",
     "iso": "SI",
     "url": "%E3%82%B9%E3%83%AD%E3%83%99%E3%83%8B%E3%82%A2",
@@ -784,6 +896,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/84/EU-Slovenia.svg/250px-EU-Slovenia.svg.png"
   },
   {
+    "id": 112,
     "ja": "セーシェル",
     "iso": "SC",
     "url": "%E3%82%BB%E3%83%BC%E3%82%B7%E3%82%A7%E3%83%AB",
@@ -791,6 +904,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/SYC_orthographic.svg/250px-SYC_orthographic.svg.png"
   },
   {
+    "id": 113,
     "ja": "赤道ギニア",
     "iso": "GQ",
     "url": "%E8%B5%A4%E9%81%93%E3%82%AE%E3%83%8B%E3%82%A2",
@@ -798,6 +912,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/GNQ_orthographic.svg/250px-GNQ_orthographic.svg.png"
   },
   {
+    "id": 114,
     "ja": "セネガル",
     "iso": "SN",
     "url": "%E3%82%BB%E3%83%8D%E3%82%AC%E3%83%AB",
@@ -805,6 +920,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Senegal_%28orthographic_projection%29.svg/250px-Senegal_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 115,
     "ja": "セルビア",
     "iso": "RS",
     "url": "%E3%82%BB%E3%83%AB%E3%83%93%E3%82%A2",
@@ -812,6 +928,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Europe-Serbia_%282006%E2%80%932008%29.svg/250px-Europe-Serbia_%282006%E2%80%932008%29.svg.png"
   },
   {
+    "id": 116,
     "ja": "セントクリストファー・ネイビス",
     "iso": "KN",
     "url": "%E3%82%BB%E3%83%B3%E3%83%88%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%88%E3%83%95%E3%82%A1%E3%83%BC%E3%83%BB%E3%83%8D%E3%82%A4%E3%83%93%E3%82%B9",
@@ -819,6 +936,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/KNA_orthographic.svg/250px-KNA_orthographic.svg.png"
   },
   {
+    "id": 117,
     "ja": "セントビンセント・グレナディーン",
     "iso": "VC",
     "url": "%E3%82%BB%E3%83%B3%E3%83%88%E3%83%93%E3%83%B3%E3%82%BB%E3%83%B3%E3%83%88%E3%83%BB%E3%82%B0%E3%83%AC%E3%83%8A%E3%83%87%E3%82%A3%E3%83%BC%E3%83%B3",
@@ -826,6 +944,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/70/VCT_orthographic.svg/250px-VCT_orthographic.svg.png"
   },
   {
+    "id": 118,
     "ja": "セントヘレナ・アセンションおよびトリスタンダクーニャ",
     "iso": "SH",
     "url": "%E3%82%BB%E3%83%B3%E3%83%88%E3%83%98%E3%83%AC%E3%83%8A%E3%83%BB%E3%82%A2%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%8A%E3%82%88%E3%81%B3%E3%83%88%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%82%AF%E3%83%BC%E3%83%8B%E3%83%A3",
@@ -833,6 +952,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/United_Kingdom_on_the_globe_%28Saint_Helena%2C_Ascension_and_Tristan_da_Cunha_special%29_%28Africa_centered%29.svg/250px-United_Kingdom_on_the_globe_%28Saint_Helena%2C_Ascension_and_Tristan_da_Cunha_special%29_%28Africa_centered%29.svg.png"
   },
   {
+    "id": 119,
     "ja": "セントルシア",
     "iso": "LC",
     "url": "%E3%82%BB%E3%83%B3%E3%83%88%E3%83%AB%E3%82%B7%E3%82%A2",
@@ -840,6 +960,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/97/Saint_Lucia_on_the_globe_%28Americas_centered%29.svg/250px-Saint_Lucia_on_the_globe_%28Americas_centered%29.svg.png"
   },
   {
+    "id": 120,
     "ja": "ソマリア",
     "iso": "SO",
     "url": "%E3%82%BD%E3%83%9E%E3%83%AA%E3%82%A2",
@@ -847,6 +968,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Somalia_%28orthographic_projection%29_highlighted.svg/250px-Somalia_%28orthographic_projection%29_highlighted.svg.png"
   },
   {
+    "id": 121,
     "ja": "ソロモン諸島",
     "iso": "SB",
     "url": "%E3%82%BD%E3%83%AD%E3%83%A2%E3%83%B3%E8%AB%B8%E5%B3%B6",
@@ -854,6 +976,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Solomon_Islands_on_the_globe_%28Oceania_centered%29.svg/250px-Solomon_Islands_on_the_globe_%28Oceania_centered%29.svg.png"
   },
   {
+    "id": 122,
     "ja": "タークス・カイコス諸島",
     "iso": "TC",
     "url": "%E3%82%BF%E3%83%BC%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%AB%E3%82%A4%E3%82%B3%E3%82%B9%E8%AB%B8%E5%B3%B6",
@@ -861,6 +984,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/46/United_Kingdom_on_the_globe_%28Turks_and_Caicos_Islands_special%29_%28Americas_centered%29.svg/250px-United_Kingdom_on_the_globe_%28Turks_and_Caicos_Islands_special%29_%28Americas_centered%29.svg.png"
   },
   {
+    "id": 123,
     "ja": "タイ",
     "iso": "TH",
     "url": "%E3%82%BF%E3%82%A4%E7%8E%8B%E5%9B%BD",
@@ -868,6 +992,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Thailand_%28orthographic_projection%29.svg/250px-Thailand_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 124,
     "ja": "大韓民国",
     "iso": "KR",
     "url": "%E5%A4%A7%E9%9F%93%E6%B0%91%E5%9B%BD",
@@ -875,6 +1000,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Republic_of_Korea_%28orthographic_projection%29.svg/250px-Republic_of_Korea_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 125,
     "ja": "台湾地区",
     "iso": "TW",
     "url": "%E5%8F%B0%E6%B9%BE%E5%9C%B0%E5%8C%BA",
@@ -882,6 +1008,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taiwan2014.svg/250px-Taiwan2014.svg.png"
   },
   {
+    "id": 126,
     "ja": "タジキスタン",
     "iso": "TJ",
     "url": "%E3%82%BF%E3%82%B8%E3%82%AD%E3%82%B9%E3%82%BF%E3%83%B3",
@@ -889,6 +1016,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Tajikistan_%28orthographic_projection%29.svg/250px-Tajikistan_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 127,
     "ja": "タンザニア",
     "iso": "TZ",
     "url": "%E3%82%BF%E3%83%B3%E3%82%B6%E3%83%8B%E3%82%A2",
@@ -896,6 +1024,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tanzania_%28orthographic_projection%29.svg/250px-Tanzania_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 128,
     "ja": "チェコ",
     "iso": "CZ",
     "url": "%E3%83%81%E3%82%A7%E3%82%B3",
@@ -903,6 +1032,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/31/EU-Czech_Republic.svg/250px-EU-Czech_Republic.svg.png"
   },
   {
+    "id": 129,
     "ja": "チャド",
     "iso": "TD",
     "url": "%E3%83%81%E3%83%A3%E3%83%89",
@@ -910,6 +1040,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/46/Chad_%28orthographic_projection%29.svg/250px-Chad_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 130,
     "ja": "中央アフリカ共和国",
     "iso": "CF",
     "url": "%E4%B8%AD%E5%A4%AE%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E5%85%B1%E5%92%8C%E5%9B%BD",
@@ -917,6 +1048,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Central_African_Republic_%28orthographic_projection%29.svg/250px-Central_African_Republic_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 131,
     "ja": "中華人民共和国",
     "iso": "CN",
     "url": "%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
@@ -924,6 +1056,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/People%27s_Republic_of_China_%28orthographic_projection%29.svg/250px-People%27s_Republic_of_China_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 132,
     "ja": "チュニジア",
     "iso": "TN",
     "url": "%E3%83%81%E3%83%A5%E3%83%8B%E3%82%B8%E3%82%A2",
@@ -931,6 +1064,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Tunisia_%28orthographic_projection%29.svg/250px-Tunisia_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 133,
     "ja": "朝鮮民主主義人民共和国",
     "iso": "KP",
     "url": "%E6%9C%9D%E9%AE%AE%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
@@ -938,6 +1072,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Democratic_People%27s_Republic_of_Korea_%28orthographic_projection%29.svg/250px-Democratic_People%27s_Republic_of_Korea_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 134,
     "ja": "チリ",
     "iso": "CL",
     "url": "%E3%83%81%E3%83%AA",
@@ -945,6 +1080,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Chile_%28orthographic_projection%29.svg/250px-Chile_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 135,
     "ja": "ツバル",
     "iso": "TV",
     "url": "%E3%83%84%E3%83%90%E3%83%AB",
@@ -952,6 +1088,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Tuvalu_on_the_globe_%28Polynesia_centered%29.svg/250px-Tuvalu_on_the_globe_%28Polynesia_centered%29.svg.png"
   },
   {
+    "id": 136,
     "ja": "デンマーク",
     "iso": "DK",
     "url": "%E3%83%87%E3%83%B3%E3%83%9E%E3%83%BC%E3%82%AF",
@@ -959,6 +1096,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/EU-Denmark.svg/250px-EU-Denmark.svg.png"
   },
   {
+    "id": 137,
     "ja": "ドイツ",
     "iso": "DE",
     "url": "%E3%83%89%E3%82%A4%E3%83%84",
@@ -966,6 +1104,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/26/EU-Germany.svg/250px-EU-Germany.svg.png"
   },
   {
+    "id": 138,
     "ja": "トーゴ",
     "iso": "TG",
     "url": "%E3%83%88%E3%83%BC%E3%82%B4",
@@ -973,6 +1112,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Togo_on_the_globe_%28Africa_centered%29.svg/250px-Togo_on_the_globe_%28Africa_centered%29.svg.png"
   },
   {
+    "id": 139,
     "ja": "トケラウ",
     "iso": "TK",
     "url": "%E3%83%88%E3%82%B1%E3%83%A9%E3%82%A6",
@@ -980,6 +1120,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tokelau_on_the_globe_%28Polynesia_centered%29.svg/250px-Tokelau_on_the_globe_%28Polynesia_centered%29.svg.png"
   },
   {
+    "id": 140,
     "ja": "ドミニカ共和国",
     "iso": "DO",
     "url": "%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AB%E5%85%B1%E5%92%8C%E5%9B%BD",
@@ -987,6 +1128,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/95/Dominican_Republic_%28orthographic_projection%29.svg/250px-Dominican_Republic_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 141,
     "ja": "ドミニカ国",
     "iso": "DM",
     "url": "%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AB%E5%9B%BD",
@@ -994,6 +1136,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dominica_on_the_globe_%28Americas_centered%29.svg/250px-Dominica_on_the_globe_%28Americas_centered%29.svg.png"
   },
   {
+    "id": 142,
     "ja": "トリニダード・トバゴ",
     "iso": "TT",
     "url": "%E3%83%88%E3%83%AA%E3%83%8B%E3%83%80%E3%83%BC%E3%83%89%E3%83%BB%E3%83%88%E3%83%90%E3%82%B4",
@@ -1001,6 +1144,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Trinidad_and_Tobago_%28orthographic_projection%29.svg/250px-Trinidad_and_Tobago_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 143,
     "ja": "トルクメニスタン",
     "iso": "TM",
     "url": "%E3%83%88%E3%83%AB%E3%82%AF%E3%83%A1%E3%83%8B%E3%82%B9%E3%82%BF%E3%83%B3",
@@ -1008,6 +1152,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Turkmenistan_%28ortographic_projection%29.svg/250px-Turkmenistan_%28ortographic_projection%29.svg.png"
   },
   {
+    "id": 144,
     "ja": "トルコ",
     "iso": "TR",
     "url": "%E3%83%88%E3%83%AB%E3%82%B3",
@@ -1015,6 +1160,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Turkey_%28orthographic_projection%29.svg/250px-Turkey_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 145,
     "ja": "トンガ",
     "iso": "TO",
     "url": "%E3%83%88%E3%83%B3%E3%82%AC",
@@ -1022,6 +1168,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Tonga_on_the_globe_%28Polynesia_centered%29.svg/250px-Tonga_on_the_globe_%28Polynesia_centered%29.svg.png"
   },
   {
+    "id": 146,
     "ja": "ナイジェリア",
     "iso": "NG",
     "url": "%E3%83%8A%E3%82%A4%E3%82%B8%E3%82%A7%E3%83%AA%E3%82%A2",
@@ -1029,6 +1176,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Nigeria_%28orthographic_projection%29.svg/250px-Nigeria_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 147,
     "ja": "ナウル",
     "iso": "NR",
     "url": "%E3%83%8A%E3%82%A6%E3%83%AB",
@@ -1036,6 +1184,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/25/Nauru_on_the_globe_%28Polynesia_centered%29.svg/250px-Nauru_on_the_globe_%28Polynesia_centered%29.svg.png"
   },
   {
+    "id": 148,
     "ja": "ナミビア",
     "iso": "NA",
     "url": "%E3%83%8A%E3%83%9F%E3%83%93%E3%82%A2",
@@ -1043,6 +1192,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Namibia_%28orthographic_projection%29.svg/250px-Namibia_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 149,
     "ja": "南極",
     "iso": "AQ",
     "url": "%E5%8D%97%E6%A5%B5",
@@ -1050,6 +1200,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/48/LocationAntarctica.png/250px-LocationAntarctica.png"
   },
   {
+    "id": 150,
     "ja": "ニウエ",
     "iso": "NU",
     "url": "%E3%83%8B%E3%82%A6%E3%82%A8",
@@ -1057,6 +1208,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Niue_on_the_globe_%28Polynesia_centered%29.svg/250px-Niue_on_the_globe_%28Polynesia_centered%29.svg.png"
   },
   {
+    "id": 151,
     "ja": "ニカラグア",
     "iso": "NI",
     "url": "%E3%83%8B%E3%82%AB%E3%83%A9%E3%82%B0%E3%82%A2",
@@ -1064,6 +1216,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Nicaragua_%28orthographic_projection%29.svg/250px-Nicaragua_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 152,
     "ja": "ニジェール",
     "iso": "NE",
     "url": "%E3%83%8B%E3%82%B8%E3%82%A7%E3%83%BC%E3%83%AB",
@@ -1071,6 +1224,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Niger_%28orthographic_projection%29.svg/250px-Niger_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 153,
     "ja": "日本",
     "iso": "JP",
     "url": "%E6%97%A5%E6%9C%AC",
@@ -1078,6 +1232,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/62/Japan_%28orthographic_projection%29.svg/250px-Japan_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 154,
     "ja": "西サハラ",
     "iso": "EH",
     "url": "%E8%A5%BF%E3%82%B5%E3%83%8F%E3%83%A9",
@@ -1085,6 +1240,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Sahrawi_Arab_Democratic_Republic_in_Africa_%28claimed%29.svg/250px-Sahrawi_Arab_Democratic_Republic_in_Africa_%28claimed%29.svg.png"
   },
   {
+    "id": 155,
     "ja": "ニューカレドニア",
     "iso": "NC",
     "url": "%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%AB%E3%83%AC%E3%83%89%E3%83%8B%E3%82%A2",
@@ -1092,6 +1248,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0e/New_Caledonia_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg/250px-New_Caledonia_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg.png"
   },
   {
+    "id": 156,
     "ja": "ニュージーランド",
     "iso": "NZ",
     "url": "%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
@@ -1099,6 +1256,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/29/NZL_orthographic_NaturalEarth.svg/250px-NZL_orthographic_NaturalEarth.svg.png"
   },
   {
+    "id": 157,
     "ja": "ネパール",
     "iso": "NP",
     "url": "%E3%83%8D%E3%83%91%E3%83%BC%E3%83%AB",
@@ -1106,6 +1264,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Nepal_%28orthographic_projection%29.svg/250px-Nepal_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 158,
     "ja": "ノーフォーク島",
     "iso": "NF",
     "url": "%E3%83%8E%E3%83%BC%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E5%B3%B6",
@@ -1113,6 +1272,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Norfolk_Island_on_the_globe_%28Polynesia_centered%29.svg/250px-Norfolk_Island_on_the_globe_%28Polynesia_centered%29.svg.png"
   },
   {
+    "id": 159,
     "ja": "ノルウェー",
     "iso": "NO",
     "url": "%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%83%BC",
@@ -1120,6 +1280,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/33/Norway_in_its_region_%28%2BAntarctic_claims_hatched%29_%28Bouvet_Island_special%29.svg/250px-Norway_in_its_region_%28%2BAntarctic_claims_hatched%29_%28Bouvet_Island_special%29.svg.png"
   },
   {
+    "id": 160,
     "ja": "ハード島とマクドナルド諸島",
     "iso": "HM",
     "url": "%E3%83%8F%E3%83%BC%E3%83%89%E5%B3%B6%E3%81%A8%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89%E8%AB%B8%E5%B3%B6",
@@ -1127,6 +1288,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/39/LocMap_of_WH_Heard_and_McDonald_Isls.png/275px-LocMap_of_WH_Heard_and_McDonald_Isls.png"
   },
   {
+    "id": 161,
     "ja": "バーレーン",
     "iso": "BH",
     "url": "%E3%83%90%E3%83%BC%E3%83%AC%E3%83%BC%E3%83%B3",
@@ -1134,6 +1296,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/95/Bahrain_on_the_globe_%28Bahrain_centered%29.svg/250px-Bahrain_on_the_globe_%28Bahrain_centered%29.svg.png"
   },
   {
+    "id": 162,
     "ja": "ハイチ",
     "iso": "HT",
     "url": "%E3%83%8F%E3%82%A4%E3%83%81",
@@ -1141,6 +1304,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Haiti_%28orthographic_projection%29.svg/250px-Haiti_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 163,
     "ja": "パキスタン",
     "iso": "PK",
     "url": "%E3%83%91%E3%82%AD%E3%82%B9%E3%82%BF%E3%83%B3",
@@ -1148,6 +1312,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Pakistan_%28orthographic_projection%29.svg/250px-Pakistan_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 164,
     "ja": "バチカン市国",
     "iso": "VA",
     "url": "%E3%83%90%E3%83%81%E3%82%AB%E3%83%B3",
@@ -1155,6 +1320,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Vatican_City_in_Europe_%28zoomed%29.svg/250px-Vatican_City_in_Europe_%28zoomed%29.svg.png"
   },
   {
+    "id": 165,
     "ja": "パナマ",
     "iso": "PA",
     "url": "%E3%83%91%E3%83%8A%E3%83%9E",
@@ -1162,6 +1328,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Panama_%28orthographic_projection%29.svg/250px-Panama_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 166,
     "ja": "バヌアツ",
     "iso": "VU",
     "url": "%E3%83%90%E3%83%8C%E3%82%A2%E3%83%84",
@@ -1169,6 +1336,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Vanuatu_on_the_globe_%28Polynesia_centered%29.svg/250px-Vanuatu_on_the_globe_%28Polynesia_centered%29.svg.png"
   },
   {
+    "id": 167,
     "ja": "バハマ",
     "iso": "BS",
     "url": "%E3%83%90%E3%83%8F%E3%83%9E",
@@ -1176,6 +1344,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/de/The_Bahamas_on_the_globe_%28Americas_centered%29.svg/250px-The_Bahamas_on_the_globe_%28Americas_centered%29.svg.png"
   },
   {
+    "id": 168,
     "ja": "パプアニューギニア",
     "iso": "PG",
     "url": "%E3%83%91%E3%83%97%E3%82%A2%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%AE%E3%83%8B%E3%82%A2",
@@ -1183,6 +1352,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Papua_New_Guinea_%28orthographic_projection%29.svg/250px-Papua_New_Guinea_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 169,
     "ja": "バミューダ",
     "iso": "BM",
     "url": "%E3%83%90%E3%83%9F%E3%83%A5%E3%83%BC%E3%83%80%E8%AB%B8%E5%B3%B6",
@@ -1190,6 +1360,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/United_Kingdom_on_the_globe_%28Bermuda_special%29_%28Americas_centered%29.svg/250px-United_Kingdom_on_the_globe_%28Bermuda_special%29_%28Americas_centered%29.svg.png"
   },
   {
+    "id": 170,
     "ja": "パラオ",
     "iso": "PW",
     "url": "%E3%83%91%E3%83%A9%E3%82%AA",
@@ -1197,6 +1368,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Palau_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg/250px-Palau_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg.png"
   },
   {
+    "id": 171,
     "ja": "パラグアイ",
     "iso": "PY",
     "url": "%E3%83%91%E3%83%A9%E3%82%B0%E3%82%A2%E3%82%A4",
@@ -1204,6 +1376,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Paraguay_%28orthographic_projection%29.svg/250px-Paraguay_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 172,
     "ja": "バルバドス",
     "iso": "BB",
     "url": "%E3%83%90%E3%83%AB%E3%83%90%E3%83%89%E3%82%B9",
@@ -1211,6 +1384,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/BRB_orthographic.svg/250px-BRB_orthographic.svg.png"
   },
   {
+    "id": 173,
     "ja": "パレスチナ",
     "iso": "PS",
     "url": "%E3%83%91%E3%83%AC%E3%82%B9%E3%83%81%E3%83%8A",
@@ -1218,6 +1392,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/69/BritishMandatePalestine1920.png/250px-BritishMandatePalestine1920.png"
   },
   {
+    "id": 174,
     "ja": "ハンガリー",
     "iso": "HU",
     "url": "%E3%83%8F%E3%83%B3%E3%82%AC%E3%83%AA%E3%83%BC",
@@ -1225,6 +1400,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/60/EU-Hungary.svg/250px-EU-Hungary.svg.png"
   },
   {
+    "id": 175,
     "ja": "バングラデシュ",
     "iso": "BD",
     "url": "%E3%83%90%E3%83%B3%E3%82%B0%E3%83%A9%E3%83%87%E3%82%B7%E3%83%A5",
@@ -1232,6 +1408,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Bangladesh_%28orthographic_projection%29.svg/250px-Bangladesh_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 176,
     "ja": "東ティモール",
     "iso": "TL",
     "url": "%E6%9D%B1%E3%83%86%E3%82%A3%E3%83%A2%E3%83%BC%E3%83%AB",
@@ -1239,6 +1416,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Timor_Leste_%28orthographic_projection%29.svg/250px-Timor_Leste_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 177,
     "ja": "ピトケアン",
     "iso": "PN",
     "url": "%E3%83%94%E3%83%88%E3%82%B1%E3%82%A2%E3%83%B3%E8%AB%B8%E5%B3%B6",
@@ -1246,6 +1424,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Pitcairn_Islands_on_the_globe_%28French_Polynesia_centered%29.svg/250px-Pitcairn_Islands_on_the_globe_%28French_Polynesia_centered%29.svg.png"
   },
   {
+    "id": 178,
     "ja": "フィジー",
     "iso": "FJ",
     "url": "%E3%83%95%E3%82%A3%E3%82%B8%E3%83%BC",
@@ -1253,6 +1432,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Fiji_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg/250px-Fiji_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg.png"
   },
   {
+    "id": 179,
     "ja": "フィリピン",
     "iso": "PH",
     "url": "%E3%83%95%E3%82%A3%E3%83%AA%E3%83%94%E3%83%B3",
@@ -1260,6 +1440,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Philippines_%28orthographic_projection%29.svg/250px-Philippines_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 180,
     "ja": "フィンランド",
     "iso": "FI",
     "url": "%E3%83%95%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89",
@@ -1267,6 +1448,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/EU-Finland.svg/250px-EU-Finland.svg.png"
   },
   {
+    "id": 181,
     "ja": "ブータン",
     "iso": "BT",
     "url": "%E3%83%96%E3%83%BC%E3%82%BF%E3%83%B3",
@@ -1274,6 +1456,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bhutan_%28orthographic_projection%29.svg/250px-Bhutan_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 182,
     "ja": "ブーベ島",
     "iso": "BV",
     "url": "%E3%83%96%E3%83%BC%E3%83%99%E5%B3%B6",
@@ -1281,6 +1464,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Bouvet-pos.png/250px-Bouvet-pos.png"
   },
   {
+    "id": 183,
     "ja": "プエルトリコ",
     "iso": "PR",
     "url": "%E3%83%97%E3%82%A8%E3%83%AB%E3%83%88%E3%83%AA%E3%82%B3",
@@ -1288,6 +1472,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Puerto_Rico_%28orthographic_projection%29.svg/250px-Puerto_Rico_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 184,
     "ja": "フェロー諸島",
     "iso": "FO",
     "url": "%E3%83%95%E3%82%A7%E3%83%AD%E3%83%BC%E8%AB%B8%E5%B3%B6",
@@ -1295,6 +1480,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c6/LocationFaroeIslands.png/250px-LocationFaroeIslands.png"
   },
   {
+    "id": 185,
     "ja": "フォークランド（マルビナス）諸島",
     "iso": "FK",
     "url": "%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%83%A9%E3%83%B3%E3%83%89%E8%AB%B8%E5%B3%B6",
@@ -1302,6 +1488,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Falkland_Islands_in_United_Kingdom.svg/250px-Falkland_Islands_in_United_Kingdom.svg.png"
   },
   {
+    "id": 186,
     "ja": "ブラジル",
     "iso": "BR",
     "url": "%E3%83%96%E3%83%A9%E3%82%B8%E3%83%AB",
@@ -1309,6 +1496,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Brazil_%28orthographic_projection%29.svg/250px-Brazil_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 187,
     "ja": "フランス",
     "iso": "FR",
     "url": "%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9",
@@ -1316,6 +1504,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Mapadefrancia.svg/250px-Mapadefrancia.svg.png"
   },
   {
+    "id": 188,
     "ja": "フランス領ギアナ",
     "iso": "GF",
     "url": "%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E9%A0%98%E3%82%AE%E3%82%A2%E3%83%8A",
@@ -1323,6 +1512,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/French_Guiana_in_France_%28special_marker%29_2016.svg/250px-French_Guiana_in_France_%28special_marker%29_2016.svg.png"
   },
   {
+    "id": 189,
     "ja": "フランス領ポリネシア",
     "iso": "PF",
     "url": "%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E9%A0%98%E3%83%9D%E3%83%AA%E3%83%8D%E3%82%B7%E3%82%A2",
@@ -1330,6 +1520,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/French_Polynesia_on_the_globe_%28French_Polynesia_centered%29.svg/250px-French_Polynesia_on_the_globe_%28French_Polynesia_centered%29.svg.png"
   },
   {
+    "id": 190,
     "ja": "フランス領南方・南極地域",
     "iso": "TF",
     "url": "%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E9%A0%98%E5%8D%97%E6%96%B9%E3%83%BB%E5%8D%97%E6%A5%B5%E5%9C%B0%E5%9F%9F",
@@ -1337,6 +1528,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/French_Southern_and_Antarctic_Lands_in_its_region.svg/250px-French_Southern_and_Antarctic_Lands_in_its_region.svg.png"
   },
   {
+    "id": 191,
     "ja": "ブルガリア",
     "iso": "BG",
     "url": "%E3%83%96%E3%83%AB%E3%82%AC%E3%83%AA%E3%82%A2",
@@ -1344,6 +1536,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e9/EU-Bulgaria.svg/250px-EU-Bulgaria.svg.png"
   },
   {
+    "id": 192,
     "ja": "ブルキナファソ",
     "iso": "BF",
     "url": "%E3%83%96%E3%83%AB%E3%82%AD%E3%83%8A%E3%83%95%E3%82%A1%E3%82%BD",
@@ -1351,6 +1544,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/86/Burkina_Faso_%28orthographic_projection%29.svg/250px-Burkina_Faso_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 193,
     "ja": "ブルネイ・ダルサラーム",
     "iso": "BN",
     "url": "%E3%83%96%E3%83%AB%E3%83%8D%E3%82%A4",
@@ -1358,6 +1552,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Brunei_on_the_globe_%28Asia_centered%29.svg/250px-Brunei_on_the_globe_%28Asia_centered%29.svg.png"
   },
   {
+    "id": 194,
     "ja": "ブルンジ",
     "iso": "BI",
     "url": "%E3%83%96%E3%83%AB%E3%83%B3%E3%82%B8",
@@ -1365,6 +1560,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Burundi_%28orthographic_projection%29.svg/250px-Burundi_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 195,
     "ja": "ベトナム",
     "iso": "VN",
     "url": "%E3%83%99%E3%83%88%E3%83%8A%E3%83%A0",
@@ -1372,6 +1568,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Vietnam_%28orthographic_projection%29.svg/250px-Vietnam_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 196,
     "ja": "ベナン",
     "iso": "BJ",
     "url": "%E3%83%99%E3%83%8A%E3%83%B3",
@@ -1379,6 +1576,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Benin_%28orthographic_projection_with_inset%29.svg/250px-Benin_%28orthographic_projection_with_inset%29.svg.png"
   },
   {
+    "id": 197,
     "ja": "ベネズエラ・ボリバル共和国",
     "iso": "VE",
     "url": "%E3%83%99%E3%83%8D%E3%82%BA%E3%82%A8%E3%83%A9",
@@ -1386,6 +1584,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Venezuela_Orthographic_Map.svg/250px-Venezuela_Orthographic_Map.svg.png"
   },
   {
+    "id": 198,
     "ja": "ベラルーシ",
     "iso": "BY",
     "url": "%E3%83%99%E3%83%A9%E3%83%AB%E3%83%BC%E3%82%B7",
@@ -1393,6 +1592,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Europe-Belarus.svg/250px-Europe-Belarus.svg.png"
   },
   {
+    "id": 199,
     "ja": "ベリーズ",
     "iso": "BZ",
     "url": "%E3%83%99%E3%83%AA%E3%83%BC%E3%82%BA",
@@ -1400,6 +1600,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/43/BLZ_orthographic.svg/250px-BLZ_orthographic.svg.png"
   },
   {
+    "id": 200,
     "ja": "ペルー",
     "iso": "PE",
     "url": "%E3%83%9A%E3%83%AB%E3%83%BC",
@@ -1407,6 +1608,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Peru_%28orthographic_projection%29.svg/250px-Peru_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 201,
     "ja": "ベルギー",
     "iso": "BE",
     "url": "%E3%83%99%E3%83%AB%E3%82%AE%E3%83%BC",
@@ -1414,6 +1616,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/67/EU-Belgium.svg/250px-EU-Belgium.svg.png"
   },
   {
+    "id": 202,
     "ja": "ポーランド",
     "iso": "PL",
     "url": "%E3%83%9D%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
@@ -1421,6 +1624,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Poland_%28orthographic_projection%29.svg/250px-Poland_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 203,
     "ja": "ボスニア・ヘルツェゴビナ",
     "iso": "BA",
     "url": "%E3%83%9C%E3%82%B9%E3%83%8B%E3%82%A2%E3%83%BB%E3%83%98%E3%83%AB%E3%83%84%E3%82%A7%E3%82%B4%E3%83%93%E3%83%8A",
@@ -1428,6 +1632,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Map_of_Bosnia_and_Herzegovina_in_Europe.svg/250px-Map_of_Bosnia_and_Herzegovina_in_Europe.svg.png"
   },
   {
+    "id": 204,
     "ja": "ボツワナ",
     "iso": "BW",
     "url": "%E3%83%9C%E3%83%84%E3%83%AF%E3%83%8A",
@@ -1435,6 +1640,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/95/Botswana_%28orthographic_projection%29.svg/250px-Botswana_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 205,
     "ja": "ボネール、シント・ユースタティウスおよびサバ",
     "iso": "BQ",
     "url": "BES%E8%AB%B8%E5%B3%B6",
@@ -1442,6 +1648,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/BES_islands_location_map.svg/250px-BES_islands_location_map.svg.png"
   },
   {
+    "id": 206,
     "ja": "ボリビア多民族国",
     "iso": "BO",
     "url": "%E3%83%9C%E3%83%AA%E3%83%93%E3%82%A2",
@@ -1449,6 +1656,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Bolivia_%28orthographic_projection%29.svg/250px-Bolivia_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 207,
     "ja": "ポルトガル",
     "iso": "PT",
     "url": "%E3%83%9D%E3%83%AB%E3%83%88%E3%82%AC%E3%83%AB",
@@ -1456,6 +1664,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Portugal_on_the_globe_%28Europe_centered%29.svg/250px-Portugal_on_the_globe_%28Europe_centered%29.svg.png"
   },
   {
+    "id": 208,
     "ja": "香港",
     "iso": "HK",
     "url": "%E9%A6%99%E6%B8%AF",
@@ -1463,6 +1672,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hong_Kong_in_China_%28zoomed%29_%28%2Ball_claims_hatched%29.svg/250px-Hong_Kong_in_China_%28zoomed%29_%28%2Ball_claims_hatched%29.svg.png"
   },
   {
+    "id": 209,
     "ja": "ホンジュラス",
     "iso": "HN",
     "url": "%E3%83%9B%E3%83%B3%E3%82%B8%E3%83%A5%E3%83%A9%E3%82%B9",
@@ -1470,6 +1680,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Honduras_%28orthographic_projection%29.svg/250px-Honduras_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 210,
     "ja": "マーシャル諸島",
     "iso": "MH",
     "url": "%E3%83%9E%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E8%AB%B8%E5%B3%B6",
@@ -1477,6 +1688,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Marshall_Islands_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg/250px-Marshall_Islands_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg.png"
   },
   {
+    "id": 211,
     "ja": "マカオ",
     "iso": "MO",
     "url": "%E3%83%9E%E3%82%AB%E3%82%AA",
@@ -1484,6 +1696,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Macau_in_China_%28special_marker%29_%28%2Ball_claims_hatched%29.svg/250px-Macau_in_China_%28special_marker%29_%28%2Ball_claims_hatched%29.svg.png"
   },
   {
+    "id": 212,
     "ja": "マダガスカル",
     "iso": "MG",
     "url": "%E3%83%9E%E3%83%80%E3%82%AC%E3%82%B9%E3%82%AB%E3%83%AB",
@@ -1491,6 +1704,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Madagascar_%28centered_orthographic_projection%29.svg/250px-Madagascar_%28centered_orthographic_projection%29.svg.png"
   },
   {
+    "id": 213,
     "ja": "マヨット",
     "iso": "YT",
     "url": "%E3%83%9E%E3%83%A8%E3%83%83%E3%83%88",
@@ -1498,6 +1712,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/France_on_the_globe_%28Mayotte_special%29_%28Africa_centered%29.svg/250px-France_on_the_globe_%28Mayotte_special%29_%28Africa_centered%29.svg.png"
   },
   {
+    "id": 214,
     "ja": "マラウイ",
     "iso": "MW",
     "url": "%E3%83%9E%E3%83%A9%E3%82%A6%E3%82%A4",
@@ -1505,6 +1720,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Malawi_%28orthographic_projection%29.svg/250px-Malawi_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 215,
     "ja": "マリ",
     "iso": "ML",
     "url": "%E3%83%9E%E3%83%AA%E5%85%B1%E5%92%8C%E5%9B%BD",
@@ -1512,6 +1728,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mali_%28orthographic_projection%29.svg/250px-Mali_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 216,
     "ja": "マルタ",
     "iso": "MT",
     "url": "%E3%83%9E%E3%83%AB%E3%82%BF",
@@ -1519,6 +1736,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/63/EU-Malta.svg/250px-EU-Malta.svg.png"
   },
   {
+    "id": 217,
     "ja": "マルティニーク",
     "iso": "MQ",
     "url": "%E3%83%9E%E3%83%AB%E3%83%86%E3%82%A3%E3%83%8B%E3%83%BC%E3%82%AF",
@@ -1526,6 +1744,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Martinique_in_France_2016.svg/250px-Martinique_in_France_2016.svg.png"
   },
   {
+    "id": 218,
     "ja": "マレーシア",
     "iso": "MY",
     "url": "%E3%83%9E%E3%83%AC%E3%83%BC%E3%82%B7%E3%82%A2",
@@ -1533,6 +1752,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Malaysia_%28orthographic_projection%29.svg/250px-Malaysia_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 219,
     "ja": "マン島",
     "iso": "IM",
     "url": "%E3%83%9E%E3%83%B3%E5%B3%B6",
@@ -1540,6 +1760,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_Isle_of_Man.svg/250px-The_Isle_of_Man.svg.png"
   },
   {
+    "id": 220,
     "ja": "ミクロネシア連邦",
     "iso": "FM",
     "url": "%E3%83%9F%E3%82%AF%E3%83%AD%E3%83%8D%E3%82%B7%E3%82%A2%E9%80%A3%E9%82%A6",
@@ -1547,6 +1768,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Micronesia_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg/250px-Micronesia_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg.png"
   },
   {
+    "id": 221,
     "ja": "南アフリカ",
     "iso": "ZA",
     "url": "%E5%8D%97%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E5%85%B1%E5%92%8C%E5%9B%BD",
@@ -1554,6 +1776,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/South_Africa_%28orthographic_projection%29.svg/250px-South_Africa_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 222,
     "ja": "南スーダン",
     "iso": "SS",
     "url": "%E5%8D%97%E3%82%B9%E3%83%BC%E3%83%80%E3%83%B3",
@@ -1561,6 +1784,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/South_Sudan_%28orthographic_projection%29_highlighted.svg/250px-South_Sudan_%28orthographic_projection%29_highlighted.svg.png"
   },
   {
+    "id": 223,
     "ja": "ミャンマー",
     "iso": "MM",
     "url": "%E3%83%9F%E3%83%A3%E3%83%B3%E3%83%9E%E3%83%BC",
@@ -1568,6 +1792,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Myanmar_%28orthographic_projection%29.svg/250px-Myanmar_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 224,
     "ja": "メキシコ",
     "iso": "MX",
     "url": "%E3%83%A1%E3%82%AD%E3%82%B7%E3%82%B3",
@@ -1575,6 +1800,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Mexico_%28orthographic_projection%29.svg/250px-Mexico_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 225,
     "ja": "モーリシャス",
     "iso": "MU",
     "url": "%E3%83%A2%E3%83%BC%E3%83%AA%E3%82%B7%E3%83%A3%E3%82%B9",
@@ -1582,6 +1808,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Mauritius_%28orthographic_projection_with_inset%29.svg/250px-Mauritius_%28orthographic_projection_with_inset%29.svg.png"
   },
   {
+    "id": 226,
     "ja": "モーリタニア",
     "iso": "MR",
     "url": "%E3%83%A2%E3%83%BC%E3%83%AA%E3%82%BF%E3%83%8B%E3%82%A2",
@@ -1589,6 +1816,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Mauritania_%28orthographic_projection%29.svg/250px-Mauritania_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 227,
     "ja": "モザンビーク",
     "iso": "MZ",
     "url": "%E3%83%A2%E3%82%B6%E3%83%B3%E3%83%93%E3%83%BC%E3%82%AF",
@@ -1596,6 +1824,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Mozambique_%28orthographic_projection%29.svg/250px-Mozambique_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 228,
     "ja": "モナコ",
     "iso": "MC",
     "url": "%E3%83%A2%E3%83%8A%E3%82%B3",
@@ -1603,6 +1832,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Monaco_in_Europe_%28zoomed%29.svg/250px-Monaco_in_Europe_%28zoomed%29.svg.png"
   },
   {
+    "id": 229,
     "ja": "モルディブ",
     "iso": "MV",
     "url": "%E3%83%A2%E3%83%AB%E3%83%87%E3%82%A3%E3%83%96",
@@ -1610,6 +1840,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Maldives_%28orthographic_projection%29.svg/250px-Maldives_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 230,
     "ja": "モルドバ共和国",
     "iso": "MD",
     "url": "%E3%83%A2%E3%83%AB%E3%83%89%E3%83%90",
@@ -1617,6 +1848,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Moldova_in_Europe.svg/250px-Moldova_in_Europe.svg.png"
   },
   {
+    "id": 231,
     "ja": "モロッコ",
     "iso": "MA",
     "url": "%E3%83%A2%E3%83%AD%E3%83%83%E3%82%B3",
@@ -1624,6 +1856,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Morocco_%28orthographic_projection%2C_WS_claimed%29.svg/250px-Morocco_%28orthographic_projection%2C_WS_claimed%29.svg.png"
   },
   {
+    "id": 232,
     "ja": "モンゴル",
     "iso": "MN",
     "url": "%E3%83%A2%E3%83%B3%E3%82%B4%E3%83%AB%E5%9B%BD",
@@ -1631,6 +1864,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Mongolia_%28orthographic_projection%29.svg/250px-Mongolia_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 233,
     "ja": "モンテネグロ",
     "iso": "ME",
     "url": "%E3%83%A2%E3%83%B3%E3%83%86%E3%83%8D%E3%82%B0%E3%83%AD",
@@ -1638,6 +1872,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Europe-Montenegro.svg/250px-Europe-Montenegro.svg.png"
   },
   {
+    "id": 234,
     "ja": "モントセラト",
     "iso": "MS",
     "url": "%E3%83%A2%E3%83%B3%E3%83%88%E3%82%BB%E3%83%A9%E3%83%88",
@@ -1645,6 +1880,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Montserrat_in_its_region.svg/250px-Montserrat_in_its_region.svg.png"
   },
   {
+    "id": 235,
     "ja": "ヨルダン",
     "iso": "JO",
     "url": "%E3%83%A8%E3%83%AB%E3%83%80%E3%83%B3",
@@ -1652,6 +1888,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Jordan_%28orthographic_projection%29.svg/250px-Jordan_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 236,
     "ja": "ラオス人民民主共和国",
     "iso": "LA",
     "url": "%E3%83%A9%E3%82%AA%E3%82%B9",
@@ -1659,6 +1896,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Laos_on_the_globe_%28Asia_centered%29.svg/250px-Laos_on_the_globe_%28Asia_centered%29.svg.png"
   },
   {
+    "id": 237,
     "ja": "ラトビア",
     "iso": "LV",
     "url": "%E3%83%A9%E3%83%88%E3%83%93%E3%82%A2",
@@ -1666,6 +1904,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/32/EU-Latvia.svg/250px-EU-Latvia.svg.png"
   },
   {
+    "id": 238,
     "ja": "リトアニア",
     "iso": "LT",
     "url": "%E3%83%AA%E3%83%88%E3%82%A2%E3%83%8B%E3%82%A2",
@@ -1673,6 +1912,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/EU-Lithuania.svg/250px-EU-Lithuania.svg.png"
   },
   {
+    "id": 239,
     "ja": "リビア",
     "iso": "LY",
     "url": "%E3%83%AA%E3%83%93%E3%82%A2",
@@ -1680,6 +1920,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Libya_%28orthographic_projection%29.svg/250px-Libya_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 240,
     "ja": "リヒテンシュタイン",
     "iso": "LI",
     "url": "%E3%83%AA%E3%83%92%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%A4%E3%83%B3",
@@ -1687,6 +1928,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europe-Liechtenstein.svg/250px-Europe-Liechtenstein.svg.png"
   },
   {
+    "id": 241,
     "ja": "リベリア",
     "iso": "LR",
     "url": "%E3%83%AA%E3%83%99%E3%83%AA%E3%82%A2",
@@ -1694,6 +1936,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Liberia_%28orthographic_projection%29.svg/250px-Liberia_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 242,
     "ja": "ルーマニア",
     "iso": "RO",
     "url": "%E3%83%AB%E3%83%BC%E3%83%9E%E3%83%8B%E3%82%A2",
@@ -1701,6 +1944,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/13/EU-Romania.svg/250px-EU-Romania.svg.png"
   },
   {
+    "id": 243,
     "ja": "ルクセンブルク",
     "iso": "LU",
     "url": "%E3%83%AB%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%96%E3%83%AB%E3%82%AF",
@@ -1708,6 +1952,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/EU-Luxembourg.svg/250px-EU-Luxembourg.svg.png"
   },
   {
+    "id": 244,
     "ja": "ルワンダ",
     "iso": "RW",
     "url": "%E3%83%AB%E3%83%AF%E3%83%B3%E3%83%80",
@@ -1715,6 +1960,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rwanda_on_the_globe_%28Africa_centered%29.svg/250px-Rwanda_on_the_globe_%28Africa_centered%29.svg.png"
   },
   {
+    "id": 245,
     "ja": "レソト",
     "iso": "LS",
     "url": "%E3%83%AC%E3%82%BD%E3%83%88",
@@ -1722,6 +1968,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Lesotho_%28orthographic_projection_with_inset%29.svg/250px-Lesotho_%28orthographic_projection_with_inset%29.svg.png"
   },
   {
+    "id": 246,
     "ja": "レバノン",
     "iso": "LB",
     "url": "%E3%83%AC%E3%83%90%E3%83%8E%E3%83%B3",
@@ -1729,6 +1976,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lebanon_%28orthographic_projection%29.svg/250px-Lebanon_%28orthographic_projection%29.svg.png"
   },
   {
+    "id": 247,
     "ja": "レユニオン",
     "iso": "RE",
     "url": "%E3%83%AC%E3%83%A6%E3%83%8B%E3%82%AA%E3%83%B3",
@@ -1736,6 +1984,7 @@
     "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/27/France_on_the_globe_%28Reunion_special%29_%28Africa_centered%29.svg/250px-France_on_the_globe_%28Reunion_special%29_%28Africa_centered%29.svg.png"
   },
   {
+    "id": 248,
     "ja": "ロシア連邦",
     "iso": "RU",
     "url": "%E3%83%AD%E3%82%B7%E3%82%A2",

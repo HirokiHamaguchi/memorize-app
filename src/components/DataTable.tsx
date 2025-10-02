@@ -31,16 +31,15 @@ const DATA_TYPE_CONFIGS: Record<string, DataTypeConfig> = {
         leftColumn: {
             flex: "3",
             getContent: (item: DataItem) => {
-                if (!('svg' in item)) return null
                 const flag = item as Flag
                 return (
                     <Image
                         src={flag.pos}
-                        alt={`${flag.code} flag`}
+                        alt={`${flag.iso} pos`}
                         height="80px"
                         objectFit="contain"
                         onClick={() => {
-                            window.open(`https://ja.wikipedia.org/wiki/${flag.ja}`, '_blank')
+                            window.open(`https://ja.wikipedia.org/wiki/${flag.url}`, '_blank')
                         }}
                         cursor="pointer"
                         border="1px solid #ccc"
@@ -48,20 +47,19 @@ const DATA_TYPE_CONFIGS: Record<string, DataTypeConfig> = {
                 )
             },
             getFontSize: (item: DataItem) =>
-                ('code' in item && item.code.length > 20) ? "md" : "xl"
+                ('iso' in item && item.iso.length > 20) ? "md" : "xl"
         },
         rightColumn: {
             flex: "7",
             getFontSize: () => "xl"
         },
-        typeGuard: (item: DataItem) => 'code' in item && 'svg' in item
+        typeGuard: (item: DataItem) => 'iso' in item && 'flag' in item
     },
     vocabulary: {
         key: 'vocabulary',
         headers: { left: '英語', right: '日本語' },
         leftColumn: {
             getContent: (item: DataItem) => {
-                if (!('en' in item)) return null
                 const vocabulary = item as Vocabulary
                 return (
                     <span
@@ -160,7 +158,7 @@ export const DataTable = ({
                             onClick={() => onRevealItem(index)}
                             cursor={revealed ? 'default' : 'pointer'}
                         >
-                            {revealed ? item.ja : (item.id.endsWith('-2') ? '復習' : '答え')}
+                            {revealed ? item.ja : (item.id % 2 == 1 ? '復習' : '答え')}
                         </Box>
                     </Flex>
                 )

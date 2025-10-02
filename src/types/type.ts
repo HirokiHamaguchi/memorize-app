@@ -1,13 +1,14 @@
 export interface Flag {
-    id: string;
-    code: string;  // ISO country code (e.g., "ad", "ae")
+    id: number;
+    iso: string;  // ISO country code (e.g., "ad", "ae")
     ja: string;
     flag: string;
     pos: string;
+    url: string;
 }
 
 export interface Vocabulary {
-    id: string;
+    id: number;
     en: string;
     ja: string;
 }
