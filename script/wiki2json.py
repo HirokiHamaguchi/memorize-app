@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import time
 
 import requests
@@ -54,6 +55,31 @@ def fetch_page_images(id: int, ja: str, iso: str, url: str):
     assert pos is not None, f"位置画像が見つかりません: {iso} - {url}"
     assert flag is not None, f"国旗が見つかりません: {iso} - {url}"
 
+    if "/thumb/" in pos and pos.endswith(".svg.png"):
+        pos2 = pos.replace("/thumb/", "/").rsplit("/", 1)[0]
+        if (
+            pos2.endswith(".svg")
+            and requests.get(
+                url="https:" + pos2, headers=headers, timeout=10
+            ).status_code
+            == 200
+        ):
+            pos = pos2
+        else:
+            assert False, f"SVG画像が見つかりません: {pos2}"
+    if "/thumb/" in flag and flag.endswith(".svg.png"):
+        flag2 = flag.replace("/thumb/", "/").rsplit("/", 1)[0]
+        if (
+            flag2.endswith(".svg")
+            and requests.get(
+                url="https:" + flag2, headers=headers, timeout=10
+            ).status_code
+            == 200
+        ):
+            flag = flag2
+        else:
+            assert False, f"SVG画像が見つかりません: {flag2}"
+
     return {
         "id": id,
         "ja": ja,
@@ -76,7 +102,7 @@ def process_html_file(html_path, json_path):
 
     data = []
 
-    for id, tr in enumerate(tr_tags):
+    for id, tr in enumerate(tr_tags, start=1):
         td_tags = tr.find_all("td")
 
         assert len(td_tags) >= 6, "tdタグが6つ未満です。"
