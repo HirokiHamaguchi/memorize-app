@@ -1,9 +1,6 @@
 import type { Geography, Vocabulary } from '../types/type'
 
-export const VOCABULARY_ROW_HEIGHT = 38 // 語彙学習用の行の高さ(px)
-export const GEOGRAPHY_ROW_HEIGHT = 89 // フラグ学習用の行の高さ(px)
 export const HEADER_HEIGHT = 70 // ヘッダーの高さ(px)
-export const MINIMUM_WORDS_PER_PAGE = 3 // 最小表示行数
 export const SCROLL_SENSITIVITY = 0.9 // スクロール感度
 export const TOUCH_SCROLL_SENSITIVITY = 0.9 // タッチスクロール感度
 export const MINIMUM_TOUCH_SCROLL = 5 // 最小タッチスクロール量
@@ -14,13 +11,11 @@ export const STUDY_TYPES = [
         id: 'vocabulary',
         name: '英語語彙',
         description: '英単語と日本語の対応を学習します',
-        rowHeight: VOCABULARY_ROW_HEIGHT,
     },
     {
         id: 'geography',
         name: '地理',
         description: '世界各国の国旗や国名を学習します',
-        rowHeight: GEOGRAPHY_ROW_HEIGHT,
     },
 ]
 

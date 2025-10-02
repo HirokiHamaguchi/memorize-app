@@ -19,6 +19,7 @@ interface DataTypeConfig {
         flex?: string
         getFontSize: (item: DataItem, revealed: boolean) => string
     }
+    isVerticalLayout: boolean
 }
 
 // Configuration for different data types
@@ -50,18 +51,19 @@ const DATA_TYPE_CONFIGS: Record<string, DataTypeConfig> = {
             flex: "7",
             getFontSize: () => "xl"
         },
+        isVerticalLayout: false
     },
     geography_location: {
         headers: { left: '位置', right: '日本語' },
         leftColumn: {
-            flex: "10",
+            flex: "1",
             getContent: (item: DataItem) => {
                 const location = item as Geography
                 return (
                     <Image
                         src={location.pos}
                         alt={`${location.iso} location`}
-                        height="80px"
+                        height="460px"
                         objectFit="contain"
                         onClick={() => {
                             window.open(`https://ja.wikipedia.org/wiki/${location.url}`, '_blank')
@@ -78,6 +80,7 @@ const DATA_TYPE_CONFIGS: Record<string, DataTypeConfig> = {
             flex: "1",
             getFontSize: () => "xl"
         },
+        isVerticalLayout: true
     },
     vocabulary: {
         headers: { left: '英語', right: '日本語' },
@@ -102,11 +105,12 @@ const DATA_TYPE_CONFIGS: Record<string, DataTypeConfig> = {
             getFontSize: (item: DataItem, revealed: boolean) =>
                 revealed ? (item.ja.length > 10 ? "md" : "xl") : "md"
         },
+        isVerticalLayout: false
     }
 }
 
 interface DataTableProps {
-    config_key: string
+    configKey: string
     currentData: DataItem[]
     currentStartIndex: number
     revealedItems: Set<number>
@@ -118,60 +122,91 @@ interface DataTableProps {
  * 統合されたデータテーブルコンポーネント（設定ベース）
  */
 export const DataTable = ({
-    config_key,
+    configKey,
     currentData,
     currentStartIndex,
     revealedItems,
     isFlipped,
     onRevealItem
 }: DataTableProps) => {
-    console.assert(config_key in DATA_TYPE_CONFIGS, `Invalid config key: ${config_key}`)
-    const config = DATA_TYPE_CONFIGS[config_key]
+    console.assert(configKey in DATA_TYPE_CONFIGS, `Invalid config key: ${configKey}`)
+    const config = DATA_TYPE_CONFIGS[configKey]
     return (
         <Box className="vocabulary-box vocabulary-table">
-            <Flex className="table-header" flexDirection={isFlipped ? "row-reverse" : "row"}>
-                <Box className="header-cell" flex={config.leftColumn.flex}>
-                    {config.headers.left}
-                </Box>
-                <Box className="header-cell" flex={config.rightColumn.flex} >
-                    {config.headers.right}
-                </Box>
-            </Flex>
+            {!config.isVerticalLayout && (
+                <Flex className="table-header" flexDirection={isFlipped ? "row-reverse" : "row"}>
+                    <Box className="header-cell" flex={config.leftColumn.flex}>
+                        {config.headers.left}
+                    </Box>
+                    <Box className="header-cell" flex={config.rightColumn.flex} >
+                        {config.headers.right}
+                    </Box>
+                </Flex>
+            )}
 
             {currentData.map((item, index) => {
                 const absoluteIndex = currentStartIndex + index
                 const revealed = revealedItems.has(absoluteIndex)
 
-                return (
-                    <Flex
-                        key={`${item.id}-${absoluteIndex}`}
-                        className="table-row"
-                        flexDirection={isFlipped ? "row-reverse" : "row"}
-                    >
+                if (config.isVerticalLayout) {
+                    return (
                         <Box
-                            className="english-cell"
-                            flex={config.leftColumn.flex}
-                            display="flex"
-                            alignItems="center"
-                            justifyContent="center"
-                            fontSize={config.leftColumn.getFontSize(item)}
+                            key={`${item.id}-${absoluteIndex}`}
+                            className="table-row"
                         >
-                            {config.leftColumn.getContent(item)}
+                            <Box
+                                display="flex"
+                                alignItems="center"
+                                justifyContent="center"
+                                fontSize={config.leftColumn.getFontSize(item)}
+                            >
+                                {config.leftColumn.getContent(item)}
+                            </Box>
+                            <Box
+                                className={`japanese-cell ${revealed ? 'revealed' : 'hidden'}`}
+                                alignItems="center"
+                                justifyContent="center"
+                                fontSize={config.rightColumn.getFontSize(item, revealed)}
+                                onClick={() => onRevealItem(index)}
+                                cursor={revealed ? 'default' : 'pointer'}
+                                borderTop="1px solid #ccc"
+                            >
+                                {revealed ? item.ja : (item.id % 2 == 1 ? '復習' : '答え')}
+                            </Box>
                         </Box>
-                        <Box
-                            className={`japanese-cell ${revealed ? 'revealed' : 'hidden'}`}
-                            flex={config.rightColumn.flex}
-                            display="flex"
-                            alignItems="center"
-                            justifyContent="center"
-                            fontSize={config.rightColumn.getFontSize(item, revealed)}
-                            onClick={() => onRevealItem(index)}
-                            cursor={revealed ? 'default' : 'pointer'}
+                    )
+                } else {
+                    return (
+                        <Flex
+                            key={`${item.id}-${absoluteIndex}`}
+                            className="table-row"
+                            flexDirection={isFlipped ? "row-reverse" : "row"}
                         >
-                            {revealed ? item.ja : (item.id % 2 == 1 ? '復習' : '答え')}
-                        </Box>
-                    </Flex>
-                )
+                            <Box
+                                className="english-cell"
+                                flex={config.leftColumn.flex}
+                                display="flex"
+                                alignItems="center"
+                                justifyContent="center"
+                                fontSize={config.leftColumn.getFontSize(item)}
+                            >
+                                {config.leftColumn.getContent(item)}
+                            </Box>
+                            <Box
+                                className={`japanese-cell ${revealed ? 'revealed' : 'hidden'}`}
+                                flex={config.rightColumn.flex}
+                                display="flex"
+                                alignItems="center"
+                                justifyContent="center"
+                                fontSize={config.rightColumn.getFontSize(item, revealed)}
+                                onClick={() => onRevealItem(index)}
+                                cursor={revealed ? 'default' : 'pointer'}
+                            >
+                                {revealed ? item.ja : (item.id % 2 == 1 ? '復習' : '答え')}
+                            </Box>
+                        </Flex>
+                    )
+                }
             })}
         </Box>
     )

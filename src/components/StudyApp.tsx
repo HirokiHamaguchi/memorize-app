@@ -8,13 +8,13 @@ type StudyDataItem = Geography | Vocabulary
 interface StudyAppProps {
     data: StudyDataItem[]
     rowHeight: number
-    config_key: string
+    configKey: string
 }
 
 export const StudyApp = ({
     data,
     rowHeight,
-    config_key
+    configKey
 }: StudyAppProps) => {
     const {
         isFlipped,
@@ -43,7 +43,7 @@ export const StudyApp = ({
             scrollHandlers={scrollHandlers}
         >
             <DataTable
-                config_key={config_key}
+                configKey={configKey}
                 currentData={currentItems}
                 currentStartIndex={currentStartIndex}
                 revealedItems={revealedItems}

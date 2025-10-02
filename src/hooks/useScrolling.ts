@@ -33,7 +33,6 @@ export const useScrolling = (wordsPerPage: number, vocabularyLength: number, row
     const handleTouchMove = useCallback((e: React.TouchEvent) => {
         if (touchStart === null) return
 
-        e.preventDefault()
         const currentTouch = e.touches[0].clientY
         const diff = touchStart - currentTouch
         const scrollDelta = diff * TOUCH_SCROLL_SENSITIVITY

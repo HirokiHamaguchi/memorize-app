@@ -1,16 +1,16 @@
 import { useState, useEffect } from 'react'
-import { HEADER_HEIGHT, MINIMUM_WORDS_PER_PAGE } from '../config/constant'
+import { HEADER_HEIGHT } from '../config/constant'
 
-const calculateWordsPerPage = (rowHeight: number, headerHeight: number, minWords: number): number => {
+const calculateWordsPerPage = (rowHeight: number, headerHeight: number): number => {
     const availableHeight = window.innerHeight - headerHeight
-    return Math.max(minWords, Math.floor(availableHeight / rowHeight) - 1)
+    return Math.max(1, Math.floor(availableHeight / rowHeight) - 1)
 }
 
 /**
  * 画面サイズに応じた1ページあたりの単語数を管理するカスタムフック
  */
 export const useWordsPerPage = (rowHeight: number) => {
-    const getWordsPerPage = () => calculateWordsPerPage(rowHeight, HEADER_HEIGHT, MINIMUM_WORDS_PER_PAGE)
+    const getWordsPerPage = () => calculateWordsPerPage(rowHeight, HEADER_HEIGHT)
 
     const [wordsPerPage, setWordsPerPage] = useState(getWordsPerPage())
 

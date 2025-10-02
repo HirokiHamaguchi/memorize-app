@@ -8,6 +8,7 @@ type StudyDataItem = Geography | Vocabulary
 
 export const StudyPage = () => {
     const { studyType, datasetId } = useParams<{ studyType: string; datasetId: string }>()
+    const configKey = studyType + '_' + datasetId
     const navigate = useNavigate()
     const [data, setData] = useState<StudyDataItem[]>([])
     const [isLoading, setIsLoading] = useState(true)
@@ -36,7 +37,21 @@ export const StudyPage = () => {
                 }
 
                 // 行の高さを設定
-                setRowHeight(config.type.rowHeight)
+                const rowHeight = (() => {
+                    switch (configKey) {
+                        case 'vocabulary_1':
+                            return 38
+                        case 'vocabulary_jun1':
+                            return 38
+                        case 'geography_flag':
+                            return 89
+                        case 'geography_location':
+                            return 500
+                        default:
+                            return 100
+                    }
+                })()
+                setRowHeight(rowHeight)
 
                 // データを読み込み
                 const module = await dataset.dataLoader()
@@ -53,7 +68,7 @@ export const StudyPage = () => {
         }
 
         loadData()
-    }, [studyType, datasetId, navigate])
+    }, [configKey, studyType, datasetId, navigate])
 
     // ローディング中の表示
     if (isLoading) {
@@ -68,7 +83,7 @@ export const StudyPage = () => {
         <StudyApp
             data={data}
             rowHeight={rowHeight}
-            config_key={studyType + '_' + datasetId}
+            configKey={configKey}
         />
     )
 }
