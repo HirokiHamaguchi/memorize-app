@@ -1,4 +1,4 @@
-export interface Flag {
+export interface Geography {
     id: number;
     iso: string;  // ISO country code (e.g., "ad", "ae")
     ja: string;

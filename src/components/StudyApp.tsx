@@ -1,18 +1,20 @@
 import { QuizLayout } from './QuizApp'
 import { DataTable } from './DataTable'
 import { useStudyData, useQuizApp } from '../hooks'
-import type { Flag, Vocabulary } from '../types/type'
+import type { Geography, Vocabulary } from '../types/type'
 
-type StudyDataItem = Flag | Vocabulary
+type StudyDataItem = Geography | Vocabulary
 
 interface StudyAppProps {
     data: StudyDataItem[]
     rowHeight: number
+    config_key: string
 }
 
 export const StudyApp = ({
     data,
-    rowHeight
+    rowHeight,
+    config_key
 }: StudyAppProps) => {
     const {
         isFlipped,
@@ -41,6 +43,7 @@ export const StudyApp = ({
             scrollHandlers={scrollHandlers}
         >
             <DataTable
+                config_key={config_key}
                 currentData={currentItems}
                 currentStartIndex={currentStartIndex}
                 revealedItems={revealedItems}

@@ -1,7 +1,7 @@
-import type { Flag, Vocabulary } from '../types/type'
+import type { Geography, Vocabulary } from '../types/type'
 
 export const VOCABULARY_ROW_HEIGHT = 38 // 語彙学習用の行の高さ(px)
-export const FLAGS_ROW_HEIGHT = 89 // フラグ学習用の行の高さ(px)
+export const GEOGRAPHY_ROW_HEIGHT = 89 // フラグ学習用の行の高さ(px)
 export const HEADER_HEIGHT = 70 // ヘッダーの高さ(px)
 export const MINIMUM_WORDS_PER_PAGE = 3 // 最小表示行数
 export const SCROLL_SENSITIVITY = 0.9 // スクロール感度
@@ -17,11 +17,11 @@ export const STUDY_TYPES = [
         rowHeight: VOCABULARY_ROW_HEIGHT,
     },
     {
-        id: 'flags',
-        name: '国旗',
-        description: '世界各国の国旗と国名を学習します',
-        rowHeight: FLAGS_ROW_HEIGHT,
-    }
+        id: 'geography',
+        name: '地理',
+        description: '世界各国の国旗や国名を学習します',
+        rowHeight: GEOGRAPHY_ROW_HEIGHT,
+    },
 ]
 
 interface VocabularyRawData {
@@ -30,7 +30,7 @@ interface VocabularyRawData {
     ja: string
 }
 
-interface FlagsRawData {
+interface GeographyRawData {
     id: number
     iso: string
     ja: string
@@ -44,7 +44,7 @@ interface DatasetConfig<T> {
     name: string
     description: string
     dataLoader: () => Promise<{ default: T[] }>
-    processor: (data: T[]) => (Flag | Vocabulary)[]
+    processor: (data: T[]) => (Geography | Vocabulary)[]
 }
 
 export const VOCABULARY_DATASETS: DatasetConfig<VocabularyRawData>[] = [
@@ -64,13 +64,20 @@ export const VOCABULARY_DATASETS: DatasetConfig<VocabularyRawData>[] = [
     }
 ]
 
-export const FLAGS_DATASETS: DatasetConfig<FlagsRawData>[] = [
+export const GEOGRAPHY_DATASETS: DatasetConfig<GeographyRawData>[] = [
     {
-        id: 'world',
+        id: 'flag',
         name: '世界の国旗',
         description: '世界各国の国旗と国名を学習します',
         dataLoader: () => import('../data/geography/wiki.json'),
-        processor: (data: FlagsRawData[]): Flag[] => data,
+        processor: (data: GeographyRawData[]): Geography[] => data,
+    },
+    {
+        id: 'location',
+        name: '世界の国の位置',
+        description: '世界各国の位置と国名を学習します',
+        dataLoader: () => import('../data/geography/wiki.json'),
+        processor: (data: GeographyRawData[]): Geography[] => data,
     }
 ]
 
@@ -80,10 +87,10 @@ export const STUDY_CONFIG = {
         type: STUDY_TYPES[0],
         datasets: VOCABULARY_DATASETS,
     },
-    flags: {
+    geography: {
         type: STUDY_TYPES[1],
-        datasets: FLAGS_DATASETS,
-    }
+        datasets: GEOGRAPHY_DATASETS,
+    },
 } as const
 
 export type StudyType = keyof typeof STUDY_CONFIG

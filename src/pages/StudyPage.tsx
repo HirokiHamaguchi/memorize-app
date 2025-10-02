@@ -2,9 +2,9 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { StudyApp } from '../components/StudyApp'
 import { STUDY_CONFIG, type StudyType } from '../config/constant'
-import type { Flag, Vocabulary } from '../types/type'
+import type { Geography, Vocabulary } from '../types/type'
 
-type StudyDataItem = Flag | Vocabulary
+type StudyDataItem = Geography | Vocabulary
 
 export const StudyPage = () => {
     const { studyType, datasetId } = useParams<{ studyType: string; datasetId: string }>()
@@ -68,6 +68,7 @@ export const StudyPage = () => {
         <StudyApp
             data={data}
             rowHeight={rowHeight}
+            config_key={studyType + '_' + datasetId}
         />
     )
 }

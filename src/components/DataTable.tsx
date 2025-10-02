@@ -1,12 +1,11 @@
 import { Box, Flex, Image } from '@chakra-ui/react'
-import type { Flag, Vocabulary } from '../types/type'
+import type { Geography, Vocabulary } from '../types/type'
 
 // Union type for data items
-type DataItem = Flag | Vocabulary
+type DataItem = Geography | Vocabulary
 
 // Data type configuration
 interface DataTypeConfig {
-    key: string
     headers: {
         left: string
         right: string
@@ -20,22 +19,20 @@ interface DataTypeConfig {
         flex?: string
         getFontSize: (item: DataItem, revealed: boolean) => string
     }
-    typeGuard: (item: DataItem) => boolean
 }
 
 // Configuration for different data types
 const DATA_TYPE_CONFIGS: Record<string, DataTypeConfig> = {
-    flag: {
-        key: 'flag',
+    geography_flag: {
         headers: { left: '国旗', right: '日本語' },
         leftColumn: {
             flex: "3",
             getContent: (item: DataItem) => {
-                const flag = item as Flag
+                const flag = item as Geography
                 return (
                     <Image
-                        src={flag.pos}
-                        alt={`${flag.iso} pos`}
+                        src={flag.flag}
+                        alt={`${flag.iso} flag`}
                         height="80px"
                         objectFit="contain"
                         onClick={() => {
@@ -53,10 +50,36 @@ const DATA_TYPE_CONFIGS: Record<string, DataTypeConfig> = {
             flex: "7",
             getFontSize: () => "xl"
         },
-        typeGuard: (item: DataItem) => 'iso' in item && 'flag' in item
+    },
+    geography_location: {
+        headers: { left: '位置', right: '日本語' },
+        leftColumn: {
+            flex: "10",
+            getContent: (item: DataItem) => {
+                const location = item as Geography
+                return (
+                    <Image
+                        src={location.pos}
+                        alt={`${location.iso} location`}
+                        height="80px"
+                        objectFit="contain"
+                        onClick={() => {
+                            window.open(`https://ja.wikipedia.org/wiki/${location.url}`, '_blank')
+                        }}
+                        cursor="pointer"
+                        border="1px solid #ccc"
+                    />
+                )
+            },
+            getFontSize: (item: DataItem) =>
+                ('iso' in item && item.iso.length > 20) ? "md" : "xl"
+        },
+        rightColumn: {
+            flex: "1",
+            getFontSize: () => "xl"
+        },
     },
     vocabulary: {
-        key: 'vocabulary',
         headers: { left: '英語', right: '日本語' },
         leftColumn: {
             getContent: (item: DataItem) => {
@@ -79,11 +102,11 @@ const DATA_TYPE_CONFIGS: Record<string, DataTypeConfig> = {
             getFontSize: (item: DataItem, revealed: boolean) =>
                 revealed ? (item.ja.length > 10 ? "md" : "xl") : "md"
         },
-        typeGuard: (item: DataItem) => 'en' in item
     }
 }
 
 interface DataTableProps {
+    config_key: string
     currentData: DataItem[]
     currentStartIndex: number
     revealedItems: Set<number>
@@ -95,28 +118,15 @@ interface DataTableProps {
  * 統合されたデータテーブルコンポーネント（設定ベース）
  */
 export const DataTable = ({
+    config_key,
     currentData,
     currentStartIndex,
     revealedItems,
     isFlipped,
     onRevealItem
 }: DataTableProps) => {
-    const getDataType = (): DataTypeConfig => {
-        if (currentData.length === 0) {
-            console.warn('currentData is empty, defaulting to vocabulary config.')
-            return DATA_TYPE_CONFIGS.vocabulary
-        }
-        for (const config of Object.values(DATA_TYPE_CONFIGS)) {
-            if (config.typeGuard(currentData[0])) {
-                return config
-            }
-        }
-        console.warn('Unknown data type, defaulting to vocabulary config.')
-        return DATA_TYPE_CONFIGS.vocabulary
-    }
-
-    const config = getDataType()
-
+    console.assert(config_key in DATA_TYPE_CONFIGS, `Invalid config key: ${config_key}`)
+    const config = DATA_TYPE_CONFIGS[config_key]
     return (
         <Box className="vocabulary-box vocabulary-table">
             <Flex className="table-header" flexDirection={isFlipped ? "row-reverse" : "row"}>

@@ -1,6 +1,6 @@
 import { useNavigate, useParams } from 'react-router-dom'
 import { Selector } from '../components/Selector'
-import { STUDY_TYPES, VOCABULARY_DATASETS, FLAGS_DATASETS } from '../config/constant'
+import { STUDY_TYPES, VOCABULARY_DATASETS, GEOGRAPHY_DATASETS } from '../config/constant'
 
 export const SelectPage = () => {
     const navigate = useNavigate()
@@ -15,12 +15,12 @@ export const SelectPage = () => {
                 showLoginSection={false}
             />
         )
-    } else if (type === 'flags') { // 国旗セレクターページの設定
+    } else if (type === 'geography') { // 地理セレクターページの設定
         return (
             <Selector
-                subtitle="学習したい国旗データセットを選択してください"
-                options={FLAGS_DATASETS}
-                onSelect={(datasetId: string) => navigate(`/study/flags/${datasetId}`)}
+                subtitle="学習したい地理データセットを選択してください"
+                options={GEOGRAPHY_DATASETS}
+                onSelect={(datasetId: string) => navigate(`/study/geography/${datasetId}`)}
                 showLoginSection={false}
             />
         )
