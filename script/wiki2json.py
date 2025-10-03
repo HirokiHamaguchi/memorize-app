@@ -48,7 +48,7 @@ def fetch_page_images(id: int, ja: str, iso: str, url: str):
         ):
             pos = src
             print(f"位置画像: {alt_text}")
-        elif flag is None and "Flag_of" in src:
+        elif flag is None and ("Flag_of" in src or "Proposed_flag_of" in src):
             flag = src
             print(f"国旗画像: {alt_text}")
 
@@ -56,29 +56,19 @@ def fetch_page_images(id: int, ja: str, iso: str, url: str):
     assert flag is not None, f"国旗が見つかりません: {iso} - {url}"
 
     if "/thumb/" in pos and pos.endswith(".svg.png"):
-        pos2 = pos.replace("/thumb/", "/").rsplit("/", 1)[0]
-        if (
-            pos2.endswith(".svg")
-            and requests.get(
-                url="https:" + pos2, headers=headers, timeout=10
-            ).status_code
-            == 200
-        ):
-            pos = pos2
+        if "250px-" in pos or "40px-" in pos:
+            pos = pos.replace("250px-", "700px-")
+        elif "120px-" in pos:
+            pos = pos.replace("120px-", "500px-")
         else:
-            assert False, f"SVG画像が見つかりません: {pos2}"
+            raise ValueError(f"位置画像のサイズ変更失敗: {pos}")
     if "/thumb/" in flag and flag.endswith(".svg.png"):
-        flag2 = flag.replace("/thumb/", "/").rsplit("/", 1)[0]
-        if (
-            flag2.endswith(".svg")
-            and requests.get(
-                url="https:" + flag2, headers=headers, timeout=10
-            ).status_code
-            == 200
-        ):
-            flag = flag2
+        if "250px-" in flag or "40px-" in flag:
+            flag = flag.replace("250px-", "700px-")
+        elif "120px-" in flag:
+            flag = flag.replace("120px-", "500px-")
         else:
-            assert False, f"SVG画像が見つかりません: {flag2}"
+            raise ValueError(f"国旗画像のサイズ変更失敗: {flag}")
 
     return {
         "id": id,
@@ -120,7 +110,20 @@ def process_html_file(html_path, json_path):
         code_tag = sixth_td.find("code")
         iso_code = code_tag.get_text().strip() if code_tag else None
 
-        # hrefとisoコードが両方取得できた場合のみデータに追加
+        if iso_code in [
+            "UM",  # アメリカ領有小離島
+            "GP",  # グアドループ
+            "CC",  # ココス（キーリング）諸島
+            "NC",  # ニューカレドニア
+            "HM",  # ハード島とマクドナルド諸島
+            "GF",  # フランス領ギアナ
+            "MQ",  # マルティニーク
+            "SH",  # セントヘレナ
+            "RE",  # レユニオン
+        ]:
+            print(f"スキップ: {iso_code} - {ja}")
+            continue
+
         assert href and iso_code
 
         full_url = "https://ja.wikipedia.org" + str(href)

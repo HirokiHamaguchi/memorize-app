@@ -44,7 +44,7 @@ export const StudyPage = () => {
                         case 'geography_flag':
                             return 89
                         case 'geography_location':
-                            return 500
+                            return 250
                         default:
                             return 100
                     }
