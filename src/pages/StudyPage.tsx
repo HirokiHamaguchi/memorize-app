@@ -8,7 +8,7 @@ type StudyDataItem = Geography | Vocabulary
 
 export const StudyPage = () => {
     const { studyType, datasetId } = useParams<{ studyType: string; datasetId: string }>()
-    const configKey = studyType + '_' + datasetId
+    const configKey = studyType == "vocabulary" ? studyType : studyType + '_' + datasetId
     const navigate = useNavigate()
     const [data, setData] = useState<StudyDataItem[]>([])
     const [isLoading, setIsLoading] = useState(true)
@@ -39,9 +39,7 @@ export const StudyPage = () => {
                 // 行の高さを設定
                 const rowHeight = (() => {
                     switch (configKey) {
-                        case 'vocabulary_1':
-                            return 38
-                        case 'vocabulary_jun1':
+                        case 'vocabulary':
                             return 38
                         case 'geography_flag':
                             return 89
