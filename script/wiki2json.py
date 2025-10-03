@@ -1,6 +1,5 @@
 import json
 import os
-import re
 import time
 
 import requests
@@ -13,8 +12,33 @@ headers = {
 }
 
 
+# 画像をダウンロードして保存
+def download_image(img_url, save_path):
+    if img_url.startswith("//"):
+        img_url = "https:" + img_url
+    response = requests.get(img_url, headers=headers, timeout=100)
+    response.raise_for_status()
+    with open(save_path, "wb") as f:
+        f.write(response.content)
+
+
 def fetch_page_images(id: int, ja: str, iso: str, url: str):
-    response = requests.get(url, headers=headers, timeout=10)
+    flag_path = f"public/geography/flags/{iso}.png"
+    pos_path = f"public/geography/locations/{iso}.png"
+
+    ret = {
+        "id": id,
+        "ja": ja,
+        "iso": iso,
+        "url": url.replace("https://ja.wikipedia.org/wiki/", ""),
+        "flag": flag_path.replace("public", "/memorize-app"),
+        "pos": pos_path.replace("public", "/memorize-app"),
+    }
+
+    if os.path.exists(flag_path) and os.path.exists(pos_path):
+        return ret
+
+    response = requests.get(url, headers=headers, timeout=100)
     response.raise_for_status()
 
     soup = BeautifulSoup(response.content, "html.parser")
@@ -22,14 +46,6 @@ def fetch_page_images(id: int, ja: str, iso: str, url: str):
 
     pos = None
     flag = None
-
-    if iso == "EH":
-        pos = r"//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Sahrawi_Arab_Democratic_Republic_in_Africa_%28claimed%29.svg/250px-Sahrawi_Arab_Democratic_Republic_in_Africa_%28claimed%29.svg.png"
-        flag = "なし(西サハラ)"
-
-    if iso == "PS":
-        pos = r"//upload.wikimedia.org/wikipedia/commons/thumb/6/69/BritishMandatePalestine1920.png/250px-BritishMandatePalestine1920.png"
-        flag = "なし(パレスチナ)"
 
     if iso == "BV":
         pos = r"//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Bouvet-pos.png/250px-Bouvet-pos.png"
@@ -70,14 +86,10 @@ def fetch_page_images(id: int, ja: str, iso: str, url: str):
         else:
             raise ValueError(f"国旗画像のサイズ変更失敗: {flag}")
 
-    return {
-        "id": id,
-        "ja": ja,
-        "iso": iso,
-        "url": url.replace("https://ja.wikipedia.org/wiki/", ""),
-        "flag": flag,
-        "pos": pos,
-    }
+    download_image(flag, flag_path)
+    download_image(pos, pos_path)
+
+    return ret
 
 
 def process_html_file(html_path, json_path):
@@ -120,6 +132,8 @@ def process_html_file(html_path, json_path):
             "MQ",  # マルティニーク
             "SH",  # セントヘレナ
             "RE",  # レユニオン
+            "EH",  # 西サハラ
+            "PS",  # パレスチナ
         ]:
             print(f"スキップ: {iso_code} - {ja}")
             continue

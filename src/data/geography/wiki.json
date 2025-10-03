@@ -4,1919 +4,1903 @@
     "ja": "アイスランド",
     "iso": "IS",
     "url": "%E3%82%A2%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%B3%E3%83%89",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/700px-Flag_of_Iceland.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Europe-Iceland.svg/700px-Europe-Iceland.svg.png"
+    "flag": "/memorize-app/geography/flags/IS.png",
+    "pos": "/memorize-app/geography/locations/IS.png"
   },
   {
     "id": 2,
     "ja": "アイルランド",
     "iso": "IE",
     "url": "%E3%82%A2%E3%82%A4%E3%83%AB%E3%83%A9%E3%83%B3%E3%83%89",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/700px-Flag_of_Ireland.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/EU-Ireland.svg/700px-EU-Ireland.svg.png"
+    "flag": "/memorize-app/geography/flags/IE.png",
+    "pos": "/memorize-app/geography/locations/IE.png"
   },
   {
     "id": 3,
     "ja": "アゼルバイジャン",
     "iso": "AZ",
     "url": "%E3%82%A2%E3%82%BC%E3%83%AB%E3%83%90%E3%82%A4%E3%82%B8%E3%83%A3%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/700px-Flag_of_Azerbaijan.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Azerbaijan_%28orthographic_projection%29.svg/700px-Azerbaijan_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/AZ.png",
+    "pos": "/memorize-app/geography/locations/AZ.png"
   },
   {
     "id": 4,
     "ja": "アフガニスタン",
     "iso": "AF",
     "url": "%E3%82%A2%E3%83%95%E3%82%AC%E3%83%8B%E3%82%B9%E3%82%BF%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/700px-Flag_of_the_Taliban.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Afghanistan_%28orthographic_projection%29.svg/700px-Afghanistan_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/AF.png",
+    "pos": "/memorize-app/geography/locations/AF.png"
   },
   {
     "id": 5,
     "ja": "アメリカ合衆国",
     "iso": "US",
     "url": "%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E5%90%88%E8%A1%86%E5%9B%BD",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_the_United_States_%28Web_Colors%29.svg/700px-Flag_of_the_United_States_%28Web_Colors%29.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/United_States_in_the_World.svg/700px-United_States_in_the_World.svg.png"
+    "flag": "/memorize-app/geography/flags/US.png",
+    "pos": "/memorize-app/geography/locations/US.png"
   },
   {
     "id": 6,
     "ja": "アメリカ領ヴァージン諸島",
     "iso": "VI",
     "url": "%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E9%A0%98%E3%83%B4%E3%82%A1%E3%83%BC%E3%82%B8%E3%83%B3%E8%AB%B8%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_the_United_States_Virgin_Islands.svg/700px-Flag_of_the_United_States_Virgin_Islands.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/United_States_on_the_globe_%28United_States_Virgin_Islands_special%29_%28Americas_centered%29.svg/700px-United_States_on_the_globe_%28United_States_Virgin_Islands_special%29_%28Americas_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/VI.png",
+    "pos": "/memorize-app/geography/locations/VI.png"
   },
   {
     "id": 7,
     "ja": "アメリカ領サモア",
     "iso": "AS",
     "url": "%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E9%A0%98%E3%82%B5%E3%83%A2%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/8/87/Flag_of_American_Samoa.svg/700px-Flag_of_American_Samoa.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/99/American_Samoa_on_the_globe_%28Polynesia_centered%29.svg/700px-American_Samoa_on_the_globe_%28Polynesia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/AS.png",
+    "pos": "/memorize-app/geography/locations/AS.png"
   },
   {
     "id": 8,
     "ja": "アラブ首長国連邦",
     "iso": "AE",
     "url": "%E3%82%A2%E3%83%A9%E3%83%96%E9%A6%96%E9%95%B7%E5%9B%BD%E9%80%A3%E9%82%A6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/700px-Flag_of_the_United_Arab_Emirates.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/United_Arab_Emirates_%28orthographic_projection%29.svg/700px-United_Arab_Emirates_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/AE.png",
+    "pos": "/memorize-app/geography/locations/AE.png"
   },
   {
     "id": 9,
     "ja": "アルジェリア",
     "iso": "DZ",
     "url": "%E3%82%A2%E3%83%AB%E3%82%B8%E3%82%A7%E3%83%AA%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/700px-Flag_of_Algeria.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/25/Algeria_%28orthographic_projection%29.svg/700px-Algeria_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/DZ.png",
+    "pos": "/memorize-app/geography/locations/DZ.png"
   },
   {
     "id": 10,
     "ja": "アルゼンチン",
     "iso": "AR",
     "url": "%E3%82%A2%E3%83%AB%E3%82%BC%E3%83%B3%E3%83%81%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/700px-Flag_of_Argentina.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Argentina_orthographic.svg/700px-Argentina_orthographic.svg.png"
+    "flag": "/memorize-app/geography/flags/AR.png",
+    "pos": "/memorize-app/geography/locations/AR.png"
   },
   {
     "id": 11,
     "ja": "アルバ",
     "iso": "AW",
     "url": "%E3%82%A2%E3%83%AB%E3%83%90",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Aruba.svg/700px-Flag_of_Aruba.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Aruba_in_Caribbean.svg/700px-Aruba_in_Caribbean.svg.png"
+    "flag": "/memorize-app/geography/flags/AW.png",
+    "pos": "/memorize-app/geography/locations/AW.png"
   },
   {
     "id": 12,
     "ja": "アルバニア",
     "iso": "AL",
     "url": "%E3%82%A2%E3%83%AB%E3%83%90%E3%83%8B%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/700px-Flag_of_Albania.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Europe-Albania.svg/700px-Europe-Albania.svg.png"
+    "flag": "/memorize-app/geography/flags/AL.png",
+    "pos": "/memorize-app/geography/locations/AL.png"
   },
   {
     "id": 13,
     "ja": "アルメニア",
     "iso": "AM",
     "url": "%E3%82%A2%E3%83%AB%E3%83%A1%E3%83%8B%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/700px-Flag_of_Armenia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Armenia_%28orthographic_projection%29.svg/700px-Armenia_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/AM.png",
+    "pos": "/memorize-app/geography/locations/AM.png"
   },
   {
     "id": 14,
     "ja": "アンギラ",
     "iso": "AI",
     "url": "%E3%82%A2%E3%83%B3%E3%82%AE%E3%83%A9",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Anguilla.svg/700px-Flag_of_Anguilla.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Anguilla_in_its_region_%28zoom%29.svg/700px-Anguilla_in_its_region_%28zoom%29.svg.png"
+    "flag": "/memorize-app/geography/flags/AI.png",
+    "pos": "/memorize-app/geography/locations/AI.png"
   },
   {
     "id": 15,
     "ja": "アンゴラ",
     "iso": "AO",
     "url": "%E3%82%A2%E3%83%B3%E3%82%B4%E3%83%A9",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/700px-Flag_of_Angola.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Angola_%28orthographic_projection%29.svg/700px-Angola_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/AO.png",
+    "pos": "/memorize-app/geography/locations/AO.png"
   },
   {
     "id": 16,
     "ja": "アンティグア・バーブーダ",
     "iso": "AG",
     "url": "%E3%82%A2%E3%83%B3%E3%83%86%E3%82%A3%E3%82%B0%E3%82%A2%E3%83%BB%E3%83%90%E3%83%BC%E3%83%96%E3%83%BC%E3%83%80",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/700px-Flag_of_Antigua_and_Barbuda.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/21/ATG_orthographic.svg/700px-ATG_orthographic.svg.png"
+    "flag": "/memorize-app/geography/flags/AG.png",
+    "pos": "/memorize-app/geography/locations/AG.png"
   },
   {
     "id": 17,
     "ja": "アンドラ",
     "iso": "AD",
     "url": "%E3%82%A2%E3%83%B3%E3%83%89%E3%83%A9",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/700px-Flag_of_Andorra.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Andorra_in_Europe_%28zoomed%29.svg/700px-Andorra_in_Europe_%28zoomed%29.svg.png"
+    "flag": "/memorize-app/geography/flags/AD.png",
+    "pos": "/memorize-app/geography/locations/AD.png"
   },
   {
     "id": 18,
     "ja": "イエメン",
     "iso": "YE",
     "url": "%E3%82%A4%E3%82%A8%E3%83%A1%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/700px-Flag_of_Yemen.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Yemen_%28orthographic_projection%29.svg/700px-Yemen_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/YE.png",
+    "pos": "/memorize-app/geography/locations/YE.png"
   },
   {
     "id": 19,
     "ja": "イギリス",
     "iso": "GB",
     "url": "%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/700px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/49/United_Kingdom_%28%2Boverseas_territories%29_in_the_World_%28%2BAntarctica_claims%29.svg/700px-United_Kingdom_%28%2Boverseas_territories%29_in_the_World_%28%2BAntarctica_claims%29.svg.png"
+    "flag": "/memorize-app/geography/flags/GB.png",
+    "pos": "/memorize-app/geography/locations/GB.png"
   },
   {
     "id": 20,
     "ja": "イギリス領インド洋地域",
     "iso": "IO",
     "url": "%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E9%A0%98%E3%82%A4%E3%83%B3%E3%83%89%E6%B4%8B%E5%9C%B0%E5%9F%9F",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_the_Commissioner_of_the_British_Indian_Ocean_Territory.svg/700px-Flag_of_the_Commissioner_of_the_British_Indian_Ocean_Territory.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/British_Indian_Ocean_Territory_in_United_Kingdom.svg/700px-British_Indian_Ocean_Territory_in_United_Kingdom.svg.png"
+    "flag": "/memorize-app/geography/flags/IO.png",
+    "pos": "/memorize-app/geography/locations/IO.png"
   },
   {
     "id": 21,
     "ja": "イギリス領ヴァージン諸島",
     "iso": "VG",
     "url": "%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E9%A0%98%E3%83%B4%E3%82%A1%E3%83%BC%E3%82%B8%E3%83%B3%E8%AB%B8%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_the_British_Virgin_Islands.svg/700px-Flag_of_the_British_Virgin_Islands.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/British_Virgin_Islands_in_its_region.svg/700px-British_Virgin_Islands_in_its_region.svg.png"
+    "flag": "/memorize-app/geography/flags/VG.png",
+    "pos": "/memorize-app/geography/locations/VG.png"
   },
   {
     "id": 22,
     "ja": "イスラエル",
     "iso": "IL",
     "url": "%E3%82%A4%E3%82%B9%E3%83%A9%E3%82%A8%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/700px-Flag_of_Israel.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/47/ISR_orthographic.svg/700px-ISR_orthographic.svg.png"
+    "flag": "/memorize-app/geography/flags/IL.png",
+    "pos": "/memorize-app/geography/locations/IL.png"
   },
   {
     "id": 23,
     "ja": "イタリア",
     "iso": "IT",
     "url": "%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/700px-Flag_of_Italy.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/EU-Italy.svg/700px-EU-Italy.svg.png"
+    "flag": "/memorize-app/geography/flags/IT.png",
+    "pos": "/memorize-app/geography/locations/IT.png"
   },
   {
     "id": 24,
     "ja": "イラク",
     "iso": "IQ",
     "url": "%E3%82%A4%E3%83%A9%E3%82%AF",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/700px-Flag_of_Iraq.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Iraq_%28orthographic_projection%29.svg/700px-Iraq_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/IQ.png",
+    "pos": "/memorize-app/geography/locations/IQ.png"
   },
   {
     "id": 25,
     "ja": "イラン・イスラム共和国",
     "iso": "IR",
     "url": "%E3%82%A4%E3%83%A9%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/700px-Flag_of_Iran.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Iran_%28orthographic_projection%29.svg/700px-Iran_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/IR.png",
+    "pos": "/memorize-app/geography/locations/IR.png"
   },
   {
     "id": 26,
     "ja": "インド",
     "iso": "IN",
     "url": "%E3%82%A4%E3%83%B3%E3%83%89",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/700px-Flag_of_India.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bb/India_%28orthographic_projection%29.svg/700px-India_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/IN.png",
+    "pos": "/memorize-app/geography/locations/IN.png"
   },
   {
     "id": 27,
     "ja": "インドネシア",
     "iso": "ID",
     "url": "%E3%82%A4%E3%83%B3%E3%83%89%E3%83%8D%E3%82%B7%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/700px-Flag_of_Indonesia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Indonesia_%28orthographic_projection%29.svg/700px-Indonesia_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/ID.png",
+    "pos": "/memorize-app/geography/locations/ID.png"
   },
   {
     "id": 28,
     "ja": "ウォリス・フツナ",
     "iso": "WF",
     "url": "%E3%82%A6%E3%82%A9%E3%83%AA%E3%82%B9%E3%83%BB%E3%83%95%E3%83%84%E3%83%8A",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Flag_of_Wallis_and_Futuna.svg/700px-Flag_of_Wallis_and_Futuna.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Wallis_and_Futuna_on_the_globe_%28Polynesia_centered%29.svg/700px-Wallis_and_Futuna_on_the_globe_%28Polynesia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/WF.png",
+    "pos": "/memorize-app/geography/locations/WF.png"
   },
   {
     "id": 29,
     "ja": "ウガンダ",
     "iso": "UG",
     "url": "%E3%82%A6%E3%82%AC%E3%83%B3%E3%83%80",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/700px-Flag_of_Uganda.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Uganda_%28orthographic_projection%29.svg/700px-Uganda_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/UG.png",
+    "pos": "/memorize-app/geography/locations/UG.png"
   },
   {
     "id": 30,
     "ja": "ウクライナ",
     "iso": "UA",
     "url": "%E3%82%A6%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%8A",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/700px-Flag_of_Ukraine.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/46/Europe-Ukraine_%28disputed_territory%29.svg/700px-Europe-Ukraine_%28disputed_territory%29.svg.png"
+    "flag": "/memorize-app/geography/flags/UA.png",
+    "pos": "/memorize-app/geography/locations/UA.png"
   },
   {
     "id": 31,
     "ja": "ウズベキスタン",
     "iso": "UZ",
     "url": "%E3%82%A6%E3%82%BA%E3%83%99%E3%82%AD%E3%82%B9%E3%82%BF%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/700px-Flag_of_Uzbekistan.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/76/%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD_%D0%BD%D0%B0_%D0%B3%D0%BB%D0%BE%D0%B1%D1%83%D1%81%D0%B5.svg/700px-%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD_%D0%BD%D0%B0_%D0%B3%D0%BB%D0%BE%D0%B1%D1%83%D1%81%D0%B5.svg.png"
+    "flag": "/memorize-app/geography/flags/UZ.png",
+    "pos": "/memorize-app/geography/locations/UZ.png"
   },
   {
     "id": 32,
     "ja": "ウルグアイ",
     "iso": "UY",
     "url": "%E3%82%A6%E3%83%AB%E3%82%B0%E3%82%A2%E3%82%A4",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/700px-Flag_of_Uruguay.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Uruguay_%28orthographic_projection%29.svg/700px-Uruguay_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/UY.png",
+    "pos": "/memorize-app/geography/locations/UY.png"
   },
   {
     "id": 33,
     "ja": "エクアドル",
     "iso": "EC",
     "url": "%E3%82%A8%E3%82%AF%E3%82%A2%E3%83%89%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/700px-Flag_of_Ecuador.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Ecuador_%28orthographic_projection%29.svg/700px-Ecuador_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/EC.png",
+    "pos": "/memorize-app/geography/locations/EC.png"
   },
   {
     "id": 34,
     "ja": "エジプト",
     "iso": "EG",
     "url": "%E3%82%A8%E3%82%B8%E3%83%97%E3%83%88",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/700px-Flag_of_Egypt.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Egypt_%28orthographic_projection%29.svg/700px-Egypt_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/EG.png",
+    "pos": "/memorize-app/geography/locations/EG.png"
   },
   {
     "id": 35,
     "ja": "エストニア",
     "iso": "EE",
     "url": "%E3%82%A8%E3%82%B9%E3%83%88%E3%83%8B%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/700px-Flag_of_Estonia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/EU-Estonia.svg/700px-EU-Estonia.svg.png"
+    "flag": "/memorize-app/geography/flags/EE.png",
+    "pos": "/memorize-app/geography/locations/EE.png"
   },
   {
     "id": 36,
     "ja": "エスワティニ",
     "iso": "SZ",
     "url": "%E3%82%A8%E3%82%B9%E3%83%AF%E3%83%86%E3%82%A3%E3%83%8B",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/700px-Flag_of_Eswatini.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Location_Eswatini_AU_Africa.svg/700px-Location_Eswatini_AU_Africa.svg.png"
+    "flag": "/memorize-app/geography/flags/SZ.png",
+    "pos": "/memorize-app/geography/locations/SZ.png"
   },
   {
     "id": 37,
     "ja": "エチオピア",
     "iso": "ET",
     "url": "%E3%82%A8%E3%83%81%E3%82%AA%E3%83%94%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/700px-Flag_of_Ethiopia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Ethiopia_%28Africa_orthographic_projection%29.svg/700px-Ethiopia_%28Africa_orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/ET.png",
+    "pos": "/memorize-app/geography/locations/ET.png"
   },
   {
     "id": 38,
     "ja": "エリトリア",
     "iso": "ER",
     "url": "%E3%82%A8%E3%83%AA%E3%83%88%E3%83%AA%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Eritrea.svg/700px-Flag_of_Eritrea.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Eritrea_%28Africa_orthographic_projection%29.svg/700px-Eritrea_%28Africa_orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/ER.png",
+    "pos": "/memorize-app/geography/locations/ER.png"
   },
   {
     "id": 39,
     "ja": "エルサルバドル",
     "iso": "SV",
     "url": "%E3%82%A8%E3%83%AB%E3%82%B5%E3%83%AB%E3%83%90%E3%83%89%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/700px-Flag_of_El_Salvador.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Orthographic_Map_of_El_Salvador.svg/700px-Orthographic_Map_of_El_Salvador.svg.png"
+    "flag": "/memorize-app/geography/flags/SV.png",
+    "pos": "/memorize-app/geography/locations/SV.png"
   },
   {
     "id": 40,
     "ja": "オーストラリア",
     "iso": "AU",
     "url": "%E3%82%AA%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%AA%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Australia.svg/700px-Flag_of_Australia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Australia_with_AAT_%28orthographic_projection%29.svg/700px-Australia_with_AAT_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/AU.png",
+    "pos": "/memorize-app/geography/locations/AU.png"
   },
   {
     "id": 41,
     "ja": "オーストリア",
     "iso": "AT",
     "url": "%E3%82%AA%E3%83%BC%E3%82%B9%E3%83%88%E3%83%AA%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/700px-Flag_of_Austria.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Location_Austria_EU_Europe.png/250px-Location_Austria_EU_Europe.png"
+    "flag": "/memorize-app/geography/flags/AT.png",
+    "pos": "/memorize-app/geography/locations/AT.png"
   },
   {
     "id": 42,
     "ja": "オーランド諸島",
     "iso": "AX",
     "url": "%E3%82%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89%E8%AB%B8%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Flag_of_%C3%85land.svg/700px-Flag_of_%C3%85land.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Aland_in_its_region.svg/700px-Aland_in_its_region.svg.png"
+    "flag": "/memorize-app/geography/flags/AX.png",
+    "pos": "/memorize-app/geography/locations/AX.png"
   },
   {
     "id": 43,
     "ja": "オマーン",
     "iso": "OM",
     "url": "%E3%82%AA%E3%83%9E%E3%83%BC%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/700px-Flag_of_Oman.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Oman_%28better%29_%28orthographic_projection%29.svg/700px-Oman_%28better%29_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/OM.png",
+    "pos": "/memorize-app/geography/locations/OM.png"
   },
   {
     "id": 44,
     "ja": "オランダ",
     "iso": "NL",
     "url": "%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/700px-Flag_of_the_Netherlands.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/27/EU-Netherlands.svg/700px-EU-Netherlands.svg.png"
+    "flag": "/memorize-app/geography/flags/NL.png",
+    "pos": "/memorize-app/geography/locations/NL.png"
   },
   {
     "id": 45,
     "ja": "ガーナ",
     "iso": "GH",
     "url": "%E3%82%AC%E3%83%BC%E3%83%8A",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/700px-Flag_of_Ghana.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ghana_%28orthographic_projection%29.svg/700px-Ghana_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/GH.png",
+    "pos": "/memorize-app/geography/locations/GH.png"
   },
   {
     "id": 46,
     "ja": "カーボベルデ",
     "iso": "CV",
     "url": "%E3%82%AB%E3%83%BC%E3%83%9C%E3%83%99%E3%83%AB%E3%83%87",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Cape_Verde.svg/700px-Flag_of_Cape_Verde.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Cape_Verde_%28orthographic_projection%29.svg/700px-Cape_Verde_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/CV.png",
+    "pos": "/memorize-app/geography/locations/CV.png"
   },
   {
     "id": 47,
     "ja": "ガーンジー",
     "iso": "GG",
     "url": "%E3%82%AC%E3%83%BC%E3%83%B3%E3%82%B8%E3%83%BC",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Guernsey.svg/700px-Flag_of_Guernsey.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/United_Kingdom_in_its_region_%28Guernsey_special%29.svg/700px-United_Kingdom_in_its_region_%28Guernsey_special%29.svg.png"
+    "flag": "/memorize-app/geography/flags/GG.png",
+    "pos": "/memorize-app/geography/locations/GG.png"
   },
   {
     "id": 48,
     "ja": "ガイアナ",
     "iso": "GY",
     "url": "%E3%82%AC%E3%82%A4%E3%82%A2%E3%83%8A",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/700px-Flag_of_Guyana.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Guyana_%28orthographic_projection%29.svg/700px-Guyana_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/GY.png",
+    "pos": "/memorize-app/geography/locations/GY.png"
   },
   {
     "id": 49,
     "ja": "カザフスタン",
     "iso": "KZ",
     "url": "%E3%82%AB%E3%82%B6%E3%83%95%E3%82%B9%E3%82%BF%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/700px-Flag_of_Kazakhstan.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kazakhstan_%28orthographic_projection%29.svg/700px-Kazakhstan_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/KZ.png",
+    "pos": "/memorize-app/geography/locations/KZ.png"
   },
   {
     "id": 50,
     "ja": "カタール",
     "iso": "QA",
     "url": "%E3%82%AB%E3%82%BF%E3%83%BC%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/700px-Flag_of_Qatar.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/QAT_orthographic.svg/700px-QAT_orthographic.svg.png"
+    "flag": "/memorize-app/geography/flags/QA.png",
+    "pos": "/memorize-app/geography/locations/QA.png"
   },
   {
     "id": 52,
     "ja": "カナダ",
     "iso": "CA",
     "url": "%E3%82%AB%E3%83%8A%E3%83%80",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/700px-Flag_of_Canada_%28Pantone%29.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Canada_%28orthographic_projection%29.svg/700px-Canada_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/CA.png",
+    "pos": "/memorize-app/geography/locations/CA.png"
   },
   {
     "id": 53,
     "ja": "ガボン",
     "iso": "GA",
     "url": "%E3%82%AC%E3%83%9C%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/700px-Flag_of_Gabon.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Gabon_%28orthographic_projection%29.svg/700px-Gabon_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/GA.png",
+    "pos": "/memorize-app/geography/locations/GA.png"
   },
   {
     "id": 54,
     "ja": "カメルーン",
     "iso": "CM",
     "url": "%E3%82%AB%E3%83%A1%E3%83%AB%E3%83%BC%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/700px-Flag_of_Cameroon.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Cameroon_%28orthographic_projection%29.svg/700px-Cameroon_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/CM.png",
+    "pos": "/memorize-app/geography/locations/CM.png"
   },
   {
     "id": 55,
     "ja": "ガンビア",
     "iso": "GM",
     "url": "%E3%82%AC%E3%83%B3%E3%83%93%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_The_Gambia.svg/700px-Flag_of_The_Gambia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Gambia_%28orthographic_projection_with_inset%29.svg/700px-Gambia_%28orthographic_projection_with_inset%29.svg.png"
+    "flag": "/memorize-app/geography/flags/GM.png",
+    "pos": "/memorize-app/geography/locations/GM.png"
   },
   {
     "id": 56,
     "ja": "カンボジア",
     "iso": "KH",
     "url": "%E3%82%AB%E3%83%B3%E3%83%9C%E3%82%B8%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/700px-Flag_of_Cambodia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Cambodia_on_the_globe_%28Southeast_Asia_centered%29.svg/700px-Cambodia_on_the_globe_%28Southeast_Asia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/KH.png",
+    "pos": "/memorize-app/geography/locations/KH.png"
   },
   {
     "id": 57,
     "ja": "北マケドニア",
     "iso": "MK",
     "url": "%E5%8C%97%E3%83%9E%E3%82%B1%E3%83%89%E3%83%8B%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/700px-Flag_of_North_Macedonia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Locator_map_of_the_Republic_of_Macedonia.svg/700px-Locator_map_of_the_Republic_of_Macedonia.svg.png"
+    "flag": "/memorize-app/geography/flags/MK.png",
+    "pos": "/memorize-app/geography/locations/MK.png"
   },
   {
     "id": 58,
     "ja": "北マリアナ諸島",
     "iso": "MP",
     "url": "%E5%8C%97%E3%83%9E%E3%83%AA%E3%82%A2%E3%83%8A%E8%AB%B8%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_the_Northern_Mariana_Islands.svg/700px-Flag_of_the_Northern_Mariana_Islands.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Northern_Mariana_Islands_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg/700px-Northern_Mariana_Islands_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg.png"
+    "flag": "/memorize-app/geography/flags/MP.png",
+    "pos": "/memorize-app/geography/locations/MP.png"
   },
   {
     "id": 59,
     "ja": "ギニア",
     "iso": "GN",
     "url": "%E3%82%AE%E3%83%8B%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Guinea.svg/700px-Flag_of_Guinea.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Guinea_%28orthographic_projection%29.svg/700px-Guinea_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/GN.png",
+    "pos": "/memorize-app/geography/locations/GN.png"
   },
   {
     "id": 60,
     "ja": "ギニアビサウ",
     "iso": "GW",
     "url": "%E3%82%AE%E3%83%8B%E3%82%A2%E3%83%93%E3%82%B5%E3%82%A6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Guinea-Bissau.svg/700px-Flag_of_Guinea-Bissau.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Guinea-Bissau_on_the_globe_%28Cape_Verde_centered%29.svg/700px-Guinea-Bissau_on_the_globe_%28Cape_Verde_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/GW.png",
+    "pos": "/memorize-app/geography/locations/GW.png"
   },
   {
     "id": 61,
     "ja": "キプロス",
     "iso": "CY",
     "url": "%E3%82%AD%E3%83%97%E3%83%AD%E3%82%B9",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/700px-Flag_of_Cyprus.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/EU-Cyprus.svg/700px-EU-Cyprus.svg.png"
+    "flag": "/memorize-app/geography/flags/CY.png",
+    "pos": "/memorize-app/geography/locations/CY.png"
   },
   {
     "id": 62,
     "ja": "キューバ",
     "iso": "CU",
     "url": "%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%90",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/700px-Flag_of_Cuba.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Cuba_%28orthographic_projection%29.svg/700px-Cuba_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/CU.png",
+    "pos": "/memorize-app/geography/locations/CU.png"
   },
   {
     "id": 63,
     "ja": "キュラソー",
     "iso": "CW",
     "url": "%E3%82%AD%E3%83%A5%E3%83%A9%E3%82%BD%E3%83%BC%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Cura%C3%A7ao.svg/700px-Flag_of_Cura%C3%A7ao.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Curacao_in_its_region.svg/700px-Curacao_in_its_region.svg.png"
+    "flag": "/memorize-app/geography/flags/CW.png",
+    "pos": "/memorize-app/geography/locations/CW.png"
   },
   {
     "id": 64,
     "ja": "ギリシャ",
     "iso": "GR",
     "url": "%E3%82%AE%E3%83%AA%E3%82%B7%E3%83%A3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/700px-Flag_of_Greece.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/21/EU-Greece.svg/700px-EU-Greece.svg.png"
+    "flag": "/memorize-app/geography/flags/GR.png",
+    "pos": "/memorize-app/geography/locations/GR.png"
   },
   {
     "id": 65,
     "ja": "キリバス",
     "iso": "KI",
     "url": "%E3%82%AD%E3%83%AA%E3%83%90%E3%82%B9",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kiribati.svg/700px-Flag_of_Kiribati.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kiribati_on_the_globe_%28Polynesia_centered%29.svg/700px-Kiribati_on_the_globe_%28Polynesia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/KI.png",
+    "pos": "/memorize-app/geography/locations/KI.png"
   },
   {
     "id": 66,
     "ja": "キルギス",
     "iso": "KG",
     "url": "%E3%82%AD%E3%83%AB%E3%82%AE%E3%82%B9",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/700px-Flag_of_Kyrgyzstan.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kyrgyzstan_%28orthographic_projection%29.svg/700px-Kyrgyzstan_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/KG.png",
+    "pos": "/memorize-app/geography/locations/KG.png"
   },
   {
     "id": 67,
     "ja": "グアテマラ",
     "iso": "GT",
     "url": "%E3%82%B0%E3%82%A2%E3%83%86%E3%83%9E%E3%83%A9",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/700px-Flag_of_Guatemala.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Guatemala_%28orthographic_projection%29.svg/700px-Guatemala_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/GT.png",
+    "pos": "/memorize-app/geography/locations/GT.png"
   },
   {
     "id": 69,
     "ja": "グアム",
     "iso": "GU",
     "url": "%E3%82%B0%E3%82%A2%E3%83%A0",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flag_of_Guam.svg/700px-Flag_of_Guam.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Guam_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg/700px-Guam_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg.png"
+    "flag": "/memorize-app/geography/flags/GU.png",
+    "pos": "/memorize-app/geography/locations/GU.png"
   },
   {
     "id": 70,
     "ja": "クウェート",
     "iso": "KW",
     "url": "%E3%82%AF%E3%82%A6%E3%82%A7%E3%83%BC%E3%83%88",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/700px-Flag_of_Kuwait.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/41/KWT_orthographic.svg/700px-KWT_orthographic.svg.png"
+    "flag": "/memorize-app/geography/flags/KW.png",
+    "pos": "/memorize-app/geography/locations/KW.png"
   },
   {
     "id": 71,
     "ja": "クック諸島",
     "iso": "CK",
     "url": "%E3%82%AF%E3%83%83%E3%82%AF%E8%AB%B8%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_the_Cook_Islands.svg/700px-Flag_of_the_Cook_Islands.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Cook_Islands_on_the_globe_%28Polynesia_centered%29.svg/700px-Cook_Islands_on_the_globe_%28Polynesia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/CK.png",
+    "pos": "/memorize-app/geography/locations/CK.png"
   },
   {
     "id": 72,
     "ja": "グリーンランド",
     "iso": "GL",
     "url": "%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_Greenland.svg/700px-Flag_of_Greenland.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Greenland_%28orthographic_projection%29.svg/700px-Greenland_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/GL.png",
+    "pos": "/memorize-app/geography/locations/GL.png"
   },
   {
     "id": 73,
     "ja": "クリスマス島",
     "iso": "CX",
     "url": "%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E5%B3%B6_(%E3%82%AA%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%AA%E3%82%A2)",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Flag_of_Christmas_Island.svg/700px-Flag_of_Christmas_Island.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Christmas_Island_in_Australia.svg/700px-Christmas_Island_in_Australia.svg.png"
+    "flag": "/memorize-app/geography/flags/CX.png",
+    "pos": "/memorize-app/geography/locations/CX.png"
   },
   {
     "id": 74,
     "ja": "グレナダ",
     "iso": "GD",
     "url": "%E3%82%B0%E3%83%AC%E3%83%8A%E3%83%80",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/700px-Flag_of_Grenada.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Grenada_on_the_globe_%28Americas_centered%29.svg/700px-Grenada_on_the_globe_%28Americas_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/GD.png",
+    "pos": "/memorize-app/geography/locations/GD.png"
   },
   {
     "id": 75,
     "ja": "クロアチア",
     "iso": "HR",
     "url": "%E3%82%AF%E3%83%AD%E3%82%A2%E3%83%81%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/700px-Flag_of_Croatia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/15/EU-Croatia.svg/700px-EU-Croatia.svg.png"
+    "flag": "/memorize-app/geography/flags/HR.png",
+    "pos": "/memorize-app/geography/locations/HR.png"
   },
   {
     "id": 76,
     "ja": "ケイマン諸島",
     "iso": "KY",
     "url": "%E3%82%B1%E3%82%A4%E3%83%9E%E3%83%B3%E8%AB%B8%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_the_Cayman_Islands.svg/700px-Flag_of_the_Cayman_Islands.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Cayman_Islands_in_Caribbean.svg/700px-Cayman_Islands_in_Caribbean.svg.png"
+    "flag": "/memorize-app/geography/flags/KY.png",
+    "pos": "/memorize-app/geography/locations/KY.png"
   },
   {
     "id": 77,
     "ja": "ケニア",
     "iso": "KE",
     "url": "%E3%82%B1%E3%83%8B%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/700px-Flag_of_Kenya.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Kenya_%28orthographic_projection%29.svg/700px-Kenya_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/KE.png",
+    "pos": "/memorize-app/geography/locations/KE.png"
   },
   {
     "id": 78,
     "ja": "コートジボワール",
     "iso": "CI",
     "url": "%E3%82%B3%E3%83%BC%E3%83%88%E3%82%B8%E3%83%9C%E3%83%AF%E3%83%BC%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/700px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/C%C3%B4te_d%27Ivoire_%28orthographic_projection%29.svg/700px-C%C3%B4te_d%27Ivoire_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/CI.png",
+    "pos": "/memorize-app/geography/locations/CI.png"
   },
   {
     "id": 80,
     "ja": "コスタリカ",
     "iso": "CR",
     "url": "%E3%82%B3%E3%82%B9%E3%82%BF%E3%83%AA%E3%82%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/700px-Flag_of_Costa_Rica.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Costa_Rica_%28orthographic_projection%29.svg/700px-Costa_Rica_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/CR.png",
+    "pos": "/memorize-app/geography/locations/CR.png"
   },
   {
     "id": 81,
     "ja": "コモロ",
     "iso": "KM",
     "url": "%E3%82%B3%E3%83%A2%E3%83%AD",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag_of_the_Comoros.svg/700px-Flag_of_the_Comoros.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Comoros_%28orthographic_projection%29.svg/700px-Comoros_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/KM.png",
+    "pos": "/memorize-app/geography/locations/KM.png"
   },
   {
     "id": 82,
     "ja": "コロンビア",
     "iso": "CO",
     "url": "%E3%82%B3%E3%83%AD%E3%83%B3%E3%83%93%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/700px-Flag_of_Colombia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/COL_orthographic_%28San_Andr%C3%A9s_and_Providencia_special%29.svg/700px-COL_orthographic_%28San_Andr%C3%A9s_and_Providencia_special%29.svg.png"
+    "flag": "/memorize-app/geography/flags/CO.png",
+    "pos": "/memorize-app/geography/locations/CO.png"
   },
   {
     "id": 83,
     "ja": "コンゴ共和国",
     "iso": "CG",
     "url": "%E3%82%B3%E3%83%B3%E3%82%B4%E5%85%B1%E5%92%8C%E5%9B%BD",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/700px-Flag_of_the_Republic_of_the_Congo.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Republic_of_the_Congo_%28orthographic_projection%29.svg/700px-Republic_of_the_Congo_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/CG.png",
+    "pos": "/memorize-app/geography/locations/CG.png"
   },
   {
     "id": 84,
     "ja": "コンゴ民主共和国",
     "iso": "CD",
     "url": "%E3%82%B3%E3%83%B3%E3%82%B4%E6%B0%91%E4%B8%BB%E5%85%B1%E5%92%8C%E5%9B%BD",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/700px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Democratic_Republic_of_the_Congo_%28orthographic_projection%29.svg/700px-Democratic_Republic_of_the_Congo_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/CD.png",
+    "pos": "/memorize-app/geography/locations/CD.png"
   },
   {
     "id": 85,
     "ja": "サウジアラビア",
     "iso": "SA",
     "url": "%E3%82%B5%E3%82%A6%E3%82%B8%E3%82%A2%E3%83%A9%E3%83%93%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/700px-Flag_of_Saudi_Arabia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Saudi_Arabia_%28orthographic_projection%29.svg/700px-Saudi_Arabia_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/SA.png",
+    "pos": "/memorize-app/geography/locations/SA.png"
   },
   {
     "id": 86,
     "ja": "サウスジョージア・サウスサンドウィッチ諸島",
     "iso": "GS",
     "url": "%E3%82%B5%E3%82%A6%E3%82%B9%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%BB%E3%82%B5%E3%82%A6%E3%82%B9%E3%82%B5%E3%83%B3%E3%83%89%E3%82%A6%E3%82%A3%E3%83%83%E3%83%81%E8%AB%B8%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg/700px-Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_Georgia_and_the_South_Sandwich_Islands_on_the_globe_%28Chile_centered%29.svg/700px-South_Georgia_and_the_South_Sandwich_Islands_on_the_globe_%28Chile_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/GS.png",
+    "pos": "/memorize-app/geography/locations/GS.png"
   },
   {
     "id": 87,
     "ja": "サモア",
     "iso": "WS",
     "url": "%E3%82%B5%E3%83%A2%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Samoa.svg/700px-Flag_of_Samoa.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Samoa_on_the_globe_%28Polynesia_centered%29.svg/700px-Samoa_on_the_globe_%28Polynesia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/WS.png",
+    "pos": "/memorize-app/geography/locations/WS.png"
   },
   {
     "id": 88,
     "ja": "サントメ・プリンシペ",
     "iso": "ST",
     "url": "%E3%82%B5%E3%83%B3%E3%83%88%E3%83%A1%E3%83%BB%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B7%E3%83%9A",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg/700px-Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Sao_Tome_and_Principe_on_the_globe_%28Africa_centered%29.svg/700px-Sao_Tome_and_Principe_on_the_globe_%28Africa_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/ST.png",
+    "pos": "/memorize-app/geography/locations/ST.png"
   },
   {
     "id": 89,
     "ja": "サン・バルテルミー",
     "iso": "BL",
     "url": "%E3%82%B5%E3%83%B3%E3%83%BB%E3%83%90%E3%83%AB%E3%83%86%E3%83%AB%E3%83%9F%E3%83%BC%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Saint_Barth%C3%A9lemy_%28local%29.svg/700px-Flag_of_Saint_Barth%C3%A9lemy_%28local%29.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Saint_Barthelemy_in_its_region.svg/700px-Saint_Barthelemy_in_its_region.svg.png"
+    "flag": "/memorize-app/geography/flags/BL.png",
+    "pos": "/memorize-app/geography/locations/BL.png"
   },
   {
     "id": 90,
     "ja": "ザンビア",
     "iso": "ZM",
     "url": "%E3%82%B6%E3%83%B3%E3%83%93%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Zambia.svg/700px-Flag_of_Zambia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Zambia_%28orthographic_projection%29.svg/700px-Zambia_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/ZM.png",
+    "pos": "/memorize-app/geography/locations/ZM.png"
   },
   {
     "id": 91,
     "ja": "サンピエール島・ミクロン島",
     "iso": "PM",
     "url": "%E3%82%B5%E3%83%B3%E3%83%94%E3%82%A8%E3%83%BC%E3%83%AB%E5%B3%B6%E3%83%BB%E3%83%9F%E3%82%AF%E3%83%AD%E3%83%B3%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_Saint-Pierre_and_Miquelon.svg/700px-Flag_of_Saint-Pierre_and_Miquelon.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Saint_Pierre_and_Miquelon_in_France.svg/700px-Saint_Pierre_and_Miquelon_in_France.svg.png"
+    "flag": "/memorize-app/geography/flags/PM.png",
+    "pos": "/memorize-app/geography/locations/PM.png"
   },
   {
     "id": 92,
     "ja": "サンマリノ",
     "iso": "SM",
     "url": "%E3%82%B5%E3%83%B3%E3%83%9E%E3%83%AA%E3%83%8E",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_San_Marino.svg/700px-Flag_of_San_Marino.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/49/San_Marino_on_the_globe_%28Europe_centered%29.svg/700px-San_Marino_on_the_globe_%28Europe_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/SM.png",
+    "pos": "/memorize-app/geography/locations/SM.png"
   },
   {
     "id": 93,
     "ja": "サン・マルタン（フランス領）",
     "iso": "MF",
     "url": "%E3%82%B5%E3%83%B3%E3%83%BB%E3%83%9E%E3%83%AB%E3%82%BF%E3%83%B3_(%E8%A5%BF%E3%82%A4%E3%83%B3%E3%83%89%E8%AB%B8%E5%B3%B6)",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/700px-Flag_of_France.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Saint_Martin_in_its_region.svg/700px-Saint_Martin_in_its_region.svg.png"
+    "flag": "/memorize-app/geography/flags/MF.png",
+    "pos": "/memorize-app/geography/locations/MF.png"
   },
   {
     "id": 94,
     "ja": "シエラレオネ",
     "iso": "SL",
     "url": "%E3%82%B7%E3%82%A8%E3%83%A9%E3%83%AC%E3%82%AA%E3%83%8D",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Sierra_Leone.svg/700px-Flag_of_Sierra_Leone.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Sierra_Leone_%28orthographic_projection%29.svg/700px-Sierra_Leone_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/SL.png",
+    "pos": "/memorize-app/geography/locations/SL.png"
   },
   {
     "id": 95,
     "ja": "ジブチ",
     "iso": "DJ",
     "url": "%E3%82%B8%E3%83%96%E3%83%81",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/700px-Flag_of_Djibouti.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Djibouti_%28orthographic_projection%29.svg/700px-Djibouti_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/DJ.png",
+    "pos": "/memorize-app/geography/locations/DJ.png"
   },
   {
     "id": 96,
     "ja": "ジブラルタル",
     "iso": "GI",
     "url": "%E3%82%B8%E3%83%96%E3%83%A9%E3%83%AB%E3%82%BF%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/02/Flag_of_Gibraltar.svg/700px-Flag_of_Gibraltar.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Gibraltar_in_United_Kingdom.svg/700px-Gibraltar_in_United_Kingdom.svg.png"
+    "flag": "/memorize-app/geography/flags/GI.png",
+    "pos": "/memorize-app/geography/locations/GI.png"
   },
   {
     "id": 97,
     "ja": "ジャージー",
     "iso": "JE",
     "url": "%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%B8%E3%83%BC",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Flag_of_Jersey.svg/700px-Flag_of_Jersey.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Jersey_in_its_region.svg/700px-Jersey_in_its_region.svg.png"
+    "flag": "/memorize-app/geography/flags/JE.png",
+    "pos": "/memorize-app/geography/locations/JE.png"
   },
   {
     "id": 98,
     "ja": "ジャマイカ",
     "iso": "JM",
     "url": "%E3%82%B8%E3%83%A3%E3%83%9E%E3%82%A4%E3%82%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/700px-Flag_of_Jamaica.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Jamaica_%28orthographic_projection%29.svg/700px-Jamaica_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/JM.png",
+    "pos": "/memorize-app/geography/locations/JM.png"
   },
   {
     "id": 99,
     "ja": "ジョージア",
     "iso": "GE",
     "url": "%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%B8%E3%82%A2_(%E5%9B%BD)",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/700px-Flag_of_Georgia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Georgia_%28orthographic_projection_with_inset%29.svg/700px-Georgia_%28orthographic_projection_with_inset%29.svg.png"
+    "flag": "/memorize-app/geography/flags/GE.png",
+    "pos": "/memorize-app/geography/locations/GE.png"
   },
   {
     "id": 100,
     "ja": "シリア・アラブ共和国",
     "iso": "SY",
     "url": "%E3%82%B7%E3%83%AA%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Syria_%282025-%29.svg/700px-Flag_of_Syria_%282025-%29.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Syria_%28orthographic_projection%29.svg/700px-Syria_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/SY.png",
+    "pos": "/memorize-app/geography/locations/SY.png"
   },
   {
     "id": 101,
     "ja": "シンガポール",
     "iso": "SG",
     "url": "%E3%82%B7%E3%83%B3%E3%82%AC%E3%83%9D%E3%83%BC%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/700px-Flag_of_Singapore.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/51/Singapore_in_its_region_%28zoom%29.svg/700px-Singapore_in_its_region_%28zoom%29.svg.png"
+    "flag": "/memorize-app/geography/flags/SG.png",
+    "pos": "/memorize-app/geography/locations/SG.png"
   },
   {
     "id": 102,
     "ja": "シント・マールテン（オランダ領）",
     "iso": "SX",
     "url": "%E3%82%B7%E3%83%B3%E3%83%88%E3%83%BB%E3%83%9E%E3%83%BC%E3%83%AB%E3%83%86%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Sint_Maarten.svg/700px-Flag_of_Sint_Maarten.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Sint_Maarten_in_its_region.svg/700px-Sint_Maarten_in_its_region.svg.png"
+    "flag": "/memorize-app/geography/flags/SX.png",
+    "pos": "/memorize-app/geography/locations/SX.png"
   },
   {
     "id": 103,
     "ja": "ジンバブエ",
     "iso": "ZW",
     "url": "%E3%82%B8%E3%83%B3%E3%83%90%E3%83%96%E3%82%A8",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/700px-Flag_of_Zimbabwe.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Zimbabwe_%28orthographic_projection%29.svg/700px-Zimbabwe_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/ZW.png",
+    "pos": "/memorize-app/geography/locations/ZW.png"
   },
   {
     "id": 104,
     "ja": "スイス",
     "iso": "CH",
     "url": "%E3%82%B9%E3%82%A4%E3%82%B9",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/500px-Flag_of_Switzerland.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Europe-Switzerland.svg/700px-Europe-Switzerland.svg.png"
+    "flag": "/memorize-app/geography/flags/CH.png",
+    "pos": "/memorize-app/geography/locations/CH.png"
   },
   {
     "id": 105,
     "ja": "スウェーデン",
     "iso": "SE",
     "url": "%E3%82%B9%E3%82%A6%E3%82%A7%E3%83%BC%E3%83%87%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/700px-Flag_of_Sweden.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Sweden_%28orthographic_projection%29.svg/700px-Sweden_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/SE.png",
+    "pos": "/memorize-app/geography/locations/SE.png"
   },
   {
     "id": 106,
     "ja": "スーダン",
     "iso": "SD",
     "url": "%E3%82%B9%E3%83%BC%E3%83%80%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Sudan.svg/700px-Flag_of_Sudan.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sudan_%28orthographic_projection%29_highlighted.svg/700px-Sudan_%28orthographic_projection%29_highlighted.svg.png"
+    "flag": "/memorize-app/geography/flags/SD.png",
+    "pos": "/memorize-app/geography/locations/SD.png"
   },
   {
     "id": 107,
     "ja": "スヴァールバル諸島およびヤンマイエン島",
     "iso": "SJ",
     "url": "%E3%82%B9%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%AB%E3%83%90%E3%83%AB%E8%AB%B8%E5%B3%B6%E3%81%8A%E3%82%88%E3%81%B3%E3%83%A4%E3%83%B3%E3%83%9E%E3%82%A4%E3%82%A8%E3%83%B3%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/700px-Flag_of_Norway.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Svalbard_and_Jan_Mayen_in_the_world_%28W3%29.svg/700px-Svalbard_and_Jan_Mayen_in_the_world_%28W3%29.svg.png"
+    "flag": "/memorize-app/geography/flags/SJ.png",
+    "pos": "/memorize-app/geography/locations/SJ.png"
   },
   {
     "id": 108,
     "ja": "スペイン",
     "iso": "ES",
     "url": "%E3%82%B9%E3%83%9A%E3%82%A4%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/700px-Flag_of_Spain.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/21/EU-Spain.svg/700px-EU-Spain.svg.png"
+    "flag": "/memorize-app/geography/flags/ES.png",
+    "pos": "/memorize-app/geography/locations/ES.png"
   },
   {
     "id": 109,
     "ja": "スリナム",
     "iso": "SR",
     "url": "%E3%82%B9%E3%83%AA%E3%83%8A%E3%83%A0",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/700px-Flag_of_Suriname.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/63/SURINAME_orthographic.svg/700px-SURINAME_orthographic.svg.png"
+    "flag": "/memorize-app/geography/flags/SR.png",
+    "pos": "/memorize-app/geography/locations/SR.png"
   },
   {
     "id": 110,
     "ja": "スリランカ",
     "iso": "LK",
     "url": "%E3%82%B9%E3%83%AA%E3%83%A9%E3%83%B3%E3%82%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/700px-Flag_of_Sri_Lanka.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sri_Lanka_%28orthographic_projection%29.svg/700px-Sri_Lanka_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/LK.png",
+    "pos": "/memorize-app/geography/locations/LK.png"
   },
   {
     "id": 111,
     "ja": "スロバキア",
     "iso": "SK",
     "url": "%E3%82%B9%E3%83%AD%E3%83%90%E3%82%AD%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/700px-Flag_of_Slovakia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/EU-Slovakia.svg/700px-EU-Slovakia.svg.png"
+    "flag": "/memorize-app/geography/flags/SK.png",
+    "pos": "/memorize-app/geography/locations/SK.png"
   },
   {
     "id": 112,
     "ja": "スロベニア",
     "iso": "SI",
     "url": "%E3%82%B9%E3%83%AD%E3%83%99%E3%83%8B%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/700px-Flag_of_Slovenia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/84/EU-Slovenia.svg/700px-EU-Slovenia.svg.png"
+    "flag": "/memorize-app/geography/flags/SI.png",
+    "pos": "/memorize-app/geography/locations/SI.png"
   },
   {
     "id": 113,
     "ja": "セーシェル",
     "iso": "SC",
     "url": "%E3%82%BB%E3%83%BC%E3%82%B7%E3%82%A7%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/700px-Flag_of_Seychelles.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/SYC_orthographic.svg/700px-SYC_orthographic.svg.png"
+    "flag": "/memorize-app/geography/flags/SC.png",
+    "pos": "/memorize-app/geography/locations/SC.png"
   },
   {
     "id": 114,
     "ja": "赤道ギニア",
     "iso": "GQ",
     "url": "%E8%B5%A4%E9%81%93%E3%82%AE%E3%83%8B%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/700px-Flag_of_Equatorial_Guinea.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/GNQ_orthographic.svg/700px-GNQ_orthographic.svg.png"
+    "flag": "/memorize-app/geography/flags/GQ.png",
+    "pos": "/memorize-app/geography/locations/GQ.png"
   },
   {
     "id": 115,
     "ja": "セネガル",
     "iso": "SN",
     "url": "%E3%82%BB%E3%83%8D%E3%82%AC%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/700px-Flag_of_Senegal.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Senegal_%28orthographic_projection%29.svg/700px-Senegal_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/SN.png",
+    "pos": "/memorize-app/geography/locations/SN.png"
   },
   {
     "id": 116,
     "ja": "セルビア",
     "iso": "RS",
     "url": "%E3%82%BB%E3%83%AB%E3%83%93%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/700px-Flag_of_Serbia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Europe-Serbia_%282006%E2%80%932008%29.svg/700px-Europe-Serbia_%282006%E2%80%932008%29.svg.png"
+    "flag": "/memorize-app/geography/flags/RS.png",
+    "pos": "/memorize-app/geography/locations/RS.png"
   },
   {
     "id": 117,
     "ja": "セントクリストファー・ネイビス",
     "iso": "KN",
     "url": "%E3%82%BB%E3%83%B3%E3%83%88%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%88%E3%83%95%E3%82%A1%E3%83%BC%E3%83%BB%E3%83%8D%E3%82%A4%E3%83%93%E3%82%B9",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/700px-Flag_of_Saint_Kitts_and_Nevis.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/KNA_orthographic.svg/700px-KNA_orthographic.svg.png"
+    "flag": "/memorize-app/geography/flags/KN.png",
+    "pos": "/memorize-app/geography/locations/KN.png"
   },
   {
     "id": 118,
     "ja": "セントビンセント・グレナディーン",
     "iso": "VC",
     "url": "%E3%82%BB%E3%83%B3%E3%83%88%E3%83%93%E3%83%B3%E3%82%BB%E3%83%B3%E3%83%88%E3%83%BB%E3%82%B0%E3%83%AC%E3%83%8A%E3%83%87%E3%82%A3%E3%83%BC%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/700px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/70/VCT_orthographic.svg/700px-VCT_orthographic.svg.png"
+    "flag": "/memorize-app/geography/flags/VC.png",
+    "pos": "/memorize-app/geography/locations/VC.png"
   },
   {
     "id": 120,
     "ja": "セントルシア",
     "iso": "LC",
     "url": "%E3%82%BB%E3%83%B3%E3%83%88%E3%83%AB%E3%82%B7%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/700px-Flag_of_Saint_Lucia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/97/Saint_Lucia_on_the_globe_%28Americas_centered%29.svg/700px-Saint_Lucia_on_the_globe_%28Americas_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/LC.png",
+    "pos": "/memorize-app/geography/locations/LC.png"
   },
   {
     "id": 121,
     "ja": "ソマリア",
     "iso": "SO",
     "url": "%E3%82%BD%E3%83%9E%E3%83%AA%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/700px-Flag_of_Somalia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Somalia_%28orthographic_projection%29_highlighted.svg/700px-Somalia_%28orthographic_projection%29_highlighted.svg.png"
+    "flag": "/memorize-app/geography/flags/SO.png",
+    "pos": "/memorize-app/geography/locations/SO.png"
   },
   {
     "id": 122,
     "ja": "ソロモン諸島",
     "iso": "SB",
     "url": "%E3%82%BD%E3%83%AD%E3%83%A2%E3%83%B3%E8%AB%B8%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/700px-Flag_of_the_Solomon_Islands.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Solomon_Islands_on_the_globe_%28Oceania_centered%29.svg/700px-Solomon_Islands_on_the_globe_%28Oceania_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/SB.png",
+    "pos": "/memorize-app/geography/locations/SB.png"
   },
   {
     "id": 123,
     "ja": "タークス・カイコス諸島",
     "iso": "TC",
     "url": "%E3%82%BF%E3%83%BC%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%AB%E3%82%A4%E3%82%B3%E3%82%B9%E8%AB%B8%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_the_Turks_and_Caicos_Islands.svg/700px-Flag_of_the_Turks_and_Caicos_Islands.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/46/United_Kingdom_on_the_globe_%28Turks_and_Caicos_Islands_special%29_%28Americas_centered%29.svg/700px-United_Kingdom_on_the_globe_%28Turks_and_Caicos_Islands_special%29_%28Americas_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/TC.png",
+    "pos": "/memorize-app/geography/locations/TC.png"
   },
   {
     "id": 124,
     "ja": "タイ",
     "iso": "TH",
     "url": "%E3%82%BF%E3%82%A4%E7%8E%8B%E5%9B%BD",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/700px-Flag_of_Thailand.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Thailand_%28orthographic_projection%29.svg/700px-Thailand_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/TH.png",
+    "pos": "/memorize-app/geography/locations/TH.png"
   },
   {
     "id": 125,
     "ja": "大韓民国",
     "iso": "KR",
     "url": "%E5%A4%A7%E9%9F%93%E6%B0%91%E5%9B%BD",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/700px-Flag_of_South_Korea.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Republic_of_Korea_%28orthographic_projection%29.svg/700px-Republic_of_Korea_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/KR.png",
+    "pos": "/memorize-app/geography/locations/KR.png"
   },
   {
     "id": 126,
     "ja": "台湾地区",
     "iso": "TW",
     "url": "%E5%8F%B0%E6%B9%BE%E5%9C%B0%E5%8C%BA",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/40px-Flag_of_the_Republic_of_China.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taiwan2014.svg/700px-Taiwan2014.svg.png"
+    "flag": "/memorize-app/geography/flags/TW.png",
+    "pos": "/memorize-app/geography/locations/TW.png"
   },
   {
     "id": 127,
     "ja": "タジキスタン",
     "iso": "TJ",
     "url": "%E3%82%BF%E3%82%B8%E3%82%AD%E3%82%B9%E3%82%BF%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Tajikistan.svg/700px-Flag_of_Tajikistan.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Tajikistan_%28orthographic_projection%29.svg/700px-Tajikistan_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/TJ.png",
+    "pos": "/memorize-app/geography/locations/TJ.png"
   },
   {
     "id": 128,
     "ja": "タンザニア",
     "iso": "TZ",
     "url": "%E3%82%BF%E3%83%B3%E3%82%B6%E3%83%8B%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/700px-Flag_of_Tanzania.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tanzania_%28orthographic_projection%29.svg/700px-Tanzania_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/TZ.png",
+    "pos": "/memorize-app/geography/locations/TZ.png"
   },
   {
     "id": 129,
     "ja": "チェコ",
     "iso": "CZ",
     "url": "%E3%83%81%E3%82%A7%E3%82%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/700px-Flag_of_the_Czech_Republic.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/31/EU-Czech_Republic.svg/700px-EU-Czech_Republic.svg.png"
+    "flag": "/memorize-app/geography/flags/CZ.png",
+    "pos": "/memorize-app/geography/locations/CZ.png"
   },
   {
     "id": 130,
     "ja": "チャド",
     "iso": "TD",
     "url": "%E3%83%81%E3%83%A3%E3%83%89",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_Chad.svg/700px-Flag_of_Chad.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/46/Chad_%28orthographic_projection%29.svg/700px-Chad_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/TD.png",
+    "pos": "/memorize-app/geography/locations/TD.png"
   },
   {
     "id": 131,
     "ja": "中央アフリカ共和国",
     "iso": "CF",
     "url": "%E4%B8%AD%E5%A4%AE%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E5%85%B1%E5%92%8C%E5%9B%BD",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Central_African_Republic.svg/700px-Flag_of_the_Central_African_Republic.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Central_African_Republic_%28orthographic_projection%29.svg/700px-Central_African_Republic_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/CF.png",
+    "pos": "/memorize-app/geography/locations/CF.png"
   },
   {
     "id": 132,
     "ja": "中華人民共和国",
     "iso": "CN",
     "url": "%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/700px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/People%27s_Republic_of_China_%28orthographic_projection%29.svg/700px-People%27s_Republic_of_China_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/CN.png",
+    "pos": "/memorize-app/geography/locations/CN.png"
   },
   {
     "id": 133,
     "ja": "チュニジア",
     "iso": "TN",
     "url": "%E3%83%81%E3%83%A5%E3%83%8B%E3%82%B8%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/700px-Flag_of_Tunisia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Tunisia_%28orthographic_projection%29.svg/700px-Tunisia_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/TN.png",
+    "pos": "/memorize-app/geography/locations/TN.png"
   },
   {
     "id": 134,
     "ja": "朝鮮民主主義人民共和国",
     "iso": "KP",
     "url": "%E6%9C%9D%E9%AE%AE%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/700px-Flag_of_North_Korea.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Democratic_People%27s_Republic_of_Korea_%28orthographic_projection%29.svg/700px-Democratic_People%27s_Republic_of_Korea_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/KP.png",
+    "pos": "/memorize-app/geography/locations/KP.png"
   },
   {
     "id": 135,
     "ja": "チリ",
     "iso": "CL",
     "url": "%E3%83%81%E3%83%AA",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/700px-Flag_of_Chile.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Chile_%28orthographic_projection%29.svg/700px-Chile_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/CL.png",
+    "pos": "/memorize-app/geography/locations/CL.png"
   },
   {
     "id": 136,
     "ja": "ツバル",
     "iso": "TV",
     "url": "%E3%83%84%E3%83%90%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/700px-Flag_of_Tuvalu.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Tuvalu_on_the_globe_%28Polynesia_centered%29.svg/700px-Tuvalu_on_the_globe_%28Polynesia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/TV.png",
+    "pos": "/memorize-app/geography/locations/TV.png"
   },
   {
     "id": 137,
     "ja": "デンマーク",
     "iso": "DK",
     "url": "%E3%83%87%E3%83%B3%E3%83%9E%E3%83%BC%E3%82%AF",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/700px-Flag_of_Denmark.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/EU-Denmark.svg/700px-EU-Denmark.svg.png"
+    "flag": "/memorize-app/geography/flags/DK.png",
+    "pos": "/memorize-app/geography/locations/DK.png"
   },
   {
     "id": 138,
     "ja": "ドイツ",
     "iso": "DE",
     "url": "%E3%83%89%E3%82%A4%E3%83%84",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/700px-Flag_of_Germany.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/26/EU-Germany.svg/700px-EU-Germany.svg.png"
+    "flag": "/memorize-app/geography/flags/DE.png",
+    "pos": "/memorize-app/geography/locations/DE.png"
   },
   {
     "id": 139,
     "ja": "トーゴ",
     "iso": "TG",
     "url": "%E3%83%88%E3%83%BC%E3%82%B4",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/700px-Flag_of_Togo.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Togo_on_the_globe_%28Africa_centered%29.svg/700px-Togo_on_the_globe_%28Africa_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/TG.png",
+    "pos": "/memorize-app/geography/locations/TG.png"
   },
   {
     "id": 140,
     "ja": "トケラウ",
     "iso": "TK",
     "url": "%E3%83%88%E3%82%B1%E3%83%A9%E3%82%A6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_Tokelau.svg/700px-Flag_of_Tokelau.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/52/Tokelau_on_the_globe_%28Polynesia_centered%29.svg/700px-Tokelau_on_the_globe_%28Polynesia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/TK.png",
+    "pos": "/memorize-app/geography/locations/TK.png"
   },
   {
     "id": 141,
     "ja": "ドミニカ共和国",
     "iso": "DO",
     "url": "%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AB%E5%85%B1%E5%92%8C%E5%9B%BD",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/700px-Flag_of_the_Dominican_Republic.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/95/Dominican_Republic_%28orthographic_projection%29.svg/700px-Dominican_Republic_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/DO.png",
+    "pos": "/memorize-app/geography/locations/DO.png"
   },
   {
     "id": 142,
     "ja": "ドミニカ国",
     "iso": "DM",
     "url": "%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AB%E5%9B%BD",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Dominica.svg/700px-Flag_of_Dominica.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dominica_on_the_globe_%28Americas_centered%29.svg/700px-Dominica_on_the_globe_%28Americas_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/DM.png",
+    "pos": "/memorize-app/geography/locations/DM.png"
   },
   {
     "id": 143,
     "ja": "トリニダード・トバゴ",
     "iso": "TT",
     "url": "%E3%83%88%E3%83%AA%E3%83%8B%E3%83%80%E3%83%BC%E3%83%89%E3%83%BB%E3%83%88%E3%83%90%E3%82%B4",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/700px-Flag_of_Trinidad_and_Tobago.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Trinidad_and_Tobago_%28orthographic_projection%29.svg/700px-Trinidad_and_Tobago_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/TT.png",
+    "pos": "/memorize-app/geography/locations/TT.png"
   },
   {
     "id": 144,
     "ja": "トルクメニスタン",
     "iso": "TM",
     "url": "%E3%83%88%E3%83%AB%E3%82%AF%E3%83%A1%E3%83%8B%E3%82%B9%E3%82%BF%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/700px-Flag_of_Turkmenistan.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Turkmenistan_%28ortographic_projection%29.svg/700px-Turkmenistan_%28ortographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/TM.png",
+    "pos": "/memorize-app/geography/locations/TM.png"
   },
   {
     "id": 145,
     "ja": "トルコ",
     "iso": "TR",
     "url": "%E3%83%88%E3%83%AB%E3%82%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/700px-Flag_of_Turkey.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Turkey_%28orthographic_projection%29.svg/700px-Turkey_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/TR.png",
+    "pos": "/memorize-app/geography/locations/TR.png"
   },
   {
     "id": 146,
     "ja": "トンガ",
     "iso": "TO",
     "url": "%E3%83%88%E3%83%B3%E3%82%AC",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/700px-Flag_of_Tonga.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Tonga_on_the_globe_%28Polynesia_centered%29.svg/700px-Tonga_on_the_globe_%28Polynesia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/TO.png",
+    "pos": "/memorize-app/geography/locations/TO.png"
   },
   {
     "id": 147,
     "ja": "ナイジェリア",
     "iso": "NG",
     "url": "%E3%83%8A%E3%82%A4%E3%82%B8%E3%82%A7%E3%83%AA%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/700px-Flag_of_Nigeria.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Nigeria_%28orthographic_projection%29.svg/700px-Nigeria_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/NG.png",
+    "pos": "/memorize-app/geography/locations/NG.png"
   },
   {
     "id": 148,
     "ja": "ナウル",
     "iso": "NR",
     "url": "%E3%83%8A%E3%82%A6%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Flag_of_Nauru.svg/700px-Flag_of_Nauru.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/25/Nauru_on_the_globe_%28Polynesia_centered%29.svg/700px-Nauru_on_the_globe_%28Polynesia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/NR.png",
+    "pos": "/memorize-app/geography/locations/NR.png"
   },
   {
     "id": 149,
     "ja": "ナミビア",
     "iso": "NA",
     "url": "%E3%83%8A%E3%83%9F%E3%83%93%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/700px-Flag_of_Namibia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Namibia_%28orthographic_projection%29.svg/700px-Namibia_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/NA.png",
+    "pos": "/memorize-app/geography/locations/NA.png"
   },
   {
     "id": 150,
     "ja": "南極",
     "iso": "AQ",
     "url": "%E5%8D%97%E6%A5%B5",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_the_Antarctic_Treaty.svg/700px-Flag_of_the_Antarctic_Treaty.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/48/LocationAntarctica.png/250px-LocationAntarctica.png"
+    "flag": "/memorize-app/geography/flags/AQ.png",
+    "pos": "/memorize-app/geography/locations/AQ.png"
   },
   {
     "id": 151,
     "ja": "ニウエ",
     "iso": "NU",
     "url": "%E3%83%8B%E3%82%A6%E3%82%A8",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Niue.svg/700px-Flag_of_Niue.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Niue_on_the_globe_%28Polynesia_centered%29.svg/700px-Niue_on_the_globe_%28Polynesia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/NU.png",
+    "pos": "/memorize-app/geography/locations/NU.png"
   },
   {
     "id": 152,
     "ja": "ニカラグア",
     "iso": "NI",
     "url": "%E3%83%8B%E3%82%AB%E3%83%A9%E3%82%B0%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/700px-Flag_of_Nicaragua.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Nicaragua_%28orthographic_projection%29.svg/700px-Nicaragua_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/NI.png",
+    "pos": "/memorize-app/geography/locations/NI.png"
   },
   {
     "id": 153,
     "ja": "ニジェール",
     "iso": "NE",
     "url": "%E3%83%8B%E3%82%B8%E3%82%A7%E3%83%BC%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/700px-Flag_of_Niger.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Niger_%28orthographic_projection%29.svg/700px-Niger_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/NE.png",
+    "pos": "/memorize-app/geography/locations/NE.png"
   },
   {
     "id": 154,
     "ja": "日本",
     "iso": "JP",
     "url": "%E6%97%A5%E6%9C%AC",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/700px-Flag_of_Japan.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/62/Japan_%28orthographic_projection%29.svg/700px-Japan_%28orthographic_projection%29.svg.png"
-  },
-  {
-    "id": 155,
-    "ja": "西サハラ",
-    "iso": "EH",
-    "url": "%E8%A5%BF%E3%82%B5%E3%83%8F%E3%83%A9",
-    "flag": "なし(西サハラ)",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Sahrawi_Arab_Democratic_Republic_in_Africa_%28claimed%29.svg/700px-Sahrawi_Arab_Democratic_Republic_in_Africa_%28claimed%29.svg.png"
+    "flag": "/memorize-app/geography/flags/JP.png",
+    "pos": "/memorize-app/geography/locations/JP.png"
   },
   {
     "id": 157,
     "ja": "ニュージーランド",
     "iso": "NZ",
     "url": "%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/700px-Flag_of_New_Zealand.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/29/NZL_orthographic_NaturalEarth.svg/700px-NZL_orthographic_NaturalEarth.svg.png"
+    "flag": "/memorize-app/geography/flags/NZ.png",
+    "pos": "/memorize-app/geography/locations/NZ.png"
   },
   {
     "id": 158,
     "ja": "ネパール",
     "iso": "NP",
     "url": "%E3%83%8D%E3%83%91%E3%83%BC%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/500px-Flag_of_Nepal.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Nepal_%28orthographic_projection%29.svg/700px-Nepal_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/NP.png",
+    "pos": "/memorize-app/geography/locations/NP.png"
   },
   {
     "id": 159,
     "ja": "ノーフォーク島",
     "iso": "NF",
     "url": "%E3%83%8E%E3%83%BC%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Norfolk_Island.svg/700px-Flag_of_Norfolk_Island.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Norfolk_Island_on_the_globe_%28Polynesia_centered%29.svg/700px-Norfolk_Island_on_the_globe_%28Polynesia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/NF.png",
+    "pos": "/memorize-app/geography/locations/NF.png"
   },
   {
     "id": 160,
     "ja": "ノルウェー",
     "iso": "NO",
     "url": "%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%83%BC",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/700px-Flag_of_Norway.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/33/Norway_in_its_region_%28%2BAntarctic_claims_hatched%29_%28Bouvet_Island_special%29.svg/700px-Norway_in_its_region_%28%2BAntarctic_claims_hatched%29_%28Bouvet_Island_special%29.svg.png"
+    "flag": "/memorize-app/geography/flags/NO.png",
+    "pos": "/memorize-app/geography/locations/NO.png"
   },
   {
     "id": 162,
     "ja": "バーレーン",
     "iso": "BH",
     "url": "%E3%83%90%E3%83%BC%E3%83%AC%E3%83%BC%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/700px-Flag_of_Bahrain.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/95/Bahrain_on_the_globe_%28Bahrain_centered%29.svg/700px-Bahrain_on_the_globe_%28Bahrain_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/BH.png",
+    "pos": "/memorize-app/geography/locations/BH.png"
   },
   {
     "id": 163,
     "ja": "ハイチ",
     "iso": "HT",
     "url": "%E3%83%8F%E3%82%A4%E3%83%81",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/700px-Flag_of_Haiti.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Haiti_%28orthographic_projection%29.svg/700px-Haiti_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/HT.png",
+    "pos": "/memorize-app/geography/locations/HT.png"
   },
   {
     "id": 164,
     "ja": "パキスタン",
     "iso": "PK",
     "url": "%E3%83%91%E3%82%AD%E3%82%B9%E3%82%BF%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/700px-Flag_of_Pakistan.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Pakistan_%28orthographic_projection%29.svg/700px-Pakistan_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/PK.png",
+    "pos": "/memorize-app/geography/locations/PK.png"
   },
   {
     "id": 165,
     "ja": "バチカン市国",
     "iso": "VA",
     "url": "%E3%83%90%E3%83%81%E3%82%AB%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Flag_of_Vatican_City_%282023%E2%80%93present%29.svg/500px-Flag_of_Vatican_City_%282023%E2%80%93present%29.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Vatican_City_in_Europe_%28zoomed%29.svg/700px-Vatican_City_in_Europe_%28zoomed%29.svg.png"
+    "flag": "/memorize-app/geography/flags/VA.png",
+    "pos": "/memorize-app/geography/locations/VA.png"
   },
   {
     "id": 166,
     "ja": "パナマ",
     "iso": "PA",
     "url": "%E3%83%91%E3%83%8A%E3%83%9E",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/700px-Flag_of_Panama.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Panama_%28orthographic_projection%29.svg/700px-Panama_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/PA.png",
+    "pos": "/memorize-app/geography/locations/PA.png"
   },
   {
     "id": 167,
     "ja": "バヌアツ",
     "iso": "VU",
     "url": "%E3%83%90%E3%83%8C%E3%82%A2%E3%83%84",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Vanuatu.svg/700px-Flag_of_Vanuatu.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Vanuatu_on_the_globe_%28Polynesia_centered%29.svg/700px-Vanuatu_on_the_globe_%28Polynesia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/VU.png",
+    "pos": "/memorize-app/geography/locations/VU.png"
   },
   {
     "id": 168,
     "ja": "バハマ",
     "iso": "BS",
     "url": "%E3%83%90%E3%83%8F%E3%83%9E",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_the_Bahamas.svg/700px-Flag_of_the_Bahamas.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/d/de/The_Bahamas_on_the_globe_%28Americas_centered%29.svg/700px-The_Bahamas_on_the_globe_%28Americas_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/BS.png",
+    "pos": "/memorize-app/geography/locations/BS.png"
   },
   {
     "id": 169,
     "ja": "パプアニューギニア",
     "iso": "PG",
     "url": "%E3%83%91%E3%83%97%E3%82%A2%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%AE%E3%83%8B%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/700px-Flag_of_Papua_New_Guinea.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Papua_New_Guinea_%28orthographic_projection%29.svg/700px-Papua_New_Guinea_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/PG.png",
+    "pos": "/memorize-app/geography/locations/PG.png"
   },
   {
     "id": 170,
     "ja": "バミューダ",
     "iso": "BM",
     "url": "%E3%83%90%E3%83%9F%E3%83%A5%E3%83%BC%E3%83%80%E8%AB%B8%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bermuda.svg/700px-Flag_of_Bermuda.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/United_Kingdom_on_the_globe_%28Bermuda_special%29_%28Americas_centered%29.svg/700px-United_Kingdom_on_the_globe_%28Bermuda_special%29_%28Americas_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/BM.png",
+    "pos": "/memorize-app/geography/locations/BM.png"
   },
   {
     "id": 171,
     "ja": "パラオ",
     "iso": "PW",
     "url": "%E3%83%91%E3%83%A9%E3%82%AA",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Palau.svg/700px-Flag_of_Palau.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Palau_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg/700px-Palau_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg.png"
+    "flag": "/memorize-app/geography/flags/PW.png",
+    "pos": "/memorize-app/geography/locations/PW.png"
   },
   {
     "id": 172,
     "ja": "パラグアイ",
     "iso": "PY",
     "url": "%E3%83%91%E3%83%A9%E3%82%B0%E3%82%A2%E3%82%A4",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/700px-Flag_of_Paraguay.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Paraguay_%28orthographic_projection%29.svg/700px-Paraguay_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/PY.png",
+    "pos": "/memorize-app/geography/locations/PY.png"
   },
   {
     "id": 173,
     "ja": "バルバドス",
     "iso": "BB",
     "url": "%E3%83%90%E3%83%AB%E3%83%90%E3%83%89%E3%82%B9",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Barbados.svg/700px-Flag_of_Barbados.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/BRB_orthographic.svg/700px-BRB_orthographic.svg.png"
-  },
-  {
-    "id": 174,
-    "ja": "パレスチナ",
-    "iso": "PS",
-    "url": "%E3%83%91%E3%83%AC%E3%82%B9%E3%83%81%E3%83%8A",
-    "flag": "なし(パレスチナ)",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/69/BritishMandatePalestine1920.png/250px-BritishMandatePalestine1920.png"
+    "flag": "/memorize-app/geography/flags/BB.png",
+    "pos": "/memorize-app/geography/locations/BB.png"
   },
   {
     "id": 175,
     "ja": "ハンガリー",
     "iso": "HU",
     "url": "%E3%83%8F%E3%83%B3%E3%82%AC%E3%83%AA%E3%83%BC",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/700px-Flag_of_Hungary.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/60/EU-Hungary.svg/700px-EU-Hungary.svg.png"
+    "flag": "/memorize-app/geography/flags/HU.png",
+    "pos": "/memorize-app/geography/locations/HU.png"
   },
   {
     "id": 176,
     "ja": "バングラデシュ",
     "iso": "BD",
     "url": "%E3%83%90%E3%83%B3%E3%82%B0%E3%83%A9%E3%83%87%E3%82%B7%E3%83%A5",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/700px-Flag_of_Bangladesh.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Bangladesh_%28orthographic_projection%29.svg/700px-Bangladesh_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/BD.png",
+    "pos": "/memorize-app/geography/locations/BD.png"
   },
   {
     "id": 177,
     "ja": "東ティモール",
     "iso": "TL",
     "url": "%E6%9D%B1%E3%83%86%E3%82%A3%E3%83%A2%E3%83%BC%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/700px-Flag_of_East_Timor.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Timor_Leste_%28orthographic_projection%29.svg/700px-Timor_Leste_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/TL.png",
+    "pos": "/memorize-app/geography/locations/TL.png"
   },
   {
     "id": 178,
     "ja": "ピトケアン",
     "iso": "PN",
     "url": "%E3%83%94%E3%83%88%E3%82%B1%E3%82%A2%E3%83%B3%E8%AB%B8%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_the_Pitcairn_Islands.svg/700px-Flag_of_the_Pitcairn_Islands.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Pitcairn_Islands_on_the_globe_%28French_Polynesia_centered%29.svg/700px-Pitcairn_Islands_on_the_globe_%28French_Polynesia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/PN.png",
+    "pos": "/memorize-app/geography/locations/PN.png"
   },
   {
     "id": 179,
     "ja": "フィジー",
     "iso": "FJ",
     "url": "%E3%83%95%E3%82%A3%E3%82%B8%E3%83%BC",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/700px-Flag_of_Fiji.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Fiji_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg/700px-Fiji_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/FJ.png",
+    "pos": "/memorize-app/geography/locations/FJ.png"
   },
   {
     "id": 180,
     "ja": "フィリピン",
     "iso": "PH",
     "url": "%E3%83%95%E3%82%A3%E3%83%AA%E3%83%94%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/700px-Flag_of_the_Philippines.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Philippines_%28orthographic_projection%29.svg/700px-Philippines_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/PH.png",
+    "pos": "/memorize-app/geography/locations/PH.png"
   },
   {
     "id": 181,
     "ja": "フィンランド",
     "iso": "FI",
     "url": "%E3%83%95%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/700px-Flag_of_Finland.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/EU-Finland.svg/700px-EU-Finland.svg.png"
+    "flag": "/memorize-app/geography/flags/FI.png",
+    "pos": "/memorize-app/geography/locations/FI.png"
   },
   {
     "id": 182,
     "ja": "ブータン",
     "iso": "BT",
     "url": "%E3%83%96%E3%83%BC%E3%82%BF%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/700px-Flag_of_Bhutan.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bhutan_%28orthographic_projection%29.svg/700px-Bhutan_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/BT.png",
+    "pos": "/memorize-app/geography/locations/BT.png"
   },
   {
     "id": 183,
     "ja": "ブーベ島",
     "iso": "BV",
     "url": "%E3%83%96%E3%83%BC%E3%83%99%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/700px-Flag_of_Norway.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Bouvet-pos.png/250px-Bouvet-pos.png"
+    "flag": "/memorize-app/geography/flags/BV.png",
+    "pos": "/memorize-app/geography/locations/BV.png"
   },
   {
     "id": 184,
     "ja": "プエルトリコ",
     "iso": "PR",
     "url": "%E3%83%97%E3%82%A8%E3%83%AB%E3%83%88%E3%83%AA%E3%82%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/700px-Flag_of_Puerto_Rico.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Puerto_Rico_%28orthographic_projection%29.svg/700px-Puerto_Rico_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/PR.png",
+    "pos": "/memorize-app/geography/locations/PR.png"
   },
   {
     "id": 185,
     "ja": "フェロー諸島",
     "iso": "FO",
     "url": "%E3%83%95%E3%82%A7%E3%83%AD%E3%83%BC%E8%AB%B8%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flag_of_the_Faroe_Islands.svg/700px-Flag_of_the_Faroe_Islands.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c6/LocationFaroeIslands.png/250px-LocationFaroeIslands.png"
+    "flag": "/memorize-app/geography/flags/FO.png",
+    "pos": "/memorize-app/geography/locations/FO.png"
   },
   {
     "id": 186,
     "ja": "フォークランド（マルビナス）諸島",
     "iso": "FK",
     "url": "%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%83%A9%E3%83%B3%E3%83%89%E8%AB%B8%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_Falkland_Islands.svg/700px-Flag_of_the_Falkland_Islands.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Falkland_Islands_in_United_Kingdom.svg/700px-Falkland_Islands_in_United_Kingdom.svg.png"
+    "flag": "/memorize-app/geography/flags/FK.png",
+    "pos": "/memorize-app/geography/locations/FK.png"
   },
   {
     "id": 187,
     "ja": "ブラジル",
     "iso": "BR",
     "url": "%E3%83%96%E3%83%A9%E3%82%B8%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/700px-Flag_of_Brazil.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Brazil_%28orthographic_projection%29.svg/700px-Brazil_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/BR.png",
+    "pos": "/memorize-app/geography/locations/BR.png"
   },
   {
     "id": 188,
     "ja": "フランス",
     "iso": "FR",
     "url": "%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/700px-Flag_of_France.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Mapadefrancia.svg/700px-Mapadefrancia.svg.png"
+    "flag": "/memorize-app/geography/flags/FR.png",
+    "pos": "/memorize-app/geography/locations/FR.png"
   },
   {
     "id": 190,
     "ja": "フランス領ポリネシア",
     "iso": "PF",
     "url": "%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E9%A0%98%E3%83%9D%E3%83%AA%E3%83%8D%E3%82%B7%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Flag_of_French_Polynesia.svg/700px-Flag_of_French_Polynesia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/French_Polynesia_on_the_globe_%28French_Polynesia_centered%29.svg/700px-French_Polynesia_on_the_globe_%28French_Polynesia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/PF.png",
+    "pos": "/memorize-app/geography/locations/PF.png"
   },
   {
     "id": 191,
     "ja": "フランス領南方・南極地域",
     "iso": "TF",
     "url": "%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E9%A0%98%E5%8D%97%E6%96%B9%E3%83%BB%E5%8D%97%E6%A5%B5%E5%9C%B0%E5%9F%9F",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Flag_of_the_French_Southern_and_Antarctic_Lands.svg/700px-Flag_of_the_French_Southern_and_Antarctic_Lands.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/French_Southern_and_Antarctic_Lands_in_its_region.svg/700px-French_Southern_and_Antarctic_Lands_in_its_region.svg.png"
+    "flag": "/memorize-app/geography/flags/TF.png",
+    "pos": "/memorize-app/geography/locations/TF.png"
   },
   {
     "id": 192,
     "ja": "ブルガリア",
     "iso": "BG",
     "url": "%E3%83%96%E3%83%AB%E3%82%AC%E3%83%AA%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/700px-Flag_of_Bulgaria.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e9/EU-Bulgaria.svg/700px-EU-Bulgaria.svg.png"
+    "flag": "/memorize-app/geography/flags/BG.png",
+    "pos": "/memorize-app/geography/locations/BG.png"
   },
   {
     "id": 193,
     "ja": "ブルキナファソ",
     "iso": "BF",
     "url": "%E3%83%96%E3%83%AB%E3%82%AD%E3%83%8A%E3%83%95%E3%82%A1%E3%82%BD",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/700px-Flag_of_Burkina_Faso.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/86/Burkina_Faso_%28orthographic_projection%29.svg/700px-Burkina_Faso_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/BF.png",
+    "pos": "/memorize-app/geography/locations/BF.png"
   },
   {
     "id": 194,
     "ja": "ブルネイ・ダルサラーム",
     "iso": "BN",
     "url": "%E3%83%96%E3%83%AB%E3%83%8D%E3%82%A4",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/700px-Flag_of_Brunei.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Brunei_on_the_globe_%28Asia_centered%29.svg/700px-Brunei_on_the_globe_%28Asia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/BN.png",
+    "pos": "/memorize-app/geography/locations/BN.png"
   },
   {
     "id": 195,
     "ja": "ブルンジ",
     "iso": "BI",
     "url": "%E3%83%96%E3%83%AB%E3%83%B3%E3%82%B8",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Burundi.svg/700px-Flag_of_Burundi.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Burundi_%28orthographic_projection%29.svg/700px-Burundi_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/BI.png",
+    "pos": "/memorize-app/geography/locations/BI.png"
   },
   {
     "id": 196,
     "ja": "ベトナム",
     "iso": "VN",
     "url": "%E3%83%99%E3%83%88%E3%83%8A%E3%83%A0",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/700px-Flag_of_Vietnam.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Vietnam_%28orthographic_projection%29.svg/700px-Vietnam_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/VN.png",
+    "pos": "/memorize-app/geography/locations/VN.png"
   },
   {
     "id": 197,
     "ja": "ベナン",
     "iso": "BJ",
     "url": "%E3%83%99%E3%83%8A%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/700px-Flag_of_Benin.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Benin_%28orthographic_projection_with_inset%29.svg/700px-Benin_%28orthographic_projection_with_inset%29.svg.png"
+    "flag": "/memorize-app/geography/flags/BJ.png",
+    "pos": "/memorize-app/geography/locations/BJ.png"
   },
   {
     "id": 198,
     "ja": "ベネズエラ・ボリバル共和国",
     "iso": "VE",
     "url": "%E3%83%99%E3%83%8D%E3%82%BA%E3%82%A8%E3%83%A9",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/700px-Flag_of_Venezuela.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Venezuela_Orthographic_Map.svg/700px-Venezuela_Orthographic_Map.svg.png"
+    "flag": "/memorize-app/geography/flags/VE.png",
+    "pos": "/memorize-app/geography/locations/VE.png"
   },
   {
     "id": 199,
     "ja": "ベラルーシ",
     "iso": "BY",
     "url": "%E3%83%99%E3%83%A9%E3%83%AB%E3%83%BC%E3%82%B7",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/700px-Flag_of_Belarus.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Europe-Belarus.svg/700px-Europe-Belarus.svg.png"
+    "flag": "/memorize-app/geography/flags/BY.png",
+    "pos": "/memorize-app/geography/locations/BY.png"
   },
   {
     "id": 200,
     "ja": "ベリーズ",
     "iso": "BZ",
     "url": "%E3%83%99%E3%83%AA%E3%83%BC%E3%82%BA",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/700px-Flag_of_Belize.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/43/BLZ_orthographic.svg/700px-BLZ_orthographic.svg.png"
+    "flag": "/memorize-app/geography/flags/BZ.png",
+    "pos": "/memorize-app/geography/locations/BZ.png"
   },
   {
     "id": 201,
     "ja": "ペルー",
     "iso": "PE",
     "url": "%E3%83%9A%E3%83%AB%E3%83%BC",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/700px-Flag_of_Peru.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Peru_%28orthographic_projection%29.svg/700px-Peru_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/PE.png",
+    "pos": "/memorize-app/geography/locations/PE.png"
   },
   {
     "id": 202,
     "ja": "ベルギー",
     "iso": "BE",
     "url": "%E3%83%99%E3%83%AB%E3%82%AE%E3%83%BC",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/700px-Flag_of_Belgium.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/67/EU-Belgium.svg/700px-EU-Belgium.svg.png"
+    "flag": "/memorize-app/geography/flags/BE.png",
+    "pos": "/memorize-app/geography/locations/BE.png"
   },
   {
     "id": 203,
     "ja": "ポーランド",
     "iso": "PL",
     "url": "%E3%83%9D%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/700px-Flag_of_Poland.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Poland_%28orthographic_projection%29.svg/700px-Poland_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/PL.png",
+    "pos": "/memorize-app/geography/locations/PL.png"
   },
   {
     "id": 204,
     "ja": "ボスニア・ヘルツェゴビナ",
     "iso": "BA",
     "url": "%E3%83%9C%E3%82%B9%E3%83%8B%E3%82%A2%E3%83%BB%E3%83%98%E3%83%AB%E3%83%84%E3%82%A7%E3%82%B4%E3%83%93%E3%83%8A",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/700px-Flag_of_Bosnia_and_Herzegovina.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Map_of_Bosnia_and_Herzegovina_in_Europe.svg/700px-Map_of_Bosnia_and_Herzegovina_in_Europe.svg.png"
+    "flag": "/memorize-app/geography/flags/BA.png",
+    "pos": "/memorize-app/geography/locations/BA.png"
   },
   {
     "id": 205,
     "ja": "ボツワナ",
     "iso": "BW",
     "url": "%E3%83%9C%E3%83%84%E3%83%AF%E3%83%8A",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Botswana.svg/700px-Flag_of_Botswana.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/95/Botswana_%28orthographic_projection%29.svg/700px-Botswana_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/BW.png",
+    "pos": "/memorize-app/geography/locations/BW.png"
   },
   {
     "id": 206,
     "ja": "ボネール、シント・ユースタティウスおよびサバ",
     "iso": "BQ",
     "url": "BES%E8%AB%B8%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/700px-Flag_of_the_Netherlands.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/BES_islands_location_map.svg/700px-BES_islands_location_map.svg.png"
+    "flag": "/memorize-app/geography/flags/BQ.png",
+    "pos": "/memorize-app/geography/locations/BQ.png"
   },
   {
     "id": 207,
     "ja": "ボリビア多民族国",
     "iso": "BO",
     "url": "%E3%83%9C%E3%83%AA%E3%83%93%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/700px-Flag_of_Bolivia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Bolivia_%28orthographic_projection%29.svg/700px-Bolivia_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/BO.png",
+    "pos": "/memorize-app/geography/locations/BO.png"
   },
   {
     "id": 208,
     "ja": "ポルトガル",
     "iso": "PT",
     "url": "%E3%83%9D%E3%83%AB%E3%83%88%E3%82%AC%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Portugal_%28official%29.svg/700px-Flag_of_Portugal_%28official%29.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Portugal_on_the_globe_%28Europe_centered%29.svg/700px-Portugal_on_the_globe_%28Europe_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/PT.png",
+    "pos": "/memorize-app/geography/locations/PT.png"
   },
   {
     "id": 209,
     "ja": "香港",
     "iso": "HK",
     "url": "%E9%A6%99%E6%B8%AF",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/700px-Flag_of_Hong_Kong.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hong_Kong_in_China_%28zoomed%29_%28%2Ball_claims_hatched%29.svg/700px-Hong_Kong_in_China_%28zoomed%29_%28%2Ball_claims_hatched%29.svg.png"
+    "flag": "/memorize-app/geography/flags/HK.png",
+    "pos": "/memorize-app/geography/locations/HK.png"
   },
   {
     "id": 210,
     "ja": "ホンジュラス",
     "iso": "HN",
     "url": "%E3%83%9B%E3%83%B3%E3%82%B8%E3%83%A5%E3%83%A9%E3%82%B9",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Honduras_%282022%E2%80%93present%29.svg/700px-Flag_of_Honduras_%282022%E2%80%93present%29.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Honduras_%28orthographic_projection%29.svg/700px-Honduras_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/HN.png",
+    "pos": "/memorize-app/geography/locations/HN.png"
   },
   {
     "id": 211,
     "ja": "マーシャル諸島",
     "iso": "MH",
     "url": "%E3%83%9E%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E8%AB%B8%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_the_Marshall_Islands.svg/700px-Flag_of_the_Marshall_Islands.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Marshall_Islands_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg/700px-Marshall_Islands_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/MH.png",
+    "pos": "/memorize-app/geography/locations/MH.png"
   },
   {
     "id": 212,
     "ja": "マカオ",
     "iso": "MO",
     "url": "%E3%83%9E%E3%82%AB%E3%82%AA",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_Macau.svg/700px-Flag_of_Macau.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Macau_in_China_%28special_marker%29_%28%2Ball_claims_hatched%29.svg/700px-Macau_in_China_%28special_marker%29_%28%2Ball_claims_hatched%29.svg.png"
+    "flag": "/memorize-app/geography/flags/MO.png",
+    "pos": "/memorize-app/geography/locations/MO.png"
   },
   {
     "id": 213,
     "ja": "マダガスカル",
     "iso": "MG",
     "url": "%E3%83%9E%E3%83%80%E3%82%AC%E3%82%B9%E3%82%AB%E3%83%AB",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/700px-Flag_of_Madagascar.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Madagascar_%28centered_orthographic_projection%29.svg/700px-Madagascar_%28centered_orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/MG.png",
+    "pos": "/memorize-app/geography/locations/MG.png"
   },
   {
     "id": 214,
     "ja": "マヨット",
     "iso": "YT",
     "url": "%E3%83%9E%E3%83%A8%E3%83%83%E3%83%88",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Mayotte_%28local%29.svg/700px-Flag_of_Mayotte_%28local%29.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/France_on_the_globe_%28Mayotte_special%29_%28Africa_centered%29.svg/700px-France_on_the_globe_%28Mayotte_special%29_%28Africa_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/YT.png",
+    "pos": "/memorize-app/geography/locations/YT.png"
   },
   {
     "id": 215,
     "ja": "マラウイ",
     "iso": "MW",
     "url": "%E3%83%9E%E3%83%A9%E3%82%A6%E3%82%A4",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Malawi.svg/700px-Flag_of_Malawi.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Malawi_%28orthographic_projection%29.svg/700px-Malawi_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/MW.png",
+    "pos": "/memorize-app/geography/locations/MW.png"
   },
   {
     "id": 216,
     "ja": "マリ",
     "iso": "ML",
     "url": "%E3%83%9E%E3%83%AA%E5%85%B1%E5%92%8C%E5%9B%BD",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/700px-Flag_of_Mali.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mali_%28orthographic_projection%29.svg/700px-Mali_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/ML.png",
+    "pos": "/memorize-app/geography/locations/ML.png"
   },
   {
     "id": 217,
     "ja": "マルタ",
     "iso": "MT",
     "url": "%E3%83%9E%E3%83%AB%E3%82%BF",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/700px-Flag_of_Malta.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/63/EU-Malta.svg/700px-EU-Malta.svg.png"
+    "flag": "/memorize-app/geography/flags/MT.png",
+    "pos": "/memorize-app/geography/locations/MT.png"
   },
   {
     "id": 219,
     "ja": "マレーシア",
     "iso": "MY",
     "url": "%E3%83%9E%E3%83%AC%E3%83%BC%E3%82%B7%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/700px-Flag_of_Malaysia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Malaysia_%28orthographic_projection%29.svg/700px-Malaysia_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/MY.png",
+    "pos": "/memorize-app/geography/locations/MY.png"
   },
   {
     "id": 220,
     "ja": "マン島",
     "iso": "IM",
     "url": "%E3%83%9E%E3%83%B3%E5%B3%B6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Flag_of_the_Isle_of_Mann.svg/700px-Flag_of_the_Isle_of_Mann.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_Isle_of_Man.svg/700px-The_Isle_of_Man.svg.png"
+    "flag": "/memorize-app/geography/flags/IM.png",
+    "pos": "/memorize-app/geography/locations/IM.png"
   },
   {
     "id": 221,
     "ja": "ミクロネシア連邦",
     "iso": "FM",
     "url": "%E3%83%9F%E3%82%AF%E3%83%AD%E3%83%8D%E3%82%B7%E3%82%A2%E9%80%A3%E9%82%A6",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg/700px-Flag_of_the_Federated_States_of_Micronesia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Micronesia_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg/700px-Micronesia_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg.png"
+    "flag": "/memorize-app/geography/flags/FM.png",
+    "pos": "/memorize-app/geography/locations/FM.png"
   },
   {
     "id": 222,
     "ja": "南アフリカ",
     "iso": "ZA",
     "url": "%E5%8D%97%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E5%85%B1%E5%92%8C%E5%9B%BD",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/700px-Flag_of_South_Africa.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/South_Africa_%28orthographic_projection%29.svg/700px-South_Africa_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/ZA.png",
+    "pos": "/memorize-app/geography/locations/ZA.png"
   },
   {
     "id": 223,
     "ja": "南スーダン",
     "iso": "SS",
     "url": "%E5%8D%97%E3%82%B9%E3%83%BC%E3%83%80%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_South_Sudan.svg/700px-Flag_of_South_Sudan.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/South_Sudan_%28orthographic_projection%29_highlighted.svg/700px-South_Sudan_%28orthographic_projection%29_highlighted.svg.png"
+    "flag": "/memorize-app/geography/flags/SS.png",
+    "pos": "/memorize-app/geography/locations/SS.png"
   },
   {
     "id": 224,
     "ja": "ミャンマー",
     "iso": "MM",
     "url": "%E3%83%9F%E3%83%A3%E3%83%B3%E3%83%9E%E3%83%BC",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/700px-Flag_of_Myanmar.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Myanmar_%28orthographic_projection%29.svg/700px-Myanmar_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/MM.png",
+    "pos": "/memorize-app/geography/locations/MM.png"
   },
   {
     "id": 225,
     "ja": "メキシコ",
     "iso": "MX",
     "url": "%E3%83%A1%E3%82%AD%E3%82%B7%E3%82%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/700px-Flag_of_Mexico.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Mexico_%28orthographic_projection%29.svg/700px-Mexico_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/MX.png",
+    "pos": "/memorize-app/geography/locations/MX.png"
   },
   {
     "id": 226,
     "ja": "モーリシャス",
     "iso": "MU",
     "url": "%E3%83%A2%E3%83%BC%E3%83%AA%E3%82%B7%E3%83%A3%E3%82%B9",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/700px-Flag_of_Mauritius.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Mauritius_%28orthographic_projection_with_inset%29.svg/700px-Mauritius_%28orthographic_projection_with_inset%29.svg.png"
+    "flag": "/memorize-app/geography/flags/MU.png",
+    "pos": "/memorize-app/geography/locations/MU.png"
   },
   {
     "id": 227,
     "ja": "モーリタニア",
     "iso": "MR",
     "url": "%E3%83%A2%E3%83%BC%E3%83%AA%E3%82%BF%E3%83%8B%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Mauritania.svg/700px-Flag_of_Mauritania.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Mauritania_%28orthographic_projection%29.svg/700px-Mauritania_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/MR.png",
+    "pos": "/memorize-app/geography/locations/MR.png"
   },
   {
     "id": 228,
     "ja": "モザンビーク",
     "iso": "MZ",
     "url": "%E3%83%A2%E3%82%B6%E3%83%B3%E3%83%93%E3%83%BC%E3%82%AF",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/700px-Flag_of_Mozambique.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Mozambique_%28orthographic_projection%29.svg/700px-Mozambique_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/MZ.png",
+    "pos": "/memorize-app/geography/locations/MZ.png"
   },
   {
     "id": 229,
     "ja": "モナコ",
     "iso": "MC",
     "url": "%E3%83%A2%E3%83%8A%E3%82%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/700px-Flag_of_Monaco.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Monaco_in_Europe_%28zoomed%29.svg/700px-Monaco_in_Europe_%28zoomed%29.svg.png"
+    "flag": "/memorize-app/geography/flags/MC.png",
+    "pos": "/memorize-app/geography/locations/MC.png"
   },
   {
     "id": 230,
     "ja": "モルディブ",
     "iso": "MV",
     "url": "%E3%83%A2%E3%83%AB%E3%83%87%E3%82%A3%E3%83%96",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/700px-Flag_of_Maldives.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Maldives_%28orthographic_projection%29.svg/700px-Maldives_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/MV.png",
+    "pos": "/memorize-app/geography/locations/MV.png"
   },
   {
     "id": 231,
     "ja": "モルドバ共和国",
     "iso": "MD",
     "url": "%E3%83%A2%E3%83%AB%E3%83%89%E3%83%90",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/700px-Flag_of_Moldova.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Moldova_in_Europe.svg/700px-Moldova_in_Europe.svg.png"
+    "flag": "/memorize-app/geography/flags/MD.png",
+    "pos": "/memorize-app/geography/locations/MD.png"
   },
   {
     "id": 232,
     "ja": "モロッコ",
     "iso": "MA",
     "url": "%E3%83%A2%E3%83%AD%E3%83%83%E3%82%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/700px-Flag_of_Morocco.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Morocco_%28orthographic_projection%2C_WS_claimed%29.svg/700px-Morocco_%28orthographic_projection%2C_WS_claimed%29.svg.png"
+    "flag": "/memorize-app/geography/flags/MA.png",
+    "pos": "/memorize-app/geography/locations/MA.png"
   },
   {
     "id": 233,
     "ja": "モンゴル",
     "iso": "MN",
     "url": "%E3%83%A2%E3%83%B3%E3%82%B4%E3%83%AB%E5%9B%BD",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/700px-Flag_of_Mongolia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Mongolia_%28orthographic_projection%29.svg/700px-Mongolia_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/MN.png",
+    "pos": "/memorize-app/geography/locations/MN.png"
   },
   {
     "id": 234,
     "ja": "モンテネグロ",
     "iso": "ME",
     "url": "%E3%83%A2%E3%83%B3%E3%83%86%E3%83%8D%E3%82%B0%E3%83%AD",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/700px-Flag_of_Montenegro.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Europe-Montenegro.svg/700px-Europe-Montenegro.svg.png"
+    "flag": "/memorize-app/geography/flags/ME.png",
+    "pos": "/memorize-app/geography/locations/ME.png"
   },
   {
     "id": 235,
     "ja": "モントセラト",
     "iso": "MS",
     "url": "%E3%83%A2%E3%83%B3%E3%83%88%E3%82%BB%E3%83%A9%E3%83%88",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Montserrat.svg/700px-Flag_of_Montserrat.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Montserrat_in_its_region.svg/700px-Montserrat_in_its_region.svg.png"
+    "flag": "/memorize-app/geography/flags/MS.png",
+    "pos": "/memorize-app/geography/locations/MS.png"
   },
   {
     "id": 236,
     "ja": "ヨルダン",
     "iso": "JO",
     "url": "%E3%83%A8%E3%83%AB%E3%83%80%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/700px-Flag_of_Jordan.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Jordan_%28orthographic_projection%29.svg/700px-Jordan_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/JO.png",
+    "pos": "/memorize-app/geography/locations/JO.png"
   },
   {
     "id": 237,
     "ja": "ラオス人民民主共和国",
     "iso": "LA",
     "url": "%E3%83%A9%E3%82%AA%E3%82%B9",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/700px-Flag_of_Laos.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Laos_on_the_globe_%28Asia_centered%29.svg/700px-Laos_on_the_globe_%28Asia_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/LA.png",
+    "pos": "/memorize-app/geography/locations/LA.png"
   },
   {
     "id": 238,
     "ja": "ラトビア",
     "iso": "LV",
     "url": "%E3%83%A9%E3%83%88%E3%83%93%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/700px-Flag_of_Latvia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/3/32/EU-Latvia.svg/700px-EU-Latvia.svg.png"
+    "flag": "/memorize-app/geography/flags/LV.png",
+    "pos": "/memorize-app/geography/locations/LV.png"
   },
   {
     "id": 239,
     "ja": "リトアニア",
     "iso": "LT",
     "url": "%E3%83%AA%E3%83%88%E3%82%A2%E3%83%8B%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/700px-Flag_of_Lithuania.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/EU-Lithuania.svg/700px-EU-Lithuania.svg.png"
+    "flag": "/memorize-app/geography/flags/LT.png",
+    "pos": "/memorize-app/geography/locations/LT.png"
   },
   {
     "id": 240,
     "ja": "リビア",
     "iso": "LY",
     "url": "%E3%83%AA%E3%83%93%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Libya.svg/700px-Flag_of_Libya.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Libya_%28orthographic_projection%29.svg/700px-Libya_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/LY.png",
+    "pos": "/memorize-app/geography/locations/LY.png"
   },
   {
     "id": 241,
     "ja": "リヒテンシュタイン",
     "iso": "LI",
     "url": "%E3%83%AA%E3%83%92%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%A4%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Liechtenstein.svg/700px-Flag_of_Liechtenstein.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Europe-Liechtenstein.svg/700px-Europe-Liechtenstein.svg.png"
+    "flag": "/memorize-app/geography/flags/LI.png",
+    "pos": "/memorize-app/geography/locations/LI.png"
   },
   {
     "id": 242,
     "ja": "リベリア",
     "iso": "LR",
     "url": "%E3%83%AA%E3%83%99%E3%83%AA%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/700px-Flag_of_Liberia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Liberia_%28orthographic_projection%29.svg/700px-Liberia_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/LR.png",
+    "pos": "/memorize-app/geography/locations/LR.png"
   },
   {
     "id": 243,
     "ja": "ルーマニア",
     "iso": "RO",
     "url": "%E3%83%AB%E3%83%BC%E3%83%9E%E3%83%8B%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/700px-Flag_of_Romania.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/1/13/EU-Romania.svg/700px-EU-Romania.svg.png"
+    "flag": "/memorize-app/geography/flags/RO.png",
+    "pos": "/memorize-app/geography/locations/RO.png"
   },
   {
     "id": 244,
     "ja": "ルクセンブルク",
     "iso": "LU",
     "url": "%E3%83%AB%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%96%E3%83%AB%E3%82%AF",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/700px-Flag_of_Luxembourg.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/EU-Luxembourg.svg/700px-EU-Luxembourg.svg.png"
+    "flag": "/memorize-app/geography/flags/LU.png",
+    "pos": "/memorize-app/geography/locations/LU.png"
   },
   {
     "id": 245,
     "ja": "ルワンダ",
     "iso": "RW",
     "url": "%E3%83%AB%E3%83%AF%E3%83%B3%E3%83%80",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Rwanda.svg/700px-Flag_of_Rwanda.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rwanda_on_the_globe_%28Africa_centered%29.svg/700px-Rwanda_on_the_globe_%28Africa_centered%29.svg.png"
+    "flag": "/memorize-app/geography/flags/RW.png",
+    "pos": "/memorize-app/geography/locations/RW.png"
   },
   {
     "id": 246,
     "ja": "レソト",
     "iso": "LS",
     "url": "%E3%83%AC%E3%82%BD%E3%83%88",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Lesotho.svg/700px-Flag_of_Lesotho.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Lesotho_%28orthographic_projection_with_inset%29.svg/700px-Lesotho_%28orthographic_projection_with_inset%29.svg.png"
+    "flag": "/memorize-app/geography/flags/LS.png",
+    "pos": "/memorize-app/geography/locations/LS.png"
   },
   {
     "id": 247,
     "ja": "レバノン",
     "iso": "LB",
     "url": "%E3%83%AC%E3%83%90%E3%83%8E%E3%83%B3",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/700px-Flag_of_Lebanon.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lebanon_%28orthographic_projection%29.svg/700px-Lebanon_%28orthographic_projection%29.svg.png"
+    "flag": "/memorize-app/geography/flags/LB.png",
+    "pos": "/memorize-app/geography/locations/LB.png"
   },
   {
     "id": 249,
     "ja": "ロシア連邦",
     "iso": "RU",
     "url": "%E3%83%AD%E3%82%B7%E3%82%A2",
-    "flag": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/700px-Flag_of_Russia.svg.png",
-    "pos": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Russian_Federation_%28orthographic_projection%29_-_Annexed_Territories_disputed.svg/700px-Russian_Federation_%28orthographic_projection%29_-_Annexed_Territories_disputed.svg.png"
+    "flag": "/memorize-app/geography/flags/RU.png",
+    "pos": "/memorize-app/geography/locations/RU.png"
   }
 ]
