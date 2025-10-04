@@ -16,10 +16,14 @@ headers = {
 def download_image(img_url, save_path):
     if img_url.startswith("//"):
         img_url = "https:" + img_url
-    response = requests.get(img_url, headers=headers, timeout=100)
-    response.raise_for_status()
-    with open(save_path, "wb") as f:
-        f.write(response.content)
+    try:
+        response = requests.get(img_url, headers=headers, timeout=100)
+        response.raise_for_status()
+        with open(save_path, "wb") as f:
+            f.write(response.content)
+    except Exception as e:
+        print(f"画像のダウンロードに失敗しました: {img_url} - {e}")
+        pass
 
 
 def fetch_page_images(id: int, ja: str, iso: str, url: str):
@@ -148,7 +152,7 @@ def process_html_file(html_path, json_path):
         data.append(fetch_page_images(id, ja, iso_code, full_url))
 
         # リクエスト間隔を空ける（サーバーに負荷をかけないため）
-        time.sleep(0.1)
+        time.sleep(0.01)
 
     # JSONファイルに保存
     with open(json_path, "w", encoding="utf-8") as f:
