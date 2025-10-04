@@ -1,8 +1,6 @@
 import type { Geography, Vocabulary } from '../types/type'
 
 export const HEADER_HEIGHT = 70 // ヘッダーの高さ(px)
-export const SCROLL_SENSITIVITY = 0.9 // スクロール感度
-export const TOUCH_SCROLL_SENSITIVITY = 0.9 // タッチスクロール感度
 export const MINIMUM_TOUCH_SCROLL = 5 // 最小タッチスクロール量
 
 // セレクターページの設定

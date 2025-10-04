@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import { SCROLL_SENSITIVITY, TOUCH_SCROLL_SENSITIVITY, MINIMUM_TOUCH_SCROLL } from '../config/constant'
+import { MINIMUM_TOUCH_SCROLL } from '../config/constant'
 
 export interface ScrollingHook {
     wheelAmount: number
@@ -22,8 +22,8 @@ export const useScrolling = (wordsPerPage: number, vocabularyLength: number, row
 
     // マウスホイールイベントハンドラ - useCallbackでメモ化
     const handleScroll = useCallback((e: React.WheelEvent) => {
-        setWheelAmount(prev => Math.min(maxWheelAmount, Math.max(0, prev + e.deltaY * SCROLL_SENSITIVITY)))
-    }, [maxWheelAmount])
+        setWheelAmount(prev => Math.min(maxWheelAmount, Math.max(0, prev + e.deltaY * rowHeight / 70))) // normalize
+    }, [maxWheelAmount, rowHeight])
 
     // タッチイベントハンドラ - useCallbackでメモ化
     const handleTouchStart = useCallback((e: React.TouchEvent) => {
@@ -34,14 +34,14 @@ export const useScrolling = (wordsPerPage: number, vocabularyLength: number, row
         if (touchStart === null) return
 
         const currentTouch = e.touches[0].clientY
-        const diff = touchStart - currentTouch
-        const scrollDelta = diff * TOUCH_SCROLL_SENSITIVITY
+        const deltaY = touchStart - currentTouch
+        const scrollDelta = deltaY * rowHeight / 70 // normalize
 
         if (Math.abs(scrollDelta) > MINIMUM_TOUCH_SCROLL) {
             setWheelAmount(prev => Math.min(maxWheelAmount, Math.max(0, prev + scrollDelta)))
             setTouchStart(currentTouch)
         }
-    }, [touchStart, maxWheelAmount])
+    }, [touchStart, maxWheelAmount, rowHeight])
 
     const handleTouchEnd = useCallback(() => {
         setTouchStart(null)
