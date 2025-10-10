@@ -21,6 +21,7 @@ export const Selector = ({
     onSelect,
     showLoginSection
 }: SelectorProps) => {
+    console.log("[deprecated] showLoginSection:", showLoginSection);
     return (
         <Box
             display="flex"
@@ -67,11 +68,13 @@ export const Selector = ({
                     ))}
                 </Box>
 
+                {/*
                 {showLoginSection && (
                     <Box mb={8} textAlign="center">
                         <LoginSection />
                     </Box>
                 )}
+                */}
             </Box>
         </Box>
     )

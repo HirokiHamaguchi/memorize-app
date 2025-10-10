@@ -1,6 +1,7 @@
 import type { Geography, Vocabulary } from '../types/type'
 
 export const HEADER_HEIGHT = 70 // ヘッダーの高さ(px)
+export const SELECT_HEADER_HEIGHT = 90 // ヘッダーの高さ(px)
 export const MINIMUM_TOUCH_SCROLL = 5 // 最小タッチスクロール量
 
 // セレクターページの設定
@@ -71,6 +72,13 @@ export const GEOGRAPHY_DATASETS: DatasetConfig<GeographyRawData>[] = [
         description: '世界各国の位置と国名を学習します',
         dataLoader: () => import('../data/geography/wiki.json'),
         processor: (data: GeographyRawData[]): Geography[] => data,
+    },
+    {
+        id: 'memo',
+        name: 'メモ',
+        description: '暗記において役立つかも知れないメモです',
+        processor: () => [],
+        dataLoader: async () => ({ default: [] }),
     }
 ]
 

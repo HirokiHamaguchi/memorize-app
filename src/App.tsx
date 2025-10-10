@@ -2,7 +2,8 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { useEffect } from 'react'
 import {
   SelectPage,
-  StudyPage
+  StudyPage,
+  MemoPage
 } from './pages'
 import './App.css'
 
@@ -32,7 +33,8 @@ function App() {
       <Routes>
         <Route index element={<SelectPage />} />
         <Route path="/select" element={<SelectPage />} />
-        <Route path="/select/:type" element={<SelectPage />} />
+        <Route path="/study/geography/memo" element={<MemoPage />} />
+        <Route path="/select/:studyType" element={<SelectPage />} />
         <Route path="/study/:studyType/:datasetId" element={<StudyPage />} />
       </Routes>
     </Router>

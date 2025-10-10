@@ -4,9 +4,9 @@ import { STUDY_TYPES, VOCABULARY_DATASETS, GEOGRAPHY_DATASETS } from '../config/
 
 export const SelectPage = () => {
     const navigate = useNavigate()
-    const { type } = useParams<{ type?: string }>()
+    const { studyType } = useParams<{ studyType?: string }>()
 
-    if (type === 'vocabulary') { // 語彙セレクターページの設定
+    if (studyType === 'vocabulary') { // 語彙セレクターページの設定
         return (
             <Selector
                 subtitle="学習したい語彙データセットを選択してください"
@@ -15,7 +15,7 @@ export const SelectPage = () => {
                 showLoginSection={false}
             />
         )
-    } else if (type === 'geography') { // 地理セレクターページの設定
+    } else if (studyType === 'geography') { // 地理セレクターページの設定
         return (
             <Selector
                 subtitle="学習したい地理データセットを選択してください"
