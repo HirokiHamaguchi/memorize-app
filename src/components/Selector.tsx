@@ -1,6 +1,6 @@
 import { Box, Text, Flex } from '@chakra-ui/react'
 import { AppInfoDialog } from './dialog'
-import { LoginSection } from './LoginSection'
+// import { LoginSection } from './LoginSection'
 
 export interface SelectorOption {
     id: string
