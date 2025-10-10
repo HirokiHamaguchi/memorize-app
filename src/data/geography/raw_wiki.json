@@ -5,8 +5,7 @@
     "iso": "IS",
     "url": "%E3%82%A2%E3%82%A4%E3%82%B9%E3%83%A9%E3%83%B3%E3%83%89",
     "flag": "/memorize-app/geography/flags/IS.png",
-    "pos": "/memorize-app/geography/locations/IS.png",
-    "emoji": "🇮🇸"
+    "pos": "/memorize-app/geography/locations/IS.png"
   },
   {
     "id": 2,
@@ -14,8 +13,7 @@
     "iso": "IE",
     "url": "%E3%82%A2%E3%82%A4%E3%83%AB%E3%83%A9%E3%83%B3%E3%83%89",
     "flag": "/memorize-app/geography/flags/IE.png",
-    "pos": "/memorize-app/geography/locations/IE.png",
-    "emoji": "🇮🇪"
+    "pos": "/memorize-app/geography/locations/IE.png"
   },
   {
     "id": 3,
@@ -23,8 +21,7 @@
     "iso": "AZ",
     "url": "%E3%82%A2%E3%82%BC%E3%83%AB%E3%83%90%E3%82%A4%E3%82%B8%E3%83%A3%E3%83%B3",
     "flag": "/memorize-app/geography/flags/AZ.png",
-    "pos": "/memorize-app/geography/locations/AZ.png",
-    "emoji": "🇦🇿"
+    "pos": "/memorize-app/geography/locations/AZ.png"
   },
   {
     "id": 4,
@@ -32,8 +29,7 @@
     "iso": "AF",
     "url": "%E3%82%A2%E3%83%95%E3%82%AC%E3%83%8B%E3%82%B9%E3%82%BF%E3%83%B3",
     "flag": "/memorize-app/geography/flags/AF.png",
-    "pos": "/memorize-app/geography/locations/AF.png",
-    "emoji": "🇦🇫"
+    "pos": "/memorize-app/geography/locations/AF.png"
   },
   {
     "id": 5,
@@ -41,8 +37,23 @@
     "iso": "US",
     "url": "%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E5%90%88%E8%A1%86%E5%9B%BD",
     "flag": "/memorize-app/geography/flags/US.png",
-    "pos": "/memorize-app/geography/locations/US.png",
-    "emoji": "🇺🇸"
+    "pos": "/memorize-app/geography/locations/US.png"
+  },
+  {
+    "id": 6,
+    "ja": "アメリカ領ヴァージン諸島",
+    "iso": "VI",
+    "url": "%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E9%A0%98%E3%83%B4%E3%82%A1%E3%83%BC%E3%82%B8%E3%83%B3%E8%AB%B8%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/VI.png",
+    "pos": "/memorize-app/geography/locations/VI.png"
+  },
+  {
+    "id": 7,
+    "ja": "アメリカ領サモア",
+    "iso": "AS",
+    "url": "%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E9%A0%98%E3%82%B5%E3%83%A2%E3%82%A2",
+    "flag": "/memorize-app/geography/flags/AS.png",
+    "pos": "/memorize-app/geography/locations/AS.png"
   },
   {
     "id": 8,
@@ -50,8 +61,7 @@
     "iso": "AE",
     "url": "%E3%82%A2%E3%83%A9%E3%83%96%E9%A6%96%E9%95%B7%E5%9B%BD%E9%80%A3%E9%82%A6",
     "flag": "/memorize-app/geography/flags/AE.png",
-    "pos": "/memorize-app/geography/locations/AE.png",
-    "emoji": "🇦🇪"
+    "pos": "/memorize-app/geography/locations/AE.png"
   },
   {
     "id": 9,
@@ -59,8 +69,7 @@
     "iso": "DZ",
     "url": "%E3%82%A2%E3%83%AB%E3%82%B8%E3%82%A7%E3%83%AA%E3%82%A2",
     "flag": "/memorize-app/geography/flags/DZ.png",
-    "pos": "/memorize-app/geography/locations/DZ.png",
-    "emoji": "🇩🇿"
+    "pos": "/memorize-app/geography/locations/DZ.png"
   },
   {
     "id": 10,
@@ -68,8 +77,15 @@
     "iso": "AR",
     "url": "%E3%82%A2%E3%83%AB%E3%82%BC%E3%83%B3%E3%83%81%E3%83%B3",
     "flag": "/memorize-app/geography/flags/AR.png",
-    "pos": "/memorize-app/geography/locations/AR.png",
-    "emoji": "🇦🇷"
+    "pos": "/memorize-app/geography/locations/AR.png"
+  },
+  {
+    "id": 11,
+    "ja": "アルバ",
+    "iso": "AW",
+    "url": "%E3%82%A2%E3%83%AB%E3%83%90",
+    "flag": "/memorize-app/geography/flags/AW.png",
+    "pos": "/memorize-app/geography/locations/AW.png"
   },
   {
     "id": 12,
@@ -77,8 +93,7 @@
     "iso": "AL",
     "url": "%E3%82%A2%E3%83%AB%E3%83%90%E3%83%8B%E3%82%A2",
     "flag": "/memorize-app/geography/flags/AL.png",
-    "pos": "/memorize-app/geography/locations/AL.png",
-    "emoji": "🇦🇱"
+    "pos": "/memorize-app/geography/locations/AL.png"
   },
   {
     "id": 13,
@@ -86,8 +101,15 @@
     "iso": "AM",
     "url": "%E3%82%A2%E3%83%AB%E3%83%A1%E3%83%8B%E3%82%A2",
     "flag": "/memorize-app/geography/flags/AM.png",
-    "pos": "/memorize-app/geography/locations/AM.png",
-    "emoji": "🇦🇲"
+    "pos": "/memorize-app/geography/locations/AM.png"
+  },
+  {
+    "id": 14,
+    "ja": "アンギラ",
+    "iso": "AI",
+    "url": "%E3%82%A2%E3%83%B3%E3%82%AE%E3%83%A9",
+    "flag": "/memorize-app/geography/flags/AI.png",
+    "pos": "/memorize-app/geography/locations/AI.png"
   },
   {
     "id": 15,
@@ -95,8 +117,7 @@
     "iso": "AO",
     "url": "%E3%82%A2%E3%83%B3%E3%82%B4%E3%83%A9",
     "flag": "/memorize-app/geography/flags/AO.png",
-    "pos": "/memorize-app/geography/locations/AO.png",
-    "emoji": "🇦🇴"
+    "pos": "/memorize-app/geography/locations/AO.png"
   },
   {
     "id": 16,
@@ -104,8 +125,7 @@
     "iso": "AG",
     "url": "%E3%82%A2%E3%83%B3%E3%83%86%E3%82%A3%E3%82%B0%E3%82%A2%E3%83%BB%E3%83%90%E3%83%BC%E3%83%96%E3%83%BC%E3%83%80",
     "flag": "/memorize-app/geography/flags/AG.png",
-    "pos": "/memorize-app/geography/locations/AG.png",
-    "emoji": "🇦🇬"
+    "pos": "/memorize-app/geography/locations/AG.png"
   },
   {
     "id": 17,
@@ -113,8 +133,7 @@
     "iso": "AD",
     "url": "%E3%82%A2%E3%83%B3%E3%83%89%E3%83%A9",
     "flag": "/memorize-app/geography/flags/AD.png",
-    "pos": "/memorize-app/geography/locations/AD.png",
-    "emoji": "🇦🇩"
+    "pos": "/memorize-app/geography/locations/AD.png"
   },
   {
     "id": 18,
@@ -122,8 +141,7 @@
     "iso": "YE",
     "url": "%E3%82%A4%E3%82%A8%E3%83%A1%E3%83%B3",
     "flag": "/memorize-app/geography/flags/YE.png",
-    "pos": "/memorize-app/geography/locations/YE.png",
-    "emoji": "🇾🇪"
+    "pos": "/memorize-app/geography/locations/YE.png"
   },
   {
     "id": 19,
@@ -131,8 +149,23 @@
     "iso": "GB",
     "url": "%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9",
     "flag": "/memorize-app/geography/flags/GB.png",
-    "pos": "/memorize-app/geography/locations/GB.png",
-    "emoji": "🇬🇧"
+    "pos": "/memorize-app/geography/locations/GB.png"
+  },
+  {
+    "id": 20,
+    "ja": "イギリス領インド洋地域",
+    "iso": "IO",
+    "url": "%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E9%A0%98%E3%82%A4%E3%83%B3%E3%83%89%E6%B4%8B%E5%9C%B0%E5%9F%9F",
+    "flag": "/memorize-app/geography/flags/IO.png",
+    "pos": "/memorize-app/geography/locations/IO.png"
+  },
+  {
+    "id": 21,
+    "ja": "イギリス領ヴァージン諸島",
+    "iso": "VG",
+    "url": "%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9%E9%A0%98%E3%83%B4%E3%82%A1%E3%83%BC%E3%82%B8%E3%83%B3%E8%AB%B8%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/VG.png",
+    "pos": "/memorize-app/geography/locations/VG.png"
   },
   {
     "id": 22,
@@ -140,8 +173,7 @@
     "iso": "IL",
     "url": "%E3%82%A4%E3%82%B9%E3%83%A9%E3%82%A8%E3%83%AB",
     "flag": "/memorize-app/geography/flags/IL.png",
-    "pos": "/memorize-app/geography/locations/IL.png",
-    "emoji": "🇮🇱"
+    "pos": "/memorize-app/geography/locations/IL.png"
   },
   {
     "id": 23,
@@ -149,8 +181,7 @@
     "iso": "IT",
     "url": "%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2",
     "flag": "/memorize-app/geography/flags/IT.png",
-    "pos": "/memorize-app/geography/locations/IT.png",
-    "emoji": "🇮🇹"
+    "pos": "/memorize-app/geography/locations/IT.png"
   },
   {
     "id": 24,
@@ -158,8 +189,7 @@
     "iso": "IQ",
     "url": "%E3%82%A4%E3%83%A9%E3%82%AF",
     "flag": "/memorize-app/geography/flags/IQ.png",
-    "pos": "/memorize-app/geography/locations/IQ.png",
-    "emoji": "🇮🇶"
+    "pos": "/memorize-app/geography/locations/IQ.png"
   },
   {
     "id": 25,
@@ -167,8 +197,7 @@
     "iso": "IR",
     "url": "%E3%82%A4%E3%83%A9%E3%83%B3",
     "flag": "/memorize-app/geography/flags/IR.png",
-    "pos": "/memorize-app/geography/locations/IR.png",
-    "emoji": "🇮🇷"
+    "pos": "/memorize-app/geography/locations/IR.png"
   },
   {
     "id": 26,
@@ -176,8 +205,7 @@
     "iso": "IN",
     "url": "%E3%82%A4%E3%83%B3%E3%83%89",
     "flag": "/memorize-app/geography/flags/IN.png",
-    "pos": "/memorize-app/geography/locations/IN.png",
-    "emoji": "🇮🇳"
+    "pos": "/memorize-app/geography/locations/IN.png"
   },
   {
     "id": 27,
@@ -185,8 +213,15 @@
     "iso": "ID",
     "url": "%E3%82%A4%E3%83%B3%E3%83%89%E3%83%8D%E3%82%B7%E3%82%A2",
     "flag": "/memorize-app/geography/flags/ID.png",
-    "pos": "/memorize-app/geography/locations/ID.png",
-    "emoji": "🇮🇩"
+    "pos": "/memorize-app/geography/locations/ID.png"
+  },
+  {
+    "id": 28,
+    "ja": "ウォリス・フツナ",
+    "iso": "WF",
+    "url": "%E3%82%A6%E3%82%A9%E3%83%AA%E3%82%B9%E3%83%BB%E3%83%95%E3%83%84%E3%83%8A",
+    "flag": "/memorize-app/geography/flags/WF.png",
+    "pos": "/memorize-app/geography/locations/WF.png"
   },
   {
     "id": 29,
@@ -194,8 +229,7 @@
     "iso": "UG",
     "url": "%E3%82%A6%E3%82%AC%E3%83%B3%E3%83%80",
     "flag": "/memorize-app/geography/flags/UG.png",
-    "pos": "/memorize-app/geography/locations/UG.png",
-    "emoji": "🇺🇬"
+    "pos": "/memorize-app/geography/locations/UG.png"
   },
   {
     "id": 30,
@@ -203,8 +237,7 @@
     "iso": "UA",
     "url": "%E3%82%A6%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%8A",
     "flag": "/memorize-app/geography/flags/UA.png",
-    "pos": "/memorize-app/geography/locations/UA.png",
-    "emoji": "🇺🇦"
+    "pos": "/memorize-app/geography/locations/UA.png"
   },
   {
     "id": 31,
@@ -212,8 +245,7 @@
     "iso": "UZ",
     "url": "%E3%82%A6%E3%82%BA%E3%83%99%E3%82%AD%E3%82%B9%E3%82%BF%E3%83%B3",
     "flag": "/memorize-app/geography/flags/UZ.png",
-    "pos": "/memorize-app/geography/locations/UZ.png",
-    "emoji": "🇺🇿"
+    "pos": "/memorize-app/geography/locations/UZ.png"
   },
   {
     "id": 32,
@@ -221,8 +253,7 @@
     "iso": "UY",
     "url": "%E3%82%A6%E3%83%AB%E3%82%B0%E3%82%A2%E3%82%A4",
     "flag": "/memorize-app/geography/flags/UY.png",
-    "pos": "/memorize-app/geography/locations/UY.png",
-    "emoji": "🇺🇾"
+    "pos": "/memorize-app/geography/locations/UY.png"
   },
   {
     "id": 33,
@@ -230,8 +261,7 @@
     "iso": "EC",
     "url": "%E3%82%A8%E3%82%AF%E3%82%A2%E3%83%89%E3%83%AB",
     "flag": "/memorize-app/geography/flags/EC.png",
-    "pos": "/memorize-app/geography/locations/EC.png",
-    "emoji": "🇪🇨"
+    "pos": "/memorize-app/geography/locations/EC.png"
   },
   {
     "id": 34,
@@ -239,8 +269,7 @@
     "iso": "EG",
     "url": "%E3%82%A8%E3%82%B8%E3%83%97%E3%83%88",
     "flag": "/memorize-app/geography/flags/EG.png",
-    "pos": "/memorize-app/geography/locations/EG.png",
-    "emoji": "🇪🇬"
+    "pos": "/memorize-app/geography/locations/EG.png"
   },
   {
     "id": 35,
@@ -248,8 +277,7 @@
     "iso": "EE",
     "url": "%E3%82%A8%E3%82%B9%E3%83%88%E3%83%8B%E3%82%A2",
     "flag": "/memorize-app/geography/flags/EE.png",
-    "pos": "/memorize-app/geography/locations/EE.png",
-    "emoji": "🇪🇪"
+    "pos": "/memorize-app/geography/locations/EE.png"
   },
   {
     "id": 36,
@@ -257,8 +285,7 @@
     "iso": "SZ",
     "url": "%E3%82%A8%E3%82%B9%E3%83%AF%E3%83%86%E3%82%A3%E3%83%8B",
     "flag": "/memorize-app/geography/flags/SZ.png",
-    "pos": "/memorize-app/geography/locations/SZ.png",
-    "emoji": "🇸🇿"
+    "pos": "/memorize-app/geography/locations/SZ.png"
   },
   {
     "id": 37,
@@ -266,8 +293,7 @@
     "iso": "ET",
     "url": "%E3%82%A8%E3%83%81%E3%82%AA%E3%83%94%E3%82%A2",
     "flag": "/memorize-app/geography/flags/ET.png",
-    "pos": "/memorize-app/geography/locations/ET.png",
-    "emoji": "🇪🇹"
+    "pos": "/memorize-app/geography/locations/ET.png"
   },
   {
     "id": 38,
@@ -275,8 +301,7 @@
     "iso": "ER",
     "url": "%E3%82%A8%E3%83%AA%E3%83%88%E3%83%AA%E3%82%A2",
     "flag": "/memorize-app/geography/flags/ER.png",
-    "pos": "/memorize-app/geography/locations/ER.png",
-    "emoji": "🇪🇷"
+    "pos": "/memorize-app/geography/locations/ER.png"
   },
   {
     "id": 39,
@@ -284,8 +309,7 @@
     "iso": "SV",
     "url": "%E3%82%A8%E3%83%AB%E3%82%B5%E3%83%AB%E3%83%90%E3%83%89%E3%83%AB",
     "flag": "/memorize-app/geography/flags/SV.png",
-    "pos": "/memorize-app/geography/locations/SV.png",
-    "emoji": "🇸🇻"
+    "pos": "/memorize-app/geography/locations/SV.png"
   },
   {
     "id": 40,
@@ -293,8 +317,7 @@
     "iso": "AU",
     "url": "%E3%82%AA%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%AA%E3%82%A2",
     "flag": "/memorize-app/geography/flags/AU.png",
-    "pos": "/memorize-app/geography/locations/AU.png",
-    "emoji": "🇦🇺"
+    "pos": "/memorize-app/geography/locations/AU.png"
   },
   {
     "id": 41,
@@ -302,8 +325,15 @@
     "iso": "AT",
     "url": "%E3%82%AA%E3%83%BC%E3%82%B9%E3%83%88%E3%83%AA%E3%82%A2",
     "flag": "/memorize-app/geography/flags/AT.png",
-    "pos": "/memorize-app/geography/locations/AT.png",
-    "emoji": "🇦🇹"
+    "pos": "/memorize-app/geography/locations/AT.png"
+  },
+  {
+    "id": 42,
+    "ja": "オーランド諸島",
+    "iso": "AX",
+    "url": "%E3%82%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89%E8%AB%B8%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/AX.png",
+    "pos": "/memorize-app/geography/locations/AX.png"
   },
   {
     "id": 43,
@@ -311,8 +341,7 @@
     "iso": "OM",
     "url": "%E3%82%AA%E3%83%9E%E3%83%BC%E3%83%B3",
     "flag": "/memorize-app/geography/flags/OM.png",
-    "pos": "/memorize-app/geography/locations/OM.png",
-    "emoji": "🇴🇲"
+    "pos": "/memorize-app/geography/locations/OM.png"
   },
   {
     "id": 44,
@@ -320,8 +349,7 @@
     "iso": "NL",
     "url": "%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80",
     "flag": "/memorize-app/geography/flags/NL.png",
-    "pos": "/memorize-app/geography/locations/NL.png",
-    "emoji": "🇳🇱"
+    "pos": "/memorize-app/geography/locations/NL.png"
   },
   {
     "id": 45,
@@ -329,8 +357,7 @@
     "iso": "GH",
     "url": "%E3%82%AC%E3%83%BC%E3%83%8A",
     "flag": "/memorize-app/geography/flags/GH.png",
-    "pos": "/memorize-app/geography/locations/GH.png",
-    "emoji": "🇬🇭"
+    "pos": "/memorize-app/geography/locations/GH.png"
   },
   {
     "id": 46,
@@ -338,8 +365,15 @@
     "iso": "CV",
     "url": "%E3%82%AB%E3%83%BC%E3%83%9C%E3%83%99%E3%83%AB%E3%83%87",
     "flag": "/memorize-app/geography/flags/CV.png",
-    "pos": "/memorize-app/geography/locations/CV.png",
-    "emoji": "🇨🇻"
+    "pos": "/memorize-app/geography/locations/CV.png"
+  },
+  {
+    "id": 47,
+    "ja": "ガーンジー",
+    "iso": "GG",
+    "url": "%E3%82%AC%E3%83%BC%E3%83%B3%E3%82%B8%E3%83%BC",
+    "flag": "/memorize-app/geography/flags/GG.png",
+    "pos": "/memorize-app/geography/locations/GG.png"
   },
   {
     "id": 48,
@@ -347,8 +381,7 @@
     "iso": "GY",
     "url": "%E3%82%AC%E3%82%A4%E3%82%A2%E3%83%8A",
     "flag": "/memorize-app/geography/flags/GY.png",
-    "pos": "/memorize-app/geography/locations/GY.png",
-    "emoji": "🇬🇾"
+    "pos": "/memorize-app/geography/locations/GY.png"
   },
   {
     "id": 49,
@@ -356,8 +389,7 @@
     "iso": "KZ",
     "url": "%E3%82%AB%E3%82%B6%E3%83%95%E3%82%B9%E3%82%BF%E3%83%B3",
     "flag": "/memorize-app/geography/flags/KZ.png",
-    "pos": "/memorize-app/geography/locations/KZ.png",
-    "emoji": "🇰🇿"
+    "pos": "/memorize-app/geography/locations/KZ.png"
   },
   {
     "id": 50,
@@ -365,8 +397,15 @@
     "iso": "QA",
     "url": "%E3%82%AB%E3%82%BF%E3%83%BC%E3%83%AB",
     "flag": "/memorize-app/geography/flags/QA.png",
-    "pos": "/memorize-app/geography/locations/QA.png",
-    "emoji": "🇶🇦"
+    "pos": "/memorize-app/geography/locations/QA.png"
+  },
+  {
+    "id": 51,
+    "ja": "合衆国領有小離島",
+    "iso": "UM",
+    "url": "%E5%90%88%E8%A1%86%E5%9B%BD%E9%A0%98%E6%9C%89%E5%B0%8F%E9%9B%A2%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/UM.png",
+    "pos": "/memorize-app/geography/locations/UM.png"
   },
   {
     "id": 52,
@@ -374,8 +413,7 @@
     "iso": "CA",
     "url": "%E3%82%AB%E3%83%8A%E3%83%80",
     "flag": "/memorize-app/geography/flags/CA.png",
-    "pos": "/memorize-app/geography/locations/CA.png",
-    "emoji": "🇨🇦"
+    "pos": "/memorize-app/geography/locations/CA.png"
   },
   {
     "id": 53,
@@ -383,8 +421,7 @@
     "iso": "GA",
     "url": "%E3%82%AC%E3%83%9C%E3%83%B3",
     "flag": "/memorize-app/geography/flags/GA.png",
-    "pos": "/memorize-app/geography/locations/GA.png",
-    "emoji": "🇬🇦"
+    "pos": "/memorize-app/geography/locations/GA.png"
   },
   {
     "id": 54,
@@ -392,8 +429,7 @@
     "iso": "CM",
     "url": "%E3%82%AB%E3%83%A1%E3%83%AB%E3%83%BC%E3%83%B3",
     "flag": "/memorize-app/geography/flags/CM.png",
-    "pos": "/memorize-app/geography/locations/CM.png",
-    "emoji": "🇨🇲"
+    "pos": "/memorize-app/geography/locations/CM.png"
   },
   {
     "id": 55,
@@ -401,8 +437,7 @@
     "iso": "GM",
     "url": "%E3%82%AC%E3%83%B3%E3%83%93%E3%82%A2",
     "flag": "/memorize-app/geography/flags/GM.png",
-    "pos": "/memorize-app/geography/locations/GM.png",
-    "emoji": "🇬🇲"
+    "pos": "/memorize-app/geography/locations/GM.png"
   },
   {
     "id": 56,
@@ -410,8 +445,7 @@
     "iso": "KH",
     "url": "%E3%82%AB%E3%83%B3%E3%83%9C%E3%82%B8%E3%82%A2",
     "flag": "/memorize-app/geography/flags/KH.png",
-    "pos": "/memorize-app/geography/locations/KH.png",
-    "emoji": "🇰🇭"
+    "pos": "/memorize-app/geography/locations/KH.png"
   },
   {
     "id": 57,
@@ -419,8 +453,15 @@
     "iso": "MK",
     "url": "%E5%8C%97%E3%83%9E%E3%82%B1%E3%83%89%E3%83%8B%E3%82%A2",
     "flag": "/memorize-app/geography/flags/MK.png",
-    "pos": "/memorize-app/geography/locations/MK.png",
-    "emoji": "🇲🇰"
+    "pos": "/memorize-app/geography/locations/MK.png"
+  },
+  {
+    "id": 58,
+    "ja": "北マリアナ諸島",
+    "iso": "MP",
+    "url": "%E5%8C%97%E3%83%9E%E3%83%AA%E3%82%A2%E3%83%8A%E8%AB%B8%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/MP.png",
+    "pos": "/memorize-app/geography/locations/MP.png"
   },
   {
     "id": 59,
@@ -428,8 +469,7 @@
     "iso": "GN",
     "url": "%E3%82%AE%E3%83%8B%E3%82%A2",
     "flag": "/memorize-app/geography/flags/GN.png",
-    "pos": "/memorize-app/geography/locations/GN.png",
-    "emoji": "🇬🇳"
+    "pos": "/memorize-app/geography/locations/GN.png"
   },
   {
     "id": 60,
@@ -437,8 +477,7 @@
     "iso": "GW",
     "url": "%E3%82%AE%E3%83%8B%E3%82%A2%E3%83%93%E3%82%B5%E3%82%A6",
     "flag": "/memorize-app/geography/flags/GW.png",
-    "pos": "/memorize-app/geography/locations/GW.png",
-    "emoji": "🇬🇼"
+    "pos": "/memorize-app/geography/locations/GW.png"
   },
   {
     "id": 61,
@@ -446,8 +485,7 @@
     "iso": "CY",
     "url": "%E3%82%AD%E3%83%97%E3%83%AD%E3%82%B9",
     "flag": "/memorize-app/geography/flags/CY.png",
-    "pos": "/memorize-app/geography/locations/CY.png",
-    "emoji": "🇨🇾"
+    "pos": "/memorize-app/geography/locations/CY.png"
   },
   {
     "id": 62,
@@ -455,8 +493,15 @@
     "iso": "CU",
     "url": "%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%90",
     "flag": "/memorize-app/geography/flags/CU.png",
-    "pos": "/memorize-app/geography/locations/CU.png",
-    "emoji": "🇨🇺"
+    "pos": "/memorize-app/geography/locations/CU.png"
+  },
+  {
+    "id": 63,
+    "ja": "キュラソー",
+    "iso": "CW",
+    "url": "%E3%82%AD%E3%83%A5%E3%83%A9%E3%82%BD%E3%83%BC%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/CW.png",
+    "pos": "/memorize-app/geography/locations/CW.png"
   },
   {
     "id": 64,
@@ -464,8 +509,7 @@
     "iso": "GR",
     "url": "%E3%82%AE%E3%83%AA%E3%82%B7%E3%83%A3",
     "flag": "/memorize-app/geography/flags/GR.png",
-    "pos": "/memorize-app/geography/locations/GR.png",
-    "emoji": "🇬🇷"
+    "pos": "/memorize-app/geography/locations/GR.png"
   },
   {
     "id": 65,
@@ -473,8 +517,7 @@
     "iso": "KI",
     "url": "%E3%82%AD%E3%83%AA%E3%83%90%E3%82%B9",
     "flag": "/memorize-app/geography/flags/KI.png",
-    "pos": "/memorize-app/geography/locations/KI.png",
-    "emoji": "🇰🇮"
+    "pos": "/memorize-app/geography/locations/KI.png"
   },
   {
     "id": 66,
@@ -482,8 +525,7 @@
     "iso": "KG",
     "url": "%E3%82%AD%E3%83%AB%E3%82%AE%E3%82%B9",
     "flag": "/memorize-app/geography/flags/KG.png",
-    "pos": "/memorize-app/geography/locations/KG.png",
-    "emoji": "🇰🇬"
+    "pos": "/memorize-app/geography/locations/KG.png"
   },
   {
     "id": 67,
@@ -491,8 +533,23 @@
     "iso": "GT",
     "url": "%E3%82%B0%E3%82%A2%E3%83%86%E3%83%9E%E3%83%A9",
     "flag": "/memorize-app/geography/flags/GT.png",
-    "pos": "/memorize-app/geography/locations/GT.png",
-    "emoji": "🇬🇹"
+    "pos": "/memorize-app/geography/locations/GT.png"
+  },
+  {
+    "id": 68,
+    "ja": "グアドループ",
+    "iso": "GP",
+    "url": "%E3%82%B0%E3%82%A2%E3%83%89%E3%83%AB%E3%83%BC%E3%83%97",
+    "flag": "/memorize-app/geography/flags/GP.png",
+    "pos": "/memorize-app/geography/locations/GP.png"
+  },
+  {
+    "id": 69,
+    "ja": "グアム",
+    "iso": "GU",
+    "url": "%E3%82%B0%E3%82%A2%E3%83%A0",
+    "flag": "/memorize-app/geography/flags/GU.png",
+    "pos": "/memorize-app/geography/locations/GU.png"
   },
   {
     "id": 70,
@@ -500,8 +557,31 @@
     "iso": "KW",
     "url": "%E3%82%AF%E3%82%A6%E3%82%A7%E3%83%BC%E3%83%88",
     "flag": "/memorize-app/geography/flags/KW.png",
-    "pos": "/memorize-app/geography/locations/KW.png",
-    "emoji": "🇰🇼"
+    "pos": "/memorize-app/geography/locations/KW.png"
+  },
+  {
+    "id": 71,
+    "ja": "クック諸島",
+    "iso": "CK",
+    "url": "%E3%82%AF%E3%83%83%E3%82%AF%E8%AB%B8%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/CK.png",
+    "pos": "/memorize-app/geography/locations/CK.png"
+  },
+  {
+    "id": 72,
+    "ja": "グリーンランド",
+    "iso": "GL",
+    "url": "%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89",
+    "flag": "/memorize-app/geography/flags/GL.png",
+    "pos": "/memorize-app/geography/locations/GL.png"
+  },
+  {
+    "id": 73,
+    "ja": "クリスマス島",
+    "iso": "CX",
+    "url": "%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E5%B3%B6_(%E3%82%AA%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%AA%E3%82%A2)",
+    "flag": "/memorize-app/geography/flags/CX.png",
+    "pos": "/memorize-app/geography/locations/CX.png"
   },
   {
     "id": 74,
@@ -509,8 +589,7 @@
     "iso": "GD",
     "url": "%E3%82%B0%E3%83%AC%E3%83%8A%E3%83%80",
     "flag": "/memorize-app/geography/flags/GD.png",
-    "pos": "/memorize-app/geography/locations/GD.png",
-    "emoji": "🇬🇩"
+    "pos": "/memorize-app/geography/locations/GD.png"
   },
   {
     "id": 75,
@@ -518,8 +597,15 @@
     "iso": "HR",
     "url": "%E3%82%AF%E3%83%AD%E3%82%A2%E3%83%81%E3%82%A2",
     "flag": "/memorize-app/geography/flags/HR.png",
-    "pos": "/memorize-app/geography/locations/HR.png",
-    "emoji": "🇭🇷"
+    "pos": "/memorize-app/geography/locations/HR.png"
+  },
+  {
+    "id": 76,
+    "ja": "ケイマン諸島",
+    "iso": "KY",
+    "url": "%E3%82%B1%E3%82%A4%E3%83%9E%E3%83%B3%E8%AB%B8%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/KY.png",
+    "pos": "/memorize-app/geography/locations/KY.png"
   },
   {
     "id": 77,
@@ -527,8 +613,7 @@
     "iso": "KE",
     "url": "%E3%82%B1%E3%83%8B%E3%82%A2",
     "flag": "/memorize-app/geography/flags/KE.png",
-    "pos": "/memorize-app/geography/locations/KE.png",
-    "emoji": "🇰🇪"
+    "pos": "/memorize-app/geography/locations/KE.png"
   },
   {
     "id": 78,
@@ -536,8 +621,15 @@
     "iso": "CI",
     "url": "%E3%82%B3%E3%83%BC%E3%83%88%E3%82%B8%E3%83%9C%E3%83%AF%E3%83%BC%E3%83%AB",
     "flag": "/memorize-app/geography/flags/CI.png",
-    "pos": "/memorize-app/geography/locations/CI.png",
-    "emoji": "🇨🇮"
+    "pos": "/memorize-app/geography/locations/CI.png"
+  },
+  {
+    "id": 79,
+    "ja": "ココス諸島の旗 ココス（キーリング）諸島",
+    "iso": "CC",
+    "url": "%E3%82%B3%E3%82%B3%E3%82%B9%E8%AB%B8%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/CC.png",
+    "pos": "/memorize-app/geography/locations/CC.png"
   },
   {
     "id": 80,
@@ -545,8 +637,7 @@
     "iso": "CR",
     "url": "%E3%82%B3%E3%82%B9%E3%82%BF%E3%83%AA%E3%82%AB",
     "flag": "/memorize-app/geography/flags/CR.png",
-    "pos": "/memorize-app/geography/locations/CR.png",
-    "emoji": "🇨🇷"
+    "pos": "/memorize-app/geography/locations/CR.png"
   },
   {
     "id": 81,
@@ -554,8 +645,7 @@
     "iso": "KM",
     "url": "%E3%82%B3%E3%83%A2%E3%83%AD",
     "flag": "/memorize-app/geography/flags/KM.png",
-    "pos": "/memorize-app/geography/locations/KM.png",
-    "emoji": "🇰🇲"
+    "pos": "/memorize-app/geography/locations/KM.png"
   },
   {
     "id": 82,
@@ -563,8 +653,7 @@
     "iso": "CO",
     "url": "%E3%82%B3%E3%83%AD%E3%83%B3%E3%83%93%E3%82%A2",
     "flag": "/memorize-app/geography/flags/CO.png",
-    "pos": "/memorize-app/geography/locations/CO.png",
-    "emoji": "🇨🇴"
+    "pos": "/memorize-app/geography/locations/CO.png"
   },
   {
     "id": 83,
@@ -572,8 +661,7 @@
     "iso": "CG",
     "url": "%E3%82%B3%E3%83%B3%E3%82%B4%E5%85%B1%E5%92%8C%E5%9B%BD",
     "flag": "/memorize-app/geography/flags/CG.png",
-    "pos": "/memorize-app/geography/locations/CG.png",
-    "emoji": "🇨🇬"
+    "pos": "/memorize-app/geography/locations/CG.png"
   },
   {
     "id": 84,
@@ -581,8 +669,7 @@
     "iso": "CD",
     "url": "%E3%82%B3%E3%83%B3%E3%82%B4%E6%B0%91%E4%B8%BB%E5%85%B1%E5%92%8C%E5%9B%BD",
     "flag": "/memorize-app/geography/flags/CD.png",
-    "pos": "/memorize-app/geography/locations/CD.png",
-    "emoji": "🇨🇩"
+    "pos": "/memorize-app/geography/locations/CD.png"
   },
   {
     "id": 85,
@@ -590,8 +677,15 @@
     "iso": "SA",
     "url": "%E3%82%B5%E3%82%A6%E3%82%B8%E3%82%A2%E3%83%A9%E3%83%93%E3%82%A2",
     "flag": "/memorize-app/geography/flags/SA.png",
-    "pos": "/memorize-app/geography/locations/SA.png",
-    "emoji": "🇸🇦"
+    "pos": "/memorize-app/geography/locations/SA.png"
+  },
+  {
+    "id": 86,
+    "ja": "サウスジョージア・サウスサンドウィッチ諸島",
+    "iso": "GS",
+    "url": "%E3%82%B5%E3%82%A6%E3%82%B9%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%BB%E3%82%B5%E3%82%A6%E3%82%B9%E3%82%B5%E3%83%B3%E3%83%89%E3%82%A6%E3%82%A3%E3%83%83%E3%83%81%E8%AB%B8%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/GS.png",
+    "pos": "/memorize-app/geography/locations/GS.png"
   },
   {
     "id": 87,
@@ -599,8 +693,7 @@
     "iso": "WS",
     "url": "%E3%82%B5%E3%83%A2%E3%82%A2",
     "flag": "/memorize-app/geography/flags/WS.png",
-    "pos": "/memorize-app/geography/locations/WS.png",
-    "emoji": "🇼🇸"
+    "pos": "/memorize-app/geography/locations/WS.png"
   },
   {
     "id": 88,
@@ -608,8 +701,15 @@
     "iso": "ST",
     "url": "%E3%82%B5%E3%83%B3%E3%83%88%E3%83%A1%E3%83%BB%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B7%E3%83%9A",
     "flag": "/memorize-app/geography/flags/ST.png",
-    "pos": "/memorize-app/geography/locations/ST.png",
-    "emoji": "🇸🇹"
+    "pos": "/memorize-app/geography/locations/ST.png"
+  },
+  {
+    "id": 89,
+    "ja": "サン・バルテルミー",
+    "iso": "BL",
+    "url": "%E3%82%B5%E3%83%B3%E3%83%BB%E3%83%90%E3%83%AB%E3%83%86%E3%83%AB%E3%83%9F%E3%83%BC%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/BL.png",
+    "pos": "/memorize-app/geography/locations/BL.png"
   },
   {
     "id": 90,
@@ -617,8 +717,15 @@
     "iso": "ZM",
     "url": "%E3%82%B6%E3%83%B3%E3%83%93%E3%82%A2",
     "flag": "/memorize-app/geography/flags/ZM.png",
-    "pos": "/memorize-app/geography/locations/ZM.png",
-    "emoji": "🇿🇲"
+    "pos": "/memorize-app/geography/locations/ZM.png"
+  },
+  {
+    "id": 91,
+    "ja": "サンピエール島・ミクロン島",
+    "iso": "PM",
+    "url": "%E3%82%B5%E3%83%B3%E3%83%94%E3%82%A8%E3%83%BC%E3%83%AB%E5%B3%B6%E3%83%BB%E3%83%9F%E3%82%AF%E3%83%AD%E3%83%B3%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/PM.png",
+    "pos": "/memorize-app/geography/locations/PM.png"
   },
   {
     "id": 92,
@@ -626,8 +733,15 @@
     "iso": "SM",
     "url": "%E3%82%B5%E3%83%B3%E3%83%9E%E3%83%AA%E3%83%8E",
     "flag": "/memorize-app/geography/flags/SM.png",
-    "pos": "/memorize-app/geography/locations/SM.png",
-    "emoji": "🇸🇲"
+    "pos": "/memorize-app/geography/locations/SM.png"
+  },
+  {
+    "id": 93,
+    "ja": "サン・マルタン（フランス領）",
+    "iso": "MF",
+    "url": "%E3%82%B5%E3%83%B3%E3%83%BB%E3%83%9E%E3%83%AB%E3%82%BF%E3%83%B3_(%E8%A5%BF%E3%82%A4%E3%83%B3%E3%83%89%E8%AB%B8%E5%B3%B6)",
+    "flag": "/memorize-app/geography/flags/MF.png",
+    "pos": "/memorize-app/geography/locations/MF.png"
   },
   {
     "id": 94,
@@ -635,8 +749,7 @@
     "iso": "SL",
     "url": "%E3%82%B7%E3%82%A8%E3%83%A9%E3%83%AC%E3%82%AA%E3%83%8D",
     "flag": "/memorize-app/geography/flags/SL.png",
-    "pos": "/memorize-app/geography/locations/SL.png",
-    "emoji": "🇸🇱"
+    "pos": "/memorize-app/geography/locations/SL.png"
   },
   {
     "id": 95,
@@ -644,8 +757,23 @@
     "iso": "DJ",
     "url": "%E3%82%B8%E3%83%96%E3%83%81",
     "flag": "/memorize-app/geography/flags/DJ.png",
-    "pos": "/memorize-app/geography/locations/DJ.png",
-    "emoji": "🇩🇯"
+    "pos": "/memorize-app/geography/locations/DJ.png"
+  },
+  {
+    "id": 96,
+    "ja": "ジブラルタル",
+    "iso": "GI",
+    "url": "%E3%82%B8%E3%83%96%E3%83%A9%E3%83%AB%E3%82%BF%E3%83%AB",
+    "flag": "/memorize-app/geography/flags/GI.png",
+    "pos": "/memorize-app/geography/locations/GI.png"
+  },
+  {
+    "id": 97,
+    "ja": "ジャージー",
+    "iso": "JE",
+    "url": "%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%B8%E3%83%BC",
+    "flag": "/memorize-app/geography/flags/JE.png",
+    "pos": "/memorize-app/geography/locations/JE.png"
   },
   {
     "id": 98,
@@ -653,8 +781,7 @@
     "iso": "JM",
     "url": "%E3%82%B8%E3%83%A3%E3%83%9E%E3%82%A4%E3%82%AB",
     "flag": "/memorize-app/geography/flags/JM.png",
-    "pos": "/memorize-app/geography/locations/JM.png",
-    "emoji": "🇯🇲"
+    "pos": "/memorize-app/geography/locations/JM.png"
   },
   {
     "id": 99,
@@ -662,8 +789,7 @@
     "iso": "GE",
     "url": "%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%B8%E3%82%A2_(%E5%9B%BD)",
     "flag": "/memorize-app/geography/flags/GE.png",
-    "pos": "/memorize-app/geography/locations/GE.png",
-    "emoji": "🇬🇪"
+    "pos": "/memorize-app/geography/locations/GE.png"
   },
   {
     "id": 100,
@@ -671,8 +797,7 @@
     "iso": "SY",
     "url": "%E3%82%B7%E3%83%AA%E3%82%A2",
     "flag": "/memorize-app/geography/flags/SY.png",
-    "pos": "/memorize-app/geography/locations/SY.png",
-    "emoji": "🇸🇾"
+    "pos": "/memorize-app/geography/locations/SY.png"
   },
   {
     "id": 101,
@@ -680,8 +805,15 @@
     "iso": "SG",
     "url": "%E3%82%B7%E3%83%B3%E3%82%AC%E3%83%9D%E3%83%BC%E3%83%AB",
     "flag": "/memorize-app/geography/flags/SG.png",
-    "pos": "/memorize-app/geography/locations/SG.png",
-    "emoji": "🇸🇬"
+    "pos": "/memorize-app/geography/locations/SG.png"
+  },
+  {
+    "id": 102,
+    "ja": "シント・マールテン（オランダ領）",
+    "iso": "SX",
+    "url": "%E3%82%B7%E3%83%B3%E3%83%88%E3%83%BB%E3%83%9E%E3%83%BC%E3%83%AB%E3%83%86%E3%83%B3",
+    "flag": "/memorize-app/geography/flags/SX.png",
+    "pos": "/memorize-app/geography/locations/SX.png"
   },
   {
     "id": 103,
@@ -689,8 +821,7 @@
     "iso": "ZW",
     "url": "%E3%82%B8%E3%83%B3%E3%83%90%E3%83%96%E3%82%A8",
     "flag": "/memorize-app/geography/flags/ZW.png",
-    "pos": "/memorize-app/geography/locations/ZW.png",
-    "emoji": "🇿🇼"
+    "pos": "/memorize-app/geography/locations/ZW.png"
   },
   {
     "id": 104,
@@ -698,8 +829,7 @@
     "iso": "CH",
     "url": "%E3%82%B9%E3%82%A4%E3%82%B9",
     "flag": "/memorize-app/geography/flags/CH.png",
-    "pos": "/memorize-app/geography/locations/CH.png",
-    "emoji": "🇨🇭"
+    "pos": "/memorize-app/geography/locations/CH.png"
   },
   {
     "id": 105,
@@ -707,8 +837,7 @@
     "iso": "SE",
     "url": "%E3%82%B9%E3%82%A6%E3%82%A7%E3%83%BC%E3%83%87%E3%83%B3",
     "flag": "/memorize-app/geography/flags/SE.png",
-    "pos": "/memorize-app/geography/locations/SE.png",
-    "emoji": "🇸🇪"
+    "pos": "/memorize-app/geography/locations/SE.png"
   },
   {
     "id": 106,
@@ -716,8 +845,15 @@
     "iso": "SD",
     "url": "%E3%82%B9%E3%83%BC%E3%83%80%E3%83%B3",
     "flag": "/memorize-app/geography/flags/SD.png",
-    "pos": "/memorize-app/geography/locations/SD.png",
-    "emoji": "🇸🇩"
+    "pos": "/memorize-app/geography/locations/SD.png"
+  },
+  {
+    "id": 107,
+    "ja": "スヴァールバル諸島およびヤンマイエン島",
+    "iso": "SJ",
+    "url": "%E3%82%B9%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%AB%E3%83%90%E3%83%AB%E8%AB%B8%E5%B3%B6%E3%81%8A%E3%82%88%E3%81%B3%E3%83%A4%E3%83%B3%E3%83%9E%E3%82%A4%E3%82%A8%E3%83%B3%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/SJ.png",
+    "pos": "/memorize-app/geography/locations/SJ.png"
   },
   {
     "id": 108,
@@ -725,8 +861,7 @@
     "iso": "ES",
     "url": "%E3%82%B9%E3%83%9A%E3%82%A4%E3%83%B3",
     "flag": "/memorize-app/geography/flags/ES.png",
-    "pos": "/memorize-app/geography/locations/ES.png",
-    "emoji": "🇪🇸"
+    "pos": "/memorize-app/geography/locations/ES.png"
   },
   {
     "id": 109,
@@ -734,8 +869,7 @@
     "iso": "SR",
     "url": "%E3%82%B9%E3%83%AA%E3%83%8A%E3%83%A0",
     "flag": "/memorize-app/geography/flags/SR.png",
-    "pos": "/memorize-app/geography/locations/SR.png",
-    "emoji": "🇸🇷"
+    "pos": "/memorize-app/geography/locations/SR.png"
   },
   {
     "id": 110,
@@ -743,8 +877,7 @@
     "iso": "LK",
     "url": "%E3%82%B9%E3%83%AA%E3%83%A9%E3%83%B3%E3%82%AB",
     "flag": "/memorize-app/geography/flags/LK.png",
-    "pos": "/memorize-app/geography/locations/LK.png",
-    "emoji": "🇱🇰"
+    "pos": "/memorize-app/geography/locations/LK.png"
   },
   {
     "id": 111,
@@ -752,8 +885,7 @@
     "iso": "SK",
     "url": "%E3%82%B9%E3%83%AD%E3%83%90%E3%82%AD%E3%82%A2",
     "flag": "/memorize-app/geography/flags/SK.png",
-    "pos": "/memorize-app/geography/locations/SK.png",
-    "emoji": "🇸🇰"
+    "pos": "/memorize-app/geography/locations/SK.png"
   },
   {
     "id": 112,
@@ -761,8 +893,7 @@
     "iso": "SI",
     "url": "%E3%82%B9%E3%83%AD%E3%83%99%E3%83%8B%E3%82%A2",
     "flag": "/memorize-app/geography/flags/SI.png",
-    "pos": "/memorize-app/geography/locations/SI.png",
-    "emoji": "🇸🇮"
+    "pos": "/memorize-app/geography/locations/SI.png"
   },
   {
     "id": 113,
@@ -770,8 +901,7 @@
     "iso": "SC",
     "url": "%E3%82%BB%E3%83%BC%E3%82%B7%E3%82%A7%E3%83%AB",
     "flag": "/memorize-app/geography/flags/SC.png",
-    "pos": "/memorize-app/geography/locations/SC.png",
-    "emoji": "🇸🇨"
+    "pos": "/memorize-app/geography/locations/SC.png"
   },
   {
     "id": 114,
@@ -779,8 +909,7 @@
     "iso": "GQ",
     "url": "%E8%B5%A4%E9%81%93%E3%82%AE%E3%83%8B%E3%82%A2",
     "flag": "/memorize-app/geography/flags/GQ.png",
-    "pos": "/memorize-app/geography/locations/GQ.png",
-    "emoji": "🇬🇶"
+    "pos": "/memorize-app/geography/locations/GQ.png"
   },
   {
     "id": 115,
@@ -788,8 +917,7 @@
     "iso": "SN",
     "url": "%E3%82%BB%E3%83%8D%E3%82%AC%E3%83%AB",
     "flag": "/memorize-app/geography/flags/SN.png",
-    "pos": "/memorize-app/geography/locations/SN.png",
-    "emoji": "🇸🇳"
+    "pos": "/memorize-app/geography/locations/SN.png"
   },
   {
     "id": 116,
@@ -797,8 +925,7 @@
     "iso": "RS",
     "url": "%E3%82%BB%E3%83%AB%E3%83%93%E3%82%A2",
     "flag": "/memorize-app/geography/flags/RS.png",
-    "pos": "/memorize-app/geography/locations/RS.png",
-    "emoji": "🇷🇸"
+    "pos": "/memorize-app/geography/locations/RS.png"
   },
   {
     "id": 117,
@@ -806,8 +933,7 @@
     "iso": "KN",
     "url": "%E3%82%BB%E3%83%B3%E3%83%88%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%88%E3%83%95%E3%82%A1%E3%83%BC%E3%83%BB%E3%83%8D%E3%82%A4%E3%83%93%E3%82%B9",
     "flag": "/memorize-app/geography/flags/KN.png",
-    "pos": "/memorize-app/geography/locations/KN.png",
-    "emoji": "🇰🇳"
+    "pos": "/memorize-app/geography/locations/KN.png"
   },
   {
     "id": 118,
@@ -815,8 +941,15 @@
     "iso": "VC",
     "url": "%E3%82%BB%E3%83%B3%E3%83%88%E3%83%93%E3%83%B3%E3%82%BB%E3%83%B3%E3%83%88%E3%83%BB%E3%82%B0%E3%83%AC%E3%83%8A%E3%83%87%E3%82%A3%E3%83%BC%E3%83%B3",
     "flag": "/memorize-app/geography/flags/VC.png",
-    "pos": "/memorize-app/geography/locations/VC.png",
-    "emoji": "🇻🇨"
+    "pos": "/memorize-app/geography/locations/VC.png"
+  },
+  {
+    "id": 119,
+    "ja": "セントヘレナ・アセンションおよびトリスタンダクーニャ",
+    "iso": "SH",
+    "url": "%E3%82%BB%E3%83%B3%E3%83%88%E3%83%98%E3%83%AC%E3%83%8A%E3%83%BB%E3%82%A2%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%8A%E3%82%88%E3%81%B3%E3%83%88%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%82%AF%E3%83%BC%E3%83%8B%E3%83%A3",
+    "flag": "/memorize-app/geography/flags/SH.png",
+    "pos": "/memorize-app/geography/locations/SH.png"
   },
   {
     "id": 120,
@@ -824,8 +957,7 @@
     "iso": "LC",
     "url": "%E3%82%BB%E3%83%B3%E3%83%88%E3%83%AB%E3%82%B7%E3%82%A2",
     "flag": "/memorize-app/geography/flags/LC.png",
-    "pos": "/memorize-app/geography/locations/LC.png",
-    "emoji": "🇱🇨"
+    "pos": "/memorize-app/geography/locations/LC.png"
   },
   {
     "id": 121,
@@ -833,8 +965,7 @@
     "iso": "SO",
     "url": "%E3%82%BD%E3%83%9E%E3%83%AA%E3%82%A2",
     "flag": "/memorize-app/geography/flags/SO.png",
-    "pos": "/memorize-app/geography/locations/SO.png",
-    "emoji": "🇸🇴"
+    "pos": "/memorize-app/geography/locations/SO.png"
   },
   {
     "id": 122,
@@ -842,8 +973,15 @@
     "iso": "SB",
     "url": "%E3%82%BD%E3%83%AD%E3%83%A2%E3%83%B3%E8%AB%B8%E5%B3%B6",
     "flag": "/memorize-app/geography/flags/SB.png",
-    "pos": "/memorize-app/geography/locations/SB.png",
-    "emoji": "🇸🇧"
+    "pos": "/memorize-app/geography/locations/SB.png"
+  },
+  {
+    "id": 123,
+    "ja": "タークス・カイコス諸島",
+    "iso": "TC",
+    "url": "%E3%82%BF%E3%83%BC%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%AB%E3%82%A4%E3%82%B3%E3%82%B9%E8%AB%B8%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/TC.png",
+    "pos": "/memorize-app/geography/locations/TC.png"
   },
   {
     "id": 124,
@@ -851,8 +989,7 @@
     "iso": "TH",
     "url": "%E3%82%BF%E3%82%A4%E7%8E%8B%E5%9B%BD",
     "flag": "/memorize-app/geography/flags/TH.png",
-    "pos": "/memorize-app/geography/locations/TH.png",
-    "emoji": "🇹🇭"
+    "pos": "/memorize-app/geography/locations/TH.png"
   },
   {
     "id": 125,
@@ -860,8 +997,15 @@
     "iso": "KR",
     "url": "%E5%A4%A7%E9%9F%93%E6%B0%91%E5%9B%BD",
     "flag": "/memorize-app/geography/flags/KR.png",
-    "pos": "/memorize-app/geography/locations/KR.png",
-    "emoji": "🇰🇷"
+    "pos": "/memorize-app/geography/locations/KR.png"
+  },
+  {
+    "id": 126,
+    "ja": "台湾地区",
+    "iso": "TW",
+    "url": "%E5%8F%B0%E6%B9%BE%E5%9C%B0%E5%8C%BA",
+    "flag": "/memorize-app/geography/flags/TW.png",
+    "pos": "/memorize-app/geography/locations/TW.png"
   },
   {
     "id": 127,
@@ -869,8 +1013,7 @@
     "iso": "TJ",
     "url": "%E3%82%BF%E3%82%B8%E3%82%AD%E3%82%B9%E3%82%BF%E3%83%B3",
     "flag": "/memorize-app/geography/flags/TJ.png",
-    "pos": "/memorize-app/geography/locations/TJ.png",
-    "emoji": "🇹🇯"
+    "pos": "/memorize-app/geography/locations/TJ.png"
   },
   {
     "id": 128,
@@ -878,8 +1021,7 @@
     "iso": "TZ",
     "url": "%E3%82%BF%E3%83%B3%E3%82%B6%E3%83%8B%E3%82%A2",
     "flag": "/memorize-app/geography/flags/TZ.png",
-    "pos": "/memorize-app/geography/locations/TZ.png",
-    "emoji": "🇹🇿"
+    "pos": "/memorize-app/geography/locations/TZ.png"
   },
   {
     "id": 129,
@@ -887,8 +1029,7 @@
     "iso": "CZ",
     "url": "%E3%83%81%E3%82%A7%E3%82%B3",
     "flag": "/memorize-app/geography/flags/CZ.png",
-    "pos": "/memorize-app/geography/locations/CZ.png",
-    "emoji": "🇨🇿"
+    "pos": "/memorize-app/geography/locations/CZ.png"
   },
   {
     "id": 130,
@@ -896,8 +1037,7 @@
     "iso": "TD",
     "url": "%E3%83%81%E3%83%A3%E3%83%89",
     "flag": "/memorize-app/geography/flags/TD.png",
-    "pos": "/memorize-app/geography/locations/TD.png",
-    "emoji": "🇹🇩"
+    "pos": "/memorize-app/geography/locations/TD.png"
   },
   {
     "id": 131,
@@ -905,8 +1045,7 @@
     "iso": "CF",
     "url": "%E4%B8%AD%E5%A4%AE%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E5%85%B1%E5%92%8C%E5%9B%BD",
     "flag": "/memorize-app/geography/flags/CF.png",
-    "pos": "/memorize-app/geography/locations/CF.png",
-    "emoji": "🇨🇫"
+    "pos": "/memorize-app/geography/locations/CF.png"
   },
   {
     "id": 132,
@@ -914,8 +1053,7 @@
     "iso": "CN",
     "url": "%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
     "flag": "/memorize-app/geography/flags/CN.png",
-    "pos": "/memorize-app/geography/locations/CN.png",
-    "emoji": "🇨🇳"
+    "pos": "/memorize-app/geography/locations/CN.png"
   },
   {
     "id": 133,
@@ -923,8 +1061,7 @@
     "iso": "TN",
     "url": "%E3%83%81%E3%83%A5%E3%83%8B%E3%82%B8%E3%82%A2",
     "flag": "/memorize-app/geography/flags/TN.png",
-    "pos": "/memorize-app/geography/locations/TN.png",
-    "emoji": "🇹🇳"
+    "pos": "/memorize-app/geography/locations/TN.png"
   },
   {
     "id": 134,
@@ -932,8 +1069,7 @@
     "iso": "KP",
     "url": "%E6%9C%9D%E9%AE%AE%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD",
     "flag": "/memorize-app/geography/flags/KP.png",
-    "pos": "/memorize-app/geography/locations/KP.png",
-    "emoji": "🇰🇵"
+    "pos": "/memorize-app/geography/locations/KP.png"
   },
   {
     "id": 135,
@@ -941,8 +1077,7 @@
     "iso": "CL",
     "url": "%E3%83%81%E3%83%AA",
     "flag": "/memorize-app/geography/flags/CL.png",
-    "pos": "/memorize-app/geography/locations/CL.png",
-    "emoji": "🇨🇱"
+    "pos": "/memorize-app/geography/locations/CL.png"
   },
   {
     "id": 136,
@@ -950,8 +1085,7 @@
     "iso": "TV",
     "url": "%E3%83%84%E3%83%90%E3%83%AB",
     "flag": "/memorize-app/geography/flags/TV.png",
-    "pos": "/memorize-app/geography/locations/TV.png",
-    "emoji": "🇹🇻"
+    "pos": "/memorize-app/geography/locations/TV.png"
   },
   {
     "id": 137,
@@ -959,8 +1093,7 @@
     "iso": "DK",
     "url": "%E3%83%87%E3%83%B3%E3%83%9E%E3%83%BC%E3%82%AF",
     "flag": "/memorize-app/geography/flags/DK.png",
-    "pos": "/memorize-app/geography/locations/DK.png",
-    "emoji": "🇩🇰"
+    "pos": "/memorize-app/geography/locations/DK.png"
   },
   {
     "id": 138,
@@ -968,8 +1101,7 @@
     "iso": "DE",
     "url": "%E3%83%89%E3%82%A4%E3%83%84",
     "flag": "/memorize-app/geography/flags/DE.png",
-    "pos": "/memorize-app/geography/locations/DE.png",
-    "emoji": "🇩🇪"
+    "pos": "/memorize-app/geography/locations/DE.png"
   },
   {
     "id": 139,
@@ -977,8 +1109,15 @@
     "iso": "TG",
     "url": "%E3%83%88%E3%83%BC%E3%82%B4",
     "flag": "/memorize-app/geography/flags/TG.png",
-    "pos": "/memorize-app/geography/locations/TG.png",
-    "emoji": "🇹🇬"
+    "pos": "/memorize-app/geography/locations/TG.png"
+  },
+  {
+    "id": 140,
+    "ja": "トケラウ",
+    "iso": "TK",
+    "url": "%E3%83%88%E3%82%B1%E3%83%A9%E3%82%A6",
+    "flag": "/memorize-app/geography/flags/TK.png",
+    "pos": "/memorize-app/geography/locations/TK.png"
   },
   {
     "id": 141,
@@ -986,8 +1125,7 @@
     "iso": "DO",
     "url": "%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AB%E5%85%B1%E5%92%8C%E5%9B%BD",
     "flag": "/memorize-app/geography/flags/DO.png",
-    "pos": "/memorize-app/geography/locations/DO.png",
-    "emoji": "🇩🇴"
+    "pos": "/memorize-app/geography/locations/DO.png"
   },
   {
     "id": 142,
@@ -995,8 +1133,7 @@
     "iso": "DM",
     "url": "%E3%83%89%E3%83%9F%E3%83%8B%E3%82%AB%E5%9B%BD",
     "flag": "/memorize-app/geography/flags/DM.png",
-    "pos": "/memorize-app/geography/locations/DM.png",
-    "emoji": "🇩🇲"
+    "pos": "/memorize-app/geography/locations/DM.png"
   },
   {
     "id": 143,
@@ -1004,8 +1141,7 @@
     "iso": "TT",
     "url": "%E3%83%88%E3%83%AA%E3%83%8B%E3%83%80%E3%83%BC%E3%83%89%E3%83%BB%E3%83%88%E3%83%90%E3%82%B4",
     "flag": "/memorize-app/geography/flags/TT.png",
-    "pos": "/memorize-app/geography/locations/TT.png",
-    "emoji": "🇹🇹"
+    "pos": "/memorize-app/geography/locations/TT.png"
   },
   {
     "id": 144,
@@ -1013,8 +1149,7 @@
     "iso": "TM",
     "url": "%E3%83%88%E3%83%AB%E3%82%AF%E3%83%A1%E3%83%8B%E3%82%B9%E3%82%BF%E3%83%B3",
     "flag": "/memorize-app/geography/flags/TM.png",
-    "pos": "/memorize-app/geography/locations/TM.png",
-    "emoji": "🇹🇲"
+    "pos": "/memorize-app/geography/locations/TM.png"
   },
   {
     "id": 145,
@@ -1022,8 +1157,7 @@
     "iso": "TR",
     "url": "%E3%83%88%E3%83%AB%E3%82%B3",
     "flag": "/memorize-app/geography/flags/TR.png",
-    "pos": "/memorize-app/geography/locations/TR.png",
-    "emoji": "🇹🇷"
+    "pos": "/memorize-app/geography/locations/TR.png"
   },
   {
     "id": 146,
@@ -1031,8 +1165,7 @@
     "iso": "TO",
     "url": "%E3%83%88%E3%83%B3%E3%82%AC",
     "flag": "/memorize-app/geography/flags/TO.png",
-    "pos": "/memorize-app/geography/locations/TO.png",
-    "emoji": "🇹🇴"
+    "pos": "/memorize-app/geography/locations/TO.png"
   },
   {
     "id": 147,
@@ -1040,8 +1173,7 @@
     "iso": "NG",
     "url": "%E3%83%8A%E3%82%A4%E3%82%B8%E3%82%A7%E3%83%AA%E3%82%A2",
     "flag": "/memorize-app/geography/flags/NG.png",
-    "pos": "/memorize-app/geography/locations/NG.png",
-    "emoji": "🇳🇬"
+    "pos": "/memorize-app/geography/locations/NG.png"
   },
   {
     "id": 148,
@@ -1049,8 +1181,7 @@
     "iso": "NR",
     "url": "%E3%83%8A%E3%82%A6%E3%83%AB",
     "flag": "/memorize-app/geography/flags/NR.png",
-    "pos": "/memorize-app/geography/locations/NR.png",
-    "emoji": "🇳🇷"
+    "pos": "/memorize-app/geography/locations/NR.png"
   },
   {
     "id": 149,
@@ -1058,8 +1189,23 @@
     "iso": "NA",
     "url": "%E3%83%8A%E3%83%9F%E3%83%93%E3%82%A2",
     "flag": "/memorize-app/geography/flags/NA.png",
-    "pos": "/memorize-app/geography/locations/NA.png",
-    "emoji": "🇳🇦"
+    "pos": "/memorize-app/geography/locations/NA.png"
+  },
+  {
+    "id": 150,
+    "ja": "南極",
+    "iso": "AQ",
+    "url": "%E5%8D%97%E6%A5%B5",
+    "flag": "/memorize-app/geography/flags/AQ.png",
+    "pos": "/memorize-app/geography/locations/AQ.png"
+  },
+  {
+    "id": 151,
+    "ja": "ニウエ",
+    "iso": "NU",
+    "url": "%E3%83%8B%E3%82%A6%E3%82%A8",
+    "flag": "/memorize-app/geography/flags/NU.png",
+    "pos": "/memorize-app/geography/locations/NU.png"
   },
   {
     "id": 152,
@@ -1067,8 +1213,7 @@
     "iso": "NI",
     "url": "%E3%83%8B%E3%82%AB%E3%83%A9%E3%82%B0%E3%82%A2",
     "flag": "/memorize-app/geography/flags/NI.png",
-    "pos": "/memorize-app/geography/locations/NI.png",
-    "emoji": "🇳🇮"
+    "pos": "/memorize-app/geography/locations/NI.png"
   },
   {
     "id": 153,
@@ -1076,8 +1221,7 @@
     "iso": "NE",
     "url": "%E3%83%8B%E3%82%B8%E3%82%A7%E3%83%BC%E3%83%AB",
     "flag": "/memorize-app/geography/flags/NE.png",
-    "pos": "/memorize-app/geography/locations/NE.png",
-    "emoji": "🇳🇪"
+    "pos": "/memorize-app/geography/locations/NE.png"
   },
   {
     "id": 154,
@@ -1085,8 +1229,23 @@
     "iso": "JP",
     "url": "%E6%97%A5%E6%9C%AC",
     "flag": "/memorize-app/geography/flags/JP.png",
-    "pos": "/memorize-app/geography/locations/JP.png",
-    "emoji": "🇯🇵"
+    "pos": "/memorize-app/geography/locations/JP.png"
+  },
+  {
+    "id": 155,
+    "ja": "西サハラ",
+    "iso": "EH",
+    "url": "%E8%A5%BF%E3%82%B5%E3%83%8F%E3%83%A9",
+    "flag": "No Image",
+    "pos": "No Image"
+  },
+  {
+    "id": 156,
+    "ja": "ニューカレドニア",
+    "iso": "NC",
+    "url": "%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%AB%E3%83%AC%E3%83%89%E3%83%8B%E3%82%A2",
+    "flag": "No Image",
+    "pos": "No Image"
   },
   {
     "id": 157,
@@ -1094,8 +1253,7 @@
     "iso": "NZ",
     "url": "%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
     "flag": "/memorize-app/geography/flags/NZ.png",
-    "pos": "/memorize-app/geography/locations/NZ.png",
-    "emoji": "🇳🇿"
+    "pos": "/memorize-app/geography/locations/NZ.png"
   },
   {
     "id": 158,
@@ -1103,8 +1261,15 @@
     "iso": "NP",
     "url": "%E3%83%8D%E3%83%91%E3%83%BC%E3%83%AB",
     "flag": "/memorize-app/geography/flags/NP.png",
-    "pos": "/memorize-app/geography/locations/NP.png",
-    "emoji": "🇳🇵"
+    "pos": "/memorize-app/geography/locations/NP.png"
+  },
+  {
+    "id": 159,
+    "ja": "ノーフォーク島",
+    "iso": "NF",
+    "url": "%E3%83%8E%E3%83%BC%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/NF.png",
+    "pos": "/memorize-app/geography/locations/NF.png"
   },
   {
     "id": 160,
@@ -1112,8 +1277,15 @@
     "iso": "NO",
     "url": "%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%83%BC",
     "flag": "/memorize-app/geography/flags/NO.png",
-    "pos": "/memorize-app/geography/locations/NO.png",
-    "emoji": "🇳🇴"
+    "pos": "/memorize-app/geography/locations/NO.png"
+  },
+  {
+    "id": 161,
+    "ja": "ハード島とマクドナルド諸島",
+    "iso": "HM",
+    "url": "%E3%83%8F%E3%83%BC%E3%83%89%E5%B3%B6%E3%81%A8%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89%E8%AB%B8%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/HM.png",
+    "pos": "/memorize-app/geography/locations/HM.png"
   },
   {
     "id": 162,
@@ -1121,8 +1293,7 @@
     "iso": "BH",
     "url": "%E3%83%90%E3%83%BC%E3%83%AC%E3%83%BC%E3%83%B3",
     "flag": "/memorize-app/geography/flags/BH.png",
-    "pos": "/memorize-app/geography/locations/BH.png",
-    "emoji": "🇧🇭"
+    "pos": "/memorize-app/geography/locations/BH.png"
   },
   {
     "id": 163,
@@ -1130,8 +1301,7 @@
     "iso": "HT",
     "url": "%E3%83%8F%E3%82%A4%E3%83%81",
     "flag": "/memorize-app/geography/flags/HT.png",
-    "pos": "/memorize-app/geography/locations/HT.png",
-    "emoji": "🇭🇹"
+    "pos": "/memorize-app/geography/locations/HT.png"
   },
   {
     "id": 164,
@@ -1139,8 +1309,15 @@
     "iso": "PK",
     "url": "%E3%83%91%E3%82%AD%E3%82%B9%E3%82%BF%E3%83%B3",
     "flag": "/memorize-app/geography/flags/PK.png",
-    "pos": "/memorize-app/geography/locations/PK.png",
-    "emoji": "🇵🇰"
+    "pos": "/memorize-app/geography/locations/PK.png"
+  },
+  {
+    "id": 165,
+    "ja": "バチカン市国",
+    "iso": "VA",
+    "url": "%E3%83%90%E3%83%81%E3%82%AB%E3%83%B3",
+    "flag": "/memorize-app/geography/flags/VA.png",
+    "pos": "/memorize-app/geography/locations/VA.png"
   },
   {
     "id": 166,
@@ -1148,8 +1325,7 @@
     "iso": "PA",
     "url": "%E3%83%91%E3%83%8A%E3%83%9E",
     "flag": "/memorize-app/geography/flags/PA.png",
-    "pos": "/memorize-app/geography/locations/PA.png",
-    "emoji": "🇵🇦"
+    "pos": "/memorize-app/geography/locations/PA.png"
   },
   {
     "id": 167,
@@ -1157,8 +1333,7 @@
     "iso": "VU",
     "url": "%E3%83%90%E3%83%8C%E3%82%A2%E3%83%84",
     "flag": "/memorize-app/geography/flags/VU.png",
-    "pos": "/memorize-app/geography/locations/VU.png",
-    "emoji": "🇻🇺"
+    "pos": "/memorize-app/geography/locations/VU.png"
   },
   {
     "id": 168,
@@ -1166,8 +1341,7 @@
     "iso": "BS",
     "url": "%E3%83%90%E3%83%8F%E3%83%9E",
     "flag": "/memorize-app/geography/flags/BS.png",
-    "pos": "/memorize-app/geography/locations/BS.png",
-    "emoji": "🇧🇸"
+    "pos": "/memorize-app/geography/locations/BS.png"
   },
   {
     "id": 169,
@@ -1175,8 +1349,15 @@
     "iso": "PG",
     "url": "%E3%83%91%E3%83%97%E3%82%A2%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%AE%E3%83%8B%E3%82%A2",
     "flag": "/memorize-app/geography/flags/PG.png",
-    "pos": "/memorize-app/geography/locations/PG.png",
-    "emoji": "🇵🇬"
+    "pos": "/memorize-app/geography/locations/PG.png"
+  },
+  {
+    "id": 170,
+    "ja": "バミューダ",
+    "iso": "BM",
+    "url": "%E3%83%90%E3%83%9F%E3%83%A5%E3%83%BC%E3%83%80%E8%AB%B8%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/BM.png",
+    "pos": "/memorize-app/geography/locations/BM.png"
   },
   {
     "id": 171,
@@ -1184,8 +1365,7 @@
     "iso": "PW",
     "url": "%E3%83%91%E3%83%A9%E3%82%AA",
     "flag": "/memorize-app/geography/flags/PW.png",
-    "pos": "/memorize-app/geography/locations/PW.png",
-    "emoji": "🇵🇼"
+    "pos": "/memorize-app/geography/locations/PW.png"
   },
   {
     "id": 172,
@@ -1193,8 +1373,7 @@
     "iso": "PY",
     "url": "%E3%83%91%E3%83%A9%E3%82%B0%E3%82%A2%E3%82%A4",
     "flag": "/memorize-app/geography/flags/PY.png",
-    "pos": "/memorize-app/geography/locations/PY.png",
-    "emoji": "🇵🇾"
+    "pos": "/memorize-app/geography/locations/PY.png"
   },
   {
     "id": 173,
@@ -1202,8 +1381,15 @@
     "iso": "BB",
     "url": "%E3%83%90%E3%83%AB%E3%83%90%E3%83%89%E3%82%B9",
     "flag": "/memorize-app/geography/flags/BB.png",
-    "pos": "/memorize-app/geography/locations/BB.png",
-    "emoji": "🇧🇧"
+    "pos": "/memorize-app/geography/locations/BB.png"
+  },
+  {
+    "id": 174,
+    "ja": "パレスチナ",
+    "iso": "PS",
+    "url": "%E3%83%91%E3%83%AC%E3%82%B9%E3%83%81%E3%83%8A",
+    "flag": "No Image",
+    "pos": "No Image"
   },
   {
     "id": 175,
@@ -1211,8 +1397,7 @@
     "iso": "HU",
     "url": "%E3%83%8F%E3%83%B3%E3%82%AC%E3%83%AA%E3%83%BC",
     "flag": "/memorize-app/geography/flags/HU.png",
-    "pos": "/memorize-app/geography/locations/HU.png",
-    "emoji": "🇭🇺"
+    "pos": "/memorize-app/geography/locations/HU.png"
   },
   {
     "id": 176,
@@ -1220,8 +1405,7 @@
     "iso": "BD",
     "url": "%E3%83%90%E3%83%B3%E3%82%B0%E3%83%A9%E3%83%87%E3%82%B7%E3%83%A5",
     "flag": "/memorize-app/geography/flags/BD.png",
-    "pos": "/memorize-app/geography/locations/BD.png",
-    "emoji": "🇧🇩"
+    "pos": "/memorize-app/geography/locations/BD.png"
   },
   {
     "id": 177,
@@ -1229,8 +1413,15 @@
     "iso": "TL",
     "url": "%E6%9D%B1%E3%83%86%E3%82%A3%E3%83%A2%E3%83%BC%E3%83%AB",
     "flag": "/memorize-app/geography/flags/TL.png",
-    "pos": "/memorize-app/geography/locations/TL.png",
-    "emoji": "🇹🇱"
+    "pos": "/memorize-app/geography/locations/TL.png"
+  },
+  {
+    "id": 178,
+    "ja": "ピトケアン",
+    "iso": "PN",
+    "url": "%E3%83%94%E3%83%88%E3%82%B1%E3%82%A2%E3%83%B3%E8%AB%B8%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/PN.png",
+    "pos": "/memorize-app/geography/locations/PN.png"
   },
   {
     "id": 179,
@@ -1238,8 +1429,7 @@
     "iso": "FJ",
     "url": "%E3%83%95%E3%82%A3%E3%82%B8%E3%83%BC",
     "flag": "/memorize-app/geography/flags/FJ.png",
-    "pos": "/memorize-app/geography/locations/FJ.png",
-    "emoji": "🇫🇯"
+    "pos": "/memorize-app/geography/locations/FJ.png"
   },
   {
     "id": 180,
@@ -1247,8 +1437,7 @@
     "iso": "PH",
     "url": "%E3%83%95%E3%82%A3%E3%83%AA%E3%83%94%E3%83%B3",
     "flag": "/memorize-app/geography/flags/PH.png",
-    "pos": "/memorize-app/geography/locations/PH.png",
-    "emoji": "🇵🇭"
+    "pos": "/memorize-app/geography/locations/PH.png"
   },
   {
     "id": 181,
@@ -1256,8 +1445,7 @@
     "iso": "FI",
     "url": "%E3%83%95%E3%82%A3%E3%83%B3%E3%83%A9%E3%83%B3%E3%83%89",
     "flag": "/memorize-app/geography/flags/FI.png",
-    "pos": "/memorize-app/geography/locations/FI.png",
-    "emoji": "🇫🇮"
+    "pos": "/memorize-app/geography/locations/FI.png"
   },
   {
     "id": 182,
@@ -1265,8 +1453,39 @@
     "iso": "BT",
     "url": "%E3%83%96%E3%83%BC%E3%82%BF%E3%83%B3",
     "flag": "/memorize-app/geography/flags/BT.png",
-    "pos": "/memorize-app/geography/locations/BT.png",
-    "emoji": "🇧🇹"
+    "pos": "/memorize-app/geography/locations/BT.png"
+  },
+  {
+    "id": 183,
+    "ja": "ブーベ島",
+    "iso": "BV",
+    "url": "%E3%83%96%E3%83%BC%E3%83%99%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/BV.png",
+    "pos": "/memorize-app/geography/locations/BV.png"
+  },
+  {
+    "id": 184,
+    "ja": "プエルトリコ",
+    "iso": "PR",
+    "url": "%E3%83%97%E3%82%A8%E3%83%AB%E3%83%88%E3%83%AA%E3%82%B3",
+    "flag": "/memorize-app/geography/flags/PR.png",
+    "pos": "/memorize-app/geography/locations/PR.png"
+  },
+  {
+    "id": 185,
+    "ja": "フェロー諸島",
+    "iso": "FO",
+    "url": "%E3%83%95%E3%82%A7%E3%83%AD%E3%83%BC%E8%AB%B8%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/FO.png",
+    "pos": "/memorize-app/geography/locations/FO.png"
+  },
+  {
+    "id": 186,
+    "ja": "フォークランド（マルビナス）諸島",
+    "iso": "FK",
+    "url": "%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%83%A9%E3%83%B3%E3%83%89%E8%AB%B8%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/FK.png",
+    "pos": "/memorize-app/geography/locations/FK.png"
   },
   {
     "id": 187,
@@ -1274,8 +1493,7 @@
     "iso": "BR",
     "url": "%E3%83%96%E3%83%A9%E3%82%B8%E3%83%AB",
     "flag": "/memorize-app/geography/flags/BR.png",
-    "pos": "/memorize-app/geography/locations/BR.png",
-    "emoji": "🇧🇷"
+    "pos": "/memorize-app/geography/locations/BR.png"
   },
   {
     "id": 188,
@@ -1283,8 +1501,31 @@
     "iso": "FR",
     "url": "%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9",
     "flag": "/memorize-app/geography/flags/FR.png",
-    "pos": "/memorize-app/geography/locations/FR.png",
-    "emoji": "🇫🇷"
+    "pos": "/memorize-app/geography/locations/FR.png"
+  },
+  {
+    "id": 189,
+    "ja": "フランス領ギアナ",
+    "iso": "GF",
+    "url": "%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E9%A0%98%E3%82%AE%E3%82%A2%E3%83%8A",
+    "flag": "/memorize-app/geography/flags/GF.png",
+    "pos": "/memorize-app/geography/locations/GF.png"
+  },
+  {
+    "id": 190,
+    "ja": "フランス領ポリネシア",
+    "iso": "PF",
+    "url": "%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E9%A0%98%E3%83%9D%E3%83%AA%E3%83%8D%E3%82%B7%E3%82%A2",
+    "flag": "/memorize-app/geography/flags/PF.png",
+    "pos": "/memorize-app/geography/locations/PF.png"
+  },
+  {
+    "id": 191,
+    "ja": "フランス領南方・南極地域",
+    "iso": "TF",
+    "url": "%E3%83%95%E3%83%A9%E3%83%B3%E3%82%B9%E9%A0%98%E5%8D%97%E6%96%B9%E3%83%BB%E5%8D%97%E6%A5%B5%E5%9C%B0%E5%9F%9F",
+    "flag": "/memorize-app/geography/flags/TF.png",
+    "pos": "/memorize-app/geography/locations/TF.png"
   },
   {
     "id": 192,
@@ -1292,8 +1533,7 @@
     "iso": "BG",
     "url": "%E3%83%96%E3%83%AB%E3%82%AC%E3%83%AA%E3%82%A2",
     "flag": "/memorize-app/geography/flags/BG.png",
-    "pos": "/memorize-app/geography/locations/BG.png",
-    "emoji": "🇧🇬"
+    "pos": "/memorize-app/geography/locations/BG.png"
   },
   {
     "id": 193,
@@ -1301,8 +1541,7 @@
     "iso": "BF",
     "url": "%E3%83%96%E3%83%AB%E3%82%AD%E3%83%8A%E3%83%95%E3%82%A1%E3%82%BD",
     "flag": "/memorize-app/geography/flags/BF.png",
-    "pos": "/memorize-app/geography/locations/BF.png",
-    "emoji": "🇧🇫"
+    "pos": "/memorize-app/geography/locations/BF.png"
   },
   {
     "id": 194,
@@ -1310,8 +1549,7 @@
     "iso": "BN",
     "url": "%E3%83%96%E3%83%AB%E3%83%8D%E3%82%A4",
     "flag": "/memorize-app/geography/flags/BN.png",
-    "pos": "/memorize-app/geography/locations/BN.png",
-    "emoji": "🇧🇳"
+    "pos": "/memorize-app/geography/locations/BN.png"
   },
   {
     "id": 195,
@@ -1319,8 +1557,7 @@
     "iso": "BI",
     "url": "%E3%83%96%E3%83%AB%E3%83%B3%E3%82%B8",
     "flag": "/memorize-app/geography/flags/BI.png",
-    "pos": "/memorize-app/geography/locations/BI.png",
-    "emoji": "🇧🇮"
+    "pos": "/memorize-app/geography/locations/BI.png"
   },
   {
     "id": 196,
@@ -1328,8 +1565,7 @@
     "iso": "VN",
     "url": "%E3%83%99%E3%83%88%E3%83%8A%E3%83%A0",
     "flag": "/memorize-app/geography/flags/VN.png",
-    "pos": "/memorize-app/geography/locations/VN.png",
-    "emoji": "🇻🇳"
+    "pos": "/memorize-app/geography/locations/VN.png"
   },
   {
     "id": 197,
@@ -1337,8 +1573,7 @@
     "iso": "BJ",
     "url": "%E3%83%99%E3%83%8A%E3%83%B3",
     "flag": "/memorize-app/geography/flags/BJ.png",
-    "pos": "/memorize-app/geography/locations/BJ.png",
-    "emoji": "🇧🇯"
+    "pos": "/memorize-app/geography/locations/BJ.png"
   },
   {
     "id": 198,
@@ -1346,8 +1581,7 @@
     "iso": "VE",
     "url": "%E3%83%99%E3%83%8D%E3%82%BA%E3%82%A8%E3%83%A9",
     "flag": "/memorize-app/geography/flags/VE.png",
-    "pos": "/memorize-app/geography/locations/VE.png",
-    "emoji": "🇻🇪"
+    "pos": "/memorize-app/geography/locations/VE.png"
   },
   {
     "id": 199,
@@ -1355,8 +1589,7 @@
     "iso": "BY",
     "url": "%E3%83%99%E3%83%A9%E3%83%AB%E3%83%BC%E3%82%B7",
     "flag": "/memorize-app/geography/flags/BY.png",
-    "pos": "/memorize-app/geography/locations/BY.png",
-    "emoji": "🇧🇾"
+    "pos": "/memorize-app/geography/locations/BY.png"
   },
   {
     "id": 200,
@@ -1364,8 +1597,7 @@
     "iso": "BZ",
     "url": "%E3%83%99%E3%83%AA%E3%83%BC%E3%82%BA",
     "flag": "/memorize-app/geography/flags/BZ.png",
-    "pos": "/memorize-app/geography/locations/BZ.png",
-    "emoji": "🇧🇿"
+    "pos": "/memorize-app/geography/locations/BZ.png"
   },
   {
     "id": 201,
@@ -1373,8 +1605,7 @@
     "iso": "PE",
     "url": "%E3%83%9A%E3%83%AB%E3%83%BC",
     "flag": "/memorize-app/geography/flags/PE.png",
-    "pos": "/memorize-app/geography/locations/PE.png",
-    "emoji": "🇵🇪"
+    "pos": "/memorize-app/geography/locations/PE.png"
   },
   {
     "id": 202,
@@ -1382,8 +1613,7 @@
     "iso": "BE",
     "url": "%E3%83%99%E3%83%AB%E3%82%AE%E3%83%BC",
     "flag": "/memorize-app/geography/flags/BE.png",
-    "pos": "/memorize-app/geography/locations/BE.png",
-    "emoji": "🇧🇪"
+    "pos": "/memorize-app/geography/locations/BE.png"
   },
   {
     "id": 203,
@@ -1391,8 +1621,7 @@
     "iso": "PL",
     "url": "%E3%83%9D%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89",
     "flag": "/memorize-app/geography/flags/PL.png",
-    "pos": "/memorize-app/geography/locations/PL.png",
-    "emoji": "🇵🇱"
+    "pos": "/memorize-app/geography/locations/PL.png"
   },
   {
     "id": 204,
@@ -1400,8 +1629,7 @@
     "iso": "BA",
     "url": "%E3%83%9C%E3%82%B9%E3%83%8B%E3%82%A2%E3%83%BB%E3%83%98%E3%83%AB%E3%83%84%E3%82%A7%E3%82%B4%E3%83%93%E3%83%8A",
     "flag": "/memorize-app/geography/flags/BA.png",
-    "pos": "/memorize-app/geography/locations/BA.png",
-    "emoji": "🇧🇦"
+    "pos": "/memorize-app/geography/locations/BA.png"
   },
   {
     "id": 205,
@@ -1409,8 +1637,15 @@
     "iso": "BW",
     "url": "%E3%83%9C%E3%83%84%E3%83%AF%E3%83%8A",
     "flag": "/memorize-app/geography/flags/BW.png",
-    "pos": "/memorize-app/geography/locations/BW.png",
-    "emoji": "🇧🇼"
+    "pos": "/memorize-app/geography/locations/BW.png"
+  },
+  {
+    "id": 206,
+    "ja": "ボネール、シント・ユースタティウスおよびサバ",
+    "iso": "BQ",
+    "url": "BES%E8%AB%B8%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/BQ.png",
+    "pos": "/memorize-app/geography/locations/BQ.png"
   },
   {
     "id": 207,
@@ -1418,8 +1653,7 @@
     "iso": "BO",
     "url": "%E3%83%9C%E3%83%AA%E3%83%93%E3%82%A2",
     "flag": "/memorize-app/geography/flags/BO.png",
-    "pos": "/memorize-app/geography/locations/BO.png",
-    "emoji": "🇧🇴"
+    "pos": "/memorize-app/geography/locations/BO.png"
   },
   {
     "id": 208,
@@ -1427,8 +1661,15 @@
     "iso": "PT",
     "url": "%E3%83%9D%E3%83%AB%E3%83%88%E3%82%AC%E3%83%AB",
     "flag": "/memorize-app/geography/flags/PT.png",
-    "pos": "/memorize-app/geography/locations/PT.png",
-    "emoji": "🇵🇹"
+    "pos": "/memorize-app/geography/locations/PT.png"
+  },
+  {
+    "id": 209,
+    "ja": "香港",
+    "iso": "HK",
+    "url": "%E9%A6%99%E6%B8%AF",
+    "flag": "/memorize-app/geography/flags/HK.png",
+    "pos": "/memorize-app/geography/locations/HK.png"
   },
   {
     "id": 210,
@@ -1436,8 +1677,7 @@
     "iso": "HN",
     "url": "%E3%83%9B%E3%83%B3%E3%82%B8%E3%83%A5%E3%83%A9%E3%82%B9",
     "flag": "/memorize-app/geography/flags/HN.png",
-    "pos": "/memorize-app/geography/locations/HN.png",
-    "emoji": "🇭🇳"
+    "pos": "/memorize-app/geography/locations/HN.png"
   },
   {
     "id": 211,
@@ -1445,8 +1685,15 @@
     "iso": "MH",
     "url": "%E3%83%9E%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%AB%E8%AB%B8%E5%B3%B6",
     "flag": "/memorize-app/geography/flags/MH.png",
-    "pos": "/memorize-app/geography/locations/MH.png",
-    "emoji": "🇲🇭"
+    "pos": "/memorize-app/geography/locations/MH.png"
+  },
+  {
+    "id": 212,
+    "ja": "マカオ",
+    "iso": "MO",
+    "url": "%E3%83%9E%E3%82%AB%E3%82%AA",
+    "flag": "/memorize-app/geography/flags/MO.png",
+    "pos": "/memorize-app/geography/locations/MO.png"
   },
   {
     "id": 213,
@@ -1454,8 +1701,15 @@
     "iso": "MG",
     "url": "%E3%83%9E%E3%83%80%E3%82%AC%E3%82%B9%E3%82%AB%E3%83%AB",
     "flag": "/memorize-app/geography/flags/MG.png",
-    "pos": "/memorize-app/geography/locations/MG.png",
-    "emoji": "🇲🇬"
+    "pos": "/memorize-app/geography/locations/MG.png"
+  },
+  {
+    "id": 214,
+    "ja": "マヨット",
+    "iso": "YT",
+    "url": "%E3%83%9E%E3%83%A8%E3%83%83%E3%83%88",
+    "flag": "/memorize-app/geography/flags/YT.png",
+    "pos": "/memorize-app/geography/locations/YT.png"
   },
   {
     "id": 215,
@@ -1463,8 +1717,7 @@
     "iso": "MW",
     "url": "%E3%83%9E%E3%83%A9%E3%82%A6%E3%82%A4",
     "flag": "/memorize-app/geography/flags/MW.png",
-    "pos": "/memorize-app/geography/locations/MW.png",
-    "emoji": "🇲🇼"
+    "pos": "/memorize-app/geography/locations/MW.png"
   },
   {
     "id": 216,
@@ -1472,8 +1725,7 @@
     "iso": "ML",
     "url": "%E3%83%9E%E3%83%AA%E5%85%B1%E5%92%8C%E5%9B%BD",
     "flag": "/memorize-app/geography/flags/ML.png",
-    "pos": "/memorize-app/geography/locations/ML.png",
-    "emoji": "🇲🇱"
+    "pos": "/memorize-app/geography/locations/ML.png"
   },
   {
     "id": 217,
@@ -1481,8 +1733,15 @@
     "iso": "MT",
     "url": "%E3%83%9E%E3%83%AB%E3%82%BF",
     "flag": "/memorize-app/geography/flags/MT.png",
-    "pos": "/memorize-app/geography/locations/MT.png",
-    "emoji": "🇲🇹"
+    "pos": "/memorize-app/geography/locations/MT.png"
+  },
+  {
+    "id": 218,
+    "ja": "マルティニーク",
+    "iso": "MQ",
+    "url": "%E3%83%9E%E3%83%AB%E3%83%86%E3%82%A3%E3%83%8B%E3%83%BC%E3%82%AF",
+    "flag": "/memorize-app/geography/flags/MQ.png",
+    "pos": "/memorize-app/geography/locations/MQ.png"
   },
   {
     "id": 219,
@@ -1490,8 +1749,15 @@
     "iso": "MY",
     "url": "%E3%83%9E%E3%83%AC%E3%83%BC%E3%82%B7%E3%82%A2",
     "flag": "/memorize-app/geography/flags/MY.png",
-    "pos": "/memorize-app/geography/locations/MY.png",
-    "emoji": "🇲🇾"
+    "pos": "/memorize-app/geography/locations/MY.png"
+  },
+  {
+    "id": 220,
+    "ja": "マン島",
+    "iso": "IM",
+    "url": "%E3%83%9E%E3%83%B3%E5%B3%B6",
+    "flag": "/memorize-app/geography/flags/IM.png",
+    "pos": "/memorize-app/geography/locations/IM.png"
   },
   {
     "id": 221,
@@ -1499,8 +1765,7 @@
     "iso": "FM",
     "url": "%E3%83%9F%E3%82%AF%E3%83%AD%E3%83%8D%E3%82%B7%E3%82%A2%E9%80%A3%E9%82%A6",
     "flag": "/memorize-app/geography/flags/FM.png",
-    "pos": "/memorize-app/geography/locations/FM.png",
-    "emoji": "🇫🇲"
+    "pos": "/memorize-app/geography/locations/FM.png"
   },
   {
     "id": 222,
@@ -1508,8 +1773,7 @@
     "iso": "ZA",
     "url": "%E5%8D%97%E3%82%A2%E3%83%95%E3%83%AA%E3%82%AB%E5%85%B1%E5%92%8C%E5%9B%BD",
     "flag": "/memorize-app/geography/flags/ZA.png",
-    "pos": "/memorize-app/geography/locations/ZA.png",
-    "emoji": "🇿🇦"
+    "pos": "/memorize-app/geography/locations/ZA.png"
   },
   {
     "id": 223,
@@ -1517,8 +1781,7 @@
     "iso": "SS",
     "url": "%E5%8D%97%E3%82%B9%E3%83%BC%E3%83%80%E3%83%B3",
     "flag": "/memorize-app/geography/flags/SS.png",
-    "pos": "/memorize-app/geography/locations/SS.png",
-    "emoji": "🇸🇸"
+    "pos": "/memorize-app/geography/locations/SS.png"
   },
   {
     "id": 224,
@@ -1526,8 +1789,7 @@
     "iso": "MM",
     "url": "%E3%83%9F%E3%83%A3%E3%83%B3%E3%83%9E%E3%83%BC",
     "flag": "/memorize-app/geography/flags/MM.png",
-    "pos": "/memorize-app/geography/locations/MM.png",
-    "emoji": "🇲🇲"
+    "pos": "/memorize-app/geography/locations/MM.png"
   },
   {
     "id": 225,
@@ -1535,8 +1797,7 @@
     "iso": "MX",
     "url": "%E3%83%A1%E3%82%AD%E3%82%B7%E3%82%B3",
     "flag": "/memorize-app/geography/flags/MX.png",
-    "pos": "/memorize-app/geography/locations/MX.png",
-    "emoji": "🇲🇽"
+    "pos": "/memorize-app/geography/locations/MX.png"
   },
   {
     "id": 226,
@@ -1544,8 +1805,7 @@
     "iso": "MU",
     "url": "%E3%83%A2%E3%83%BC%E3%83%AA%E3%82%B7%E3%83%A3%E3%82%B9",
     "flag": "/memorize-app/geography/flags/MU.png",
-    "pos": "/memorize-app/geography/locations/MU.png",
-    "emoji": "🇲🇺"
+    "pos": "/memorize-app/geography/locations/MU.png"
   },
   {
     "id": 227,
@@ -1553,8 +1813,7 @@
     "iso": "MR",
     "url": "%E3%83%A2%E3%83%BC%E3%83%AA%E3%82%BF%E3%83%8B%E3%82%A2",
     "flag": "/memorize-app/geography/flags/MR.png",
-    "pos": "/memorize-app/geography/locations/MR.png",
-    "emoji": "🇲🇷"
+    "pos": "/memorize-app/geography/locations/MR.png"
   },
   {
     "id": 228,
@@ -1562,8 +1821,7 @@
     "iso": "MZ",
     "url": "%E3%83%A2%E3%82%B6%E3%83%B3%E3%83%93%E3%83%BC%E3%82%AF",
     "flag": "/memorize-app/geography/flags/MZ.png",
-    "pos": "/memorize-app/geography/locations/MZ.png",
-    "emoji": "🇲🇿"
+    "pos": "/memorize-app/geography/locations/MZ.png"
   },
   {
     "id": 229,
@@ -1571,8 +1829,7 @@
     "iso": "MC",
     "url": "%E3%83%A2%E3%83%8A%E3%82%B3",
     "flag": "/memorize-app/geography/flags/MC.png",
-    "pos": "/memorize-app/geography/locations/MC.png",
-    "emoji": "🇲🇨"
+    "pos": "/memorize-app/geography/locations/MC.png"
   },
   {
     "id": 230,
@@ -1580,8 +1837,7 @@
     "iso": "MV",
     "url": "%E3%83%A2%E3%83%AB%E3%83%87%E3%82%A3%E3%83%96",
     "flag": "/memorize-app/geography/flags/MV.png",
-    "pos": "/memorize-app/geography/locations/MV.png",
-    "emoji": "🇲🇻"
+    "pos": "/memorize-app/geography/locations/MV.png"
   },
   {
     "id": 231,
@@ -1589,8 +1845,7 @@
     "iso": "MD",
     "url": "%E3%83%A2%E3%83%AB%E3%83%89%E3%83%90",
     "flag": "/memorize-app/geography/flags/MD.png",
-    "pos": "/memorize-app/geography/locations/MD.png",
-    "emoji": "🇲🇩"
+    "pos": "/memorize-app/geography/locations/MD.png"
   },
   {
     "id": 232,
@@ -1598,8 +1853,7 @@
     "iso": "MA",
     "url": "%E3%83%A2%E3%83%AD%E3%83%83%E3%82%B3",
     "flag": "/memorize-app/geography/flags/MA.png",
-    "pos": "/memorize-app/geography/locations/MA.png",
-    "emoji": "🇲🇦"
+    "pos": "/memorize-app/geography/locations/MA.png"
   },
   {
     "id": 233,
@@ -1607,8 +1861,7 @@
     "iso": "MN",
     "url": "%E3%83%A2%E3%83%B3%E3%82%B4%E3%83%AB%E5%9B%BD",
     "flag": "/memorize-app/geography/flags/MN.png",
-    "pos": "/memorize-app/geography/locations/MN.png",
-    "emoji": "🇲🇳"
+    "pos": "/memorize-app/geography/locations/MN.png"
   },
   {
     "id": 234,
@@ -1616,8 +1869,15 @@
     "iso": "ME",
     "url": "%E3%83%A2%E3%83%B3%E3%83%86%E3%83%8D%E3%82%B0%E3%83%AD",
     "flag": "/memorize-app/geography/flags/ME.png",
-    "pos": "/memorize-app/geography/locations/ME.png",
-    "emoji": "🇲🇪"
+    "pos": "/memorize-app/geography/locations/ME.png"
+  },
+  {
+    "id": 235,
+    "ja": "モントセラト",
+    "iso": "MS",
+    "url": "%E3%83%A2%E3%83%B3%E3%83%88%E3%82%BB%E3%83%A9%E3%83%88",
+    "flag": "/memorize-app/geography/flags/MS.png",
+    "pos": "/memorize-app/geography/locations/MS.png"
   },
   {
     "id": 236,
@@ -1625,8 +1885,7 @@
     "iso": "JO",
     "url": "%E3%83%A8%E3%83%AB%E3%83%80%E3%83%B3",
     "flag": "/memorize-app/geography/flags/JO.png",
-    "pos": "/memorize-app/geography/locations/JO.png",
-    "emoji": "🇯🇴"
+    "pos": "/memorize-app/geography/locations/JO.png"
   },
   {
     "id": 237,
@@ -1634,8 +1893,7 @@
     "iso": "LA",
     "url": "%E3%83%A9%E3%82%AA%E3%82%B9",
     "flag": "/memorize-app/geography/flags/LA.png",
-    "pos": "/memorize-app/geography/locations/LA.png",
-    "emoji": "🇱🇦"
+    "pos": "/memorize-app/geography/locations/LA.png"
   },
   {
     "id": 238,
@@ -1643,8 +1901,7 @@
     "iso": "LV",
     "url": "%E3%83%A9%E3%83%88%E3%83%93%E3%82%A2",
     "flag": "/memorize-app/geography/flags/LV.png",
-    "pos": "/memorize-app/geography/locations/LV.png",
-    "emoji": "🇱🇻"
+    "pos": "/memorize-app/geography/locations/LV.png"
   },
   {
     "id": 239,
@@ -1652,8 +1909,7 @@
     "iso": "LT",
     "url": "%E3%83%AA%E3%83%88%E3%82%A2%E3%83%8B%E3%82%A2",
     "flag": "/memorize-app/geography/flags/LT.png",
-    "pos": "/memorize-app/geography/locations/LT.png",
-    "emoji": "🇱🇹"
+    "pos": "/memorize-app/geography/locations/LT.png"
   },
   {
     "id": 240,
@@ -1661,8 +1917,7 @@
     "iso": "LY",
     "url": "%E3%83%AA%E3%83%93%E3%82%A2",
     "flag": "/memorize-app/geography/flags/LY.png",
-    "pos": "/memorize-app/geography/locations/LY.png",
-    "emoji": "🇱🇾"
+    "pos": "/memorize-app/geography/locations/LY.png"
   },
   {
     "id": 241,
@@ -1670,8 +1925,7 @@
     "iso": "LI",
     "url": "%E3%83%AA%E3%83%92%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%A4%E3%83%B3",
     "flag": "/memorize-app/geography/flags/LI.png",
-    "pos": "/memorize-app/geography/locations/LI.png",
-    "emoji": "🇱🇮"
+    "pos": "/memorize-app/geography/locations/LI.png"
   },
   {
     "id": 242,
@@ -1679,8 +1933,7 @@
     "iso": "LR",
     "url": "%E3%83%AA%E3%83%99%E3%83%AA%E3%82%A2",
     "flag": "/memorize-app/geography/flags/LR.png",
-    "pos": "/memorize-app/geography/locations/LR.png",
-    "emoji": "🇱🇷"
+    "pos": "/memorize-app/geography/locations/LR.png"
   },
   {
     "id": 243,
@@ -1688,8 +1941,7 @@
     "iso": "RO",
     "url": "%E3%83%AB%E3%83%BC%E3%83%9E%E3%83%8B%E3%82%A2",
     "flag": "/memorize-app/geography/flags/RO.png",
-    "pos": "/memorize-app/geography/locations/RO.png",
-    "emoji": "🇷🇴"
+    "pos": "/memorize-app/geography/locations/RO.png"
   },
   {
     "id": 244,
@@ -1697,8 +1949,7 @@
     "iso": "LU",
     "url": "%E3%83%AB%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%96%E3%83%AB%E3%82%AF",
     "flag": "/memorize-app/geography/flags/LU.png",
-    "pos": "/memorize-app/geography/locations/LU.png",
-    "emoji": "🇱🇺"
+    "pos": "/memorize-app/geography/locations/LU.png"
   },
   {
     "id": 245,
@@ -1706,8 +1957,7 @@
     "iso": "RW",
     "url": "%E3%83%AB%E3%83%AF%E3%83%B3%E3%83%80",
     "flag": "/memorize-app/geography/flags/RW.png",
-    "pos": "/memorize-app/geography/locations/RW.png",
-    "emoji": "🇷🇼"
+    "pos": "/memorize-app/geography/locations/RW.png"
   },
   {
     "id": 246,
@@ -1715,8 +1965,7 @@
     "iso": "LS",
     "url": "%E3%83%AC%E3%82%BD%E3%83%88",
     "flag": "/memorize-app/geography/flags/LS.png",
-    "pos": "/memorize-app/geography/locations/LS.png",
-    "emoji": "🇱🇸"
+    "pos": "/memorize-app/geography/locations/LS.png"
   },
   {
     "id": 247,
@@ -1724,8 +1973,15 @@
     "iso": "LB",
     "url": "%E3%83%AC%E3%83%90%E3%83%8E%E3%83%B3",
     "flag": "/memorize-app/geography/flags/LB.png",
-    "pos": "/memorize-app/geography/locations/LB.png",
-    "emoji": "🇱🇧"
+    "pos": "/memorize-app/geography/locations/LB.png"
+  },
+  {
+    "id": 248,
+    "ja": "レユニオン",
+    "iso": "RE",
+    "url": "%E3%83%AC%E3%83%A6%E3%83%8B%E3%82%AA%E3%83%B3",
+    "flag": "/memorize-app/geography/flags/RE.png",
+    "pos": "/memorize-app/geography/locations/RE.png"
   },
   {
     "id": 249,
@@ -1733,7 +1989,6 @@
     "iso": "RU",
     "url": "%E3%83%AD%E3%82%B7%E3%82%A2",
     "flag": "/memorize-app/geography/flags/RU.png",
-    "pos": "/memorize-app/geography/locations/RU.png",
-    "emoji": "🇷🇺"
+    "pos": "/memorize-app/geography/locations/RU.png"
   }
 ]
