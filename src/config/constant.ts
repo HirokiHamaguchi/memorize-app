@@ -31,6 +31,7 @@ interface GeographyRawData {
     flag: string
     pos: string
     url: string
+    emoji: string
 }
 
 interface DatasetConfig<T> {

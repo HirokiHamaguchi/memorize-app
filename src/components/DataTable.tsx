@@ -131,6 +131,7 @@ export const DataTable = ({
 }: DataTableProps) => {
     console.assert(configKey in DATA_TYPE_CONFIGS, `Invalid config key: ${configKey}`)
     const config = DATA_TYPE_CONFIGS[configKey]
+    const toAnswer = (item: DataItem) => (configKey === 'geography_location' && 'emoji' in item) ? item.ja + item.emoji : item.ja
     return (
         <Box className="vocabulary-box vocabulary-table">
             {!config.isVerticalLayout && (
@@ -171,7 +172,7 @@ export const DataTable = ({
                                 cursor={revealed ? 'default' : 'pointer'}
                                 borderTop="1px solid #ccc"
                             >
-                                {revealed ? item.ja : (item.id % 2 == 1 ? '復習' : '答え')}
+                                {revealed ? toAnswer(item) : (item.id % 2 == 1 ? '復習' : '答え')}
                             </Box>
                         </Box>
                     )
@@ -202,7 +203,7 @@ export const DataTable = ({
                                 onClick={() => onRevealItem(index)}
                                 cursor={revealed ? 'default' : 'pointer'}
                             >
-                                {revealed ? item.ja : (item.id % 2 == 1 ? '復習' : '答え')}
+                                {revealed ? toAnswer(item) : (item.id % 2 == 1 ? '復習' : '答え')}
                             </Box>
                         </Flex>
                     )

@@ -5,6 +5,7 @@ export interface Geography {
     flag: string;
     pos: string;
     url: string;
+    emoji: string;
 }
 
 export interface Vocabulary {
