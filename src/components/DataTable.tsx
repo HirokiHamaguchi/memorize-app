@@ -131,7 +131,13 @@ export const DataTable = ({
 }: DataTableProps) => {
     console.assert(configKey in DATA_TYPE_CONFIGS, `Invalid config key: ${configKey}`)
     const config = DATA_TYPE_CONFIGS[configKey]
-    const toAnswer = (item: DataItem) => (configKey === 'geography_location' && 'emoji' in item) ? item.ja + item.emoji : item.ja
+    const isWindows = navigator.userAgent.toLowerCase().includes('windows')
+    const toAnswer = (item: DataItem) => {
+        if (configKey === 'geography_location' && 'emoji' in item && !isWindows) {
+            return item.ja + item.emoji
+        }
+        return item.ja
+    }
     return (
         <Box className="vocabulary-box vocabulary-table">
             {!config.isVerticalLayout && (
