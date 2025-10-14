@@ -11,7 +11,16 @@ export const SelectPage = () => {
             <Selector
                 subtitle="学習したい語彙データセットを選択してください"
                 options={VOCABULARY_DATASETS}
-                onSelect={(datasetId: string) => navigate(`/study/vocabulary/${datasetId}`)}
+                onSelect={(datasetId: string) => {
+                    if (datasetId.startsWith('listen_')) {
+                        // リスニング用データセットの場合
+                        const listenDatasetId = datasetId.replace('listen_', '')
+                        navigate(`/study/vocabulary/listen/${listenDatasetId}`)
+                    } else {
+                        // 通常の学習用データセットの場合
+                        navigate(`/study/vocabulary/${datasetId}`)
+                    }
+                }}
                 showLoginSection={false}
             />
         )

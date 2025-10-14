@@ -1,21 +1,23 @@
 import { useState, useRef, useCallback, useEffect } from 'react'
+import { useParams } from 'react-router-dom'
 import { Box, Container, Heading, Text, Center } from '@chakra-ui/react'
 import { AppHeaderListen } from '../components/AppHeaderListen'
 import { VOCABULARY_DATASETS } from '../config/constant'
 import { speak, stopSpeech, sleep } from '../utils/speak'
 import type { Vocabulary } from '../types/type'
 
-export const ListenPage = ({ datasetId }: { datasetId: string }) => {
+export const ListenPage = () => {
+    const { datasetId } = useParams<{ datasetId: string }>()
     const [data, setData] = useState<Vocabulary[]>([])
     const [isPlaying, setIsPlaying] = useState(false)
-    const [rate, setRate] = useState(1.0)
+    const [rate, setRate] = useState(1.5)
     const [currentIndex, setCurrentIndex] = useState(0)
     const [isLoading, setIsLoading] = useState(true)
     const [error, setError] = useState<string | null>(null)
     const abortControllerRef = useRef<AbortController | null>(null)
 
     // データセット設定を取得
-    const datasetConfig = VOCABULARY_DATASETS.find(d => d.id === datasetId)
+    const datasetConfig = VOCABULARY_DATASETS.find(d => d.id === "listen_" + datasetId)
 
     // データを読み込む
     const loadData = useCallback(async () => {
@@ -76,7 +78,7 @@ export const ListenPage = ({ datasetId }: { datasetId: string }) => {
                 if (abortControllerRef.current?.signal.aborted) break
 
                 // 間隔を空ける
-                await sleep(200)
+                await sleep(100)
 
                 // 中断チェック
                 if (abortControllerRef.current?.signal.aborted) break
@@ -88,7 +90,7 @@ export const ListenPage = ({ datasetId }: { datasetId: string }) => {
                 if (abortControllerRef.current?.signal.aborted) break
 
                 // 次のペアまでの間隔
-                await sleep(500)
+                await sleep(200)
             }
 
             // 全て完了した場合

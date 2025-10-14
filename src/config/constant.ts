@@ -51,17 +51,17 @@ export const VOCABULARY_DATASETS: DatasetConfig<VocabularyRawData>[] = [
         processor: (data: VocabularyRawData[]): Vocabulary[] => data,
     },
     {
-        id: 'jun1',
-        name: '英検準1級',
-        description: '英検準1級レベルの英単語集',
-        dataLoader: () => import('../data/vocabulary/vocabulary_jun1.json'),
-        processor: (data: VocabularyRawData[]): Vocabulary[] => data,
-    },
-    {
         id: 'listen_1',
         name: '英検1級リスニング',
         description: '英検1級レベルの英単語を音声で学習',
         dataLoader: () => import('../data/vocabulary/vocabulary_1.json'),
+        processor: (data: VocabularyRawData[]): Vocabulary[] => data,
+    },
+    {
+        id: 'jun1',
+        name: '英検準1級',
+        description: '英検準1級レベルの英単語集',
+        dataLoader: () => import('../data/vocabulary/vocabulary_jun1.json'),
         processor: (data: VocabularyRawData[]): Vocabulary[] => data,
     },
     {
