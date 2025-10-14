@@ -1,5 +1,4 @@
-import { Flex, Button, VStack, Text } from '@chakra-ui/react'
-import { NativeSelectField, NativeSelectRoot } from "@chakra-ui/react"
+import { Flex, Button, VStack } from '@chakra-ui/react'
 import { AppInfoDialog } from './dialog'
 
 // 定数定義（AppHeaderと統一）
@@ -40,22 +39,18 @@ export const AppHeaderListen = ({ isPlaying, rate, onTogglePlay, onRateChange }:
 
             {/* 右側: 速度調整セレクト */}
             <VStack gap={1} alignItems="flex-end">
-                <Text fontSize="sm" color="gray.600">
-                    速度: {rate.toFixed(1)}x
-                </Text>
-                {/* <NativeSelectRoot size="sm" width="100px">
-                    <NativeSelectField
-                        value={rate}
-                        onChange={(e) => onRateChange(parseFloat(e.target.value))}
-                    >
-                        <option value={0.5}>0.5x</option>
-                        <option value={0.7}>0.7x</option>
-                        <option value={1.0}>1.0x</option>
-                        <option value={1.2}>1.2x</option>
-                        <option value={1.5}>1.5x</option>
-                        <option value={2.0}>2.0x</option>
-                    </NativeSelectField>
-                </NativeSelectRoot> */}
+                <Button
+                    backgroundColor="blue.600"
+                    onClick={() => {
+                        const rates = [0.5, 0.7, 1.0, 1.2, 1.5, 2.0];
+                        const currentIdx = rates.indexOf(rate);
+                        const nextIdx = (currentIdx + 1) % rates.length;
+                        onRateChange(rates[nextIdx]);
+                    }}
+                    {...BUTTON_STYLES}
+                >
+                    {rate.toFixed(1)}
+                </Button>
             </VStack>
         </Flex>
     )

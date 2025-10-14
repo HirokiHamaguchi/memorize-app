@@ -6,6 +6,7 @@ import {
   MemoPage,
   ListenPage
 } from './pages'
+import { cleanupSpeech } from './utils/speak'
 import './App.css'
 
 // ページごとのbodyクラスを管理するコンポーネント
@@ -13,6 +14,9 @@ function BodyClassManager() {
   const location = useLocation()
 
   useEffect(() => {
+    // ページ遷移時に音声を停止
+    cleanupSpeech()
+
     document.body.classList.remove('page-select', 'page-study')
     if (location.pathname === '/' || location.pathname.startsWith('/select')) {
       document.body.classList.add('page-select')

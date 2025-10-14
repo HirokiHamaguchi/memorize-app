@@ -1,7 +1,8 @@
 import { useState, useRef, useCallback, useEffect } from 'react'
 import { VOCABULARY_DATASETS } from '../config/constant'
-import { speak, stopSpeech, sleep } from '../utils/speak'
+import { speak, stopSpeech, sleep, cleanupSpeech } from '../utils/speak'
 import type { Vocabulary } from '../types/type'
+import { shuffleArray } from '../utils/shuffle'
 
 interface UseListenDataProps {
     datasetId: string | undefined
@@ -33,7 +34,7 @@ export const useListenData = ({ datasetId }: UseListenDataProps): UseListenDataR
         try {
             const rawData = await datasetConfig.dataLoader()
             const processedData = datasetConfig.processor(rawData.default) as Vocabulary[]
-            setData(processedData)
+            setData(shuffleArray(processedData))
             setError(null)
         } catch (err) {
             setError('データの読み込みに失敗しました')
@@ -65,6 +66,8 @@ interface UseListenPlayerReturn {
     isPlaying: boolean
     currentIndex: number
     togglePlay: () => void
+    goToPrevious: () => void
+    goToNext: () => void
 }
 
 export const useListenPlayer = ({ data, rate }: UseListenPlayerProps): UseListenPlayerReturn => {
@@ -79,64 +82,94 @@ export const useListenPlayer = ({ data, rate }: UseListenPlayerProps): UseListen
 
     // 単語ペアを読み上げる
     const speakWordPair = useCallback(async (item: Vocabulary): Promise<void> => {
-        // 英語を読み上げ
         await speak(item.en, 'en-US', { rate })
         if (checkAborted()) return
-
-        // 間隔を空ける
         await sleep(100)
         if (checkAborted()) return
-
-        // 日本語を読み上げ
         await speak(item.ja, 'ja-JP', { rate })
         if (checkAborted()) return
-
-        // 次のペアまでの間隔
         await sleep(200)
     }, [rate, checkAborted])
 
-    // 読み上げを開始/停止する
-    const togglePlay = useCallback(async () => {
-        if (isPlaying) {
-            // 停止
-            if (abortControllerRef.current) {
-                abortControllerRef.current.abort()
-            }
-            stopSpeech()
-            setIsPlaying(false)
-            return
-        }
-
-        // 開始
+    // 再生処理の共通関数
+    const startPlayingFrom = useCallback(async (startIndex: number, changeIsPlaying: boolean) => {
         if (data.length === 0) return
 
-        setIsPlaying(true)
+        if (changeIsPlaying) setIsPlaying(true)
         abortControllerRef.current = new AbortController()
 
         try {
-            for (let i = currentIndex; i < data.length; i++) {
+            for (let i = startIndex; i < data.length; i++) {
                 if (checkAborted()) break
-
                 setCurrentIndex(i)
                 await speakWordPair(data[i])
-
                 if (checkAborted()) break
             }
 
             // 全て完了した場合
             if (!checkAborted()) {
                 setCurrentIndex(0) // インデックスをリセット
+                if (changeIsPlaying) setIsPlaying(false)
             }
         } catch (err) {
             console.error('読み上げエラー:', err)
-        } finally {
-            setIsPlaying(false)
         }
-    }, [isPlaying, data, currentIndex, speakWordPair, checkAborted])
+    }, [data, speakWordPair, checkAborted])
+
+    // 再生停止処理の共通関数
+    const stopPlaying = useCallback((changeIsPlaying: boolean) => {
+        if (abortControllerRef.current) abortControllerRef.current.abort()
+        stopSpeech()
+        if (changeIsPlaying) setIsPlaying(false)
+    }, [])
+
+    // 読み上げを開始/停止する
+    const togglePlay = useCallback(async () => {
+        if (isPlaying) stopPlaying(true)
+        else await startPlayingFrom(currentIndex, true)
+    }, [isPlaying, currentIndex, stopPlaying, startPlayingFrom])
+
+    // 前の単語に移動
+    const goToPrevious = useCallback(() => {
+        if (currentIndex > 0) {
+            const newIndex = currentIndex - 1
+            const wasPlaying = isPlaying
+            if (wasPlaying) stopPlaying(false)
+            setCurrentIndex(newIndex)
+            if (wasPlaying) setTimeout(() => {
+                startPlayingFrom(newIndex, false)
+            }, 50);
+        }
+    }, [currentIndex, isPlaying, stopPlaying, startPlayingFrom])
+
+    // 次の単語に移動
+    const goToNext = useCallback(() => {
+        if (currentIndex < data.length - 1) {
+            const newIndex = currentIndex + 1
+            const wasPlaying = isPlaying
+            if (wasPlaying) stopPlaying(false)
+            setCurrentIndex(newIndex)
+            if (wasPlaying) setTimeout(() => {
+                startPlayingFrom(newIndex, false)
+            }, 50);
+        }
+    }, [currentIndex, isPlaying, data.length, stopPlaying, startPlayingFrom])
+
+    // コンポーネントのアンマウント時にクリーンアップ
+    useEffect(() => {
+        return () => {
+            if (abortControllerRef.current) {
+                abortControllerRef.current.abort()
+            }
+            cleanupSpeech()
+        }
+    }, [])
 
     return {
         isPlaying,
         currentIndex,
-        togglePlay
+        togglePlay,
+        goToPrevious,
+        goToNext
     }
 }
