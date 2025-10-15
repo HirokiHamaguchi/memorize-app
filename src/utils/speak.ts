@@ -4,8 +4,8 @@
 
 export interface SpeakOptions {
     rate?: number
-    volume?: number
     pitch?: number
+    voice?: SpeechSynthesisVoice
 }
 
 // 現在アクティブなSpeechSynthesisUtteranceを追跡
@@ -33,8 +33,12 @@ export function speak(text: string, lang: string, options: SpeakOptions = {}): P
         const utter = new SpeechSynthesisUtterance(text)
         utter.lang = lang
         utter.rate = options.rate ?? 1.0
-        utter.volume = options.volume ?? 1.0
         utter.pitch = options.pitch ?? 1.0
+
+        // 指定された音声を使用
+        if (options.voice) {
+            utter.voice = options.voice
+        }
 
         // グローバル変数に保存
         activeSpeech = utter
@@ -94,6 +98,26 @@ export function isSpeaking(): boolean {
  */
 export function cleanupSpeech(): void {
     stopSpeech()
+}
+
+/**
+ * 英語の音声一覧を取得する
+ * @returns SpeechSynthesisVoice[]
+ */
+export function getEnglishVoices(): SpeechSynthesisVoice[] {
+    return speechSynthesis.getVoices().filter(voice =>
+        voice.lang.startsWith('en')
+    )
+}
+
+/**
+ * 日本語の音声一覧を取得する
+ * @returns SpeechSynthesisVoice[]
+ */
+export function getJapaneseVoices(): SpeechSynthesisVoice[] {
+    return speechSynthesis.getVoices().filter(voice =>
+        voice.lang.startsWith('ja')
+    )
 }
 
 // ページのbeforeunloadイベントでクリーンアップを実行

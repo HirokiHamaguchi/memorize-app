@@ -60,6 +60,8 @@ export const useListenData = ({ datasetId }: UseListenDataProps): UseListenDataR
 interface UseListenPlayerProps {
     data: Vocabulary[]
     rate: number
+    englishVoice?: SpeechSynthesisVoice
+    japaneseVoice?: SpeechSynthesisVoice
 }
 
 interface UseListenPlayerReturn {
@@ -70,7 +72,7 @@ interface UseListenPlayerReturn {
     goToNext: () => void
 }
 
-export const useListenPlayer = ({ data, rate }: UseListenPlayerProps): UseListenPlayerReturn => {
+export const useListenPlayer = ({ data, rate, englishVoice, japaneseVoice }: UseListenPlayerProps): UseListenPlayerReturn => {
     const [isPlaying, setIsPlaying] = useState(false)
     const [currentIndex, setCurrentIndex] = useState(0)
     const abortControllerRef = useRef<AbortController | null>(null)
@@ -82,14 +84,14 @@ export const useListenPlayer = ({ data, rate }: UseListenPlayerProps): UseListen
 
     // 単語ペアを読み上げる
     const speakWordPair = useCallback(async (item: Vocabulary): Promise<void> => {
-        await speak(item.en, 'en-US', { rate })
+        await speak(item.en, 'en-US', { rate, voice: englishVoice })
         if (checkAborted()) return
         await sleep(100)
         if (checkAborted()) return
-        await speak(item.ja, 'ja-JP', { rate })
+        await speak(item.ja, 'ja-JP', { rate, voice: japaneseVoice })
         if (checkAborted()) return
         await sleep(200)
-    }, [rate, checkAborted])
+    }, [rate, englishVoice, japaneseVoice, checkAborted])
 
     // 再生処理の共通関数
     const startPlayingFrom = useCallback(async (startIndex: number, changeIsPlaying: boolean) => {
