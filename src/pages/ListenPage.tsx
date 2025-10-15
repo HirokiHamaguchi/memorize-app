@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { Box, VStack, Text, Center, HStack, IconButton } from '@chakra-ui/react'
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+import { FaChevronLeft, FaChevronRight, FaPlay, FaStop } from 'react-icons/fa'
 import { AppHeaderListen, ListenProgress } from '../components'
 import { useListenData, useListenPlayer } from '../hooks'
 import { getEnglishVoices, getJapaneseVoices } from '../utils/speak'
@@ -73,6 +73,15 @@ export const ListenPage = () => {
         setRate(newRate)
     }, [])
 
+    // 音声変更ハンドラー
+    const handleEnglishVoiceChange = useCallback((voice: SpeechSynthesisVoice | undefined) => {
+        setEnglishVoice(voice)
+    }, [])
+
+    const handleJapaneseVoiceChange = useCallback((voice: SpeechSynthesisVoice | undefined) => {
+        setJapaneseVoice(voice)
+    }, [])
+
     if (error || !datasetConfig) {
         const message = error ? error : "データセットが見つかりません";
         return (
@@ -85,10 +94,12 @@ export const ListenPage = () => {
         <Box className="app-container">
             <VStack height="100%">
                 <AppHeaderListen
-                    isPlaying={isPlaying}
                     rate={rate}
-                    onTogglePlay={togglePlay}
+                    englishVoice={englishVoice}
+                    japaneseVoice={japaneseVoice}
                     onRateChange={handleRateChange}
+                    onEnglishVoiceChange={handleEnglishVoiceChange}
+                    onJapaneseVoiceChange={handleJapaneseVoiceChange}
                 />
 
                 {isLoading ? (
@@ -105,74 +116,30 @@ export const ListenPage = () => {
 
                 <HStack gap={4} mt={4}>
                     <IconButton
-                        aria-label="前の単語"
                         onClick={goToPrevious}
+                        size="lg"
                         disabled={currentIndex <= 0}
-                        colorScheme="blue"
-                        variant="outline"
                     >
                         <FaChevronLeft />
                     </IconButton>
+
+                    {/* 再生/停止ボタン */}
                     <IconButton
-                        aria-label="次の単語"
+                        onClick={togglePlay}
+                        size="lg"
+                        _hover={{ transform: "scale(1.05)" }}
+                    >
+                        {isPlaying ? <FaStop /> : <FaPlay />}
+                    </IconButton>
+
+                    <IconButton
                         onClick={goToNext}
+                        size="lg"
                         disabled={currentIndex >= data.length - 1}
-                        colorScheme="blue"
-                        variant="outline"
                     >
                         <FaChevronRight />
                     </IconButton>
                 </HStack>
-
-                <VStack gap={3} mt={4} width="100%" maxWidth="400px">
-                    <Box width="100%">
-                        <Text fontSize="sm" mb={1}>英語音声</Text>
-                        <select
-                            value={englishVoice?.name || ''}
-                            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => {
-                                const selectedVoice = getEnglishVoices().find(v => v.name === e.target.value)
-                                setEnglishVoice(selectedVoice)
-                            }}
-                            style={{
-                                width: '100%',
-                                padding: '8px',
-                                border: '1px solid #ccc',
-                                borderRadius: '4px'
-                            }}
-                        >
-                            <option value="">英語音声を選択</option>
-                            {getEnglishVoices().map((voice) => (
-                                <option key={voice.name} value={voice.name}>
-                                    {voice.name} ({voice.lang})
-                                </option>
-                            ))}
-                        </select>
-                    </Box>
-
-                    <Box width="100%">
-                        <Text fontSize="sm" mb={1}>日本語音声</Text>
-                        <select
-                            value={japaneseVoice?.name || ''}
-                            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => {
-                                const selectedVoice = getJapaneseVoices().find(v => v.name === e.target.value)
-                                setJapaneseVoice(selectedVoice)
-                            }}
-                            style={{
-                                width: '100%',
-                                padding: '8px',
-                                border: '1px solid #ccc',
-                                borderRadius: '4px'
-                            }}
-                        >
-                            <option value="">日本語音声を選択</option>
-                            {getJapaneseVoices().map((voice) => (
-                                <option key={voice.name} value={voice.name}>
-                                    {voice.name} ({voice.lang})
-                                </option>
-                            ))}
-                        </select>
-                    </Box>
-                </VStack>
             </VStack>
         </Box>
     )

@@ -1,38 +1,41 @@
 import { Flex, Button, VStack } from '@chakra-ui/react'
 import { AppInfoDialog } from './dialog'
-
-// 定数定義（AppHeaderと統一）
-const BUTTON_STYLES = {
-    size: "md" as const,
-    transition: "all 0.2s",
-    _hover: { transform: "scale(1.05)" }
-}
+import { VoiceSettingsDialog } from './VoiceSettingsDialog'
+import { BUTTON_STYLES } from './headerButton'
 
 interface AppHeaderListenProps {
-    isPlaying: boolean
     rate: number
-    onTogglePlay: () => void
+    englishVoice?: SpeechSynthesisVoice
+    japaneseVoice?: SpeechSynthesisVoice
     onRateChange: (rate: number) => void
+    onEnglishVoiceChange: (voice: SpeechSynthesisVoice | undefined) => void
+    onJapaneseVoiceChange: (voice: SpeechSynthesisVoice | undefined) => void
 }
 
 /**
  * リスニング用のアプリケーションヘッダーコンポーネント
  */
-export const AppHeaderListen = ({ isPlaying, rate, onTogglePlay, onRateChange }: AppHeaderListenProps) => {
+export const AppHeaderListen = ({
+    rate,
+    englishVoice,
+    japaneseVoice,
+    onRateChange,
+    onEnglishVoiceChange,
+    onJapaneseVoiceChange
+}: AppHeaderListenProps) => {
     return (
         <Flex
             width="100%"
             justifyContent="space-between"
             alignItems="center"
         >
-            {/* 左側: 再生/停止ボタン */}
-            <Button
-                backgroundColor={isPlaying ? "red.600" : "green.600"}
-                onClick={onTogglePlay}
-                {...BUTTON_STYLES}
-            >
-                {isPlaying ? "停止" : "再生"}
-            </Button>
+            {/* 左側: 音声設定ボタン */}
+            <VoiceSettingsDialog
+                englishVoice={englishVoice}
+                japaneseVoice={japaneseVoice}
+                onEnglishVoiceChange={onEnglishVoiceChange}
+                onJapaneseVoiceChange={onJapaneseVoiceChange}
+            />
 
             {/* 中央: AppInfoDialog */}
             <AppInfoDialog textArgs={{ fontSize: "xl", fontWeight: "bold" }} />

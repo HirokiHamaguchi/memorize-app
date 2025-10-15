@@ -1,14 +1,9 @@
 import { Flex } from '@chakra-ui/react'
 import { Button } from "@chakra-ui/react"
 import { AppInfoDialog } from './dialog'
+import { BUTTON_STYLES } from './headerButton'
 
 // 定数定義
-const BUTTON_STYLES = {
-    size: "md" as const,
-    transition: "all 0.2s",
-    _hover: { transform: "scale(1.05)" }
-}
-
 interface AppHeaderProps {
     isFlipped: boolean
     onToggleFlip: () => void
