@@ -20,10 +20,28 @@ export const ListenPage = () => {
             const jaVoices = getJapaneseVoices()
 
             if (enVoices.length > 0 && !englishVoice) {
-                setEnglishVoice(enVoices[0])
+                // en-USがあれば、その中から選ぶ。en-USの中にSamanthaがあれば、それを選ぶ
+                const enUSVoices = enVoices.filter(v => v.lang === 'en-US')
+                const samanthaVoice = enUSVoices.find(v => v.name.includes('Samantha'))
+                if (samanthaVoice) {
+                    setEnglishVoice(samanthaVoice)
+                } else if (enUSVoices.length > 0) {
+                    setEnglishVoice(enUSVoices[0])
+                } else {
+                    setEnglishVoice(enVoices[0])
+                }
             }
             if (jaVoices.length > 0 && !japaneseVoice) {
-                setJapaneseVoice(jaVoices[0])
+                // ja-JPがあれば、その中から選ぶ。ja-JPの中にKyotoがあれば、それを選ぶ
+                const jaJPVoices = jaVoices.filter(v => v.lang === 'ja-JP')
+                const kyotoVoice = jaJPVoices.find(v => v.name.includes('Kyoto'))
+                if (kyotoVoice) {
+                    setJapaneseVoice(kyotoVoice)
+                } else if (jaJPVoices.length > 0) {
+                    setJapaneseVoice(jaJPVoices[0])
+                } else {
+                    setJapaneseVoice(jaVoices[0])
+                }
             }
         }
 
