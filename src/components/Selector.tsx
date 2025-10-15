@@ -1,6 +1,5 @@
 import { Box, Text, Flex } from '@chakra-ui/react'
 import { AppInfoDialog } from './dialog'
-// import { LoginSection } from './LoginSection'
 
 export interface SelectorOption {
     id: string
@@ -12,16 +11,13 @@ interface SelectorProps {
     subtitle: string
     options: SelectorOption[]
     onSelect: (optionId: string) => void
-    showLoginSection: boolean
 }
 
 export const Selector = ({
     subtitle,
     options,
-    onSelect,
-    showLoginSection
+    onSelect
 }: SelectorProps) => {
-    console.log("[deprecated] showLoginSection:", showLoginSection);
     return (
         <Box
             display="flex"
@@ -67,14 +63,6 @@ export const Selector = ({
                         </Box>
                     ))}
                 </Box>
-
-                {/*
-                {showLoginSection && (
-                    <Box mb={8} textAlign="center">
-                        <LoginSection />
-                    </Box>
-                )}
-                */}
             </Box>
         </Box>
     )

@@ -1,7 +1,6 @@
 export { useScrolling } from './useScrolling'
 export { useStudyData } from './useStudyData'
 export { useWordsPerPage } from './useWordsPerPage'
-export { useAuth } from './useAuth'
 export { useQuizApp } from './useQuizApp'
 export { useListenData, useListenPlayer } from './useListenApp'
 export type { ScrollingHook } from './useScrolling'

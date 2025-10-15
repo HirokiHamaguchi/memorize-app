@@ -21,7 +21,6 @@ export const SelectPage = () => {
                         navigate(`/study/vocabulary/${datasetId}`)
                     }
                 }}
-                showLoginSection={false}
             />
         )
     } else if (studyType === 'geography') { // 地理セレクターページの設定
@@ -30,7 +29,6 @@ export const SelectPage = () => {
                 subtitle="学習したい地理データセットを選択してください"
                 options={GEOGRAPHY_DATASETS}
                 onSelect={(datasetId: string) => navigate(`/study/geography/${datasetId}`)}
-                showLoginSection={false}
             />
         )
     } else {
@@ -39,7 +37,6 @@ export const SelectPage = () => {
                 subtitle="学習したい内容を選択してください"
                 options={STUDY_TYPES}
                 onSelect={(typeId: string) => navigate(`/select/${typeId}`)}
-                showLoginSection={true}
             />
         )
 
