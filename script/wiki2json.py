@@ -258,6 +258,8 @@ def fetch_page_images(id: int, ja: str, iso: str, url: str):
             pos = pos.replace("120px-", "500px-")
         else:
             raise ValueError(f"位置画像のサイズ変更失敗: {pos}")
+    elif "/thumb/" in pos and pos.endswith(".png") and iso == "AT":
+        pos = pos.replace("250px-", "700px-")
     if "/thumb/" in flag and flag.endswith(".svg.png"):
         if "250px-" in flag or "40px-" in flag:
             flag = flag.replace("250px-", "700px-")
