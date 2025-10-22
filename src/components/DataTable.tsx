@@ -1,4 +1,5 @@
 import { Box, Flex, Image } from '@chakra-ui/react'
+import { useEffect } from 'react'
 import type { Geography, Vocabulary } from '../types/type'
 
 // Union type for data items
@@ -138,6 +139,29 @@ export const DataTable = ({
         }
         return item.ja
     }
+
+    // Enterキーで未表示の最初のアイテムを表示する
+    useEffect(() => {
+        const handleKeyDown = (event: KeyboardEvent) => {
+            if (event.key === 'Enter') {
+                // 現在表示されているデータの中で、まだrevealされていない最初のアイテムを探す
+                const firstUnrevealedIndex = currentData.findIndex((_, index) => {
+                    const absoluteIndex = currentStartIndex + index
+                    return !revealedItems.has(absoluteIndex)
+                })
+
+                if (firstUnrevealedIndex !== -1) {
+                    onRevealItem(firstUnrevealedIndex)
+                }
+            }
+        }
+
+        document.addEventListener('keydown', handleKeyDown)
+        return () => {
+            document.removeEventListener('keydown', handleKeyDown)
+        }
+    }, [currentData, currentStartIndex, revealedItems, onRevealItem])
+
     return (
         <Box className="vocabulary-box vocabulary-table">
             {!config.isVerticalLayout && (
