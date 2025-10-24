@@ -2,6 +2,26 @@ import { Box, Flex, Image } from '@chakra-ui/react'
 import { useEffect } from 'react'
 import type { Geography, Vocabulary } from '../types/type'
 
+// Load Noto Color Emoji font for better emoji support on Windows
+// Source: https://github.com/googlefonts/noto-emoji
+const loadNotoColorEmojiFont = () => {
+    // Check if font is already loaded
+    if (document.querySelector('#noto-color-emoji-font')) {
+        return
+    }
+
+    const style = document.createElement('style')
+    style.id = 'noto-color-emoji-font'
+    style.textContent = `
+        @font-face {
+            font-family: 'NotoColorEmojiLimited';
+            unicode-range: U+1F1E6-1F1FF;
+            src: url(https://raw.githack.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf);
+        }
+    `
+    document.head.appendChild(style)
+}
+
 // Union type for data items
 type DataItem = Geography | Vocabulary
 
@@ -133,9 +153,24 @@ export const DataTable = ({
     console.assert(configKey in DATA_TYPE_CONFIGS, `Invalid config key: ${configKey}`)
     const config = DATA_TYPE_CONFIGS[configKey]
     const isWindows = navigator.userAgent.toLowerCase().includes('windows')
+
+    // Load Noto Color Emoji font for Windows emoji support
+    useEffect(() => {
+        if (isWindows) loadNotoColorEmojiFont()
+    }, [isWindows])
+
     const toAnswer = (item: DataItem) => {
-        if (configKey === 'geography_location' && 'emoji' in item && !isWindows) {
-            return item.ja + item.emoji
+        if (configKey === 'geography_location' && 'emoji' in item) {
+            const emojiStyle = isWindows ? {
+                fontFamily: "'NotoColorEmojiLimited', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
+            } : {}
+
+            return (
+                <span>
+                    {item.ja}
+                    <span style={emojiStyle}>{item.emoji}</span>
+                </span>
+            )
         }
         return item.ja
     }
