@@ -21,12 +21,12 @@ const APP_LINKS: LinkData[] = [
     {
         href: "https://www.eigo-duke.com/tango/eiken1.html",
         text: "英語漬け.com",
-        description: "英単語の一覧は{link}のページから借用しています。"
+        description: "英単語は{link}から借用しています。"
     },
     {
-        href: "https://ejje.weblio.jp/",
-        text: "Weblio",
-        description: "英単語を押すと、{link}の該当ページに飛びます。"
+        href: "https://ja.wikipedia.org/wiki/",
+        text: "Wikipedia",
+        description: "地理関連のデータは{link}から借用しています。"
     },
     {
         href: "https://github.com/HirokiHamaguchi/memorize-app",
