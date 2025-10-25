@@ -1,5 +1,5 @@
 import { useState, useRef, useCallback, useEffect } from 'react'
-import { VOCABULARY_DATASETS } from '../config/constant'
+import { VOCABULARY_LISTEN_DATASETS } from '../config/constant'
 import { speak, stopSpeech, sleep, cleanupSpeech } from '../utils/speak'
 import type { Vocabulary } from '../types/type'
 import { shuffleArray } from '../utils/shuffle'
@@ -12,7 +12,7 @@ interface UseListenDataReturn {
     data: Vocabulary[]
     isLoading: boolean
     error: string | null
-    datasetConfig: typeof VOCABULARY_DATASETS[0] | undefined
+    datasetConfig: typeof VOCABULARY_LISTEN_DATASETS[0] | undefined
 }
 
 export const useListenData = ({ datasetId }: UseListenDataProps): UseListenDataReturn => {
@@ -21,7 +21,7 @@ export const useListenData = ({ datasetId }: UseListenDataProps): UseListenDataR
     const [error, setError] = useState<string | null>(null)
 
     // データセット設定を取得
-    const datasetConfig = VOCABULARY_DATASETS.find(d => d.id === "listen_" + datasetId)
+    const datasetConfig = VOCABULARY_LISTEN_DATASETS.find(d => d.id === datasetId)
 
     // データを読み込む
     const loadData = useCallback(async () => {

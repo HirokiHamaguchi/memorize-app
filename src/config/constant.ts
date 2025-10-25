@@ -42,18 +42,31 @@ interface DatasetConfig<T> {
     processor: (data: T[]) => (Geography | Vocabulary)[]
 }
 
-export const VOCABULARY_DATASETS: DatasetConfig<VocabularyRawData>[] = [
+// 語彙学習の種類
+export const VOCABULARY_STUDY_TYPES = [
+    {
+        id: 'normal',
+        name: '通常の学習',
+        description: '英単語と日本語の対応を暗記学習します',
+    },
+    {
+        id: 'listen',
+        name: 'リスニング',
+        description: '英単語を音声で聞いて学習します',
+    },
+    {
+        id: 'memo',
+        name: 'メモ',
+        description: '暗記において役立つかも知れないメモです',
+    },
+]
+
+// 通常の語彙データセット
+export const VOCABULARY_NORMAL_DATASETS: DatasetConfig<VocabularyRawData>[] = [
     {
         id: '1',
         name: '英検1級',
         description: '英検1級レベルの英単語集',
-        dataLoader: () => import('../data/vocabulary/vocabulary_1.json'),
-        processor: (data: VocabularyRawData[]): Vocabulary[] => data,
-    },
-    {
-        id: 'listen_1',
-        name: '英検1級リスニング',
-        description: '英検1級レベルの英単語を音声で学習',
         dataLoader: () => import('../data/vocabulary/vocabulary_1.json'),
         processor: (data: VocabularyRawData[]): Vocabulary[] => data,
     },
@@ -63,10 +76,21 @@ export const VOCABULARY_DATASETS: DatasetConfig<VocabularyRawData>[] = [
         description: '英検準1級レベルの英単語集',
         dataLoader: () => import('../data/vocabulary/vocabulary_jun1.json'),
         processor: (data: VocabularyRawData[]): Vocabulary[] => data,
+    }
+]
+
+// リスニング用語彙データセット
+export const VOCABULARY_LISTEN_DATASETS: DatasetConfig<VocabularyRawData>[] = [
+    {
+        id: '1',
+        name: '英検1級',
+        description: '英検1級レベルの英単語を音声で学習',
+        dataLoader: () => import('../data/vocabulary/vocabulary_1.json'),
+        processor: (data: VocabularyRawData[]): Vocabulary[] => data,
     },
     {
-        id: 'listen_jun1',
-        name: '英検準1級リスニング',
+        id: 'jun1',
+        name: '英検準1級',
         description: '英検準1級レベルの英単語を音声で学習',
         dataLoader: () => import('../data/vocabulary/vocabulary_jun1.json'),
         processor: (data: VocabularyRawData[]): Vocabulary[] => data,
@@ -101,7 +125,9 @@ export const GEOGRAPHY_DATASETS: DatasetConfig<GeographyRawData>[] = [
 export const STUDY_CONFIG = {
     vocabulary: {
         type: STUDY_TYPES[0],
-        datasets: VOCABULARY_DATASETS,
+        studyTypes: VOCABULARY_STUDY_TYPES,
+        normalDatasets: VOCABULARY_NORMAL_DATASETS,
+        listenDatasets: VOCABULARY_LISTEN_DATASETS,
     },
     geography: {
         type: STUDY_TYPES[1],

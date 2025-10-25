@@ -38,9 +38,11 @@ function App() {
       <Routes>
         <Route index element={<SelectPage />} />
         <Route path="/select" element={<SelectPage />} />
-        <Route path="/study/geography/memo" element={<MemoPage />} />
-        <Route path="/study/vocabulary/listen/:datasetId" element={<ListenPage />} />
         <Route path="/select/:studyType" element={<SelectPage />} />
+        <Route path="/select/:studyType/:vocabularyType" element={<SelectPage />} />
+        <Route path="/study/geography/memo" element={<MemoPage />} />
+        <Route path="/study/vocabulary/memo" element={<MemoPage />} />
+        <Route path="/study/vocabulary/listen/:datasetId" element={<ListenPage />} />
         <Route path="/study/:studyType/:datasetId" element={<StudyPage />} />
       </Routes>
     </Router>
