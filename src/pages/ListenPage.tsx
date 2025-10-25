@@ -2,8 +2,8 @@ import { useState, useCallback, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { Box, VStack, Text, Center, HStack, IconButton } from '@chakra-ui/react'
 import { FaChevronLeft, FaChevronRight, FaPlay, FaStop } from 'react-icons/fa'
-import { AppHeaderListen, ListenProgress } from '../components'
-import { useListenData, useListenPlayer } from '../hooks'
+import { AppHeaderListen, ListenProgress, SectionSelector } from '../components'
+import { useListenData, useListenPlayer, useDataFiltering } from '../hooks'
 import { getEnglishVoices, getJapaneseVoices } from '../utils/speak'
 
 export const ListenPage = () => {
@@ -11,6 +11,12 @@ export const ListenPage = () => {
     const [rate, setRate] = useState(1.0)
     const [englishVoice, setEnglishVoice] = useState<SpeechSynthesisVoice | undefined>()
     const [japaneseVoice, setJapaneseVoice] = useState<SpeechSynthesisVoice | undefined>()
+
+    // データの読み込み
+    const { data: allData, isLoading, error, datasetConfig } = useListenData({ datasetId })
+
+    // データフィルタリング
+    const { selectedSection, filteredData, handleSectionChange } = useDataFiltering(allData)
 
     // 利用可能な音声を取得
     useEffect(() => {
@@ -57,12 +63,9 @@ export const ListenPage = () => {
         }
     }, [englishVoice, japaneseVoice])
 
-    // データの読み込み
-    const { data, isLoading, error, datasetConfig } = useListenData({ datasetId })
-
-    // 音声再生の制御
+    // 音声再生の制御（フィルタリングされたデータを使用）
     const { isPlaying, currentIndex, togglePlay, goToPrevious, goToNext } = useListenPlayer({
-        data,
+        data: filteredData,
         rate,
         englishVoice,
         japaneseVoice
@@ -90,6 +93,17 @@ export const ListenPage = () => {
             </Center>
         );
     }
+
+    // 区分選択が完了していない場合の表示
+    if (!isLoading && selectedSection === null) {
+        return (
+            <SectionSelector
+                selectedSection={selectedSection}
+                onSectionChange={handleSectionChange}
+            />
+        )
+    }
+
     return (
         <Box className="app-container">
             <VStack height="100%">
@@ -109,8 +123,8 @@ export const ListenPage = () => {
                 ) : (
                     <ListenProgress
                         currentIndex={currentIndex}
-                        totalCount={data.length}
-                        currentItem={currentIndex < data.length ? data[currentIndex] : undefined}
+                        totalCount={filteredData.length}
+                        currentItem={currentIndex < filteredData.length ? filteredData[currentIndex] : undefined}
                     />)
                 }
 
@@ -135,7 +149,7 @@ export const ListenPage = () => {
                     <IconButton
                         onClick={goToNext}
                         size="lg"
-                        disabled={currentIndex >= data.length - 1}
+                        disabled={currentIndex >= filteredData.length - 1}
                     >
                         <FaChevronRight />
                     </IconButton>

@@ -1,14 +1,14 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { useState, useEffect, useCallback } from 'react'
-import { Box, Text, VStack } from '@chakra-ui/react'
+import { Box, Text } from '@chakra-ui/react'
 import { StudyApp } from '../components/StudyApp'
+import { SectionSelector } from '../components'
+import { useDataFiltering } from '../hooks'
 import { STUDY_CONFIG, type StudyType } from '../config/constant'
 import type { Geography, Vocabulary } from '../types/type'
 
 type StudyDataItem = Geography | Vocabulary
 
-// 定数
-const SECTIONS_COUNT = 50
 const ROW_HEIGHTS = {
     vocabulary: 38,
     geography_flag: 89,
@@ -85,76 +85,10 @@ const useStudyData = (studyType: string, datasetId: string) => {
     return { allData, isLoading, error, rowHeight, configKey }
 }
 
-// カスタムフック：データフィルタリング
-const useDataFiltering = (allData: StudyDataItem[]) => {
-    const [selectedSection, setSelectedSection] = useState<number | null>(null)
-    const [filteredData, setFilteredData] = useState<StudyDataItem[]>([])
-
-    useEffect(() => {
-        if (selectedSection === null) {
-            setFilteredData(allData)
-        } else {
-            const filtered = allData.filter((_, index) => index % SECTIONS_COUNT === selectedSection - 1)
-            setFilteredData(filtered)
-        }
-    }, [selectedSection, allData])
-
-    const handleSectionChange = useCallback((event: React.ChangeEvent<HTMLSelectElement>) => {
-        const value = event.target.value
-        setSelectedSection(value === '' ? null : parseInt(value))
-    }, [])
-
-    return { selectedSection, filteredData, handleSectionChange }
-}
-
 // コンポーネント：ローディング画面
 const LoadingScreen = () => (
     <Box display="flex" justifyContent="center" alignItems="center" height="100vh">
         <Text>データを読み込み中...</Text>
-    </Box>
-)
-
-// コンポーネント：区分選択画面
-interface SectionSelectorProps {
-    selectedSection: number | null
-    onSectionChange: (event: React.ChangeEvent<HTMLSelectElement>) => void
-}
-
-const SectionSelector = ({ selectedSection, onSectionChange }: SectionSelectorProps) => (
-    <Box
-        display="flex"
-        alignItems="center"
-        justifyContent="center"
-        px={4}
-        py={8}
-        minHeight="100vh"
-    >
-        <VStack gap={4} maxW="400px" w="full">
-            <Text fontSize="xl" fontWeight="bold" textAlign="center">
-                学習する区分を選択してください
-            </Text>
-            <Text fontSize="md" color="gray.600" textAlign="center">
-                1〜{SECTIONS_COUNT}の区分から選択してください
-            </Text>
-            <select
-                value={selectedSection || ''}
-                onChange={onSectionChange}
-                style={{
-                    padding: '12px',
-                    fontSize: '16px',
-                    borderRadius: '6px',
-                    border: '2px solid #E2E8F0',
-                    width: '100%'
-                }}
-            >
-                <option value="">区分を選択</option>
-                {Array.from({ length: SECTIONS_COUNT }, (_, i) => i + 1).map(num => (
-                    <option key={num} value={num}>
-                        区分 {num}
-                    </option>
-                ))}
-            </select>
-        </VStack>
     </Box>
 )
 
