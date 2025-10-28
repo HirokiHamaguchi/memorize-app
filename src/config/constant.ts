@@ -3,6 +3,7 @@ import type { Geography, Vocabulary } from '../types/type'
 export const HEADER_HEIGHT = 70 // ヘッダーの高さ(px)
 export const SELECT_HEADER_HEIGHT = 90 // ヘッダーの高さ(px)
 export const MINIMUM_TOUCH_SCROLL = 5 // 最小タッチスクロール量
+export const SECTIONS_COUNT = 50 // セクション数
 
 // セレクターページの設定
 export const STUDY_TYPES = [
@@ -38,8 +39,20 @@ interface DatasetConfig<T> {
     id: string
     name: string
     description: string
-    dataLoader: () => Promise<{ default: T[] }>
+    dataLoader: (section?: number) => Promise<{ default: T[] }>
     processor: (data: T[]) => (Geography | Vocabulary)[]
+}
+
+// セクション別データローダーを生成するヘルパー関数
+function createSectionDataLoader(datasetId: string) {
+    return (section?: number) => {
+        if (section === undefined) {
+            // セクション指定なしの場合は全データを読み込む
+            return import(`../data/vocabulary/vocabulary_${datasetId}.json`)
+        }
+        // セクション指定がある場合はそのセクションのみ読み込む
+        return import(`../data/vocabulary/vocabulary_${datasetId}_section${section}.json`)
+    }
 }
 
 // 語彙学習の種類
@@ -67,14 +80,14 @@ export const VOCABULARY_NORMAL_DATASETS: DatasetConfig<VocabularyRawData>[] = [
         id: '1',
         name: '英検1級',
         description: '英検1級レベルの英単語集',
-        dataLoader: () => import('../data/vocabulary/vocabulary_1.json'),
+        dataLoader: createSectionDataLoader('1'),
         processor: (data: VocabularyRawData[]): Vocabulary[] => data,
     },
     {
         id: 'jun1',
         name: '英検準1級',
         description: '英検準1級レベルの英単語集',
-        dataLoader: () => import('../data/vocabulary/vocabulary_jun1.json'),
+        dataLoader: createSectionDataLoader('jun1'),
         processor: (data: VocabularyRawData[]): Vocabulary[] => data,
     }
 ]
@@ -85,14 +98,14 @@ export const VOCABULARY_LISTEN_DATASETS: DatasetConfig<VocabularyRawData>[] = [
         id: '1',
         name: '英検1級',
         description: '英検1級レベルの英単語を音声で学習',
-        dataLoader: () => import('../data/vocabulary/vocabulary_1.json'),
+        dataLoader: createSectionDataLoader('1'),
         processor: (data: VocabularyRawData[]): Vocabulary[] => data,
     },
     {
         id: 'jun1',
         name: '英検準1級',
         description: '英検準1級レベルの英単語を音声で学習',
-        dataLoader: () => import('../data/vocabulary/vocabulary_jun1.json'),
+        dataLoader: createSectionDataLoader('jun1'),
         processor: (data: VocabularyRawData[]): Vocabulary[] => data,
     }
 ]

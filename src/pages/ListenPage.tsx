@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { Box, VStack, Text, Center, HStack, IconButton } from '@chakra-ui/react'
 import { FaChevronLeft, FaChevronRight, FaPlay, FaStop } from 'react-icons/fa'
 import { AppHeaderListen, ListenProgress, SectionSelector } from '../components'
-import { useListenData, useListenPlayer, useDataFiltering } from '../hooks'
+import { useListenData, useListenPlayer } from '../hooks'
 import { getEnglishVoices, getJapaneseVoices } from '../utils/speak'
 
 export const ListenPage = () => {
@@ -12,11 +12,18 @@ export const ListenPage = () => {
     const [englishVoice, setEnglishVoice] = useState<SpeechSynthesisVoice | undefined>()
     const [japaneseVoice, setJapaneseVoice] = useState<SpeechSynthesisVoice | undefined>()
 
-    // データの読み込み
-    const { data: allData, isLoading, error, datasetConfig } = useListenData({ datasetId })
+    // セクション選択の状態管理
+    const [selectedSection, setSelectedSection] = useState<number | null>(null)
+    const handleSectionChange = useCallback((event: React.ChangeEvent<HTMLSelectElement>) => {
+        const value = event.target.value
+        setSelectedSection(value === '' ? null : parseInt(value))
+    }, [])
 
-    // データフィルタリング
-    const { selectedSection, filteredData, handleSectionChange } = useDataFiltering(allData)
+    // データの読み込み（セクション選択後）
+    const { data, isLoading, error, datasetConfig } = useListenData({
+        datasetId,
+        selectedSection
+    })
 
     // 利用可能な音声を取得
     useEffect(() => {
@@ -63,9 +70,9 @@ export const ListenPage = () => {
         }
     }, [englishVoice, japaneseVoice])
 
-    // 音声再生の制御（フィルタリングされたデータを使用）
+    // 音声再生の制御（読み込んだデータを使用）
     const { isPlaying, currentIndex, togglePlay, goToPrevious, goToNext } = useListenPlayer({
-        data: filteredData,
+        data: data,
         rate,
         englishVoice,
         japaneseVoice
@@ -123,8 +130,8 @@ export const ListenPage = () => {
                 ) : (
                     <ListenProgress
                         currentIndex={currentIndex}
-                        totalCount={filteredData.length}
-                        currentItem={currentIndex < filteredData.length ? filteredData[currentIndex] : undefined}
+                        totalCount={data.length}
+                        currentItem={currentIndex < data.length ? data[currentIndex] : undefined}
                     />)
                 }
 
@@ -149,7 +156,7 @@ export const ListenPage = () => {
                     <IconButton
                         onClick={goToNext}
                         size="lg"
-                        disabled={currentIndex >= filteredData.length - 1}
+                        disabled={currentIndex >= data.length - 1}
                     >
                         <FaChevronRight />
                     </IconButton>

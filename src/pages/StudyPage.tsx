@@ -3,7 +3,6 @@ import { useState, useEffect, useCallback } from 'react'
 import { Box, Text } from '@chakra-ui/react'
 import { StudyApp } from '../components/StudyApp'
 import { SectionSelector } from '../components'
-import { useDataFiltering } from '../hooks'
 import { STUDY_CONFIG, type StudyType } from '../config/constant'
 import type { Geography, Vocabulary } from '../types/type'
 
@@ -42,17 +41,23 @@ const useDatasetConfig = (studyType: string, datasetId: string) => {
 }
 
 // カスタムフック：データロード
-const useStudyData = (studyType: string, datasetId: string) => {
+const useStudyData = (studyType: string, datasetId: string, selectedSection: number | null) => {
     const navigate = useNavigate()
     const getDatasetConfig = useDatasetConfig(studyType, datasetId)
-    const [allData, setAllData] = useState<StudyDataItem[]>([])
-    const [isLoading, setIsLoading] = useState(true)
+    const [data, setData] = useState<StudyDataItem[]>([])
+    const [isLoading, setIsLoading] = useState(false)
     const [error, setError] = useState<string | null>(null)
 
     const configKey = studyType === "vocabulary" ? studyType : `${studyType}_${datasetId}`
     const rowHeight = (ROW_HEIGHTS as Record<string, number>)[configKey] || ROW_HEIGHTS.default
 
     useEffect(() => {
+        // セクションが選択されていない場合はデータを読み込まない
+        if (selectedSection === null) {
+            setData([])
+            return
+        }
+
         const loadData = async () => {
             try {
                 setIsLoading(true)
@@ -65,11 +70,12 @@ const useStudyData = (studyType: string, datasetId: string) => {
                     return
                 }
 
-                const module = await dataset.dataLoader()
+                // セクション番号を指定してデータを読み込む
+                const module = await dataset.dataLoader(selectedSection)
                 const rawData = module.default
                 const processedData = dataset.processor(rawData as never)
 
-                setAllData(processedData)
+                setData(processedData)
             } catch (err) {
                 console.error('Failed to load data:', err)
                 setError('データの読み込みに失敗しました')
@@ -80,9 +86,9 @@ const useStudyData = (studyType: string, datasetId: string) => {
         }
 
         loadData()
-    }, [studyType, datasetId, getDatasetConfig, navigate])
+    }, [studyType, datasetId, selectedSection, getDatasetConfig, navigate])
 
-    return { allData, isLoading, error, rowHeight, configKey }
+    return { data, isLoading, error, rowHeight, configKey }
 }
 
 // コンポーネント：ローディング画面
@@ -96,11 +102,21 @@ const LoadingScreen = () => (
 export const StudyPage = () => {
     const { studyType, datasetId } = useParams<{ studyType: string; datasetId: string }>()
 
-    // Hooksを条件なしで呼び出す
-    const { allData, isLoading, error, rowHeight, configKey } = useStudyData(studyType || '', datasetId || '')
-    const { selectedSection, filteredData, handleSectionChange } = useDataFiltering(allData)
+    // セクション選択の状態管理
+    const [selectedSection, setSelectedSection] = useState<number | null>(null)
+    const handleSectionChange = useCallback((event: React.ChangeEvent<HTMLSelectElement>) => {
+        const value = event.target.value
+        setSelectedSection(value === '' ? null : parseInt(value))
+    }, [])
 
-    if (!studyType || !datasetId || isLoading) {
+    // セクション選択後にデータを読み込む
+    const { data, isLoading, error, rowHeight, configKey } = useStudyData(
+        studyType || '',
+        datasetId || '',
+        selectedSection
+    )
+
+    if (!studyType || !datasetId) {
         return <LoadingScreen />
     }
 
@@ -119,13 +135,17 @@ export const StudyPage = () => {
                 onSectionChange={handleSectionChange}
             />
         )
-    } else {
-        return (
-            <StudyApp
-                data={filteredData}
-                rowHeight={rowHeight}
-                configKey={configKey}
-            />
-        )
     }
+
+    if (isLoading) {
+        return <LoadingScreen />
+    }
+
+    return (
+        <StudyApp
+            data={data}
+            rowHeight={rowHeight}
+            configKey={configKey}
+        />
+    )
 }

@@ -6,6 +6,7 @@ import { shuffleArray } from '../utils/shuffle'
 
 interface UseListenDataProps {
     datasetId: string | undefined
+    selectedSection: number | null
 }
 
 interface UseListenDataReturn {
@@ -15,9 +16,9 @@ interface UseListenDataReturn {
     datasetConfig: typeof VOCABULARY_LISTEN_DATASETS[0] | undefined
 }
 
-export const useListenData = ({ datasetId }: UseListenDataProps): UseListenDataReturn => {
+export const useListenData = ({ datasetId, selectedSection }: UseListenDataProps): UseListenDataReturn => {
     const [data, setData] = useState<Vocabulary[]>([])
-    const [isLoading, setIsLoading] = useState(true)
+    const [isLoading, setIsLoading] = useState(false)
     const [error, setError] = useState<string | null>(null)
 
     // データセット設定を取得
@@ -25,6 +26,12 @@ export const useListenData = ({ datasetId }: UseListenDataProps): UseListenDataR
 
     // データを読み込む
     const loadData = useCallback(async () => {
+        // セクションが選択されていない場合はデータを読み込まない
+        if (selectedSection === null) {
+            setData([])
+            return
+        }
+
         if (!datasetConfig) {
             setError('データセットが見つかりません')
             setIsLoading(false)
@@ -32,7 +39,9 @@ export const useListenData = ({ datasetId }: UseListenDataProps): UseListenDataR
         }
 
         try {
-            const rawData = await datasetConfig.dataLoader()
+            setIsLoading(true)
+            // セクション番号を指定してデータを読み込む
+            const rawData = await datasetConfig.dataLoader(selectedSection)
             const processedData = datasetConfig.processor(rawData.default) as Vocabulary[]
             setData(shuffleArray(processedData))
             setError(null)
@@ -42,9 +51,9 @@ export const useListenData = ({ datasetId }: UseListenDataProps): UseListenDataR
         } finally {
             setIsLoading(false)
         }
-    }, [datasetConfig])
+    }, [datasetConfig, selectedSection])
 
-    // コンポーネントマウント時にデータを読み込む
+    // セクション選択時にデータを読み込む
     useEffect(() => {
         loadData()
     }, [loadData])
