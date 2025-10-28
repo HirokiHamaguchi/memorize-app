@@ -12,6 +12,9 @@ headers = {
     "Chrome/117.0.0.0 Safari/537.36"
 }
 
+# セクション数の定数
+SECTIONS_COUNT = 50
+
 
 def clean_japanese_text(text):
     """日本語テキストから不要なHTMLタグを除去"""
@@ -50,6 +53,25 @@ def process_html_file(html_path):
     return data
 
 
+def split_data_into_sections(data, sections_count):
+    """データをセクションに分割する
+
+    Args:
+        data: 全データのリスト
+        sections_count: セクション数
+
+    Returns:
+        セクションごとのデータを含む辞書 {section_num: [data_items]}
+    """
+    sections = {i: [] for i in range(1, sections_count + 1)}
+
+    for index, item in enumerate(data):
+        section_num = (index % sections_count) + 1
+        sections[section_num].append(item)
+
+    return sections
+
+
 # data/以下のraw_table_*.htmlファイルを検索
 html_files = glob.glob("src/data/raw/table_*.html")
 
@@ -61,10 +83,25 @@ else:
     for html_path in html_files:
         basename = os.path.basename(html_path)
         suffix = basename.replace("table_", "").replace(".html", "")
-        json_filename = f"src/data/vocabulary/vocabulary_{suffix}.json"
-        data = process_html_file(html_path)
-        with open(json_filename, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-        print(f"完了: {len(data)}件のデータを{json_filename}に保存しました。")
+
+        # 全データを処理
+        all_data = process_html_file(html_path)
+        print(f"処理完了: {len(all_data)}件のデータを取得しました。")
+
+        # セクションごとに分割
+        sections = split_data_into_sections(all_data, SECTIONS_COUNT)
+
+        # セクションごとにJSONファイルを生成
+        for section_num, section_data in sections.items():
+            if section_data:  # データが存在する場合のみ保存
+                json_filename = (
+                    f"src/data/vocabulary/vocabulary_{suffix}_section{section_num}.json"
+                )
+                with open(json_filename, "w", encoding="utf-8") as f:
+                    json.dump(section_data, f, ensure_ascii=False, indent=2)
+                print(
+                    f"  セクション{section_num}: {len(section_data)}件のデータを{json_filename}に保存しました。"
+                )
+
 
 print("全ての処理が完了しました。")
