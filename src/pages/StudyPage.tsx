@@ -102,18 +102,19 @@ const LoadingScreen = () => (
 export const StudyPage = () => {
     const { studyType, datasetId } = useParams<{ studyType: string; datasetId: string }>()
 
-    // セクション選択の状態管理
     const [selectedSection, setSelectedSection] = useState<number | null>(null)
     const handleSectionChange = useCallback((event: React.ChangeEvent<HTMLSelectElement>) => {
         const value = event.target.value
         setSelectedSection(value === '' ? null : parseInt(value))
     }, [])
 
-    // セクション選択後にデータを読み込む
+    const isVocabulary = studyType === 'vocabulary'
+    const effectiveSection = isVocabulary ? selectedSection : 1
+
     const { data, isLoading, error, rowHeight, configKey } = useStudyData(
         studyType || '',
         datasetId || '',
-        selectedSection
+        effectiveSection
     )
 
     if (!studyType || !datasetId) {
@@ -128,7 +129,7 @@ export const StudyPage = () => {
         )
     }
 
-    if (selectedSection === null) {
+    if (isVocabulary && selectedSection === null) {
         return (
             <SectionSelector
                 selectedSection={selectedSection}

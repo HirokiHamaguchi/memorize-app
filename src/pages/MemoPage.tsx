@@ -15,7 +15,7 @@ const MEMO_CONFIGS: Record<string, MemoConfig> = {
     },
     vocabulary: {
         title: '語彙学習メモ',
-        src: 'https://best-limburger-6ae.notion.site/ebd/2884ad7c2a78802faf78c493915b99a8' // 暫定的に同じURL
+        src: 'https://best-limburger-6ae.notion.site/ebd/2964ad7c2a7880d59623c88cd4072b6e'
     }
 }
 

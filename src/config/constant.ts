@@ -130,7 +130,7 @@ export const GEOGRAPHY_DATASETS: DatasetConfig<GeographyRawData>[] = [
         name: 'メモ',
         description: '暗記において役立つかも知れないメモです',
         processor: () => [],
-        dataLoader: async () => ({ default: [] }),
+        dataLoader: () => Promise.resolve({ default: [] }),
     }
 ]
 
