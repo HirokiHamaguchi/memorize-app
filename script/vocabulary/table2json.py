@@ -73,7 +73,7 @@ def split_data_into_sections(data, sections_count):
 
 
 # data/以下のraw_table_*.htmlファイルを検索
-html_files = glob.glob("src/data/raw/table_*.html")
+html_files = glob.glob("src/data/vocabulary/raw/table_*.html")
 
 if not html_files:
     print("data/以下にraw_table_*.htmlファイルが見つかりませんでした。")
