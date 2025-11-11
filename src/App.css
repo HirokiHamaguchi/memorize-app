@@ -57,6 +57,8 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  font-size: clamp(0.7rem, 2.5vw, 1.25rem);
+  line-height: 1.2;
 }
 
 .japanese-cell {
@@ -70,6 +72,8 @@
   white-space: nowrap;
   overflow: hidden;
   transition: background-color 0.2s;
+  font-size: clamp(0.7rem, 2.5vw, 1.25rem);
+  line-height: 1.2;
 }
 
 .japanese-cell.revealed {

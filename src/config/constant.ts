@@ -19,22 +19,6 @@ export const STUDY_TYPES = [
     },
 ]
 
-interface VocabularyRawData {
-    id: number
-    en: string
-    ja: string
-}
-
-interface GeographyRawData {
-    id: number
-    iso: string
-    ja: string
-    flag: string
-    pos: string
-    url: string
-    emoji: string
-}
-
 interface DatasetConfig<T> {
     id: string
     name: string
@@ -75,55 +59,62 @@ export const VOCABULARY_STUDY_TYPES = [
 ]
 
 // 通常の語彙データセット
-export const VOCABULARY_NORMAL_DATASETS: DatasetConfig<VocabularyRawData>[] = [
+export const VOCABULARY_NORMAL_DATASETS: DatasetConfig<Vocabulary>[] = [
     {
         id: '1',
         name: '英検1級',
         description: '英検1級レベルの英単語集',
         dataLoader: createSectionDataLoader('1'),
-        processor: (data: VocabularyRawData[]): Vocabulary[] => data,
+        processor: (data: Vocabulary[]): Vocabulary[] => data,
     },
     {
         id: 'jun1',
         name: '英検準1級',
         description: '英検準1級レベルの英単語集',
         dataLoader: createSectionDataLoader('jun1'),
-        processor: (data: VocabularyRawData[]): Vocabulary[] => data,
+        processor: (data: Vocabulary[]): Vocabulary[] => data,
     }
 ]
 
 // リスニング用語彙データセット
-export const VOCABULARY_LISTEN_DATASETS: DatasetConfig<VocabularyRawData>[] = [
+export const VOCABULARY_LISTEN_DATASETS: DatasetConfig<Vocabulary>[] = [
     {
         id: '1',
         name: '英検1級',
         description: '英検1級レベルの英単語を音声で学習',
         dataLoader: createSectionDataLoader('1'),
-        processor: (data: VocabularyRawData[]): Vocabulary[] => data,
+        processor: (data: Vocabulary[]): Vocabulary[] => data,
     },
     {
         id: 'jun1',
         name: '英検準1級',
         description: '英検準1級レベルの英単語を音声で学習',
         dataLoader: createSectionDataLoader('jun1'),
-        processor: (data: VocabularyRawData[]): Vocabulary[] => data,
+        processor: (data: Vocabulary[]): Vocabulary[] => data,
     }
 ]
 
-export const GEOGRAPHY_DATASETS: DatasetConfig<GeographyRawData>[] = [
+export const GEOGRAPHY_DATASETS: DatasetConfig<Geography>[] = [
     {
         id: 'flag',
         name: '世界の国旗',
         description: '世界各国の国旗と国名を学習します',
         dataLoader: () => import('../data/geography/wiki.json'),
-        processor: (data: GeographyRawData[]): Geography[] => data,
+        processor: (data: Geography[]): Geography[] => data,
     },
     {
         id: 'location',
         name: '世界の国の位置',
         description: '世界各国の位置と国名を学習します',
         dataLoader: () => import('../data/geography/wiki.json'),
-        processor: (data: GeographyRawData[]): Geography[] => data,
+        processor: (data: Geography[]): Geography[] => data,
+    },
+    {
+        id: 'capital',
+        name: '世界の首都',
+        description: '世界各国の国名から首都を学習します',
+        dataLoader: () => import('../data/geography/wiki.json'),
+        processor: (data: Geography[]): Geography[] => data,
     },
     {
         id: 'memo',

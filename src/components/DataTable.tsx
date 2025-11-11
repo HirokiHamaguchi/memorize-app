@@ -1,6 +1,11 @@
 import { Box, Flex, Image } from '@chakra-ui/react'
-import { useEffect } from 'react'
+import { useEffect, useMemo, useCallback } from 'react'
 import type { Geography, Vocabulary } from '../types/type'
+
+// Constants for performance optimization
+const IS_WINDOWS = navigator.userAgent.toLowerCase().includes('windows')
+const EMOJI_FONT_FAMILY = "'NotoColorEmojiLimited', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
+const EMOJI_STYLE: React.CSSProperties = IS_WINDOWS ? { fontFamily: EMOJI_FONT_FAMILY } : {}
 
 // Load Noto Color Emoji font for better emoji support on Windows
 // Source: https://github.com/googlefonts/noto-emoji
@@ -22,6 +27,15 @@ const loadNotoColorEmojiFont = () => {
     document.head.appendChild(style)
 }
 
+// Helper functions for common operations
+const openWikipediaLink = (url: string) => {
+    window.open(`https://ja.wikipedia.org/wiki/${url}`, '_blank')
+}
+
+const openWeblioLink = (word: string) => {
+    window.open(`https://ejje.weblio.jp/content/${word}`, '_blank')
+}
+
 // Union type for data items
 type DataItem = Geography | Vocabulary
 
@@ -34,11 +48,9 @@ interface DataTypeConfig {
     leftColumn: {
         flex?: string
         getContent: (item: DataItem) => React.ReactNode
-        getFontSize: (item: DataItem) => string
     }
     rightColumn: {
         flex?: string
-        getFontSize: (item: DataItem, revealed: boolean) => string
     }
     isVerticalLayout: boolean
 }
@@ -57,20 +69,15 @@ const DATA_TYPE_CONFIGS: Record<string, DataTypeConfig> = {
                         alt={`${flag.iso} flag`}
                         height="80px"
                         objectFit="contain"
-                        onClick={() => {
-                            window.open(`https://ja.wikipedia.org/wiki/${flag.url}`, '_blank')
-                        }}
+                        onClick={() => openWikipediaLink(flag.url)}
                         cursor="pointer"
                         border="1px solid #ccc"
                     />
                 )
-            },
-            getFontSize: (item: DataItem) =>
-                ('iso' in item && item.iso.length > 20) ? "md" : "xl"
+            }
         },
         rightColumn: {
-            flex: "7",
-            getFontSize: () => "xl"
+            flex: "7"
         },
         isVerticalLayout: false
     },
@@ -86,22 +93,35 @@ const DATA_TYPE_CONFIGS: Record<string, DataTypeConfig> = {
                         alt={`${location.iso} location`}
                         height="460px"
                         objectFit="contain"
-                        onClick={() => {
-                            window.open(`https://ja.wikipedia.org/wiki/${location.url}`, '_blank')
-                        }}
+                        onClick={() => openWikipediaLink(location.url)}
                         cursor="pointer"
                         border="1px solid #ccc"
                     />
                 )
-            },
-            getFontSize: (item: DataItem) =>
-                ('iso' in item && item.iso.length > 20) ? "md" : "xl"
+            }
         },
         rightColumn: {
-            flex: "1",
-            getFontSize: () => "xl"
+            flex: "1"
         },
         isVerticalLayout: true
+    },
+    geography_capital: {
+        headers: { left: '国名', right: '首都' },
+        leftColumn: {
+            getContent: (item: DataItem) => {
+                const country = item as Geography
+                return (
+                    <span
+                        style={{ cursor: "pointer" }}
+                        onClick={() => openWikipediaLink(country.url)}
+                    >
+                        <span style={EMOJI_STYLE}>{country.emoji}</span>{country.ja}
+                    </span>
+                )
+            }
+        },
+        rightColumn: {},
+        isVerticalLayout: false
     },
     vocabulary: {
         headers: { left: '英語', right: '日本語' },
@@ -111,21 +131,14 @@ const DATA_TYPE_CONFIGS: Record<string, DataTypeConfig> = {
                 return (
                     <span
                         style={{ cursor: "pointer" }}
-                        onClick={() => {
-                            window.open(`https://ejje.weblio.jp/content/${vocabulary.en}`, '_blank')
-                        }}
+                        onClick={() => openWeblioLink(vocabulary.en)}
                     >
                         {vocabulary.en}
                     </span>
                 )
-            },
-            getFontSize: (item: DataItem) =>
-                ('en' in item && item.en.length > 20) ? "md" : "xl"
+            }
         },
-        rightColumn: {
-            getFontSize: (item: DataItem, revealed: boolean) =>
-                revealed ? (item.ja.length > 10 ? "md" : "xl") : "md"
-        },
+        rightColumn: {},
         isVerticalLayout: false
     }
 }
@@ -152,28 +165,30 @@ export const DataTable = ({
 }: DataTableProps) => {
     console.assert(configKey in DATA_TYPE_CONFIGS, `Invalid config key: ${configKey}`)
     const config = DATA_TYPE_CONFIGS[configKey]
-    const isWindows = navigator.userAgent.toLowerCase().includes('windows')
 
     // Load Noto Color Emoji font for Windows emoji support
     useEffect(() => {
-        if (isWindows) loadNotoColorEmojiFont()
-    }, [isWindows])
+        if (IS_WINDOWS) loadNotoColorEmojiFont()
+    }, [])
 
-    const toAnswer = (item: DataItem) => {
+    const toAnswer = useCallback((item: DataItem) => {
         if (configKey === 'geography_location' && 'emoji' in item) {
-            const emojiStyle = isWindows ? {
-                fontFamily: "'NotoColorEmojiLimited', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
-            } : {}
-
             return (
                 <span>
                     {item.ja}
-                    <span style={emojiStyle}>{item.emoji}</span>
+                    <span style={EMOJI_STYLE}>{item.emoji}</span>
                 </span>
             )
         }
+
+        if (configKey === 'geography_capital' && 'capital' in item && 'note' in item) {
+            const country = item as Geography
+            const capitalName = country.note ? `${country.capital}${country.note}` : country.capital
+            return capitalName
+        }
+
         return item.ja
-    }
+    }, [configKey])
 
     // Enterキーで未表示の最初のアイテムを表示する
     useEffect(() => {
@@ -197,6 +212,71 @@ export const DataTable = ({
         }
     }, [currentData, currentStartIndex, revealedItems, onRevealItem])
 
+    // Memoize the rendered table rows for better performance
+    const tableRows = useMemo(() => {
+        return currentData.map((item, index) => {
+            const absoluteIndex = currentStartIndex + index
+            const revealed = revealedItems.has(absoluteIndex)
+            const placeholderText = item.id % 2 == 1 ? '復習' : '答え'
+
+            if (config.isVerticalLayout) {
+                return (
+                    <Box
+                        key={`${item.id}-${absoluteIndex}`}
+                        className="table-row"
+                    >
+                        <Box
+                            display="flex"
+                            alignItems="center"
+                            justifyContent="center"
+                        >
+                            {config.leftColumn.getContent(item)}
+                        </Box>
+                        <Box
+                            className={`japanese-cell ${revealed ? 'revealed' : 'hidden'}`}
+                            alignItems="center"
+                            justifyContent="center"
+                            onClick={() => onRevealItem(index)}
+                            cursor={revealed ? 'default' : 'pointer'}
+                            borderTop="1px solid #ccc"
+                        >
+                            {revealed ? toAnswer(item) : placeholderText}
+                        </Box>
+                    </Box>
+                )
+            } else {
+                return (
+                    <Flex
+                        key={`${item.id}-${absoluteIndex}`}
+                        className="table-row"
+                        flexDirection={isFlipped ? "row-reverse" : "row"}
+                    >
+                        <Box
+                            className="english-cell"
+                            flex={config.leftColumn.flex}
+                            display="flex"
+                            alignItems="center"
+                            justifyContent="center"
+                        >
+                            {config.leftColumn.getContent(item)}
+                        </Box>
+                        <Box
+                            className={`japanese-cell ${revealed ? 'revealed' : 'hidden'}`}
+                            flex={config.rightColumn.flex}
+                            display="flex"
+                            alignItems="center"
+                            justifyContent="center"
+                            onClick={() => onRevealItem(index)}
+                            cursor={revealed ? 'default' : 'pointer'}
+                        >
+                            {revealed ? toAnswer(item) : placeholderText}
+                        </Box>
+                    </Flex>
+                )
+            }
+        })
+    }, [currentData, currentStartIndex, revealedItems, config, isFlipped, onRevealItem, toAnswer])
+
     return (
         <Box className="vocabulary-box vocabulary-table">
             {!config.isVerticalLayout && (
@@ -210,70 +290,7 @@ export const DataTable = ({
                 </Flex>
             )}
 
-            {currentData.map((item, index) => {
-                const absoluteIndex = currentStartIndex + index
-                const revealed = revealedItems.has(absoluteIndex)
-
-                if (config.isVerticalLayout) {
-                    return (
-                        <Box
-                            key={`${item.id}-${absoluteIndex}`}
-                            className="table-row"
-                        >
-                            <Box
-                                display="flex"
-                                alignItems="center"
-                                justifyContent="center"
-                                fontSize={config.leftColumn.getFontSize(item)}
-                            >
-                                {config.leftColumn.getContent(item)}
-                            </Box>
-                            <Box
-                                className={`japanese-cell ${revealed ? 'revealed' : 'hidden'}`}
-                                alignItems="center"
-                                justifyContent="center"
-                                fontSize={config.rightColumn.getFontSize(item, revealed)}
-                                onClick={() => onRevealItem(index)}
-                                cursor={revealed ? 'default' : 'pointer'}
-                                borderTop="1px solid #ccc"
-                            >
-                                {revealed ? toAnswer(item) : (item.id % 2 == 1 ? '復習' : '答え')}
-                            </Box>
-                        </Box>
-                    )
-                } else {
-                    return (
-                        <Flex
-                            key={`${item.id}-${absoluteIndex}`}
-                            className="table-row"
-                            flexDirection={isFlipped ? "row-reverse" : "row"}
-                        >
-                            <Box
-                                className="english-cell"
-                                flex={config.leftColumn.flex}
-                                display="flex"
-                                alignItems="center"
-                                justifyContent="center"
-                                fontSize={config.leftColumn.getFontSize(item)}
-                            >
-                                {config.leftColumn.getContent(item)}
-                            </Box>
-                            <Box
-                                className={`japanese-cell ${revealed ? 'revealed' : 'hidden'}`}
-                                flex={config.rightColumn.flex}
-                                display="flex"
-                                alignItems="center"
-                                justifyContent="center"
-                                fontSize={config.rightColumn.getFontSize(item, revealed)}
-                                onClick={() => onRevealItem(index)}
-                                cursor={revealed ? 'default' : 'pointer'}
-                            >
-                                {revealed ? toAnswer(item) : (item.id % 2 == 1 ? '復習' : '答え')}
-                            </Box>
-                        </Flex>
-                    )
-                }
-            })}
+            {tableRows}
         </Box>
     )
 }

@@ -1,3 +1,9 @@
+export interface Vocabulary {
+    id: number;
+    en: string;
+    ja: string;
+}
+
 export interface Geography {
     id: number;
     iso: string;  // ISO country code (e.g., "ad", "ae")
@@ -6,10 +12,6 @@ export interface Geography {
     pos: string;
     url: string;
     emoji: string;
-}
-
-export interface Vocabulary {
-    id: number;
-    en: string;
-    ja: string;
+    capital: string;
+    note: string;
 }

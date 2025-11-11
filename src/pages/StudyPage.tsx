@@ -12,6 +12,7 @@ const ROW_HEIGHTS = {
     vocabulary: 38,
     geography_flag: 89,
     geography_location: 250,
+    geography_capital: 38,
     default: 100
 } as const
 
@@ -21,6 +22,7 @@ const useDatasetConfig = (studyType: string, datasetId: string) => {
 
     const getDatasetConfig = useCallback(() => {
         if (!studyType || !(studyType in STUDY_CONFIG)) {
+            console.log('studyType:', studyType)
             console.error('Invalid study type')
             navigate('/')
             return null
@@ -101,6 +103,7 @@ const LoadingScreen = () => (
 // メインコンポーネント
 export const StudyPage = () => {
     const { studyType, datasetId } = useParams<{ studyType: string; datasetId: string }>()
+    console.log('StudyPage params:', { studyType, datasetId })
 
     const [selectedSection, setSelectedSection] = useState<number | null>(null)
     const handleSectionChange = useCallback((event: React.ChangeEvent<HTMLSelectElement>) => {
