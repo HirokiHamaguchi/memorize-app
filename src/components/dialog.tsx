@@ -1,4 +1,4 @@
-import { Text, Flex, Link, VStack } from '@chakra-ui/react'
+import { Text, Link, VStack } from '@chakra-ui/react'
 import { Button, CloseButton, Dialog, Portal } from "@chakra-ui/react"
 import { useNavigate } from 'react-router-dom'
 
@@ -59,19 +59,16 @@ export const AppInfoDialog = ({ textArgs }: AppInfoDialogProps) => {
                 </Button>
             </Dialog.Trigger>
             <Portal>
-                <Dialog.Backdrop bg="blackAlpha.600" backdropFilter="blur(4px)" />
+                <Dialog.Backdrop bg="blackAlpha.600" />
                 <Dialog.Positioner>
                     <Dialog.Content
-                        borderRadius="xl"
-                        boxShadow="2xl"
-                        border="1px solid"
-                        borderColor="gray.200"
+                        borderRadius="md"
+                        boxShadow="sm"
                         bg="white"
                         maxW="500px"
                         mx={4}
                     >
                         <Dialog.Header
-                            borderTopRadius="xl"
                             px={6}
                             py={4}
                         >
@@ -90,42 +87,24 @@ export const AppInfoDialog = ({ textArgs }: AppInfoDialogProps) => {
                                 <Text
                                     fontSize="md"
                                     color="gray.700"
-                                    fontWeight="medium"
-                                    bg="blue.50"
-                                    px={4}
-                                    py={2}
-                                    borderRadius="md"
-                                    borderLeft="4px solid"
-                                    borderLeftColor="blue.400"
                                 >
-                                    📚 暗記学習をサポートするアプリです
+                                    暗記学習をサポートするアプリです
                                 </Text>
                                 <VStack alignItems="start" gap={3} w="full">
                                     {APP_LINKS.map(({ href, text, description }, index) => (
-                                        <Flex
-                                            key={index}
-                                            p={3}
-                                            bg="gray.50"
-                                            borderRadius="md"
-                                            border="1px solid"
-                                            borderColor="gray.200"
-                                            w="full"
-                                        >
-                                            <Text fontSize="sm" color="gray.600" lineHeight={1.6}>
-                                                {description.split('{link}')[0]}
-                                                <Link
-                                                    href={href}
-                                                    {...LINK_STYLES}
-                                                    fontWeight="semibold"
-                                                    _hover={{
-                                                        color: "blue.600"
-                                                    }}
-                                                >
-                                                    {text}
-                                                </Link>
-                                                {description.split('{link}')[1]}
-                                            </Text>
-                                        </Flex>
+                                        <Text key={index} fontSize="sm" color="gray.600" lineHeight={1.6}>
+                                            ・ {description.split('{link}')[0]}
+                                            <Link
+                                                href={href}
+                                                {...LINK_STYLES}
+                                                _hover={{
+                                                    color: "blue.600"
+                                                }}
+                                            >
+                                                {text}
+                                            </Link>
+                                            {description.split('{link}')[1]}
+                                        </Text>
                                     ))}
                                 </VStack>
                                 <Button
