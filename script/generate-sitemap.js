@@ -6,7 +6,6 @@ const BASE_URL = 'https://hirokihamaguchi.github.io/memorize-app'
 const staticRoutes = [
     { url: '/', priority: 1.0 },
     { url: '/select', priority: 0.9 },
-    { url: '/study/geography/memo', priority: 0.1 },
 ]
 
 const datasets = ['english-1', 'english-2', 'geography-1']

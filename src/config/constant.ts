@@ -51,11 +51,6 @@ export const VOCABULARY_STUDY_TYPES = [
         name: 'リスニング',
         description: '英単語を音声で聞いて学習します',
     },
-    {
-        id: 'memo',
-        name: 'メモ',
-        description: '暗記において役立つかも知れないメモです',
-    },
 ]
 
 // 通常の語彙データセット
@@ -116,13 +111,6 @@ export const GEOGRAPHY_DATASETS: DatasetConfig<Geography>[] = [
         dataLoader: () => import('../data/geography/wiki.json'),
         processor: (data: Geography[]): Geography[] => data,
     },
-    {
-        id: 'memo',
-        name: 'メモ',
-        description: '暗記において役立つかも知れないメモです',
-        processor: () => [],
-        dataLoader: () => Promise.resolve({ default: [] }),
-    }
 ]
 
 // 統合された設定マップ

@@ -3,7 +3,6 @@ import { useEffect } from 'react'
 import {
   SelectPage,
   StudyPage,
-  MemoPage,
   ListenPage
 } from './pages'
 import { cleanupSpeech } from './utils/speak'
@@ -40,8 +39,6 @@ function App() {
         <Route path="/select" element={<SelectPage />} />
         <Route path="/select/:studyType" element={<SelectPage />} />
         <Route path="/select/:studyType/:vocabularyType" element={<SelectPage />} />
-        <Route path="/study/geography/memo" element={<MemoPage />} />
-        <Route path="/study/vocabulary/memo" element={<MemoPage />} />
         <Route path="/study/vocabulary/listen/:datasetId" element={<ListenPage />} />
         <Route path="/study/:studyType/:datasetId" element={<StudyPage />} />
       </Routes>

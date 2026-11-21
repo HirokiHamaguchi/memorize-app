@@ -38,12 +38,8 @@ export const SelectPage = () => {
                     }}
                 />
             )
-        } else if (vocabularyType === 'memo') {
-            // メモページに直接遷移
-            navigate('/study/vocabulary/memo')
-            return null
         } else {
-            // 語彙学習の種類選択（通常 or リスニング or メモ）
+            // 語彙学習の種類選択（通常 or リスニング）
             return (
                 <Selector
                     subtitle="語彙学習の種類を選択してください"
